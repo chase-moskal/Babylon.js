@@ -1,0 +1,42 @@
+{
+    "name": "babylon-modern",
+    "version": "5.0.0-modern.0",
+    "description": "3D engine for the web",
+    "files": [
+        "s",
+        "x"
+    ],
+    "scripts": {
+        "build": "run-s clean compile-tsc test",
+        "clean": "rimraf x && mkdirp x",
+        "compile-tsc": "tsc",
+        "watch": "tsc -w",
+        "test": "exit 0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/BabylonJS/Babylon.js.git"
+    },
+    "keywords": [
+        "3D",
+        "javascript",
+        "html5",
+        "webgl"
+    ],
+    "author": "David CATUHE",
+    "contributors": [
+        "Sebastien VANDENBERGHE",
+        "Chase MOSKAL"
+    ],
+    "license": "Apache-2.0",
+    "bugs": {
+        "url": "https://github.com/BabylonJS/Babylon.js/issues"
+    },
+    "homepage": "https://github.com/BabylonJS/Babylon.js#readme",
+    "devDependencies": {
+        "mkdirp": "^1.0.4",
+        "npm-run-all": "^4.1.5",
+        "rimraf": "^3.0.2",
+        "typescript": "^4.2.3"
+    }
+}

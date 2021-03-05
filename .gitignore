@@ -1,4 +1,5 @@
 # Build Folders (you can keep bin if you'd like, to store dlls and pdbs)
+/x
 [Bb]in/
 
 # mstest test results
@@ -179,7 +180,6 @@ localDev/src/*
 /dist/preview release/babylon.custom.js
 /dist/preview release/babylon.custom.max.js
 /localDev/src/index.js
-package-lock.json
 dist/preview release/package/
 
 # local dev WebGPU
