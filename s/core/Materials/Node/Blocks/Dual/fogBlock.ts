@@ -1,18 +1,18 @@
-import { NodeMaterialBlock } from '../../nodeMaterialBlock';
-import { NodeMaterialBlockConnectionPointTypes } from '../../Enums/nodeMaterialBlockConnectionPointTypes';
-import { NodeMaterialBuildState } from '../../nodeMaterialBuildState';
-import { NodeMaterialSystemValues } from '../../Enums/nodeMaterialSystemValues';
-import { NodeMaterialBlockTargets } from '../../Enums/nodeMaterialBlockTargets';
-import { Mesh } from '../../../../Meshes/mesh';
-import { Effect } from '../../../effect';
-import { NodeMaterialConnectionPoint } from '../../nodeMaterialBlockConnectionPoint';
-import { AbstractMesh } from '../../../../Meshes/abstractMesh';
-import { MaterialHelper } from '../../../materialHelper';
-import { NodeMaterial, NodeMaterialDefines } from '../../nodeMaterial';
-import { InputBlock } from '../Input/inputBlock';
-import { _TypeStore } from '../../../../Misc/typeStore';
+import { NodeMaterialBlock } from "../../nodeMaterialBlock.js";
+import { NodeMaterialBlockConnectionPointTypes } from "../../Enums/nodeMaterialBlockConnectionPointTypes.js";
+import { NodeMaterialBuildState } from "../../nodeMaterialBuildState.js";
+import { NodeMaterialSystemValues } from "../../Enums/nodeMaterialSystemValues.js";
+import { NodeMaterialBlockTargets } from "../../Enums/nodeMaterialBlockTargets.js";
+import { Mesh } from "../../../../Meshes/mesh.js";
+import { Effect } from "../../../effect.js";
+import { NodeMaterialConnectionPoint } from "../../nodeMaterialBlockConnectionPoint.js";
+import { AbstractMesh } from "../../../../Meshes/abstractMesh.js";
+import { MaterialHelper } from "../../../materialHelper.js";
+import { NodeMaterial, NodeMaterialDefines } from "../../nodeMaterial.js";
+import { InputBlock } from "../Input/inputBlock.js";
+import { _TypeStore } from "../../../../Misc/typeStore.js";
 
-import "../../../../Shaders/ShadersInclude/fogFragmentDeclaration";
+import "../../../../Shaders/ShadersInclude/fogFragmentDeclaration.js";
 
 /**
  * Block used to add support for scene fog

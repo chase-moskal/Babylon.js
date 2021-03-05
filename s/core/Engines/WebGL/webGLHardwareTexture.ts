@@ -1,5 +1,5 @@
-import { HardwareTextureWrapper } from '../../Materials/Textures/hardwareTextureWrapper';
-import { Nullable } from '../../types';
+import { HardwareTextureWrapper } from "../../Materials/Textures/hardwareTextureWrapper.js";
+import { Nullable } from "../../types.js";
 
 /** @hidden */
 export class WebGLHardwareTexture implements HardwareTextureWrapper {

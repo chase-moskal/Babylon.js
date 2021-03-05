@@ -1,14 +1,14 @@
-import { Scene } from "./scene";
-import { Nullable } from "./types";
-import { Matrix, Vector3 } from "./Maths/math.vector";
-import { Engine } from "./Engines/engine";
-import { IBehaviorAware, Behavior } from "./Behaviors/behavior";
-import { serialize } from "./Misc/decorators";
-import { Observable, Observer } from "./Misc/observable";
-import { EngineStore } from "./Engines/engineStore";
-import { _DevTools } from './Misc/devTools';
-import { AbstractActionManager } from './Actions/abstractActionManager';
-import { IInspectable } from './Misc/iInspectable';
+import { Scene } from "./scene.js";
+import { Nullable } from "./types.js";
+import { Matrix, Vector3 } from "./Maths/math.vector.js";
+import { Engine } from "./Engines/engine.js";
+import { IBehaviorAware, Behavior } from "./Behaviors/behavior.js";
+import { serialize } from "./Misc/decorators.js";
+import { Observable, Observer } from "./Misc/observable.js";
+import { EngineStore } from "./Engines/engineStore.js";
+import { _DevTools } from "./Misc/devTools.js";
+import { AbstractActionManager } from "./Actions/abstractActionManager.js";
+import { IInspectable } from "./Misc/iInspectable.js";
 
 declare type Animatable = import("./Animations/animatable").Animatable;
 declare type AnimationPropertiesOverride = import("./Animations/animationPropertiesOverride").AnimationPropertiesOverride;

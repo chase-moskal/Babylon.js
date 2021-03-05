@@ -1,11 +1,11 @@
-import { Nullable } from "../../types";
-import { serialize } from "../../Misc/decorators";
-import { Observable, Observer } from "../../Misc/observable";
-import { Camera } from "../../Cameras/camera";
-import { ICameraInput } from "../../Cameras/cameraInputsManager";
-import { PointerInfo, PointerEventTypes } from "../../Events/pointerEvents";
-import { Tools } from "../../Misc/tools";
-import { EventConstants, IWheelEvent } from "../../Events/deviceInputEvents";
+import { Nullable } from "../../types.js";
+import { serialize } from "../../Misc/decorators.js";
+import { Observable, Observer } from "../../Misc/observable.js";
+import { Camera } from "../../Cameras/camera.js";
+import { ICameraInput } from "../../Cameras/cameraInputsManager.js";
+import { PointerInfo, PointerEventTypes } from "../../Events/pointerEvents.js";
+import { Tools } from "../../Misc/tools.js";
+import { EventConstants, IWheelEvent } from "../../Events/deviceInputEvents.js";
 
 /**
  * Base class for mouse wheel input..

@@ -1,10 +1,10 @@
-import { Nullable } from '../../types';
-import { IShaderProcessor } from '../Processors/iShaderProcessor';
-import { ShaderProcessingContext } from "../Processors/shaderProcessingOptions";
-import { WebGPUTextureSamplerBindingDescription, WebGPUShaderProcessingContext } from './webgpuShaderProcessingContext';
-import * as WebGPUConstants from './webgpuConstants';
-import { ShaderCodeInliner } from '../Processors/shaderCodeInliner';
-import { Logger } from '../../Misc/logger';
+import { Nullable } from "../../types.js";
+import { IShaderProcessor } from "../Processors/iShaderProcessor.js";
+import { ShaderProcessingContext } from "../Processors/shaderProcessingOptions.js";
+import { WebGPUTextureSamplerBindingDescription, WebGPUShaderProcessingContext } from "./webgpuShaderProcessingContext.js";
+import * as WebGPUConstants from "./webgpuConstants.js";
+import { ShaderCodeInliner } from "../Processors/shaderCodeInliner.js";
+import { Logger } from "../../Misc/logger.js";
 
 const dbgShowDebugInliningProcess = false;
 

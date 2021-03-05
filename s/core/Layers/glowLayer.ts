@@ -1,28 +1,28 @@
-import { serialize, SerializationHelper } from "../Misc/decorators";
-import { Nullable } from "../types";
-import { Camera } from "../Cameras/camera";
-import { Scene } from "../scene";
-import { Vector2 } from "../Maths/math.vector";
-import { VertexBuffer } from "../Meshes/buffer";
-import { SubMesh } from "../Meshes/subMesh";
-import { AbstractMesh } from "../Meshes/abstractMesh";
-import { Mesh } from "../Meshes/mesh";
-import { Texture } from "../Materials/Textures/texture";
-import { RenderTargetTexture } from "../Materials/Textures/renderTargetTexture";
-import { Effect } from "../Materials/effect";
-import { Material } from "../Materials/material";
-import { PostProcess } from "../PostProcesses/postProcess";
-import { BlurPostProcess } from "../PostProcesses/blurPostProcess";
-import { EffectLayer } from "./effectLayer";
-import { AbstractScene } from "../abstractScene";
-import { Constants } from "../Engines/constants";
-import { _TypeStore } from '../Misc/typeStore';
-import { Engine } from '../Engines/engine';
-import { Color4 } from '../Maths/math.color';
+import { serialize, SerializationHelper } from "../Misc/decorators.js";
+import { Nullable } from "../types.js";
+import { Camera } from "../Cameras/camera.js";
+import { Scene } from "../scene.js";
+import { Vector2 } from "../Maths/math.vector.js";
+import { VertexBuffer } from "../Meshes/buffer.js";
+import { SubMesh } from "../Meshes/subMesh.js";
+import { AbstractMesh } from "../Meshes/abstractMesh.js";
+import { Mesh } from "../Meshes/mesh.js";
+import { Texture } from "../Materials/Textures/texture.js";
+import { RenderTargetTexture } from "../Materials/Textures/renderTargetTexture.js";
+import { Effect } from "../Materials/effect.js";
+import { Material } from "../Materials/material.js";
+import { PostProcess } from "../PostProcesses/postProcess.js";
+import { BlurPostProcess } from "../PostProcesses/blurPostProcess.js";
+import { EffectLayer } from "./effectLayer.js";
+import { AbstractScene } from "../abstractScene.js";
+import { Constants } from "../Engines/constants.js";
+import { _TypeStore } from "../Misc/typeStore.js";
+import { Engine } from "../Engines/engine.js";
+import { Color4 } from "../Maths/math.color.js";
 
-import "../Shaders/glowMapMerge.fragment";
-import "../Shaders/glowMapMerge.vertex";
-import "../Layers/effectLayerSceneComponent";
+import "../Shaders/glowMapMerge.fragment.js";
+import "../Shaders/glowMapMerge.vertex.js";
+import "../Layers/effectLayerSceneComponent.js";
 
 declare module "../abstractScene" {
     export interface AbstractScene {

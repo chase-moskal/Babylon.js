@@ -1,19 +1,19 @@
-import { Nullable } from "../types";
-import { Observer } from "../Misc/observable";
-import { serialize } from "../Misc/decorators";
-import { Color4 } from "../Maths/math.color";
-import { Camera } from "../Cameras/camera";
-import { BaseTexture } from "../Materials/Textures/baseTexture";
-import { Effect } from "../Materials/effect";
-import { ColorCurves } from "../Materials/colorCurves";
-import { ImageProcessingConfiguration, IImageProcessingConfigurationDefines } from "../Materials/imageProcessingConfiguration";
-import { PostProcess, PostProcessOptions } from "./postProcess";
-import { Engine } from "../Engines/engine";
-import { EngineStore } from "../Engines/engineStore";
-import { Constants } from "../Engines/constants";
+import { Nullable } from "../types.js";
+import { Observer } from "../Misc/observable.js";
+import { serialize } from "../Misc/decorators.js";
+import { Color4 } from "../Maths/math.color.js";
+import { Camera } from "../Cameras/camera.js";
+import { BaseTexture } from "../Materials/Textures/baseTexture.js";
+import { Effect } from "../Materials/effect.js";
+import { ColorCurves } from "../Materials/colorCurves.js";
+import { ImageProcessingConfiguration, IImageProcessingConfigurationDefines } from "../Materials/imageProcessingConfiguration.js";
+import { PostProcess, PostProcessOptions } from "./postProcess.js";
+import { Engine } from "../Engines/engine.js";
+import { EngineStore } from "../Engines/engineStore.js";
+import { Constants } from "../Engines/constants.js";
 
-import "../Shaders/imageProcessing.fragment";
-import "../Shaders/postprocess.vertex";
+import "../Shaders/imageProcessing.fragment.js";
+import "../Shaders/postprocess.vertex.js";
 
 /**
  * ImageProcessingPostProcess

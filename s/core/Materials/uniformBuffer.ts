@@ -1,12 +1,12 @@
-import { Logger } from "../Misc/logger";
-import { Nullable, FloatArray } from "../types";
-import { IMatrixLike, IVector3Like, IVector4Like, IColor3Like } from "../Maths/math.like";
-import { Effect } from "./effect";
-import { ThinTexture } from "../Materials/Textures/thinTexture";
-import { DataBuffer } from '../Meshes/dataBuffer';
-import { ThinEngine } from "../Engines/thinEngine";
+import { Logger } from "../Misc/logger.js";
+import { Nullable, FloatArray } from "../types.js";
+import { IMatrixLike, IVector3Like, IVector4Like, IColor3Like } from "../Maths/math.like.js";
+import { Effect } from "./effect.js";
+import { ThinTexture } from "../Materials/Textures/thinTexture.js";
+import { DataBuffer } from "../Meshes/dataBuffer.js";
+import { ThinEngine } from "../Engines/thinEngine.js";
 
-import "../Engines/Extensions/engine.uniformBuffer";
+import "../Engines/Extensions/engine.uniformBuffer.js";
 
 /**
  * Uniform buffer objects.

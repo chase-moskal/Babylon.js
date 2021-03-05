@@ -1,14 +1,14 @@
-import { ThinEngine } from "../../Engines/thinEngine";
-import { InternalTexture, InternalTextureSource } from '../../Materials/Textures/internalTexture';
-import { Logger } from '../../Misc/logger';
-import { Nullable } from '../../types';
-import { Scene } from '../../scene';
-import { IInternalTextureLoader } from '../../Materials/Textures/internalTextureLoader';
-import { FileTools } from '../../Misc/fileTools';
-import { GUID } from '../../Misc/guid';
-import { DepthTextureCreationOptions } from '../depthTextureCreationOptions';
-import { IWebRequest } from '../../Misc/interfaces/iWebRequest';
-import { Constants } from '../constants';
+import { ThinEngine } from "../../Engines/thinEngine.js";
+import { InternalTexture, InternalTextureSource } from "../../Materials/Textures/internalTexture.js";
+import { Logger } from "../../Misc/logger.js";
+import { Nullable } from "../../types.js";
+import { Scene } from "../../scene.js";
+import { IInternalTextureLoader } from "../../Materials/Textures/internalTextureLoader.js";
+import { FileTools } from "../../Misc/fileTools.js";
+import { GUID } from "../../Misc/guid.js";
+import { DepthTextureCreationOptions } from "../depthTextureCreationOptions.js";
+import { IWebRequest } from "../../Misc/interfaces/iWebRequest.js";
+import { Constants } from "../constants.js";
 
 declare module "../../Engines/thinEngine" {
     export interface ThinEngine {

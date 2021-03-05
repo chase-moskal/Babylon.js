@@ -1,12 +1,12 @@
-import { Nullable } from "../types";
-import { Vector2, Vector3, Matrix } from "../Maths/math.vector";
-import { Color3, Color4 } from '../Maths/math.color';
-import { BaseTexture } from "../Materials/Textures/baseTexture";
-import { BoxParticleEmitter, IParticleEmitterType, PointParticleEmitter, HemisphericParticleEmitter, SphereParticleEmitter, SphereDirectedParticleEmitter, CylinderParticleEmitter, ConeParticleEmitter } from "../Particles/EmitterTypes/index";
-import { Scene } from "../scene";
-import { ColorGradient, FactorGradient, Color3Gradient } from "../Misc/gradients";
-import { Effect } from "../Materials/effect";
-import { Observable } from "../Misc/observable";
+import { Nullable } from "../types.js";
+import { Vector2, Vector3, Matrix } from "../Maths/math.vector.js";
+import { Color3, Color4 } from "../Maths/math.color.js";
+import { BaseTexture } from "../Materials/Textures/baseTexture.js";
+import { BoxParticleEmitter, IParticleEmitterType, PointParticleEmitter, HemisphericParticleEmitter, SphereParticleEmitter, SphereDirectedParticleEmitter, CylinderParticleEmitter, ConeParticleEmitter } from "../Particles/EmitterTypes/index.js";
+import { Scene } from "../scene.js";
+import { ColorGradient, FactorGradient, Color3Gradient } from "../Misc/gradients.js";
+import { Effect } from "../Materials/effect.js";
+import { Observable } from "../Misc/observable.js";
 
 declare type Animation = import("../Animations/animation").Animation;
 declare type AbstractMesh = import("../Meshes/abstractMesh").AbstractMesh;

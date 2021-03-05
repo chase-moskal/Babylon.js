@@ -1,9 +1,9 @@
-import { DeepCopier } from "../../Misc/deepCopier";
-import { Vector3, Matrix, TmpVectors } from "../../Maths/math.vector";
-import { Scalar } from "../../Maths/math.scalar";
-import { Effect } from "../../Materials/effect";
-import { Particle } from "../../Particles/particle";
-import { IParticleEmitterType } from "./IParticleEmitterType";
+import { DeepCopier } from "../../Misc/deepCopier.js";
+import { Vector3, Matrix, TmpVectors } from "../../Maths/math.vector.js";
+import { Scalar } from "../../Maths/math.scalar.js";
+import { Effect } from "../../Materials/effect.js";
+import { Particle } from "../../Particles/particle.js";
+import { IParticleEmitterType } from "./IParticleEmitterType.js";
 /**
  * Particle emitter emitting particles from the inside of a cone.
  * It emits the particles alongside the cone volume from the base to the particle.

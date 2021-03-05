@@ -1,16 +1,16 @@
-import { Observable } from "../Misc/observable";
-import { PointerInfoPre, PointerInfo, PointerEventTypes } from "../Events/pointerEvents";
-import { Nullable } from "../types";
-import { AbstractActionManager } from "../Actions/abstractActionManager";
-import { PickingInfo } from "../Collisions/pickingInfo";
-import { Vector2, Matrix } from "../Maths/math.vector";
-import { AbstractMesh } from "../Meshes/abstractMesh";
-import { Constants } from "../Engines/constants";
-import { ActionEvent } from "../Actions/actionEvent";
-import { KeyboardEventTypes, KeyboardInfoPre, KeyboardInfo } from "../Events/keyboardEvents";
-import { DeviceType, PointerInput } from '../DeviceInput/InputDevices/deviceEnums';
-import { EventConstants, IKeyboardEvent, IMouseEvent, IPointerEvent, IWheelEvent } from '../Events/deviceInputEvents';
-import { DeviceInputSystem } from '../DeviceInput/deviceInputSystem';
+import { Observable } from "../Misc/observable.js";
+import { PointerInfoPre, PointerInfo, PointerEventTypes } from "../Events/pointerEvents.js";
+import { Nullable } from "../types.js";
+import { AbstractActionManager } from "../Actions/abstractActionManager.js";
+import { PickingInfo } from "../Collisions/pickingInfo.js";
+import { Vector2, Matrix } from "../Maths/math.vector.js";
+import { AbstractMesh } from "../Meshes/abstractMesh.js";
+import { Constants } from "../Engines/constants.js";
+import { ActionEvent } from "../Actions/actionEvent.js";
+import { KeyboardEventTypes, KeyboardInfoPre, KeyboardInfo } from "../Events/keyboardEvents.js";
+import { DeviceType, PointerInput } from "../DeviceInput/InputDevices/deviceEnums.js";
+import { EventConstants, IKeyboardEvent, IMouseEvent, IPointerEvent, IWheelEvent } from "../Events/deviceInputEvents.js";
+import { DeviceInputSystem } from "../DeviceInput/deviceInputSystem.js";
 
 declare type Scene = import("../scene").Scene;
 

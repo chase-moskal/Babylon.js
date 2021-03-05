@@ -1,12 +1,12 @@
-import { Scene } from "../../scene";
-import { Vector3, Vector2, Vector4 } from "../../Maths/math.vector";
-import { Color4 } from '../../Maths/math.color';
-import { Mesh, _CreationDataStorage } from "../mesh";
-import { VertexData } from "../mesh.vertexData";
-import { PolygonMeshBuilder } from "../polygonMesh";
-import { FloatArray, IndicesArray, Nullable } from "../../types";
-import { VertexBuffer } from "../../Meshes/buffer";
-import { EngineStore } from '../../Engines/engineStore';
+import { Scene } from "../../scene.js";
+import { Vector3, Vector2, Vector4 } from "../../Maths/math.vector.js";
+import { Color4 } from "../../Maths/math.color.js";
+import { Mesh, _CreationDataStorage } from "../mesh.js";
+import { VertexData } from "../mesh.vertexData.js";
+import { PolygonMeshBuilder } from "../polygonMesh.js";
+import { FloatArray, IndicesArray, Nullable } from "../../types.js";
+import { VertexBuffer } from "../../Meshes/buffer.js";
+import { EngineStore } from "../../Engines/engineStore.js";
 
 declare var earcut: any;
 

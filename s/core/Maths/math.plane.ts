@@ -1,5 +1,5 @@
-import { DeepImmutable } from '../types';
-import { Vector3, Matrix } from './math.vector';
+import { DeepImmutable } from "../types.js";
+import { Vector3, Matrix } from "./math.vector.js";
 
 /**
  * Represents a plane by the equation ax + by + cz + d = 0

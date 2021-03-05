@@ -1,8 +1,8 @@
-import { Scene } from "../../scene";
-import { Vector4, Vector3, Vector2 } from "../../Maths/math.vector";
-import { Mesh, _CreationDataStorage } from "../mesh";
-import { VertexData } from "../mesh.vertexData";
-import { Nullable } from '../../types';
+import { Scene } from "../../scene.js";
+import { Vector4, Vector3, Vector2 } from "../../Maths/math.vector.js";
+import { Mesh, _CreationDataStorage } from "../mesh.js";
+import { VertexData } from "../mesh.vertexData.js";
+import { Nullable } from "../../types.js";
 
 VertexData.CreateIcoSphere = function(options: { radius?: number, radiusX?: number, radiusY?: number, radiusZ?: number, flat?: boolean, subdivisions?: number, sideOrientation?: number, frontUVs?: Vector4, backUVs?: Vector4 }): VertexData {
     var sideOrientation = options.sideOrientation || VertexData.DEFAULTSIDE;

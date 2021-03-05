@@ -1,12 +1,12 @@
-import { Nullable, FloatArray, IndicesArray } from "../types";
-import { Scene } from "../scene";
-import { Quaternion, Matrix, Vector3, Vector2 } from "../Maths/math.vector";
-import { VertexBuffer } from "../Meshes/buffer";
-import { AbstractMesh } from "../Meshes/abstractMesh";
-import { SubMesh } from "../Meshes/subMesh";
-import { Mesh } from "../Meshes/mesh";
-import { Material } from "../Materials/material";
-import { Color4 } from '../Maths/math.color';
+import { Nullable, FloatArray, IndicesArray } from "../types.js";
+import { Scene } from "../scene.js";
+import { Quaternion, Matrix, Vector3, Vector2 } from "../Maths/math.vector.js";
+import { VertexBuffer } from "../Meshes/buffer.js";
+import { AbstractMesh } from "../Meshes/abstractMesh.js";
+import { SubMesh } from "../Meshes/subMesh.js";
+import { Mesh } from "../Meshes/mesh.js";
+import { Material } from "../Materials/material.js";
+import { Color4 } from "../Maths/math.color.js";
 /**
  * Unique ID when we import meshes from Babylon to CSG
  */

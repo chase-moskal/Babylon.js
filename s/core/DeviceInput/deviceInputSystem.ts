@@ -1,8 +1,8 @@
-import { Engine } from '../Engines/engine';
-import { Tools } from '../Misc/tools';
-import { IDisposable } from '../scene';
-import { Nullable } from '../types';
-import { DeviceType, PointerInput } from './InputDevices/deviceEnums';
+import { Engine } from "../Engines/engine.js";
+import { Tools } from "../Misc/tools.js";
+import { IDisposable } from "../scene.js";
+import { Nullable } from "../types.js";
+import { DeviceType, PointerInput } from "./InputDevices/deviceEnums.js";
 
 /** @hidden */
 declare const _native: any;

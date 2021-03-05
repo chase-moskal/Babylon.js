@@ -1,16 +1,16 @@
-import { Observer } from "../Misc/observable";
-import { Nullable } from "../types";
-import { Scene } from "../scene";
-import { SubMesh } from "../Meshes/subMesh";
-import { Material } from "./material";
-import { _TypeStore } from "../Misc/typeStore";
-import { Effect, IEffectCreationOptions } from './effect';
-import { AbstractMesh } from '../Meshes/abstractMesh';
-import { Node } from '../node';
-import { ShadowGenerator } from '../Lights/Shadows/shadowGenerator';
-import { GUID } from '../Misc/guid';
-import { NodeMaterial } from './Node/nodeMaterial';
-import { NodeMaterialSystemValues } from './Node/Enums/nodeMaterialSystemValues';
+import { Observer } from "../Misc/observable.js";
+import { Nullable } from "../types.js";
+import { Scene } from "../scene.js";
+import { SubMesh } from "../Meshes/subMesh.js";
+import { Material } from "./material.js";
+import { _TypeStore } from "../Misc/typeStore.js";
+import { Effect, IEffectCreationOptions } from "./effect.js";
+import { AbstractMesh } from "../Meshes/abstractMesh.js";
+import { Node } from "../node.js";
+import { ShadowGenerator } from "../Lights/Shadows/shadowGenerator.js";
+import { GUID } from "../Misc/guid.js";
+import { NodeMaterial } from "./Node/nodeMaterial.js";
+import { NodeMaterialSystemValues } from "./Node/Enums/nodeMaterialSystemValues.js";
 
 /**
  * Options to be used when creating a shadow depth material

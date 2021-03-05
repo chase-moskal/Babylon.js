@@ -1,7 +1,7 @@
-import { Scene } from "../scene";
-import { Texture } from "../Materials/Textures/texture";
-import { VideoTexture, VideoTextureSettings } from "../Materials/Textures/videoTexture";
-import { TextureDome } from "./textureDome";
+import { Scene } from "../scene.js";
+import { Texture } from "../Materials/Textures/texture.js";
+import { VideoTexture, VideoTextureSettings } from "../Materials/Textures/videoTexture.js";
+import { TextureDome } from "./textureDome.js";
 
 declare type Camera = import("../Cameras/camera").Camera;
 

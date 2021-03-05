@@ -1,29 +1,29 @@
-import { Nullable } from "../../types";
-import { Scene } from "../../scene";
-import { Matrix, Vector3 } from "../../Maths/math.vector";
-import { SubMesh } from "../../Meshes/subMesh";
-import { AbstractMesh } from "../../Meshes/abstractMesh";
+import { Nullable } from "../../types.js";
+import { Scene } from "../../scene.js";
+import { Matrix, Vector3 } from "../../Maths/math.vector.js";
+import { SubMesh } from "../../Meshes/subMesh.js";
+import { AbstractMesh } from "../../Meshes/abstractMesh.js";
 
-import { IShadowLight } from "../../Lights/shadowLight";
-import { Effect } from "../../Materials/effect";
-import { RenderTargetTexture } from "../../Materials/Textures/renderTargetTexture";
+import { IShadowLight } from "../../Lights/shadowLight.js";
+import { Effect } from "../../Materials/effect.js";
+import { RenderTargetTexture } from "../../Materials/Textures/renderTargetTexture.js";
 
-import { Constants } from "../../Engines/constants";
+import { Constants } from "../../Engines/constants.js";
 
-import "../../Shaders/shadowMap.fragment";
-import "../../Shaders/shadowMap.vertex";
-import "../../Shaders/depthBoxBlur.fragment";
-import { Observer } from '../../Misc/observable';
-import { _DevTools } from '../../Misc/devTools';
-import { ShadowGenerator } from './shadowGenerator';
-import { DirectionalLight } from '../directionalLight';
+import "../../Shaders/shadowMap.fragment.js";
+import "../../Shaders/shadowMap.vertex.js";
+import "../../Shaders/depthBoxBlur.fragment.js";
+import { Observer } from "../../Misc/observable.js";
+import { _DevTools } from "../../Misc/devTools.js";
+import { ShadowGenerator } from "./shadowGenerator.js";
+import { DirectionalLight } from "../directionalLight.js";
 
-import { BoundingInfo } from '../../Culling/boundingInfo';
-import { DepthRenderer } from '../../Rendering/depthRenderer';
-import { DepthReducer } from '../../Misc/depthReducer';
+import { BoundingInfo } from "../../Culling/boundingInfo.js";
+import { DepthRenderer } from "../../Rendering/depthRenderer.js";
+import { DepthReducer } from "../../Misc/depthReducer.js";
 
-import { Logger } from "../../Misc/logger";
-import { EngineStore } from '../../Engines/engineStore';
+import { Logger } from "../../Misc/logger.js";
+import { EngineStore } from "../../Engines/engineStore.js";
 
 interface ICascade {
     prevBreakDistance: number;

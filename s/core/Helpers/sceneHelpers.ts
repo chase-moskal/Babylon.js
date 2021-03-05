@@ -1,24 +1,24 @@
-import { Logger } from "../Misc/logger";
-import { Nullable } from "../types";
-import { Scene } from "../scene";
-import { Vector3 } from "../Maths/math.vector";
-import { Mesh } from "../Meshes/mesh";
-import { BaseTexture } from "../Materials/Textures/baseTexture";
-import { Texture } from "../Materials/Textures/texture";
-import { StandardMaterial } from "../Materials/standardMaterial";
-import { PBRMaterial } from "../Materials/PBR/pbrMaterial";
-import { HemisphericLight } from "../Lights/hemisphericLight";
-import { IEnvironmentHelperOptions, EnvironmentHelper } from "./environmentHelper";
-import { FreeCamera } from "../Cameras/freeCamera";
-import { ArcRotateCamera } from "../Cameras/arcRotateCamera";
-import { TargetCamera } from "../Cameras/targetCamera";
-import { VRExperienceHelperOptions, VRExperienceHelper } from "../Cameras/VR/vrExperienceHelper";
+import { Logger } from "../Misc/logger.js";
+import { Nullable } from "../types.js";
+import { Scene } from "../scene.js";
+import { Vector3 } from "../Maths/math.vector.js";
+import { Mesh } from "../Meshes/mesh.js";
+import { BaseTexture } from "../Materials/Textures/baseTexture.js";
+import { Texture } from "../Materials/Textures/texture.js";
+import { StandardMaterial } from "../Materials/standardMaterial.js";
+import { PBRMaterial } from "../Materials/PBR/pbrMaterial.js";
+import { HemisphericLight } from "../Lights/hemisphericLight.js";
+import { IEnvironmentHelperOptions, EnvironmentHelper } from "./environmentHelper.js";
+import { FreeCamera } from "../Cameras/freeCamera.js";
+import { ArcRotateCamera } from "../Cameras/arcRotateCamera.js";
+import { TargetCamera } from "../Cameras/targetCamera.js";
+import { VRExperienceHelperOptions, VRExperienceHelper } from "../Cameras/VR/vrExperienceHelper.js";
 
-import "../Materials/Textures/Loaders/ddsTextureLoader";
-import "../Materials/Textures/Loaders/envTextureLoader";
-import "../Materials/Textures/Loaders/ktxTextureLoader";
-import "../Meshes/Builders/boxBuilder";
-import { WebXRDefaultExperience, WebXRDefaultExperienceOptions } from '../XR/webXRDefaultExperience';
+import "../Materials/Textures/Loaders/ddsTextureLoader.js";
+import "../Materials/Textures/Loaders/envTextureLoader.js";
+import "../Materials/Textures/Loaders/ktxTextureLoader.js";
+import "../Meshes/Builders/boxBuilder.js";
+import { WebXRDefaultExperience, WebXRDefaultExperienceOptions } from "../XR/webXRDefaultExperience.js";
 
 /** @hidden */
 export var _forceSceneHelpersToBundle = true;

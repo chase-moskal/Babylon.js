@@ -1,14 +1,14 @@
-import { WebXRAbstractFeature } from "./WebXRAbstractFeature";
-import { Vector3, Quaternion } from "../../Maths/math.vector";
-import { WebXRInputSource } from "../webXRInputSource";
-import { PhysicsImpostor } from "../../Physics/physicsImpostor";
-import { WebXRInput } from "../webXRInput";
-import { WebXRSessionManager } from "../webXRSessionManager";
-import { AbstractMesh } from "../../Meshes/abstractMesh";
-import { SphereBuilder } from "../../Meshes/Builders/sphereBuilder";
-import { WebXRFeatureName, WebXRFeaturesManager } from "../webXRFeaturesManager";
-import { Logger } from "../../Misc/logger";
-import { Nullable } from "../../types";
+import { WebXRAbstractFeature } from "./WebXRAbstractFeature.js";
+import { Vector3, Quaternion } from "../../Maths/math.vector.js";
+import { WebXRInputSource } from "../webXRInputSource.js";
+import { PhysicsImpostor } from "../../Physics/physicsImpostor.js";
+import { WebXRInput } from "../webXRInput.js";
+import { WebXRSessionManager } from "../webXRSessionManager.js";
+import { AbstractMesh } from "../../Meshes/abstractMesh.js";
+import { SphereBuilder } from "../../Meshes/Builders/sphereBuilder.js";
+import { WebXRFeatureName, WebXRFeaturesManager } from "../webXRFeaturesManager.js";
+import { Logger } from "../../Misc/logger.js";
+import { Nullable } from "../../types.js";
 
 /**
  * Options for the controller physics feature

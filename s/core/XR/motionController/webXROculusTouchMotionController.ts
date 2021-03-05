@@ -1,9 +1,9 @@
-import { WebXRAbstractMotionController, IMinimalMotionControllerObject, MotionControllerHandedness, IMotionControllerLayoutMap } from "./webXRAbstractMotionController";
-import { WebXRMotionControllerManager } from "./webXRMotionControllerManager";
-import { AbstractMesh } from "../../Meshes/abstractMesh";
-import { Scene } from "../../scene";
-import { Mesh } from "../../Meshes/mesh";
-import { Quaternion } from "../../Maths/math.vector";
+import { WebXRAbstractMotionController, IMinimalMotionControllerObject, MotionControllerHandedness, IMotionControllerLayoutMap } from "./webXRAbstractMotionController.js";
+import { WebXRMotionControllerManager } from "./webXRMotionControllerManager.js";
+import { AbstractMesh } from "../../Meshes/abstractMesh.js";
+import { Scene } from "../../scene.js";
+import { Mesh } from "../../Meshes/mesh.js";
+import { Quaternion } from "../../Maths/math.vector.js";
 
 /**
  * The motion controller class for oculus touch (quest, rift).

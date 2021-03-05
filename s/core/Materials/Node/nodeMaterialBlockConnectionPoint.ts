@@ -1,8 +1,8 @@
-import { NodeMaterialBlockConnectionPointTypes } from './Enums/nodeMaterialBlockConnectionPointTypes';
-import { NodeMaterialBlockTargets } from './Enums/nodeMaterialBlockTargets';
-import { Nullable } from '../../types';
-import { InputBlock } from './Blocks/Input/inputBlock';
-import { Observable } from '../../Misc/observable';
+import { NodeMaterialBlockConnectionPointTypes } from "./Enums/nodeMaterialBlockConnectionPointTypes.js";
+import { NodeMaterialBlockTargets } from "./Enums/nodeMaterialBlockTargets.js";
+import { Nullable } from "../../types.js";
+import { InputBlock } from "./Blocks/Input/inputBlock.js";
+import { Observable } from "../../Misc/observable.js";
 
 declare type NodeMaterialBlock = import("./nodeMaterialBlock").NodeMaterialBlock;
 

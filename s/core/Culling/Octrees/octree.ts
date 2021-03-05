@@ -1,10 +1,10 @@
-import { SmartArray, SmartArrayNoDuplicate } from "../../Misc/smartArray";
-import { Vector3 } from "../../Maths/math.vector";
-import { SubMesh } from "../../Meshes/subMesh";
-import { AbstractMesh } from "../../Meshes/abstractMesh";
-import { Ray } from "../../Culling/ray";
-import { OctreeBlock } from "./octreeBlock";
-import { Plane } from '../../Maths/math.plane';
+import { SmartArray, SmartArrayNoDuplicate } from "../../Misc/smartArray.js";
+import { Vector3 } from "../../Maths/math.vector.js";
+import { SubMesh } from "../../Meshes/subMesh.js";
+import { AbstractMesh } from "../../Meshes/abstractMesh.js";
+import { Ray } from "../../Culling/ray.js";
+import { OctreeBlock } from "./octreeBlock.js";
+import { Plane } from "../../Maths/math.plane.js";
 
 /**
  * Octrees are a really powerful data structure that can quickly select entities based on space coordinates.

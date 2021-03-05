@@ -1,18 +1,18 @@
-import { Scene } from '../scene';
-import { Nullable } from '../types';
-import { SceneSerializer } from './sceneSerializer';
-import { Mesh } from '../Meshes/mesh';
-import { Light } from '../Lights/light';
-import { Camera } from '../Cameras/camera';
-import { Skeleton } from '../Bones/skeleton';
-import { Material } from '../Materials/material';
-import { MultiMaterial } from '../Materials/multiMaterial';
-import { TransformNode } from '../Meshes/transformNode';
-import { ParticleSystem } from '../Particles/particleSystem';
-import { MorphTargetManager } from '../Morph/morphTargetManager';
-import { ShadowGenerator } from '../Lights/Shadows/shadowGenerator';
-import { PostProcess } from '../PostProcesses/postProcess';
-import { Texture } from "../Materials/Textures/texture";
+import { Scene } from "../scene.js";
+import { Nullable } from "../types.js";
+import { SceneSerializer } from "./sceneSerializer.js";
+import { Mesh } from "../Meshes/mesh.js";
+import { Light } from "../Lights/light.js";
+import { Camera } from "../Cameras/camera.js";
+import { Skeleton } from "../Bones/skeleton.js";
+import { Material } from "../Materials/material.js";
+import { MultiMaterial } from "../Materials/multiMaterial.js";
+import { TransformNode } from "../Meshes/transformNode.js";
+import { ParticleSystem } from "../Particles/particleSystem.js";
+import { MorphTargetManager } from "../Morph/morphTargetManager.js";
+import { ShadowGenerator } from "../Lights/Shadows/shadowGenerator.js";
+import { PostProcess } from "../PostProcesses/postProcess.js";
+import { Texture } from "../Materials/Textures/texture.js";
 
 /**
  * Class used to record delta files between 2 scene states

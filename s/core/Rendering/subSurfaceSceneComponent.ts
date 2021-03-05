@@ -1,9 +1,9 @@
-import { Nullable } from "../types";
-import { Scene } from "../scene";
-import { ISceneSerializableComponent, SceneComponentConstants } from "../sceneComponent";
-import { SubSurfaceConfiguration } from "./subSurfaceConfiguration";
-import { AbstractScene } from "../abstractScene";
-import { Color3 } from "../Maths/math.color";
+import { Nullable } from "../types.js";
+import { Scene } from "../scene.js";
+import { ISceneSerializableComponent, SceneComponentConstants } from "../sceneComponent.js";
+import { SubSurfaceConfiguration } from "./subSurfaceConfiguration.js";
+import { AbstractScene } from "../abstractScene.js";
+import { Color3 } from "../Maths/math.color.js";
 
 // Adds the parser to the scene parsers.
 AbstractScene.AddParser(SceneComponentConstants.NAME_SUBSURFACE, (parsedData: any, scene: Scene) => {

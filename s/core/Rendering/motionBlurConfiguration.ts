@@ -1,6 +1,6 @@
-import { Constants } from "../Engines/constants";
-import { PrePassEffectConfiguration } from "./prePassEffectConfiguration";
-import { _DevTools } from '../Misc/devTools';
+import { Constants } from "../Engines/constants.js";
+import { PrePassEffectConfiguration } from "./prePassEffectConfiguration.js";
+import { _DevTools } from "../Misc/devTools.js";
 
 /**
  * Contains all parameters needed for the prepass to perform

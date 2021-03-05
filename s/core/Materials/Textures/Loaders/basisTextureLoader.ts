@@ -1,10 +1,10 @@
-import { Nullable } from "../../../types";
-import { Engine } from "../../../Engines/engine";
-import { InternalTexture } from "../../../Materials/Textures/internalTexture";
-import { IInternalTextureLoader } from "../../../Materials/Textures/internalTextureLoader";
-import { BasisTools } from "../../../Misc/basis";
-import { Tools } from '../../../Misc/tools';
-import { StringTools } from '../../../Misc/stringTools';
+import { Nullable } from "../../../types.js";
+import { Engine } from "../../../Engines/engine.js";
+import { InternalTexture } from "../../../Materials/Textures/internalTexture.js";
+import { IInternalTextureLoader } from "../../../Materials/Textures/internalTextureLoader.js";
+import { BasisTools } from "../../../Misc/basis.js";
+import { Tools } from "../../../Misc/tools.js";
+import { StringTools } from "../../../Misc/stringTools.js";
 
 /**
  * Loader for .basis file format

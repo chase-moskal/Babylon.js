@@ -1,17 +1,17 @@
-import { NodeMaterialBlock } from '../../nodeMaterialBlock';
-import { NodeMaterialBlockConnectionPointTypes } from '../../Enums/nodeMaterialBlockConnectionPointTypes';
-import { NodeMaterialBuildState } from '../../nodeMaterialBuildState';
-import { NodeMaterialConnectionPoint } from '../../nodeMaterialBlockConnectionPoint';
-import { NodeMaterialBlockTargets } from '../../Enums/nodeMaterialBlockTargets';
-import { _TypeStore } from '../../../../Misc/typeStore';
-import { Nullable } from '../../../../types';
-import { Scene } from '../../../../scene';
-import { Effect } from '../../../effect';
-import { NodeMaterial, NodeMaterialDefines } from '../../nodeMaterial';
-import { Mesh } from '../../../../Meshes/mesh';
-import { Light } from '../../../../Lights/light';
-import { PointLight } from '../../../../Lights/pointLight';
-import { AbstractMesh } from '../../../../Meshes/abstractMesh';
+import { NodeMaterialBlock } from "../../nodeMaterialBlock.js";
+import { NodeMaterialBlockConnectionPointTypes } from "../../Enums/nodeMaterialBlockConnectionPointTypes.js";
+import { NodeMaterialBuildState } from "../../nodeMaterialBuildState.js";
+import { NodeMaterialConnectionPoint } from "../../nodeMaterialBlockConnectionPoint.js";
+import { NodeMaterialBlockTargets } from "../../Enums/nodeMaterialBlockTargets.js";
+import { _TypeStore } from "../../../../Misc/typeStore.js";
+import { Nullable } from "../../../../types.js";
+import { Scene } from "../../../../scene.js";
+import { Effect } from "../../../effect.js";
+import { NodeMaterial, NodeMaterialDefines } from "../../nodeMaterial.js";
+import { Mesh } from "../../../../Meshes/mesh.js";
+import { Light } from "../../../../Lights/light.js";
+import { PointLight } from "../../../../Lights/pointLight.js";
+import { AbstractMesh } from "../../../../Meshes/abstractMesh.js";
 /**
  * Block used to get data information from a light
  */

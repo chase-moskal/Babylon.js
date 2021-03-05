@@ -1,8 +1,8 @@
-import { Texture } from "./texture";
-import { Constants } from "../../Engines/constants";
-import "../../Engines/Extensions/engine.rawTexture";
-import { Nullable } from '../../types';
-import { ThinEngine } from '../../Engines/thinEngine';
+import { Texture } from "./texture.js";
+import { Constants } from "../../Engines/constants.js";
+import "../../Engines/Extensions/engine.rawTexture.js";
+import { Nullable } from "../../types.js";
+import { ThinEngine } from "../../Engines/thinEngine.js";
 
 declare type Scene = import("../../scene").Scene;
 

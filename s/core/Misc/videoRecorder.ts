@@ -1,6 +1,6 @@
-import { Nullable } from "../types";
-import { Tools } from "./tools";
-import { Engine } from "../Engines/engine";
+import { Nullable } from "../types.js";
+import { Tools } from "./tools.js";
+import { Engine } from "../Engines/engine.js";
 
 interface MediaRecorder {
     /** Starts recording */

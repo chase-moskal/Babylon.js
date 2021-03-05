@@ -1,10 +1,10 @@
-import { Camera } from "../Cameras/camera";
-import { Scene } from "../scene";
-import { Engine } from "../Engines/engine";
-import { SceneComponentConstants, ISceneComponent } from "../sceneComponent";
-import { Layer } from "./layer";
-import { RenderTargetTexture } from "../Materials/Textures/renderTargetTexture";
-import { AbstractScene } from '../abstractScene';
+import { Camera } from "../Cameras/camera.js";
+import { Scene } from "../scene.js";
+import { Engine } from "../Engines/engine.js";
+import { SceneComponentConstants, ISceneComponent } from "../sceneComponent.js";
+import { Layer } from "./layer.js";
+import { RenderTargetTexture } from "../Materials/Textures/renderTargetTexture.js";
+import { AbstractScene } from "../abstractScene.js";
 
 declare module "../abstractScene" {
     export interface AbstractScene {

@@ -6,7 +6,7 @@ export * from "./particle";
 export * from "./particleHelper";
 export * from "./particleSystem";
 
-import "./particleSystemComponent";
+import "./particleSystemComponent.js";
 export * from "./particleSystemComponent";
 export * from "./particleSystemSet";
 export * from "./solidParticle";

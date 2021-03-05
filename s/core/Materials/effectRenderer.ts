@@ -1,16 +1,16 @@
-import { Nullable } from '../types';
-import { InternalTexture } from './Textures/internalTexture';
-import { RenderTargetTexture } from './Textures/renderTargetTexture';
-import { ThinEngine } from '../Engines/thinEngine';
-import { VertexBuffer } from '../Meshes/buffer';
-import { Viewport } from '../Maths/math.viewport';
-import { Constants } from '../Engines/constants';
-import { Observable } from '../Misc/observable';
-import { Effect } from './effect';
-import { DataBuffer } from '../Meshes/dataBuffer';
+import { Nullable } from "../types.js";
+import { InternalTexture } from "./Textures/internalTexture.js";
+import { RenderTargetTexture } from "./Textures/renderTargetTexture.js";
+import { ThinEngine } from "../Engines/thinEngine.js";
+import { VertexBuffer } from "../Meshes/buffer.js";
+import { Viewport } from "../Maths/math.viewport.js";
+import { Constants } from "../Engines/constants.js";
+import { Observable } from "../Misc/observable.js";
+import { Effect } from "./effect.js";
+import { DataBuffer } from "../Meshes/dataBuffer.js";
 
 // Prevents ES6 Crash if not imported.
-import "../Shaders/postprocess.vertex";
+import "../Shaders/postprocess.vertex.js";
 
 /**
  * Effect Render Options

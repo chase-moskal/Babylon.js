@@ -1,4 +1,4 @@
-import { NodeMaterialBlock } from '../nodeMaterialBlock';
+import { NodeMaterialBlock } from "../nodeMaterialBlock.js";
 
 /**
  * Root class for all node material optimizers

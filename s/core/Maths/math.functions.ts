@@ -1,5 +1,5 @@
-import { FloatArray, Nullable, IndicesArray } from '../types';
-import { Vector2, Vector3 } from './math.vector';
+import { FloatArray, Nullable, IndicesArray } from "../types.js";
+import { Vector2, Vector3 } from "./math.vector.js";
 
 /**
  * Extracts minimum and maximum values from a list of indexed positions

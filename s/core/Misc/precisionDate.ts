@@ -1,4 +1,4 @@
-import { DomManagement } from './domManagement';
+import { DomManagement } from "./domManagement.js";
 
 /**
  * Class containing a set of static utilities functions for precision date

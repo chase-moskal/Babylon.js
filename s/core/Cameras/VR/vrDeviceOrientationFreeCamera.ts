@@ -1,12 +1,12 @@
-import { Camera } from "../../Cameras/camera";
-import { DeviceOrientationCamera } from "../../Cameras/deviceOrientationCamera";
-import { VRCameraMetrics } from "./vrCameraMetrics";
-import { Scene } from "../../scene";
-import { Vector3 } from "../../Maths/math.vector";
-import { Node } from "../../node";
+import { Camera } from "../../Cameras/camera.js";
+import { DeviceOrientationCamera } from "../../Cameras/deviceOrientationCamera.js";
+import { VRCameraMetrics } from "./vrCameraMetrics.js";
+import { Scene } from "../../scene.js";
+import { Vector3 } from "../../Maths/math.vector.js";
+import { Node } from "../../node.js";
 
 // Side effect import to define the stereoscopic mode.
-import "../RigModes/vrRigMode";
+import "../RigModes/vrRigMode.js";
 
 Node.AddNodeConstructor("VRDeviceOrientationFreeCamera", (name, scene) => {
     return () => new VRDeviceOrientationFreeCamera(name, Vector3.Zero(), scene);

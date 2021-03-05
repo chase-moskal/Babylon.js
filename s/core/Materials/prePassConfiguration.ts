@@ -1,8 +1,8 @@
-import { Matrix } from "../Maths/math.vector";
-import { Mesh } from "../Meshes/mesh";
-import { Scene } from "../scene";
-import { Effect } from "../Materials/effect";
-import { Constants } from "../Engines/constants";
+import { Matrix } from "../Maths/math.vector.js";
+import { Mesh } from "../Meshes/mesh.js";
+import { Scene } from "../scene.js";
+import { Effect } from "../Materials/effect.js";
+import { Constants } from "../Engines/constants.js";
 
 /**
  * Configuration needed for prepass-capable materials

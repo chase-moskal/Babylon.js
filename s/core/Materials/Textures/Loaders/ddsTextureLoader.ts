@@ -1,10 +1,10 @@
-import { Nullable } from "../../../types";
-import { SphericalPolynomial } from "../../../Maths/sphericalPolynomial";
-import { Engine } from "../../../Engines/engine";
-import { InternalTexture } from "../../../Materials/Textures/internalTexture";
-import { IInternalTextureLoader } from "../../../Materials/Textures/internalTextureLoader";
-import { DDSTools, DDSInfo } from "../../../Misc/dds";
-import { StringTools } from '../../../Misc/stringTools';
+import { Nullable } from "../../../types.js";
+import { SphericalPolynomial } from "../../../Maths/sphericalPolynomial.js";
+import { Engine } from "../../../Engines/engine.js";
+import { InternalTexture } from "../../../Materials/Textures/internalTexture.js";
+import { IInternalTextureLoader } from "../../../Materials/Textures/internalTextureLoader.js";
+import { DDSTools, DDSInfo } from "../../../Misc/dds.js";
+import { StringTools } from "../../../Misc/stringTools.js";
 /**
  * Implementation of the DDS Texture Loader.
  * @hidden

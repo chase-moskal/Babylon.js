@@ -1,10 +1,10 @@
-import { Nullable } from "../types";
-import { Observer, Observable } from "../Misc/observable";
-import { IDisposable } from "../scene";
-import { WebXRInputSource, IWebXRControllerOptions } from "./webXRInputSource";
-import { WebXRSessionManager } from "./webXRSessionManager";
-import { WebXRCamera } from "./webXRCamera";
-import { WebXRMotionControllerManager } from "./motionController/webXRMotionControllerManager";
+import { Nullable } from "../types.js";
+import { Observer, Observable } from "../Misc/observable.js";
+import { IDisposable } from "../scene.js";
+import { WebXRInputSource, IWebXRControllerOptions } from "./webXRInputSource.js";
+import { WebXRSessionManager } from "./webXRSessionManager.js";
+import { WebXRCamera } from "./webXRCamera.js";
+import { WebXRMotionControllerManager } from "./motionController/webXRMotionControllerManager.js";
 
 /**
  * The schema for initialization options of the XR Input class

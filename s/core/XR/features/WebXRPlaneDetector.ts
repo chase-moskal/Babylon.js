@@ -1,9 +1,9 @@
-import { WebXRFeaturesManager, WebXRFeatureName } from "../webXRFeaturesManager";
-import { TransformNode } from "../../Meshes/transformNode";
-import { WebXRSessionManager } from "../webXRSessionManager";
-import { Observable } from "../../Misc/observable";
-import { Vector3, Matrix } from "../../Maths/math.vector";
-import { WebXRAbstractFeature } from "./WebXRAbstractFeature";
+import { WebXRFeaturesManager, WebXRFeatureName } from "../webXRFeaturesManager.js";
+import { TransformNode } from "../../Meshes/transformNode.js";
+import { WebXRSessionManager } from "../webXRSessionManager.js";
+import { Observable } from "../../Misc/observable.js";
+import { Vector3, Matrix } from "../../Maths/math.vector.js";
+import { WebXRAbstractFeature } from "./WebXRAbstractFeature.js";
 
 declare const XRPlane: XRPlane;
 

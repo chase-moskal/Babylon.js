@@ -1,14 +1,14 @@
-import { IDisposable, Scene } from "../scene";
-import { Nullable } from "../types";
-import { Observable, Observer } from "../Misc/observable";
-import { PointerInfoPre, PointerInfo, PointerEventTypes } from "../Events/pointerEvents";
-import { PickingInfo } from "../Collisions/pickingInfo";
-import { AbstractMesh } from "../Meshes/abstractMesh";
-import { EngineStore } from "../Engines/engineStore";
-import { HemisphericLight } from '../Lights/hemisphericLight';
-import { Vector3 } from '../Maths/math.vector';
-import { Camera } from '../Cameras/camera';
-import { Color3 } from '../Maths/math.color';
+import { IDisposable, Scene } from "../scene.js";
+import { Nullable } from "../types.js";
+import { Observable, Observer } from "../Misc/observable.js";
+import { PointerInfoPre, PointerInfo, PointerEventTypes } from "../Events/pointerEvents.js";
+import { PickingInfo } from "../Collisions/pickingInfo.js";
+import { AbstractMesh } from "../Meshes/abstractMesh.js";
+import { EngineStore } from "../Engines/engineStore.js";
+import { HemisphericLight } from "../Lights/hemisphericLight.js";
+import { Vector3 } from "../Maths/math.vector.js";
+import { Camera } from "../Cameras/camera.js";
+import { Color3 } from "../Maths/math.color.js";
 
 /**
  * Renders a layer on top of an existing scene

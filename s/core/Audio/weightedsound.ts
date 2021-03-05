@@ -1,5 +1,5 @@
-import { Sound } from "../Audio/sound";
-import { Logger } from "../Misc/logger";
+import { Sound } from "../Audio/sound.js";
+import { Logger } from "../Misc/logger.js";
 
 /**
  * Wraps one or more Sound objects and selects one with random weight for playback.

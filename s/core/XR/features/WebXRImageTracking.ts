@@ -1,10 +1,10 @@
-import { WebXRFeaturesManager, WebXRFeatureName } from "../webXRFeaturesManager";
-import { WebXRSessionManager } from "../webXRSessionManager";
-import { Observable } from "../../Misc/observable";
-import { WebXRAbstractFeature } from "./WebXRAbstractFeature";
-import { Matrix } from "../../Maths/math.vector";
-import { Tools } from "../../Misc/tools";
-import { Nullable } from "../../types";
+import { WebXRFeaturesManager, WebXRFeatureName } from "../webXRFeaturesManager.js";
+import { WebXRSessionManager } from "../webXRSessionManager.js";
+import { Observable } from "../../Misc/observable.js";
+import { WebXRAbstractFeature } from "./WebXRAbstractFeature.js";
+import { Matrix } from "../../Maths/math.vector.js";
+import { Tools } from "../../Misc/tools.js";
+import { Nullable } from "../../types.js";
 
 declare const XRImageTrackingResult: XRImageTrackingResult;
 

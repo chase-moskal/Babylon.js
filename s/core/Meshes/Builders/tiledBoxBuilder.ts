@@ -1,9 +1,9 @@
-import { Nullable } from "../../types";
-import { Scene } from "../../scene";
-import { Matrix, Vector3, Vector4 } from "../../Maths/math.vector";
-import { Color4 } from '../../Maths/math.color';
-import { Mesh, _CreationDataStorage } from "../mesh";
-import { VertexData } from "../mesh.vertexData";
+import { Nullable } from "../../types.js";
+import { Scene } from "../../scene.js";
+import { Matrix, Vector3, Vector4 } from "../../Maths/math.vector.js";
+import { Color4 } from "../../Maths/math.color.js";
+import { Mesh, _CreationDataStorage } from "../mesh.js";
+import { VertexData } from "../mesh.vertexData.js";
 
 VertexData.CreateTiledBox = function(options: { pattern?: number, size?: number, width?: number, height?: number, depth: number, tileSize?: number, tileWidth?: number, tileHeight?: number, faceUV?: Vector4[], faceColors?: Color4[], alignHorizontal?: number, alignVertical?: number, sideOrientation?: number }): VertexData {
     var nbFaces = 6;

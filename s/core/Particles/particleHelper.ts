@@ -1,16 +1,16 @@
-import { Nullable } from "../types";
-import { Scene } from "../scene";
-import { Tools } from "../Misc/tools";
-import { Vector3 } from "../Maths/math.vector";
-import { Color4 } from '../Maths/math.color';
-import { AbstractMesh } from "../Meshes/abstractMesh";
-import { Texture } from "../Materials/Textures/texture";
-import { EngineStore } from "../Engines/engineStore";
-import { IParticleSystem } from "./IParticleSystem";
-import { GPUParticleSystem } from "./gpuParticleSystem";
-import { ParticleSystemSet } from "./particleSystemSet";
-import { ParticleSystem } from "./particleSystem";
-import { WebRequest } from '../Misc/webRequest';
+import { Nullable } from "../types.js";
+import { Scene } from "../scene.js";
+import { Tools } from "../Misc/tools.js";
+import { Vector3 } from "../Maths/math.vector.js";
+import { Color4 } from "../Maths/math.color.js";
+import { AbstractMesh } from "../Meshes/abstractMesh.js";
+import { Texture } from "../Materials/Textures/texture.js";
+import { EngineStore } from "../Engines/engineStore.js";
+import { IParticleSystem } from "./IParticleSystem.js";
+import { GPUParticleSystem } from "./gpuParticleSystem.js";
+import { ParticleSystemSet } from "./particleSystemSet.js";
+import { ParticleSystem } from "./particleSystem.js";
+import { WebRequest } from "../Misc/webRequest.js";
 /**
  * This class is made for on one-liner static method to help creating particle system set.
  */

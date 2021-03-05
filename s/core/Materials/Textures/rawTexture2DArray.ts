@@ -1,6 +1,6 @@
-import { Texture } from "./texture";
-import { Constants } from "../../Engines/constants";
-import "../../Engines/Extensions/engine.rawTexture";
+import { Texture } from "./texture.js";
+import { Constants } from "../../Engines/constants.js";
+import "../../Engines/Extensions/engine.rawTexture.js";
 
 declare type Scene = import("../../scene").Scene;
 

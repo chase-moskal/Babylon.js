@@ -1,11 +1,11 @@
-import { serialize } from "../Misc/decorators";
-import { Scene } from "../scene";
-import { Matrix, Vector3 } from "../Maths/math.vector";
-import { Node } from "../node";
-import { AbstractMesh } from "../Meshes/abstractMesh";
-import { Light } from "./light";
-import { ShadowLight } from "./shadowLight";
-import { Effect } from "../Materials/effect";
+import { serialize } from "../Misc/decorators.js";
+import { Scene } from "../scene.js";
+import { Matrix, Vector3 } from "../Maths/math.vector.js";
+import { Node } from "../node.js";
+import { AbstractMesh } from "../Meshes/abstractMesh.js";
+import { Light } from "./light.js";
+import { ShadowLight } from "./shadowLight.js";
+import { Effect } from "../Materials/effect.js";
 
 Node.AddNodeConstructor("Light_Type_0", (name, scene) => {
     return () => new PointLight(name, Vector3.Zero(), scene);

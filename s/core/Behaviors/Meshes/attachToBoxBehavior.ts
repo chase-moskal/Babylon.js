@@ -1,10 +1,10 @@
-import { Vector3, Matrix, Quaternion } from "../../Maths/math.vector";
-import { Mesh } from "../../Meshes/mesh";
-import { TransformNode } from "../../Meshes/transformNode";
-import { Scene } from "../../scene";
-import { Nullable } from "../../types";
-import { Observer } from "../../Misc/observable";
-import { Behavior } from "../../Behaviors/behavior";
+import { Vector3, Matrix, Quaternion } from "../../Maths/math.vector.js";
+import { Mesh } from "../../Meshes/mesh.js";
+import { TransformNode } from "../../Meshes/transformNode.js";
+import { Scene } from "../../scene.js";
+import { Nullable } from "../../types.js";
+import { Observer } from "../../Misc/observable.js";
+import { Behavior } from "../../Behaviors/behavior.js";
 
 /**
  * @hidden

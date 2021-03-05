@@ -1,17 +1,17 @@
-import { AbstractScene } from "./abstractScene";
-import { Scene } from "./scene";
-import { Mesh } from "./Meshes/mesh";
-import { TransformNode } from './Meshes/transformNode';
-import { Skeleton } from './Bones/skeleton';
-import { AnimationGroup } from './Animations/animationGroup';
-import { Animatable } from './Animations/animatable';
-import { AbstractMesh } from './Meshes/abstractMesh';
-import { MultiMaterial } from './Materials/multiMaterial';
-import { Material } from './Materials/material';
-import { Logger } from './Misc/logger';
-import { EngineStore } from './Engines/engineStore';
-import { Nullable } from './types';
-import { Node } from './node';
+import { AbstractScene } from "./abstractScene.js";
+import { Scene } from "./scene.js";
+import { Mesh } from "./Meshes/mesh.js";
+import { TransformNode } from "./Meshes/transformNode.js";
+import { Skeleton } from "./Bones/skeleton.js";
+import { AnimationGroup } from "./Animations/animationGroup.js";
+import { Animatable } from "./Animations/animatable.js";
+import { AbstractMesh } from "./Meshes/abstractMesh.js";
+import { MultiMaterial } from "./Materials/multiMaterial.js";
+import { Material } from "./Materials/material.js";
+import { Logger } from "./Misc/logger.js";
+import { EngineStore } from "./Engines/engineStore.js";
+import { Nullable } from "./types.js";
+import { Node } from "./node.js";
 
 /**
  * Set of assets to keep when moving a scene into an asset container.

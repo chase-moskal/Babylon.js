@@ -1,10 +1,10 @@
-import { serialize, serializeAsVector3, serializeAsMeshReference } from "../Misc/decorators";
-import { Nullable } from "../types";
-import { Camera } from "./camera";
-import { Scene } from "../scene";
-import { Quaternion, Matrix, Vector3, Vector2, TmpVectors } from "../Maths/math.vector";
-import { Epsilon } from '../Maths/math.constants';
-import { Axis } from '../Maths/math.axis';
+import { serialize, serializeAsVector3, serializeAsMeshReference } from "../Misc/decorators.js";
+import { Nullable } from "../types.js";
+import { Camera } from "./camera.js";
+import { Scene } from "../scene.js";
+import { Quaternion, Matrix, Vector3, Vector2, TmpVectors } from "../Maths/math.vector.js";
+import { Epsilon } from "../Maths/math.constants.js";
+import { Axis } from "../Maths/math.axis.js";
 /**
  * A target camera takes a mesh or position as a target and continues to look at it while it moves.
  * This is the base of the follow, arc rotate cameras and Free camera

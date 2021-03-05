@@ -1,6 +1,6 @@
-import { SpriteManager } from "./spriteManager";
-import { Scene } from "../scene";
-import { Texture } from "../Materials/Textures/texture";
+import { SpriteManager } from "./spriteManager.js";
+import { Scene } from "../scene.js";
+import { Texture } from "../Materials/Textures/texture.js";
 
 /**
  * Class used to manage multiple sprites of different sizes on the same spritesheet

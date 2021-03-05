@@ -1,4 +1,4 @@
-import { Vector3 } from "../Maths/math.vector";
+import { Vector3 } from "../Maths/math.vector.js";
 
 /**
  * Holds the data for the raycast result

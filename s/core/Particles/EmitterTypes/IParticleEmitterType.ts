@@ -1,7 +1,7 @@
-import { Vector3, Matrix } from "../../Maths/math.vector";
-import { Effect } from "../../Materials/effect";
-import { Particle } from "../../Particles/particle";
-import { Nullable } from '../../types';
+import { Vector3, Matrix } from "../../Maths/math.vector.js";
+import { Effect } from "../../Materials/effect.js";
+import { Particle } from "../../Particles/particle.js";
+import { Nullable } from "../../types.js";
 
 declare type Scene = import("../../scene").Scene;
 

@@ -1,7 +1,7 @@
-import { Nullable } from "../types";
-import { Vector2 } from "../Maths/math.vector";
-import { PickingInfo } from "../Collisions/pickingInfo";
-import { IMouseEvent } from "./deviceInputEvents";
+import { Nullable } from "../types.js";
+import { Vector2 } from "../Maths/math.vector.js";
+import { PickingInfo } from "../Collisions/pickingInfo.js";
+import { IMouseEvent } from "./deviceInputEvents.js";
 
 declare type Ray = import("../Culling/ray").Ray;
 

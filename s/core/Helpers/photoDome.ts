@@ -1,6 +1,6 @@
-import { Scene } from "../scene";
-import { Texture } from "../Materials/Textures/texture";
-import { TextureDome } from "./textureDome";
+import { Scene } from "../scene.js";
+import { Texture } from "../Materials/Textures/texture.js";
+import { TextureDome } from "./textureDome.js";
 
 /**
  * Display a 360 degree photo on an approximately spherical surface, useful for VR applications or skyboxes.

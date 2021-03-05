@@ -1,13 +1,13 @@
-import { Camera } from "../../Cameras/camera";
-import { Engine } from "../../Engines/engine";
-import { Scene } from "../../scene";
-import { InternalTexture, InternalTextureSource } from '../../Materials/Textures/internalTexture';
-import { Nullable } from '../../types';
-import { RenderTargetTexture } from '../../Materials/Textures/renderTargetTexture';
-import { Matrix, TmpVectors } from '../../Maths/math.vector';
-import { UniformBuffer } from '../../Materials/uniformBuffer';
-import { MultiviewRenderTarget } from '../../Materials/Textures/MultiviewRenderTarget';
-import { Frustum } from '../../Maths/math.frustum';
+import { Camera } from "../../Cameras/camera.js";
+import { Engine } from "../../Engines/engine.js";
+import { Scene } from "../../scene.js";
+import { InternalTexture, InternalTextureSource } from "../../Materials/Textures/internalTexture.js";
+import { Nullable } from "../../types.js";
+import { RenderTargetTexture } from "../../Materials/Textures/renderTargetTexture.js";
+import { Matrix, TmpVectors } from "../../Maths/math.vector.js";
+import { UniformBuffer } from "../../Materials/uniformBuffer.js";
+import { MultiviewRenderTarget } from "../../Materials/Textures/MultiviewRenderTarget.js";
+import { Frustum } from "../../Maths/math.frustum.js";
 
 declare module "../../Engines/engine" {
     export interface Engine {

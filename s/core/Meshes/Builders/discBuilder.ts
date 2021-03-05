@@ -1,8 +1,8 @@
-import { Nullable } from "../../types";
-import { Scene } from "../../scene";
-import { Vector4 } from "../../Maths/math.vector";
-import { Mesh, _CreationDataStorage } from "../mesh";
-import { VertexData } from "../mesh.vertexData";
+import { Nullable } from "../../types.js";
+import { Scene } from "../../scene.js";
+import { Vector4 } from "../../Maths/math.vector.js";
+import { Mesh, _CreationDataStorage } from "../mesh.js";
+import { VertexData } from "../mesh.vertexData.js";
 
 VertexData.CreateDisc = function(options: { radius?: number, tessellation?: number, arc?: number, sideOrientation?: number, frontUVs?: Vector4, backUVs?: Vector4 }): VertexData {
     var positions = new Array<number>();

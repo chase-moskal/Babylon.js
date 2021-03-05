@@ -1,12 +1,12 @@
-import { ISmartArrayLike } from "../../Misc/smartArray";
-import { Scene } from "../../scene";
-import { Vector3 } from "../../Maths/math.vector";
-import { SubMesh } from "../../Meshes/subMesh";
-import { AbstractMesh } from "../../Meshes/abstractMesh";
-import { Ray } from "../../Culling/ray";
-import { SceneComponentConstants } from "../../sceneComponent";
+import { ISmartArrayLike } from "../../Misc/smartArray.js";
+import { Scene } from "../../scene.js";
+import { Vector3 } from "../../Maths/math.vector.js";
+import { SubMesh } from "../../Meshes/subMesh.js";
+import { AbstractMesh } from "../../Meshes/abstractMesh.js";
+import { Ray } from "../../Culling/ray.js";
+import { SceneComponentConstants } from "../../sceneComponent.js";
 
-import { Octree } from "./octree";
+import { Octree } from "./octree.js";
 
 declare type Collider = import("../../Collisions/collider").Collider;
 

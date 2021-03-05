@@ -1,11 +1,11 @@
-import { Scene } from "../../scene";
-import { Vector3 } from "../../Maths/math.vector";
-import { AbstractMesh } from "../../Meshes/abstractMesh";
-import { Mesh } from "../../Meshes/mesh";
-import { SceneLoader } from "../../Loading/sceneLoader";
-import { GamepadButtonChanges } from "../../Gamepads/gamepad";
-import { WebVRController } from "./webVRController";
-import { PoseEnabledControllerType, ExtendedGamepadButton, PoseEnabledControllerHelper } from "./poseEnabledController";
+import { Scene } from "../../scene.js";
+import { Vector3 } from "../../Maths/math.vector.js";
+import { AbstractMesh } from "../../Meshes/abstractMesh.js";
+import { Mesh } from "../../Meshes/mesh.js";
+import { SceneLoader } from "../../Loading/sceneLoader.js";
+import { GamepadButtonChanges } from "../../Gamepads/gamepad.js";
+import { WebVRController } from "./webVRController.js";
+import { PoseEnabledControllerType, ExtendedGamepadButton, PoseEnabledControllerHelper } from "./poseEnabledController.js";
 
 /**
      * Gear VR Controller

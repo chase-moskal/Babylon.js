@@ -1,4 +1,4 @@
-import { Constants } from "../Engines/constants";
+import { Constants } from "../Engines/constants.js";
 
 /**
  * Class used to represent data loading progression

@@ -1,15 +1,15 @@
-import { Nullable } from "../types";
-import { Observable } from "../Misc/observable";
-import { Scene } from "../scene";
-import { Sprite } from "./sprite";
-import { ISpriteManager } from "./spriteManager";
-import { Ray } from "../Culling/ray";
-import { Camera } from "../Cameras/camera";
-import { PickingInfo } from "../Collisions/pickingInfo";
-import { ISceneComponent, SceneComponentConstants } from "../sceneComponent";
-import { ActionEvent } from "../Actions/actionEvent";
-import { Constants } from "../Engines/constants";
-import { IPointerEvent } from "../Events/deviceInputEvents";
+import { Nullable } from "../types.js";
+import { Observable } from "../Misc/observable.js";
+import { Scene } from "../scene.js";
+import { Sprite } from "./sprite.js";
+import { ISpriteManager } from "./spriteManager.js";
+import { Ray } from "../Culling/ray.js";
+import { Camera } from "../Cameras/camera.js";
+import { PickingInfo } from "../Collisions/pickingInfo.js";
+import { ISceneComponent, SceneComponentConstants } from "../sceneComponent.js";
+import { ActionEvent } from "../Actions/actionEvent.js";
+import { Constants } from "../Engines/constants.js";
+import { IPointerEvent } from "../Events/deviceInputEvents.js";
 
 declare module "../scene" {
     export interface Scene {

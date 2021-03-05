@@ -1,14 +1,14 @@
-import { Nullable } from "../types";
-import { Ray } from "../Culling/ray";
-import { Vector3 } from "../Maths/math.vector";
-import { Color3 } from '../Maths/math.color';
-import { Scene } from "../scene";
-import { AbstractMesh } from "../Meshes/abstractMesh";
-import { Mesh } from "../Meshes/mesh";
-import { LinesMesh } from "../Meshes/linesMesh";
+import { Nullable } from "../types.js";
+import { Ray } from "../Culling/ray.js";
+import { Vector3 } from "../Maths/math.vector.js";
+import { Color3 } from "../Maths/math.color.js";
+import { Scene } from "../scene.js";
+import { AbstractMesh } from "../Meshes/abstractMesh.js";
+import { Mesh } from "../Meshes/mesh.js";
+import { LinesMesh } from "../Meshes/linesMesh.js";
 
-import "../Meshes/Builders/linesBuilder";
-import { Observer } from '../Misc/observable';
+import "../Meshes/Builders/linesBuilder.js";
+import { Observer } from "../Misc/observable.js";
 
 /**
  * As raycast might be hard to debug, the RayHelper can help rendering the different rays

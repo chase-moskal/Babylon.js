@@ -1,9 +1,9 @@
-import { Nullable } from "../types";
-import { Scene } from "../scene";
-import { ISceneComponent, SceneComponentConstants } from "../sceneComponent";
-import { SmartArrayNoDuplicate } from "../Misc/smartArray";
-import { RenderTargetTexture } from "../Materials/Textures/renderTargetTexture";
-import { GeometryBufferRenderer } from "./geometryBufferRenderer";
+import { Nullable } from "../types.js";
+import { Scene } from "../scene.js";
+import { ISceneComponent, SceneComponentConstants } from "../sceneComponent.js";
+import { SmartArrayNoDuplicate } from "../Misc/smartArray.js";
+import { RenderTargetTexture } from "../Materials/Textures/renderTargetTexture.js";
+import { GeometryBufferRenderer } from "./geometryBufferRenderer.js";
 
 declare module "../scene" {
     export interface Scene {

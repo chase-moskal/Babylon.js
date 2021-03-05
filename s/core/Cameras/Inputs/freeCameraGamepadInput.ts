@@ -1,10 +1,10 @@
-import { serialize } from "../../Misc/decorators";
-import { Observer } from "../../Misc/observable";
-import { Nullable } from "../../types";
-import { ICameraInput, CameraInputTypes } from "../../Cameras/cameraInputsManager";
-import { FreeCamera } from "../../Cameras/freeCamera";
-import { Matrix, Vector3, Vector2 } from "../../Maths/math.vector";
-import { Gamepad } from "../../Gamepads/gamepad";
+import { serialize } from "../../Misc/decorators.js";
+import { Observer } from "../../Misc/observable.js";
+import { Nullable } from "../../types.js";
+import { ICameraInput, CameraInputTypes } from "../../Cameras/cameraInputsManager.js";
+import { FreeCamera } from "../../Cameras/freeCamera.js";
+import { Matrix, Vector3, Vector2 } from "../../Maths/math.vector.js";
+import { Gamepad } from "../../Gamepads/gamepad.js";
 
 /**
  * Manage the gamepad inputs to control a free camera.

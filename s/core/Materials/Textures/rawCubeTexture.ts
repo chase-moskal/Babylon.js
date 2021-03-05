@@ -1,13 +1,13 @@
-import { SerializationHelper } from "../../Misc/decorators";
-import { EnvironmentTextureTools } from "../../Misc/environmentTextureTools";
-import { Nullable } from "../../types";
-import { Scene } from "../../scene";
-import { SphericalPolynomial } from "../../Maths/sphericalPolynomial";
-import { InternalTexture, InternalTextureSource } from "./internalTexture";
-import { CubeTexture } from "./cubeTexture";
-import { Constants } from "../../Engines/constants";
-import "../../Engines/Extensions/engine.rawTexture";
-import { Engine } from '../../Engines/engine';
+import { SerializationHelper } from "../../Misc/decorators.js";
+import { EnvironmentTextureTools } from "../../Misc/environmentTextureTools.js";
+import { Nullable } from "../../types.js";
+import { Scene } from "../../scene.js";
+import { SphericalPolynomial } from "../../Maths/sphericalPolynomial.js";
+import { InternalTexture, InternalTextureSource } from "./internalTexture.js";
+import { CubeTexture } from "./cubeTexture.js";
+import { Constants } from "../../Engines/constants.js";
+import "../../Engines/Extensions/engine.rawTexture.js";
+import { Engine } from "../../Engines/engine.js";
 
 /**
  * Raw cube texture where the raw buffers are passed in

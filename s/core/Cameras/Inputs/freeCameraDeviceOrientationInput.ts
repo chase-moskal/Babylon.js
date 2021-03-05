@@ -1,10 +1,10 @@
-import { Nullable } from "../../types";
-import { ICameraInput, CameraInputTypes } from "../../Cameras/cameraInputsManager";
-import { FreeCamera } from "../../Cameras/freeCamera";
-import { Quaternion } from "../../Maths/math.vector";
-import { Tools } from "../../Misc/tools";
-import { FreeCameraInputsManager } from "../../Cameras/freeCameraInputsManager";
-import { Observable } from "../../Misc/observable";
+import { Nullable } from "../../types.js";
+import { ICameraInput, CameraInputTypes } from "../../Cameras/cameraInputsManager.js";
+import { FreeCamera } from "../../Cameras/freeCamera.js";
+import { Quaternion } from "../../Maths/math.vector.js";
+import { Tools } from "../../Misc/tools.js";
+import { FreeCameraInputsManager } from "../../Cameras/freeCameraInputsManager.js";
+import { Observable } from "../../Misc/observable.js";
 
 // Module augmentation to abstract orientation inputs from camera.
 declare module "../../Cameras/freeCameraInputsManager" {

@@ -1,9 +1,9 @@
-import { Engine } from "../Engines/engine";
-import { Scene } from "../scene";
-import { ISceneLoaderProgressEvent, SceneLoader } from "../Loading/sceneLoader";
-import { Logger } from "../Misc/logger";
-import { FilesInputStore } from "./filesInputStore";
-import { Nullable } from "../types";
+import { Engine } from "../Engines/engine.js";
+import { Scene } from "../scene.js";
+import { ISceneLoaderProgressEvent, SceneLoader } from "../Loading/sceneLoader.js";
+import { Logger } from "../Misc/logger.js";
+import { FilesInputStore } from "./filesInputStore.js";
+import { Nullable } from "../types.js";
 
 /**
  * Class used to help managing file picking and drag'n'drop

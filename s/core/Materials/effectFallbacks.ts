@@ -1,5 +1,5 @@
-import { Nullable } from '../types';
-import { IEffectFallbacks } from './iEffectFallbacks';
+import { Nullable } from "../types.js";
+import { IEffectFallbacks } from "./iEffectFallbacks.js";
 
 declare type Effect = import("./effect").Effect;
 declare type AbstractMesh = import("../Meshes/abstractMesh").AbstractMesh;

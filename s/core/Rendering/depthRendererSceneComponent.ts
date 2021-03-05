@@ -1,11 +1,11 @@
-import { Nullable } from "../types";
-import { Scene } from "../scene";
-import { SmartArrayNoDuplicate } from "../Misc/smartArray";
-import { DepthRenderer } from "./depthRenderer";
-import { Camera } from "../Cameras/camera";
-import { Constants } from "../Engines/constants";
-import { ISceneComponent, SceneComponentConstants } from "../sceneComponent";
-import { RenderTargetTexture } from "../Materials/Textures/renderTargetTexture";
+import { Nullable } from "../types.js";
+import { Scene } from "../scene.js";
+import { SmartArrayNoDuplicate } from "../Misc/smartArray.js";
+import { DepthRenderer } from "./depthRenderer.js";
+import { Camera } from "../Cameras/camera.js";
+import { Constants } from "../Engines/constants.js";
+import { ISceneComponent, SceneComponentConstants } from "../sceneComponent.js";
+import { RenderTargetTexture } from "../Materials/Textures/renderTargetTexture.js";
 
 declare module "../scene" {
     export interface Scene {

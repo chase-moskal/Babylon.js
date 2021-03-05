@@ -1,8 +1,8 @@
-import { InternalTexture, InternalTextureSource } from '../../Materials/Textures/internalTexture';
-import { Logger } from '../../Misc/logger';
-import { RenderTargetCreationOptions } from '../../Materials/Textures/renderTargetCreationOptions';
-import { Constants } from '../constants';
-import { ThinEngine } from '../thinEngine';
+import { InternalTexture, InternalTextureSource } from "../../Materials/Textures/internalTexture.js";
+import { Logger } from "../../Misc/logger.js";
+import { RenderTargetCreationOptions } from "../../Materials/Textures/renderTargetCreationOptions.js";
+import { Constants } from "../constants.js";
+import { ThinEngine } from "../thinEngine.js";
 
 declare module "../../Engines/thinEngine" {
     export interface ThinEngine {

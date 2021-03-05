@@ -1,8 +1,8 @@
-import { Bone } from "./bone";
-import { Vector3, Quaternion, Matrix } from "../Maths/math.vector";
-import { AbstractMesh } from "../Meshes/abstractMesh";
-import { Nullable } from "../types";
-import { Space } from '../Maths/math.axis';
+import { Bone } from "./bone.js";
+import { Vector3, Quaternion, Matrix } from "../Maths/math.vector.js";
+import { AbstractMesh } from "../Meshes/abstractMesh.js";
+import { Nullable } from "../types.js";
+import { Space } from "../Maths/math.axis.js";
 
 /**
  * Class used to apply inverse kinematics to bones

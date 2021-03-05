@@ -1,7 +1,7 @@
-import { Engine } from "./engine";
-import { NullEngine } from "./nullEngine";
-import { ThinEngine } from "./thinEngine";
-import { WebGPUEngine } from "./webgpuEngine";
+import { Engine } from "./engine.js";
+import { NullEngine } from "./nullEngine.js";
+import { ThinEngine } from "./thinEngine.js";
+import { WebGPUEngine } from "./webgpuEngine.js";
 
 /**
  * Helper class to create the best engine depending on the current hardware

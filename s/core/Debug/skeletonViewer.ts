@@ -1,25 +1,25 @@
-import { Vector3, Matrix, TmpVectors } from "../Maths/math.vector";
-import { Color3, Color4 } from '../Maths/math.color';
-import { Scene } from "../scene";
-import { Nullable } from "../types";
-import { Bone } from "../Bones/bone";
-import { Skeleton } from "../Bones/skeleton";
-import { AbstractMesh } from "../Meshes/abstractMesh";
-import { Mesh } from "../Meshes/mesh";
-import { LinesMesh } from "../Meshes/linesMesh";
-import { LinesBuilder } from "../Meshes/Builders/linesBuilder";
-import { UtilityLayerRenderer } from "../Rendering/utilityLayerRenderer";
-import { Material } from '../Materials/material';
-import { ShaderMaterial } from '../Materials/shaderMaterial';
-import { DynamicTexture } from '../Materials/Textures/dynamicTexture';
-import { VertexBuffer } from '../Meshes/buffer';
-import { Effect } from '../Materials/effect';
+import { Vector3, Matrix, TmpVectors } from "../Maths/math.vector.js";
+import { Color3, Color4 } from "../Maths/math.color.js";
+import { Scene } from "../scene.js";
+import { Nullable } from "../types.js";
+import { Bone } from "../Bones/bone.js";
+import { Skeleton } from "../Bones/skeleton.js";
+import { AbstractMesh } from "../Meshes/abstractMesh.js";
+import { Mesh } from "../Meshes/mesh.js";
+import { LinesMesh } from "../Meshes/linesMesh.js";
+import { LinesBuilder } from "../Meshes/Builders/linesBuilder.js";
+import { UtilityLayerRenderer } from "../Rendering/utilityLayerRenderer.js";
+import { Material } from "../Materials/material.js";
+import { ShaderMaterial } from "../Materials/shaderMaterial.js";
+import { DynamicTexture } from "../Materials/Textures/dynamicTexture.js";
+import { VertexBuffer } from "../Meshes/buffer.js";
+import { Effect } from "../Materials/effect.js";
 
-import { ISkeletonViewerOptions, IBoneWeightShaderOptions, ISkeletonMapShaderOptions, ISkeletonMapShaderColorMapKnot } from './ISkeletonViewer';
-import { Observer } from '../Misc/observable';
+import { ISkeletonViewerOptions, IBoneWeightShaderOptions, ISkeletonMapShaderOptions, ISkeletonMapShaderColorMapKnot } from "./ISkeletonViewer.js";
+import { Observer } from "../Misc/observable.js";
 
-import { SphereBuilder } from '../Meshes/Builders/sphereBuilder';
-import { ShapeBuilder } from '../Meshes/Builders/shapeBuilder';
+import { SphereBuilder } from "../Meshes/Builders/sphereBuilder.js";
+import { ShapeBuilder } from "../Meshes/Builders/shapeBuilder.js";
 
 /**
  * Class used to render a debug view of a given skeleton

@@ -1,4 +1,4 @@
-import { DeviceType, PointerInput, DualShockInput, XboxInput, SwitchInput } from './deviceEnums';
+import { DeviceType, PointerInput, DualShockInput, XboxInput, SwitchInput } from "./deviceEnums.js";
 
 /**
  * Type to handle enforcement of inputs

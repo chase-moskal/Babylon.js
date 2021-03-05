@@ -1,17 +1,17 @@
-import { Logger } from "../Misc/logger";
-import { Observable, Observer } from "../Misc/observable";
-import { Nullable } from "../types";
-import { Vector3 } from "../Maths/math.vector";
-import { Color3 } from '../Maths/math.color';
-import { AbstractMesh } from "../Meshes/abstractMesh";
-import { Mesh } from "../Meshes/mesh";
-import { Gizmo, GizmoAxisCache } from "./gizmo";
-import { PlaneRotationGizmo } from "./planeRotationGizmo";
-import { UtilityLayerRenderer } from "../Rendering/utilityLayerRenderer";
-import { Node } from "../node";
-import { PointerInfo } from "../Events/pointerEvents";
-import { TransformNode } from "../Meshes/transformNode";
-import { GizmoManager } from './gizmoManager';
+import { Logger } from "../Misc/logger.js";
+import { Observable, Observer } from "../Misc/observable.js";
+import { Nullable } from "../types.js";
+import { Vector3 } from "../Maths/math.vector.js";
+import { Color3 } from "../Maths/math.color.js";
+import { AbstractMesh } from "../Meshes/abstractMesh.js";
+import { Mesh } from "../Meshes/mesh.js";
+import { Gizmo, GizmoAxisCache } from "./gizmo.js";
+import { PlaneRotationGizmo } from "./planeRotationGizmo.js";
+import { UtilityLayerRenderer } from "../Rendering/utilityLayerRenderer.js";
+import { Node } from "../node.js";
+import { PointerInfo } from "../Events/pointerEvents.js";
+import { TransformNode } from "../Meshes/transformNode.js";
+import { GizmoManager } from "./gizmoManager.js";
 /**
  * Gizmo that enables rotating a mesh along 3 axis
  */

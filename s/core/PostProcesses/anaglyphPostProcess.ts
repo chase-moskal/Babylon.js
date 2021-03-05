@@ -1,11 +1,11 @@
-import { Nullable } from "../types";
-import { Engine } from "../Engines/engine";
-import { PostProcess, PostProcessOptions } from "./postProcess";
-import { Camera } from "../Cameras/camera";
-import { Effect } from "../Materials/effect";
+import { Nullable } from "../types.js";
+import { Engine } from "../Engines/engine.js";
+import { PostProcess, PostProcessOptions } from "./postProcess.js";
+import { Camera } from "../Cameras/camera.js";
+import { Effect } from "../Materials/effect.js";
 
-import "../Shaders/anaglyph.fragment";
-import { _TypeStore } from '../Misc/typeStore';
+import "../Shaders/anaglyph.fragment.js";
+import { _TypeStore } from "../Misc/typeStore.js";
 
 /**
  * Postprocess used to generate anaglyphic rendering

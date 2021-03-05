@@ -1,10 +1,10 @@
-import { DeepImmutable } from "../types";
-import { ArrayTools } from "../Misc/arrayTools";
-import { Matrix, Vector3 } from "../Maths/math.vector";
-import { Constants } from "../Engines/constants";
-import { BoundingBox } from "./boundingBox";
-import { BoundingSphere } from "./boundingSphere";
-import { Plane } from '../Maths/math.plane';
+import { DeepImmutable } from "../types.js";
+import { ArrayTools } from "../Misc/arrayTools.js";
+import { Matrix, Vector3 } from "../Maths/math.vector.js";
+import { Constants } from "../Engines/constants.js";
+import { BoundingBox } from "./boundingBox.js";
+import { BoundingSphere } from "./boundingSphere.js";
+import { Plane } from "../Maths/math.plane.js";
 
 declare type Collider = import("../Collisions/collider").Collider;
 

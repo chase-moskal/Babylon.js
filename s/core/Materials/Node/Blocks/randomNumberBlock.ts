@@ -1,11 +1,11 @@
-import { NodeMaterialBlock } from '../nodeMaterialBlock';
-import { NodeMaterialBlockConnectionPointTypes } from '../Enums/nodeMaterialBlockConnectionPointTypes';
-import { NodeMaterialBuildState } from '../nodeMaterialBuildState';
-import { NodeMaterialConnectionPoint } from '../nodeMaterialBlockConnectionPoint';
-import { NodeMaterialBlockTargets } from '../Enums/nodeMaterialBlockTargets';
-import { _TypeStore } from '../../../Misc/typeStore';
+import { NodeMaterialBlock } from "../nodeMaterialBlock.js";
+import { NodeMaterialBlockConnectionPointTypes } from "../Enums/nodeMaterialBlockConnectionPointTypes.js";
+import { NodeMaterialBuildState } from "../nodeMaterialBuildState.js";
+import { NodeMaterialConnectionPoint } from "../nodeMaterialBlockConnectionPoint.js";
+import { NodeMaterialBlockTargets } from "../Enums/nodeMaterialBlockTargets.js";
+import { _TypeStore } from "../../../Misc/typeStore.js";
 
-import "../../../Shaders/ShadersInclude/helperFunctions";
+import "../../../Shaders/ShadersInclude/helperFunctions.js";
 
 /**
  * Block used to get a random number

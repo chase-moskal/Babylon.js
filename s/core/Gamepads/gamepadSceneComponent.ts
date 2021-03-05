@@ -1,12 +1,12 @@
-import { Nullable } from "../types";
-import { Scene } from "../scene";
-import { SceneComponentConstants, ISceneComponent } from "../sceneComponent";
-import { GamepadManager } from "./gamepadManager";
+import { Nullable } from "../types.js";
+import { Scene } from "../scene.js";
+import { SceneComponentConstants, ISceneComponent } from "../sceneComponent.js";
+import { GamepadManager } from "./gamepadManager.js";
 
-import { FreeCameraInputsManager } from "../Cameras/freeCameraInputsManager";
-import { FreeCameraGamepadInput } from "../Cameras/Inputs/freeCameraGamepadInput";
-import { ArcRotateCameraInputsManager } from "../Cameras/arcRotateCameraInputsManager";
-import { ArcRotateCameraGamepadInput } from "../Cameras/Inputs/arcRotateCameraGamepadInput";
+import { FreeCameraInputsManager } from "../Cameras/freeCameraInputsManager.js";
+import { FreeCameraGamepadInput } from "../Cameras/Inputs/freeCameraGamepadInput.js";
+import { ArcRotateCameraInputsManager } from "../Cameras/arcRotateCameraInputsManager.js";
+import { ArcRotateCameraGamepadInput } from "../Cameras/Inputs/arcRotateCameraGamepadInput.js";
 
 declare module "../scene" {
     export interface Scene {

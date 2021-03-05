@@ -1,7 +1,7 @@
-import { UniversalCamera } from "./universalCamera";
-import { Scene } from "../scene";
-import { Vector3 } from "../Maths/math.vector";
-import { Node } from "../node";
+import { UniversalCamera } from "./universalCamera.js";
+import { Scene } from "../scene.js";
+import { Vector3 } from "../Maths/math.vector.js";
+import { Node } from "../node.js";
 Node.AddNodeConstructor("GamepadCamera", (name, scene) => {
     return () => new GamepadCamera(name, Vector3.Zero(), scene);
 });

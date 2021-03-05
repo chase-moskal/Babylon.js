@@ -1,15 +1,15 @@
-import { Observable } from "../../Misc/observable";
-import { Nullable } from "../../types";
-import { Quaternion, Matrix, Vector3, TmpVectors } from "../../Maths/math.vector";
-import { Node } from "../../node";
-import { TransformNode } from "../../Meshes/transformNode";
-import { AbstractMesh } from "../../Meshes/abstractMesh";
-import { Ray } from "../../Culling/ray";
-import { EngineStore } from "../../Engines/engineStore";
+import { Observable } from "../../Misc/observable.js";
+import { Nullable } from "../../types.js";
+import { Quaternion, Matrix, Vector3, TmpVectors } from "../../Maths/math.vector.js";
+import { Node } from "../../node.js";
+import { TransformNode } from "../../Meshes/transformNode.js";
+import { AbstractMesh } from "../../Meshes/abstractMesh.js";
+import { Ray } from "../../Culling/ray.js";
+import { EngineStore } from "../../Engines/engineStore.js";
 
-import { Gamepad } from "../../Gamepads/gamepad";
-import { WebVRFreeCamera, PoseControlled, DevicePose } from "../../Cameras/VR/webVRCamera";
-import { TargetCamera } from "../../Cameras/targetCamera";
+import { Gamepad } from "../../Gamepads/gamepad.js";
+import { WebVRFreeCamera, PoseControlled, DevicePose } from "../../Cameras/VR/webVRCamera.js";
+import { TargetCamera } from "../../Cameras/targetCamera.js";
 
 /**
 * Defines the types of pose enabled controllers that are supported

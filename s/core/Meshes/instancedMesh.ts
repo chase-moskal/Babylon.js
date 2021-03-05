@@ -1,18 +1,18 @@
-import { Nullable, FloatArray, IndicesArray } from "../types";
-import { Vector3, Matrix, TmpVectors } from "../Maths/math.vector";
-import { Logger } from "../Misc/logger";
-import { Camera } from "../Cameras/camera";
-import { Node } from "../node";
-import { AbstractMesh } from "../Meshes/abstractMesh";
-import { Mesh, _InstancesBatch } from "../Meshes/mesh";
-import { Material } from "../Materials/material";
-import { Skeleton } from "../Bones/skeleton";
-import { DeepCopier } from "../Misc/deepCopier";
-import { TransformNode } from './transformNode';
-import { Light } from '../Lights/light';
-import { VertexBuffer } from './buffer';
-import { BoundingInfo } from '../Culling/boundingInfo';
-import { Tools } from '../Misc/tools';
+import { Nullable, FloatArray, IndicesArray } from "../types.js";
+import { Vector3, Matrix, TmpVectors } from "../Maths/math.vector.js";
+import { Logger } from "../Misc/logger.js";
+import { Camera } from "../Cameras/camera.js";
+import { Node } from "../node.js";
+import { AbstractMesh } from "../Meshes/abstractMesh.js";
+import { Mesh, _InstancesBatch } from "../Meshes/mesh.js";
+import { Material } from "../Materials/material.js";
+import { Skeleton } from "../Bones/skeleton.js";
+import { DeepCopier } from "../Misc/deepCopier.js";
+import { TransformNode } from "./transformNode.js";
+import { Light } from "../Lights/light.js";
+import { VertexBuffer } from "./buffer.js";
+import { BoundingInfo } from "../Culling/boundingInfo.js";
+import { Tools } from "../Misc/tools.js";
 
 Mesh._instancedMeshFactory = (name: string, mesh: Mesh): InstancedMesh => {
     let instance = new InstancedMesh(name, mesh);

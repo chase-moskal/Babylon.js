@@ -1,22 +1,22 @@
-import { Nullable } from "../types";
-import { Vector3, Quaternion } from "../Maths/math.vector";
-import { Color3 } from '../Maths/math.color';
-import { AbstractMesh } from "../Meshes/abstractMesh";
-import { Mesh } from "../Meshes/mesh";
-import { Gizmo } from "./gizmo";
-import { UtilityLayerRenderer } from "../Rendering/utilityLayerRenderer";
+import { Nullable } from "../types.js";
+import { Vector3, Quaternion } from "../Maths/math.vector.js";
+import { Color3 } from "../Maths/math.color.js";
+import { AbstractMesh } from "../Meshes/abstractMesh.js";
+import { Mesh } from "../Meshes/mesh.js";
+import { Gizmo } from "./gizmo.js";
+import { UtilityLayerRenderer } from "../Rendering/utilityLayerRenderer.js";
 
-import { StandardMaterial } from '../Materials/standardMaterial';
-import { Light } from '../Lights/light';
-import { Scene } from '../scene';
-import { HemisphericLight } from '../Lights/hemisphericLight';
-import { DirectionalLight } from '../Lights/directionalLight';
-import { SphereBuilder } from '../Meshes/Builders/sphereBuilder';
-import { HemisphereBuilder } from '../Meshes/Builders/hemisphereBuilder';
-import { SpotLight } from '../Lights/spotLight';
-import { TransformNode } from '../Meshes/transformNode';
-import { PointerEventTypes, PointerInfo } from '../Events/pointerEvents';
-import { Observer, Observable } from "../Misc/observable";
+import { StandardMaterial } from "../Materials/standardMaterial.js";
+import { Light } from "../Lights/light.js";
+import { Scene } from "../scene.js";
+import { HemisphericLight } from "../Lights/hemisphericLight.js";
+import { DirectionalLight } from "../Lights/directionalLight.js";
+import { SphereBuilder } from "../Meshes/Builders/sphereBuilder.js";
+import { HemisphereBuilder } from "../Meshes/Builders/hemisphereBuilder.js";
+import { SpotLight } from "../Lights/spotLight.js";
+import { TransformNode } from "../Meshes/transformNode.js";
+import { PointerEventTypes, PointerInfo } from "../Events/pointerEvents.js";
+import { Observer, Observable } from "../Misc/observable.js";
 
 /**
  * Gizmo that enables viewing a light

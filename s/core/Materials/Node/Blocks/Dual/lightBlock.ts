@@ -1,29 +1,29 @@
-import { NodeMaterialBlock } from '../../nodeMaterialBlock';
-import { NodeMaterialBlockTargets } from '../../Enums/nodeMaterialBlockTargets';
-import { NodeMaterialBlockConnectionPointTypes } from '../../Enums/nodeMaterialBlockConnectionPointTypes';
-import { NodeMaterialBuildState } from '../../nodeMaterialBuildState';
-import { NodeMaterialConnectionPoint } from '../../nodeMaterialBlockConnectionPoint';
-import { MaterialHelper } from '../../../materialHelper';
-import { AbstractMesh } from '../../../../Meshes/abstractMesh';
-import { NodeMaterial, NodeMaterialDefines } from '../../nodeMaterial';
-import { Effect } from '../../../effect';
-import { Mesh } from '../../../../Meshes/mesh';
-import { NodeMaterialSystemValues } from '../../Enums/nodeMaterialSystemValues';
-import { InputBlock } from '../Input/inputBlock';
-import { Light } from '../../../../Lights/light';
-import { Nullable } from '../../../../types';
-import { _TypeStore } from '../../../../Misc/typeStore';
-import { Scene } from '../../../../scene';
+import { NodeMaterialBlock } from "../../nodeMaterialBlock.js";
+import { NodeMaterialBlockTargets } from "../../Enums/nodeMaterialBlockTargets.js";
+import { NodeMaterialBlockConnectionPointTypes } from "../../Enums/nodeMaterialBlockConnectionPointTypes.js";
+import { NodeMaterialBuildState } from "../../nodeMaterialBuildState.js";
+import { NodeMaterialConnectionPoint } from "../../nodeMaterialBlockConnectionPoint.js";
+import { MaterialHelper } from "../../../materialHelper.js";
+import { AbstractMesh } from "../../../../Meshes/abstractMesh.js";
+import { NodeMaterial, NodeMaterialDefines } from "../../nodeMaterial.js";
+import { Effect } from "../../../effect.js";
+import { Mesh } from "../../../../Meshes/mesh.js";
+import { NodeMaterialSystemValues } from "../../Enums/nodeMaterialSystemValues.js";
+import { InputBlock } from "../Input/inputBlock.js";
+import { Light } from "../../../../Lights/light.js";
+import { Nullable } from "../../../../types.js";
+import { _TypeStore } from "../../../../Misc/typeStore.js";
+import { Scene } from "../../../../scene.js";
 
-import "../../../../Shaders/ShadersInclude/lightFragmentDeclaration";
-import "../../../../Shaders/ShadersInclude/lightVxFragmentDeclaration";
-import "../../../../Shaders/ShadersInclude/lightUboDeclaration";
-import "../../../../Shaders/ShadersInclude/lightVxUboDeclaration";
-import "../../../../Shaders/ShadersInclude/lightFragment";
-import "../../../../Shaders/ShadersInclude/helperFunctions";
-import "../../../../Shaders/ShadersInclude/lightsFragmentFunctions";
-import "../../../../Shaders/ShadersInclude/shadowsFragmentFunctions";
-import "../../../../Shaders/ShadersInclude/shadowsVertex";
+import "../../../../Shaders/ShadersInclude/lightFragmentDeclaration.js";
+import "../../../../Shaders/ShadersInclude/lightVxFragmentDeclaration.js";
+import "../../../../Shaders/ShadersInclude/lightUboDeclaration.js";
+import "../../../../Shaders/ShadersInclude/lightVxUboDeclaration.js";
+import "../../../../Shaders/ShadersInclude/lightFragment.js";
+import "../../../../Shaders/ShadersInclude/helperFunctions.js";
+import "../../../../Shaders/ShadersInclude/lightsFragmentFunctions.js";
+import "../../../../Shaders/ShadersInclude/shadowsFragmentFunctions.js";
+import "../../../../Shaders/ShadersInclude/shadowsVertex.js";
 
 /**
  * Block used to add light in the fragment shader

@@ -1,18 +1,18 @@
-import { Logger } from "../../Misc/logger";
-import { Observable } from "../../Misc/observable";
-import { Nullable } from "../../types";
-import { Scene } from "../../scene";
-import { Quaternion, Vector3 } from "../../Maths/math.vector";
-import { Node } from "../../node";
-import { Mesh } from "../../Meshes/mesh";
-import { AbstractMesh } from "../../Meshes/abstractMesh";
-import { TransformNode } from "../../Meshes/transformNode";
-import { Ray } from "../../Culling/ray";
-import { SceneLoader } from "../../Loading/sceneLoader";
-import { WebVRController } from "./webVRController";
-import { GenericController } from "./genericController";
-import { PoseEnabledController, PoseEnabledControllerType, ExtendedGamepadButton, PoseEnabledControllerHelper } from "./poseEnabledController";
-import { StickValues, GamepadButtonChanges } from "../../Gamepads/gamepad";
+import { Logger } from "../../Misc/logger.js";
+import { Observable } from "../../Misc/observable.js";
+import { Nullable } from "../../types.js";
+import { Scene } from "../../scene.js";
+import { Quaternion, Vector3 } from "../../Maths/math.vector.js";
+import { Node } from "../../node.js";
+import { Mesh } from "../../Meshes/mesh.js";
+import { AbstractMesh } from "../../Meshes/abstractMesh.js";
+import { TransformNode } from "../../Meshes/transformNode.js";
+import { Ray } from "../../Culling/ray.js";
+import { SceneLoader } from "../../Loading/sceneLoader.js";
+import { WebVRController } from "./webVRController.js";
+import { GenericController } from "./genericController.js";
+import { PoseEnabledController, PoseEnabledControllerType, ExtendedGamepadButton, PoseEnabledControllerHelper } from "./poseEnabledController.js";
+import { StickValues, GamepadButtonChanges } from "../../Gamepads/gamepad.js";
 
 /**
  * Defines the LoadedMeshInfo object that describes information about the loaded webVR controller mesh

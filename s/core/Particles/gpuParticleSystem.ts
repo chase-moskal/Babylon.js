@@ -1,34 +1,34 @@
-import { Nullable, float } from "../types";
-import { FactorGradient, ColorGradient, Color3Gradient, IValueGradient, GradientHelper } from "../Misc/gradients";
-import { Observable } from "../Misc/observable";
-import { Vector3, Matrix, TmpVectors } from "../Maths/math.vector";
-import { Color4, Color3, TmpColors } from '../Maths/math.color';
-import { Scalar } from "../Maths/math.scalar";
-import { VertexBuffer } from "../Meshes/buffer";
-import { Buffer } from "../Meshes/buffer";
-import { IParticleSystem } from "./IParticleSystem";
-import { BaseParticleSystem } from "./baseParticleSystem";
-import { ParticleSystem } from "./particleSystem";
-import { BoxParticleEmitter } from "../Particles/EmitterTypes/boxParticleEmitter";
-import { IDisposable } from "../scene";
-import { Effect, IEffectCreationOptions } from "../Materials/effect";
-import { MaterialHelper } from "../Materials/materialHelper";
-import { ImageProcessingConfiguration } from "../Materials/imageProcessingConfiguration";
-import { RawTexture } from "../Materials/Textures/rawTexture";
-import { Constants } from "../Engines/constants";
-import { EngineStore } from "../Engines/engineStore";
-import { IAnimatable } from '../Animations/animatable.interface';
-import { CustomParticleEmitter } from './EmitterTypes/customParticleEmitter';
-import { ThinEngine } from '../Engines/thinEngine';
+import { Nullable, float } from "../types.js";
+import { FactorGradient, ColorGradient, Color3Gradient, IValueGradient, GradientHelper } from "../Misc/gradients.js";
+import { Observable } from "../Misc/observable.js";
+import { Vector3, Matrix, TmpVectors } from "../Maths/math.vector.js";
+import { Color4, Color3, TmpColors } from "../Maths/math.color.js";
+import { Scalar } from "../Maths/math.scalar.js";
+import { VertexBuffer } from "../Meshes/buffer.js";
+import { Buffer } from "../Meshes/buffer.js";
+import { IParticleSystem } from "./IParticleSystem.js";
+import { BaseParticleSystem } from "./baseParticleSystem.js";
+import { ParticleSystem } from "./particleSystem.js";
+import { BoxParticleEmitter } from "../Particles/EmitterTypes/boxParticleEmitter.js";
+import { IDisposable } from "../scene.js";
+import { Effect, IEffectCreationOptions } from "../Materials/effect.js";
+import { MaterialHelper } from "../Materials/materialHelper.js";
+import { ImageProcessingConfiguration } from "../Materials/imageProcessingConfiguration.js";
+import { RawTexture } from "../Materials/Textures/rawTexture.js";
+import { Constants } from "../Engines/constants.js";
+import { EngineStore } from "../Engines/engineStore.js";
+import { IAnimatable } from "../Animations/animatable.interface.js";
+import { CustomParticleEmitter } from "./EmitterTypes/customParticleEmitter.js";
+import { ThinEngine } from "../Engines/thinEngine.js";
 
 declare type Scene = import("../scene").Scene;
 declare type Engine = import("../Engines/engine").Engine;
 declare type AbstractMesh = import("../Meshes/abstractMesh").AbstractMesh;
 
-import "../Shaders/gpuUpdateParticles.fragment";
-import "../Shaders/gpuUpdateParticles.vertex";
-import "../Shaders/gpuRenderParticles.fragment";
-import "../Shaders/gpuRenderParticles.vertex";
+import "../Shaders/gpuUpdateParticles.fragment.js";
+import "../Shaders/gpuUpdateParticles.vertex.js";
+import "../Shaders/gpuRenderParticles.fragment.js";
+import "../Shaders/gpuRenderParticles.vertex.js";
 
 /**
  * This represents a GPU particle system in Babylon

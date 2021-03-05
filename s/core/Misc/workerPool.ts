@@ -1,4 +1,4 @@
-import { IDisposable } from "../scene";
+import { IDisposable } from "../scene.js";
 
 interface WorkerInfo {
     worker: Worker;

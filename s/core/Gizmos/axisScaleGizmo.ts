@@ -1,19 +1,19 @@
-import { Observer, Observable } from "../Misc/observable";
-import { Nullable } from "../types";
-import { PointerInfo } from "../Events/pointerEvents";
-import { Vector3, Matrix } from "../Maths/math.vector";
-import { AbstractMesh } from "../Meshes/abstractMesh";
-import { Node } from "../node";
-import { Mesh } from "../Meshes/mesh";
-import { LinesMesh } from "../Meshes/linesMesh";
-import { BoxBuilder } from "../Meshes/Builders/boxBuilder";
-import { CylinderBuilder } from "../Meshes/Builders/cylinderBuilder";
-import { StandardMaterial } from "../Materials/standardMaterial";
-import { PointerDragBehavior } from "../Behaviors/Meshes/pointerDragBehavior";
-import { Gizmo, GizmoAxisCache } from "./gizmo";
-import { UtilityLayerRenderer } from "../Rendering/utilityLayerRenderer";
-import { ScaleGizmo } from "./scaleGizmo";
-import { Color3 } from '../Maths/math.color';
+import { Observer, Observable } from "../Misc/observable.js";
+import { Nullable } from "../types.js";
+import { PointerInfo } from "../Events/pointerEvents.js";
+import { Vector3, Matrix } from "../Maths/math.vector.js";
+import { AbstractMesh } from "../Meshes/abstractMesh.js";
+import { Node } from "../node.js";
+import { Mesh } from "../Meshes/mesh.js";
+import { LinesMesh } from "../Meshes/linesMesh.js";
+import { BoxBuilder } from "../Meshes/Builders/boxBuilder.js";
+import { CylinderBuilder } from "../Meshes/Builders/cylinderBuilder.js";
+import { StandardMaterial } from "../Materials/standardMaterial.js";
+import { PointerDragBehavior } from "../Behaviors/Meshes/pointerDragBehavior.js";
+import { Gizmo, GizmoAxisCache } from "./gizmo.js";
+import { UtilityLayerRenderer } from "../Rendering/utilityLayerRenderer.js";
+import { ScaleGizmo } from "./scaleGizmo.js";
+import { Color3 } from "../Maths/math.color.js";
 
 /**
  * Single axis scale gizmo

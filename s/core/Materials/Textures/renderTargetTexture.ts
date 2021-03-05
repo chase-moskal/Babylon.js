@@ -1,24 +1,24 @@
-import { Observer, Observable } from "../../Misc/observable";
-import { Tools } from "../../Misc/tools";
-import { SmartArray } from "../../Misc/smartArray";
-import { Nullable, Immutable } from "../../types";
-import { Camera } from "../../Cameras/camera";
-import { Scene } from "../../scene";
-import { Matrix, Vector3 } from "../../Maths/math.vector";
-import { Color4 } from '../../Maths/math.color';
-import { RenderTargetCreationOptions } from "../../Materials/Textures/renderTargetCreationOptions";
-import { AbstractMesh } from "../../Meshes/abstractMesh";
-import { SubMesh } from "../../Meshes/subMesh";
-import { InternalTexture } from "../../Materials/Textures/internalTexture";
-import { Texture } from "../../Materials/Textures/texture";
-import { PostProcessManager } from "../../PostProcesses/postProcessManager";
-import { PostProcess } from "../../PostProcesses/postProcess";
-import { RenderingManager } from "../../Rendering/renderingManager";
-import { Constants } from "../../Engines/constants";
+import { Observer, Observable } from "../../Misc/observable.js";
+import { Tools } from "../../Misc/tools.js";
+import { SmartArray } from "../../Misc/smartArray.js";
+import { Nullable, Immutable } from "../../types.js";
+import { Camera } from "../../Cameras/camera.js";
+import { Scene } from "../../scene.js";
+import { Matrix, Vector3 } from "../../Maths/math.vector.js";
+import { Color4 } from "../../Maths/math.color.js";
+import { RenderTargetCreationOptions } from "../../Materials/Textures/renderTargetCreationOptions.js";
+import { AbstractMesh } from "../../Meshes/abstractMesh.js";
+import { SubMesh } from "../../Meshes/subMesh.js";
+import { InternalTexture } from "../../Materials/Textures/internalTexture.js";
+import { Texture } from "../../Materials/Textures/texture.js";
+import { PostProcessManager } from "../../PostProcesses/postProcessManager.js";
+import { PostProcess } from "../../PostProcesses/postProcess.js";
+import { RenderingManager } from "../../Rendering/renderingManager.js";
+import { Constants } from "../../Engines/constants.js";
 
-import "../../Engines/Extensions/engine.renderTarget";
-import "../../Engines/Extensions/engine.renderTargetCube";
-import { Engine } from '../../Engines/engine';
+import "../../Engines/Extensions/engine.renderTarget.js";
+import "../../Engines/Extensions/engine.renderTargetCube.js";
+import { Engine } from "../../Engines/engine.js";
 
 /**
  * This Helps creating a texture that will be created from a camera in your scene.

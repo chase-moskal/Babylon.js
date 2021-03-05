@@ -1,7 +1,7 @@
-import { Behavior } from "../behavior";
-import { AbstractMesh } from "../../Meshes/abstractMesh";
-import { Mesh } from "../../Meshes/mesh";
-import { Nullable } from "../../types";
+import { Behavior } from "../behavior.js";
+import { AbstractMesh } from "../../Meshes/abstractMesh.js";
+import { Mesh } from "../../Meshes/mesh.js";
+import { Nullable } from "../../types.js";
 
 /**
  * A behavior that when attached to a mesh will allow the mesh to fade in and out

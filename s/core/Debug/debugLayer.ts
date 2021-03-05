@@ -1,7 +1,7 @@
-import { Tools } from "../Misc/tools";
-import { Observable } from "../Misc/observable";
-import { Scene } from "../scene";
-import { Engine } from "../Engines/engine";
+import { Tools } from "../Misc/tools.js";
+import { Observable } from "../Misc/observable.js";
+import { Scene } from "../scene.js";
+import { Engine } from "../Engines/engine.js";
 
 // declare INSPECTOR namespace for compilation issue
 declare var INSPECTOR: any;

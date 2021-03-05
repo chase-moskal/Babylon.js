@@ -1,11 +1,11 @@
-import { Camera } from "../../Cameras/camera";
-import { UniversalCamera } from "../../Cameras/universalCamera";
-import { Scene } from "../../scene";
-import { Vector3 } from "../../Maths/math.vector";
-import { Node } from "../../node";
+import { Camera } from "../../Cameras/camera.js";
+import { UniversalCamera } from "../../Cameras/universalCamera.js";
+import { Scene } from "../../scene.js";
+import { Vector3 } from "../../Maths/math.vector.js";
+import { Node } from "../../node.js";
 
 // Side effect import to define the stereoscopic mode.
-import "../RigModes/stereoscopicRigMode";
+import "../RigModes/stereoscopicRigMode.js";
 
 Node.AddNodeConstructor("StereoscopicFreeCamera", (name, scene, options) => {
     return () => new StereoscopicUniversalCamera(name, Vector3.Zero(), options.interaxial_distance, options.isStereoscopicSideBySide, scene);

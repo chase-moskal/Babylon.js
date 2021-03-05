@@ -1,9 +1,9 @@
-import { WebXRAbstractMotionController, IMotionControllerProfile } from "./webXRAbstractMotionController";
-import { WebXRGenericTriggerMotionController } from "./webXRGenericMotionController";
-import { Scene } from "../../scene";
-import { Tools } from "../../Misc/tools";
-import { WebXRProfiledMotionController } from "./webXRProfiledMotionController";
-import { Nullable } from "../../types";
+import { WebXRAbstractMotionController, IMotionControllerProfile } from "./webXRAbstractMotionController.js";
+import { WebXRGenericTriggerMotionController } from "./webXRGenericMotionController.js";
+import { Scene } from "../../scene.js";
+import { Tools } from "../../Misc/tools.js";
+import { WebXRProfiledMotionController } from "./webXRProfiledMotionController.js";
+import { Nullable } from "../../types.js";
 
 /**
  * A construction function type to create a new controller based on an xrInput object

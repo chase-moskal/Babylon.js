@@ -1,12 +1,12 @@
-import { Nullable } from "../types";
-import { Observable } from "../Misc/observable";
-import { IDisposable, Scene } from "../scene";
-import { Camera } from "../Cameras/camera";
-import { WebXRSessionManager } from "./webXRSessionManager";
-import { WebXRCamera } from "./webXRCamera";
-import { WebXRState, WebXRRenderTarget } from "./webXRTypes";
-import { WebXRFeaturesManager } from "./webXRFeaturesManager";
-import { Logger } from "../Misc/logger";
+import { Nullable } from "../types.js";
+import { Observable } from "../Misc/observable.js";
+import { IDisposable, Scene } from "../scene.js";
+import { Camera } from "../Cameras/camera.js";
+import { WebXRSessionManager } from "./webXRSessionManager.js";
+import { WebXRCamera } from "./webXRCamera.js";
+import { WebXRState, WebXRRenderTarget } from "./webXRTypes.js";
+import { WebXRFeaturesManager } from "./webXRFeaturesManager.js";
+import { Logger } from "../Misc/logger.js";
 
 /**
  * Base set of functionality needed to create an XR experience (WebXRSessionManager, Camera, StateManagement, etc.)

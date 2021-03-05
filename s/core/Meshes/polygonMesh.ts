@@ -1,13 +1,13 @@
-import { Logger } from "../Misc/logger";
-import { Scene } from "../scene";
-import { Vector3, Vector2 } from "../Maths/math.vector";
-import { VertexBuffer } from "../Meshes/buffer";
-import { Mesh } from "../Meshes/mesh";
-import { VertexData } from "../Meshes/mesh.vertexData";
-import { Engine } from "../Engines/engine";
-import { Nullable } from "../types";
-import { Path2 } from '../Maths/math.path';
-import { Epsilon } from '../Maths/math.constants';
+import { Logger } from "../Misc/logger.js";
+import { Scene } from "../scene.js";
+import { Vector3, Vector2 } from "../Maths/math.vector.js";
+import { VertexBuffer } from "../Meshes/buffer.js";
+import { Mesh } from "../Meshes/mesh.js";
+import { VertexData } from "../Meshes/mesh.vertexData.js";
+import { Engine } from "../Engines/engine.js";
+import { Nullable } from "../types.js";
+import { Path2 } from "../Maths/math.path.js";
+import { Epsilon } from "../Maths/math.constants.js";
 
 declare var earcut: any;
 /**

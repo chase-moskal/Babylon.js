@@ -1,14 +1,14 @@
-import { Nullable, FloatArray, IndicesArray } from "../types";
-import { Matrix, Vector3, Vector2, Vector4 } from "../Maths/math.vector";
-import { VertexBuffer } from "../Meshes/buffer";
-import { _DevTools } from '../Misc/devTools';
-import { Color4, Color3 } from '../Maths/math.color';
-import { Logger } from '../Misc/logger';
+import { Nullable, FloatArray, IndicesArray } from "../types.js";
+import { Matrix, Vector3, Vector2, Vector4 } from "../Maths/math.vector.js";
+import { VertexBuffer } from "../Meshes/buffer.js";
+import { _DevTools } from "../Misc/devTools.js";
+import { Color4, Color3 } from "../Maths/math.color.js";
+import { Logger } from "../Misc/logger.js";
 
 declare type Geometry = import("../Meshes/geometry").Geometry;
 declare type Mesh = import("../Meshes/mesh").Mesh;
 
-import { ICreateCapsuleOptions } from "./Builders/capsuleBuilder";
+import { ICreateCapsuleOptions } from "./Builders/capsuleBuilder.js";
 
 /**
  * Define an interface for all classes that will get and set the data on vertices

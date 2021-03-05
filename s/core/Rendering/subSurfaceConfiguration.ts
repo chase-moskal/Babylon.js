@@ -1,11 +1,11 @@
-import { Logger } from "../Misc/logger";
-import { Scene } from "../scene";
-import { Color3 } from "../Maths/math.color";
-import { SubSurfaceScatteringPostProcess } from "../PostProcesses/subSurfaceScatteringPostProcess";
-import { SceneComponentConstants } from "../sceneComponent";
-import { PrePassEffectConfiguration } from "./prePassEffectConfiguration";
-import { _DevTools } from '../Misc/devTools';
-import { Constants } from "../Engines/constants";
+import { Logger } from "../Misc/logger.js";
+import { Scene } from "../scene.js";
+import { Color3 } from "../Maths/math.color.js";
+import { SubSurfaceScatteringPostProcess } from "../PostProcesses/subSurfaceScatteringPostProcess.js";
+import { SceneComponentConstants } from "../sceneComponent.js";
+import { PrePassEffectConfiguration } from "./prePassEffectConfiguration.js";
+import { _DevTools } from "../Misc/devTools.js";
+import { Constants } from "../Engines/constants.js";
 
 /**
  * Contains all parameters needed for the prepass to perform

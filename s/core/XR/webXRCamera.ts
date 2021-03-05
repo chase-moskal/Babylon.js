@@ -1,12 +1,12 @@
-import { Vector3, Matrix, Quaternion, TmpVectors } from "../Maths/math.vector";
-import { Scene } from "../scene";
-import { Camera } from "../Cameras/camera";
-import { FreeCamera } from "../Cameras/freeCamera";
-import { TargetCamera } from "../Cameras/targetCamera";
-import { WebXRSessionManager } from "./webXRSessionManager";
-import { Viewport } from "../Maths/math.viewport";
-import { Observable } from "../Misc/observable";
-import { WebXRTrackingState } from "./webXRTypes";
+import { Vector3, Matrix, Quaternion, TmpVectors } from "../Maths/math.vector.js";
+import { Scene } from "../scene.js";
+import { Camera } from "../Cameras/camera.js";
+import { FreeCamera } from "../Cameras/freeCamera.js";
+import { TargetCamera } from "../Cameras/targetCamera.js";
+import { WebXRSessionManager } from "./webXRSessionManager.js";
+import { Viewport } from "../Maths/math.viewport.js";
+import { Observable } from "../Misc/observable.js";
+import { WebXRTrackingState } from "./webXRTypes.js";
 
 /**
  * WebXR Camera which holds the views for the xrSession

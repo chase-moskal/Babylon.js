@@ -1,13 +1,13 @@
-import { NodeMaterialBlock } from '../../nodeMaterialBlock';
-import { NodeMaterialBlockConnectionPointTypes } from '../../Enums/nodeMaterialBlockConnectionPointTypes';
-import { NodeMaterialBuildState } from '../../nodeMaterialBuildState';
-import { NodeMaterialBlockTargets } from '../../Enums/nodeMaterialBlockTargets';
-import { NodeMaterialConnectionPoint } from '../../nodeMaterialBlockConnectionPoint';
-import { _TypeStore } from '../../../../Misc/typeStore';
-import { Scene } from '../../../../scene';
-import { AbstractMesh } from '../../../../Meshes/abstractMesh';
-import { NodeMaterialDefines } from '../../nodeMaterial';
-import { editableInPropertyPage, PropertyTypeForEdition } from "../../nodeMaterialDecorator";
+import { NodeMaterialBlock } from "../../nodeMaterialBlock.js";
+import { NodeMaterialBlockConnectionPointTypes } from "../../Enums/nodeMaterialBlockConnectionPointTypes.js";
+import { NodeMaterialBuildState } from "../../nodeMaterialBuildState.js";
+import { NodeMaterialBlockTargets } from "../../Enums/nodeMaterialBlockTargets.js";
+import { NodeMaterialConnectionPoint } from "../../nodeMaterialBlockConnectionPoint.js";
+import { _TypeStore } from "../../../../Misc/typeStore.js";
+import { Scene } from "../../../../scene.js";
+import { AbstractMesh } from "../../../../Meshes/abstractMesh.js";
+import { NodeMaterialDefines } from "../../nodeMaterial.js";
+import { editableInPropertyPage, PropertyTypeForEdition } from "../../nodeMaterialDecorator.js";
 
 declare type NodeMaterial = import("../../nodeMaterial").NodeMaterial;
 

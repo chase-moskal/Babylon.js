@@ -1,8 +1,8 @@
-import { Tools } from "../../../Misc/tools";
-import { Scene } from "../../../scene";
-import { SceneComponentConstants, ISceneComponent } from "../../../sceneComponent";
+import { Tools } from "../../../Misc/tools.js";
+import { Scene } from "../../../scene.js";
+import { SceneComponentConstants, ISceneComponent } from "../../../sceneComponent.js";
 
-import { ProceduralTexture } from "./proceduralTexture";
+import { ProceduralTexture } from "./proceduralTexture.js";
 
 declare module "../../../abstractScene" {
     export interface AbstractScene {

@@ -1,12 +1,12 @@
-import { serializeAsColor3, serializeAsVector3 } from "../Misc/decorators";
-import { Nullable } from "../types";
-import { Scene } from "../scene";
-import { Matrix, Vector3 } from "../Maths/math.vector";
-import { Color3 } from "../Maths/math.color";
-import { Node } from "../node";
-import { Effect } from "../Materials/effect";
-import { Light } from "./light";
-import { IShadowGenerator } from "./Shadows/shadowGenerator";
+import { serializeAsColor3, serializeAsVector3 } from "../Misc/decorators.js";
+import { Nullable } from "../types.js";
+import { Scene } from "../scene.js";
+import { Matrix, Vector3 } from "../Maths/math.vector.js";
+import { Color3 } from "../Maths/math.color.js";
+import { Node } from "../node.js";
+import { Effect } from "../Materials/effect.js";
+import { Light } from "./light.js";
+import { IShadowGenerator } from "./Shadows/shadowGenerator.js";
 
 Node.AddNodeConstructor("Light_Type_3", (name, scene) => {
     return () => new HemisphericLight(name, Vector3.Zero(), scene);

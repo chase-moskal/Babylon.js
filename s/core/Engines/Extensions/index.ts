@@ -16,5 +16,5 @@ export * from "./engine.views";
 export * from "./engine.readTexture";
 
 // must import first since nothing references the exports
-import "./engine.textureSelector";
+import "./engine.textureSelector.js";
 export * from "./engine.textureSelector";

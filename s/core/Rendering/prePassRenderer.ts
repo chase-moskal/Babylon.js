@@ -1,19 +1,19 @@
-import { PrePassRenderTarget } from "../Materials/Textures/prePassRenderTarget";
-import { Scene } from "../scene";
-import { Engine } from "../Engines/engine";
-import { Constants } from "../Engines/constants";
-import { PostProcess } from "../PostProcesses/postProcess";
-import { Effect } from "../Materials/effect";
-import { _DevTools } from '../Misc/devTools';
-import { Color4 } from "../Maths/math.color";
-import { Nullable } from "../types";
-import { AbstractMesh } from '../Meshes/abstractMesh';
-import { Camera } from '../Cameras/camera';
-import { Material } from '../Materials/material';
-import { SubMesh } from '../Meshes/subMesh';
-import { PrePassEffectConfiguration } from "./prePassEffectConfiguration";
-import { RenderTargetTexture } from "../Materials/Textures/renderTargetTexture";
-import { GeometryBufferRenderer } from '../Rendering/geometryBufferRenderer';
+import { PrePassRenderTarget } from "../Materials/Textures/prePassRenderTarget.js";
+import { Scene } from "../scene.js";
+import { Engine } from "../Engines/engine.js";
+import { Constants } from "../Engines/constants.js";
+import { PostProcess } from "../PostProcesses/postProcess.js";
+import { Effect } from "../Materials/effect.js";
+import { _DevTools } from "../Misc/devTools.js";
+import { Color4 } from "../Maths/math.color.js";
+import { Nullable } from "../types.js";
+import { AbstractMesh } from "../Meshes/abstractMesh.js";
+import { Camera } from "../Cameras/camera.js";
+import { Material } from "../Materials/material.js";
+import { SubMesh } from "../Meshes/subMesh.js";
+import { PrePassEffectConfiguration } from "./prePassEffectConfiguration.js";
+import { RenderTargetTexture } from "../Materials/Textures/renderTargetTexture.js";
+import { GeometryBufferRenderer } from "../Rendering/geometryBufferRenderer.js";
 
 /**
  * Renders a pre pass of the scene

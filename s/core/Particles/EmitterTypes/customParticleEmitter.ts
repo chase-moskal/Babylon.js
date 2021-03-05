@@ -1,9 +1,9 @@
-import { DeepCopier } from "../../Misc/deepCopier";
-import { Vector3, Matrix, TmpVectors } from "../../Maths/math.vector";
-import { Effect } from "../../Materials/effect";
-import { Particle } from "../particle";
-import { IParticleEmitterType } from "./IParticleEmitterType";
-import { Nullable } from '../../types';
+import { DeepCopier } from "../../Misc/deepCopier.js";
+import { Vector3, Matrix, TmpVectors } from "../../Maths/math.vector.js";
+import { Effect } from "../../Materials/effect.js";
+import { Particle } from "../particle.js";
+import { IParticleEmitterType } from "./IParticleEmitterType.js";
+import { Nullable } from "../../types.js";
 /**
  * Particle emitter emitting particles from a custom list of positions.
  */

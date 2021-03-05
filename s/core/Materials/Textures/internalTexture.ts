@@ -1,10 +1,10 @@
-import { Observable } from "../../Misc/observable";
-import { Nullable, int } from "../../types";
-import { RenderTargetCreationOptions } from "../../Materials/Textures/renderTargetCreationOptions";
-import { Constants } from "../../Engines/constants";
-import { _DevTools } from '../../Misc/devTools';
-import { Engine } from '../../Engines/engine';
-import { HardwareTextureWrapper } from "./hardwareTextureWrapper";
+import { Observable } from "../../Misc/observable.js";
+import { Nullable, int } from "../../types.js";
+import { RenderTargetCreationOptions } from "../../Materials/Textures/renderTargetCreationOptions.js";
+import { Constants } from "../../Engines/constants.js";
+import { _DevTools } from "../../Misc/devTools.js";
+import { Engine } from "../../Engines/engine.js";
+import { HardwareTextureWrapper } from "./hardwareTextureWrapper.js";
 
 declare type ThinEngine = import("../../Engines/thinEngine").ThinEngine;
 declare type BaseTexture = import("../../Materials/Textures/baseTexture").BaseTexture;

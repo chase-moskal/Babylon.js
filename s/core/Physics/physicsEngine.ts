@@ -1,10 +1,10 @@
-import { Nullable } from "../types";
-import { Vector3 } from "../Maths/math.vector";
-import { IPhysicsEngine, PhysicsImpostorJoint, IPhysicsEnginePlugin } from "./IPhysicsEngine";
-import { PhysicsImpostor, IPhysicsEnabledObject } from "./physicsImpostor";
-import { PhysicsJoint } from "./physicsJoint";
-import { PhysicsRaycastResult } from "./physicsRaycastResult";
-import { _DevTools } from '../Misc/devTools';
+import { Nullable } from "../types.js";
+import { Vector3 } from "../Maths/math.vector.js";
+import { IPhysicsEngine, PhysicsImpostorJoint, IPhysicsEnginePlugin } from "./IPhysicsEngine.js";
+import { PhysicsImpostor, IPhysicsEnabledObject } from "./physicsImpostor.js";
+import { PhysicsJoint } from "./physicsJoint.js";
+import { PhysicsRaycastResult } from "./physicsRaycastResult.js";
+import { _DevTools } from "../Misc/devTools.js";
 
 /**
  * Class used to control physics engine

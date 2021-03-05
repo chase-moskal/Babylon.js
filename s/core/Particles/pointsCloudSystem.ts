@@ -1,19 +1,19 @@
-import { IndicesArray, FloatArray } from "../types";
-import { Color4, Color3 } from "../Maths/math";
-import { Vector2, Vector3, Vector4, TmpVectors, Matrix } from "../Maths/math.vector";
-import { Logger } from "../Misc/logger";
-import { VertexBuffer } from "../Meshes/buffer";
-import { VertexData } from "../Meshes/mesh.vertexData";
-import { Mesh } from "../Meshes/mesh";
-import { EngineStore } from "../Engines/engineStore";
-import { Scene, IDisposable } from "../scene";
-import { CloudPoint, PointsGroup } from "./cloudPoint";
-import { BoundingInfo } from "../Culling/boundingInfo";
-import { Ray } from "../Culling/ray";
-import { PickingInfo } from "../Collisions/pickingInfo";
-import { StandardMaterial } from "../Materials/standardMaterial";
-import { BaseTexture } from "./../Materials/Textures/baseTexture";
-import { Scalar } from "../Maths/math.scalar";
+import { IndicesArray, FloatArray } from "../types.js";
+import { Color4, Color3 } from "../Maths/math.js";
+import { Vector2, Vector3, Vector4, TmpVectors, Matrix } from "../Maths/math.vector.js";
+import { Logger } from "../Misc/logger.js";
+import { VertexBuffer } from "../Meshes/buffer.js";
+import { VertexData } from "../Meshes/mesh.vertexData.js";
+import { Mesh } from "../Meshes/mesh.js";
+import { EngineStore } from "../Engines/engineStore.js";
+import { Scene, IDisposable } from "../scene.js";
+import { CloudPoint, PointsGroup } from "./cloudPoint.js";
+import { BoundingInfo } from "../Culling/boundingInfo.js";
+import { Ray } from "../Culling/ray.js";
+import { PickingInfo } from "../Collisions/pickingInfo.js";
+import { StandardMaterial } from "../Materials/standardMaterial.js";
+import { BaseTexture } from "./../Materials/Textures/baseTexture.js";
+import { Scalar } from "../Maths/math.scalar.js";
 
 /** Defines the 4 color options */
 export enum PointColor {

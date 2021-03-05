@@ -1,13 +1,13 @@
-import { Nullable } from "../../types";
-import { serialize } from "../../Misc/decorators";
-import { Observer } from "../../Misc/observable";
-import { ICameraInput, CameraInputTypes } from "../../Cameras/cameraInputsManager";
-import { FlyCamera } from "../../Cameras/flyCamera";
-import { Engine } from "../../Engines/engine";
-import { KeyboardInfo, KeyboardEventTypes } from "../../Events/keyboardEvents";
-import { Scene } from "../../scene";
-import { Vector3 } from "../../Maths/math.vector";
-import { Tools } from '../../Misc/tools';
+import { Nullable } from "../../types.js";
+import { serialize } from "../../Misc/decorators.js";
+import { Observer } from "../../Misc/observable.js";
+import { ICameraInput, CameraInputTypes } from "../../Cameras/cameraInputsManager.js";
+import { FlyCamera } from "../../Cameras/flyCamera.js";
+import { Engine } from "../../Engines/engine.js";
+import { KeyboardInfo, KeyboardEventTypes } from "../../Events/keyboardEvents.js";
+import { Scene } from "../../scene.js";
+import { Vector3 } from "../../Maths/math.vector.js";
+import { Tools } from "../../Misc/tools.js";
 
 /**
  * Listen to keyboard events to control the camera.

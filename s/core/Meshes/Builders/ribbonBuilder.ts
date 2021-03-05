@@ -1,11 +1,11 @@
-import { Nullable, FloatArray } from "../../types";
-import { Scene } from "../../scene";
-import { Vector3, Vector2, TmpVectors, Vector4 } from "../../Maths/math.vector";
-import { Color4 } from '../../Maths/math.color';
-import { Mesh, _CreationDataStorage } from "../mesh";
-import { VertexBuffer } from "../buffer";
-import { VertexData } from "../mesh.vertexData";
-import { BoundingInfo } from "../../Culling/boundingInfo";
+import { Nullable, FloatArray } from "../../types.js";
+import { Scene } from "../../scene.js";
+import { Vector3, Vector2, TmpVectors, Vector4 } from "../../Maths/math.vector.js";
+import { Color4 } from "../../Maths/math.color.js";
+import { Mesh, _CreationDataStorage } from "../mesh.js";
+import { VertexBuffer } from "../buffer.js";
+import { VertexData } from "../mesh.vertexData.js";
+import { BoundingInfo } from "../../Culling/boundingInfo.js";
 
 VertexData.CreateRibbon = function(options: { pathArray: Vector3[][], closeArray?: boolean, closePath?: boolean, offset?: number, sideOrientation?: number, frontUVs?: Vector4, backUVs?: Vector4, invertUV?: boolean, uvs?: Vector2[], colors?: Color4[] }): VertexData {
     var pathArray: Vector3[][] = options.pathArray;

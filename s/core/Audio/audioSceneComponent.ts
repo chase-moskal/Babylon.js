@@ -1,16 +1,16 @@
-import { Sound } from "./sound";
-import { SoundTrack } from "./soundTrack";
-import { Engine } from "../Engines/engine";
-import { Camera } from "../Cameras/camera";
-import { Nullable } from "../types";
-import { Matrix, Vector3 } from "../Maths/math.vector";
-import { SceneComponentConstants, ISceneSerializableComponent } from "../sceneComponent";
-import { Scene } from "../scene";
-import { AbstractScene } from "../abstractScene";
-import { AssetContainer } from "../assetContainer";
+import { Sound } from "./sound.js";
+import { SoundTrack } from "./soundTrack.js";
+import { Engine } from "../Engines/engine.js";
+import { Camera } from "../Cameras/camera.js";
+import { Nullable } from "../types.js";
+import { Matrix, Vector3 } from "../Maths/math.vector.js";
+import { SceneComponentConstants, ISceneSerializableComponent } from "../sceneComponent.js";
+import { Scene } from "../scene.js";
+import { AbstractScene } from "../abstractScene.js";
+import { AssetContainer } from "../assetContainer.js";
 
-import "./audioEngine";
-import { PrecisionDate } from '../Misc/precisionDate';
+import "./audioEngine.js";
+import { PrecisionDate } from "../Misc/precisionDate.js";
 
 // Adds the parser to the scene parsers.
 AbstractScene.AddParser(SceneComponentConstants.NAME_AUDIO, (parsedData: any, scene: Scene, container: AssetContainer, rootUrl: string) => {

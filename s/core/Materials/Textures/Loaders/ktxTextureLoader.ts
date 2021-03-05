@@ -1,11 +1,11 @@
-import { KhronosTextureContainer } from "../../../Misc/khronosTextureContainer";
-import { KhronosTextureContainer2 } from "../../../Misc/khronosTextureContainer2";
-import { Nullable } from "../../../types";
-import { Engine } from "../../../Engines/engine";
-import { InternalTexture } from "../../../Materials/Textures/internalTexture";
-import { IInternalTextureLoader } from "../../../Materials/Textures/internalTextureLoader";
-import { StringTools } from '../../../Misc/stringTools';
-import { Logger } from '../../../Misc/logger';
+import { KhronosTextureContainer } from "../../../Misc/khronosTextureContainer.js";
+import { KhronosTextureContainer2 } from "../../../Misc/khronosTextureContainer2.js";
+import { Nullable } from "../../../types.js";
+import { Engine } from "../../../Engines/engine.js";
+import { InternalTexture } from "../../../Materials/Textures/internalTexture.js";
+import { IInternalTextureLoader } from "../../../Materials/Textures/internalTextureLoader.js";
+import { StringTools } from "../../../Misc/stringTools.js";
+import { Logger } from "../../../Misc/logger.js";
 
 /**
  * Implementation of the KTX Texture Loader.

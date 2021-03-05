@@ -1,11 +1,11 @@
-import { Nullable } from "../types";
-import { Camera } from "../Cameras/camera";
-import { Effect } from "../Materials/effect";
-import { PostProcess, PostProcessOptions } from "./postProcess";
-import { Engine } from "../Engines/engine";
-import { Constants } from "../Engines/constants";
+import { Nullable } from "../types.js";
+import { Camera } from "../Cameras/camera.js";
+import { Effect } from "../Materials/effect.js";
+import { PostProcess, PostProcessOptions } from "./postProcess.js";
+import { Engine } from "../Engines/engine.js";
+import { Constants } from "../Engines/constants.js";
 
-import "../Shaders/depthOfFieldMerge.fragment";
+import "../Shaders/depthOfFieldMerge.fragment.js";
 
 /**
  * Options to be set when merging outputs from the default pipeline.

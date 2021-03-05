@@ -1,16 +1,16 @@
-import { NodeMaterialBlock } from '../../nodeMaterialBlock';
-import { NodeMaterialBlockConnectionPointTypes } from '../../Enums/nodeMaterialBlockConnectionPointTypes';
-import { NodeMaterialBuildState } from '../../nodeMaterialBuildState';
-import { NodeMaterialConnectionPoint, NodeMaterialConnectionPointDirection } from '../../nodeMaterialBlockConnectionPoint';
-import { NodeMaterialBlockTargets } from '../../Enums/nodeMaterialBlockTargets';
-import { _TypeStore } from '../../../../Misc/typeStore';
-import { InputBlock } from '../Input/inputBlock';
-import { NodeMaterialConnectionPointCustomObject } from "../../nodeMaterialConnectionPointCustomObject";
-import { NodeMaterial, NodeMaterialDefines } from '../../nodeMaterial';
-import { AbstractMesh } from '../../../../Meshes/abstractMesh';
-import { ReflectionBlock } from './reflectionBlock';
-import { Nullable } from '../../../../types';
-import { RefractionBlock } from './refractionBlock';
+import { NodeMaterialBlock } from "../../nodeMaterialBlock.js";
+import { NodeMaterialBlockConnectionPointTypes } from "../../Enums/nodeMaterialBlockConnectionPointTypes.js";
+import { NodeMaterialBuildState } from "../../nodeMaterialBuildState.js";
+import { NodeMaterialConnectionPoint, NodeMaterialConnectionPointDirection } from "../../nodeMaterialBlockConnectionPoint.js";
+import { NodeMaterialBlockTargets } from "../../Enums/nodeMaterialBlockTargets.js";
+import { _TypeStore } from "../../../../Misc/typeStore.js";
+import { InputBlock } from "../Input/inputBlock.js";
+import { NodeMaterialConnectionPointCustomObject } from "../../nodeMaterialConnectionPointCustomObject.js";
+import { NodeMaterial, NodeMaterialDefines } from "../../nodeMaterial.js";
+import { AbstractMesh } from "../../../../Meshes/abstractMesh.js";
+import { ReflectionBlock } from "./reflectionBlock.js";
+import { Nullable } from "../../../../types.js";
+import { RefractionBlock } from "./refractionBlock.js";
 
 /**
  * Block used to implement the sub surface module of the PBR material

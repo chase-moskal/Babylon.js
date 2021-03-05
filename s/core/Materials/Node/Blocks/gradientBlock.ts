@@ -1,12 +1,12 @@
-import { NodeMaterialBlock } from '../nodeMaterialBlock';
-import { NodeMaterialBlockConnectionPointTypes } from '../Enums/nodeMaterialBlockConnectionPointTypes';
-import { NodeMaterialBuildState } from '../nodeMaterialBuildState';
-import { NodeMaterialConnectionPoint } from '../nodeMaterialBlockConnectionPoint';
-import { NodeMaterialBlockTargets } from '../Enums/nodeMaterialBlockTargets';
-import { _TypeStore } from '../../../Misc/typeStore';
-import { Color3 } from '../../../Maths/math.color';
-import { Scene } from '../../../scene';
-import { Observable } from '../../../Misc/observable';
+import { NodeMaterialBlock } from "../nodeMaterialBlock.js";
+import { NodeMaterialBlockConnectionPointTypes } from "../Enums/nodeMaterialBlockConnectionPointTypes.js";
+import { NodeMaterialBuildState } from "../nodeMaterialBuildState.js";
+import { NodeMaterialConnectionPoint } from "../nodeMaterialBlockConnectionPoint.js";
+import { NodeMaterialBlockTargets } from "../Enums/nodeMaterialBlockTargets.js";
+import { _TypeStore } from "../../../Misc/typeStore.js";
+import { Color3 } from "../../../Maths/math.color.js";
+import { Scene } from "../../../scene.js";
+import { Observable } from "../../../Misc/observable.js";
 
 /**
  * Class used to store a color step for the GradientBlock

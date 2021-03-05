@@ -1,7 +1,7 @@
-import { Engine } from "../engine";
-import { Camera } from '../../Cameras/camera';
-import { Nullable } from '../../types';
-import { Scene } from '../../scene';
+import { Engine } from "../engine.js";
+import { Camera } from "../../Cameras/camera.js";
+import { Nullable } from "../../types.js";
+import { Scene } from "../../scene.js";
 
 /**
  * Class used to define an additional view for the engine

@@ -1,7 +1,7 @@
-import { RenderTargetTexture } from '../Textures/renderTargetTexture';
-import { Scene } from '../../scene';
-import { InternalTextureSource } from '../Textures/internalTexture';
-import { Constants } from '../../Engines/constants';
+import { RenderTargetTexture } from "../Textures/renderTargetTexture.js";
+import { Scene } from "../../scene.js";
+import { InternalTextureSource } from "../Textures/internalTexture.js";
+import { Constants } from "../../Engines/constants.js";
 
 /**
  * Renders to multiple views with a single draw call

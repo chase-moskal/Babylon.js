@@ -1,6 +1,6 @@
-import { Nullable } from "../types";
-import { Vector3, Vector2 } from "../Maths/math.vector";
-import { StringDictionary } from "./stringDictionary";
+import { Nullable } from "../types.js";
+import { Vector3, Vector2 } from "../Maths/math.vector.js";
+import { StringDictionary } from "./stringDictionary.js";
 
 // Mainly based on these 2 articles :
 // Creating an universal virtual touch joystick working for all Touch models thanks to Hand.JS : http://blogs.msdn.com/b/davrous/archive/2013/02/22/creating-an-universal-virtual-touch-joystick-working-for-all-touch-models-thanks-to-hand-js.aspx

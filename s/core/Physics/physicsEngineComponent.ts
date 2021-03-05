@@ -1,17 +1,17 @@
-import { Nullable } from "../types";
-import { Logger } from "../Misc/logger";
-import { Observable, Observer } from "../Misc/observable";
-import { Vector3 } from "../Maths/math.vector";
-import { Mesh } from "../Meshes/mesh";
-import { AbstractMesh } from "../Meshes/abstractMesh";
-import { ISceneComponent, SceneComponentConstants } from "../sceneComponent";
-import { Scene } from "../scene";
-import { Node } from "../node";
+import { Nullable } from "../types.js";
+import { Logger } from "../Misc/logger.js";
+import { Observable, Observer } from "../Misc/observable.js";
+import { Vector3 } from "../Maths/math.vector.js";
+import { Mesh } from "../Meshes/mesh.js";
+import { AbstractMesh } from "../Meshes/abstractMesh.js";
+import { ISceneComponent, SceneComponentConstants } from "../sceneComponent.js";
+import { Scene } from "../scene.js";
+import { Node } from "../node.js";
 
-import { IPhysicsEngine, IPhysicsEnginePlugin } from "./IPhysicsEngine";
-import { PhysicsEngine } from "./physicsEngine";
-import { PhysicsImpostor } from "./physicsImpostor";
-import { PhysicsJoint } from "./physicsJoint";
+import { IPhysicsEngine, IPhysicsEnginePlugin } from "./IPhysicsEngine.js";
+import { PhysicsEngine } from "./physicsEngine.js";
+import { PhysicsImpostor } from "./physicsImpostor.js";
+import { PhysicsJoint } from "./physicsJoint.js";
 
 declare module "../scene" {
     export interface Scene {

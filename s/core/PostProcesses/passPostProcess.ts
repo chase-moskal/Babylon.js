@@ -1,13 +1,13 @@
-import { Nullable } from "../types";
-import { Constants } from "../Engines/constants";
-import { Camera } from "../Cameras/camera";
-import { PostProcess, PostProcessOptions } from "./postProcess";
-import { Engine } from "../Engines/engine";
+import { Nullable } from "../types.js";
+import { Constants } from "../Engines/constants.js";
+import { Camera } from "../Cameras/camera.js";
+import { PostProcess, PostProcessOptions } from "./postProcess.js";
+import { Engine } from "../Engines/engine.js";
 
-import "../Shaders/pass.fragment";
-import "../Shaders/passCube.fragment";
-import { _TypeStore } from '../Misc/typeStore';
-import { SerializationHelper } from '../Misc/decorators';
+import "../Shaders/pass.fragment.js";
+import "../Shaders/passCube.fragment.js";
+import { _TypeStore } from "../Misc/typeStore.js";
+import { SerializationHelper } from "../Misc/decorators.js";
 
 declare type Scene = import("../scene").Scene;
 

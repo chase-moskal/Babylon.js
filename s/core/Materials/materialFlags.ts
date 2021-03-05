@@ -1,5 +1,5 @@
-import { Engine } from "../Engines/engine";
-import { Constants } from "../Engines/constants";
+import { Engine } from "../Engines/engine.js";
+import { Constants } from "../Engines/constants.js";
 
 /**
  * This groups all the flags used to control the materials channel.

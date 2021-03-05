@@ -1,19 +1,19 @@
-import { NodeMaterialBlock } from '../../nodeMaterialBlock';
-import { NodeMaterialBlockConnectionPointTypes } from '../../Enums/nodeMaterialBlockConnectionPointTypes';
-import { NodeMaterialBlockConnectionPointMode } from '../../Enums/nodeMaterialBlockConnectionPointMode';
-import { NodeMaterialSystemValues } from '../../Enums/nodeMaterialSystemValues';
-import { Nullable } from '../../../../types';
-import { Effect } from '../../../../Materials/effect';
-import { Matrix, Vector2, Vector3, Vector4 } from '../../../../Maths/math.vector';
-import { Scene } from '../../../../scene';
-import { NodeMaterialConnectionPoint } from '../../nodeMaterialBlockConnectionPoint';
-import { NodeMaterialBuildState } from '../../nodeMaterialBuildState';
-import { NodeMaterialBlockTargets } from '../../Enums/nodeMaterialBlockTargets';
-import { _TypeStore } from '../../../../Misc/typeStore';
-import { Color3, Color4, TmpColors } from '../../../../Maths/math';
-import { AnimatedInputBlockTypes } from './animatedInputBlockTypes';
-import { Observable } from '../../../../Misc/observable';
-import { MaterialHelper } from '../../../../Materials/materialHelper';
+import { NodeMaterialBlock } from "../../nodeMaterialBlock.js";
+import { NodeMaterialBlockConnectionPointTypes } from "../../Enums/nodeMaterialBlockConnectionPointTypes.js";
+import { NodeMaterialBlockConnectionPointMode } from "../../Enums/nodeMaterialBlockConnectionPointMode.js";
+import { NodeMaterialSystemValues } from "../../Enums/nodeMaterialSystemValues.js";
+import { Nullable } from "../../../../types.js";
+import { Effect } from "../../../../Materials/effect.js";
+import { Matrix, Vector2, Vector3, Vector4 } from "../../../../Maths/math.vector.js";
+import { Scene } from "../../../../scene.js";
+import { NodeMaterialConnectionPoint } from "../../nodeMaterialBlockConnectionPoint.js";
+import { NodeMaterialBuildState } from "../../nodeMaterialBuildState.js";
+import { NodeMaterialBlockTargets } from "../../Enums/nodeMaterialBlockTargets.js";
+import { _TypeStore } from "../../../../Misc/typeStore.js";
+import { Color3, Color4, TmpColors } from "../../../../Maths/math.js";
+import { AnimatedInputBlockTypes } from "./animatedInputBlockTypes.js";
+import { Observable } from "../../../../Misc/observable.js";
+import { MaterialHelper } from "../../../../Materials/materialHelper.js";
 
 const remapAttributeName: { [name: string]: string }  = {
     "position2d": "position",

@@ -1,10 +1,10 @@
-import { Camera } from "../camera";
-import { Matrix } from "../../Maths/math.vector";
-import { VRDistortionCorrectionPostProcess } from "../../PostProcesses/vrDistortionCorrectionPostProcess";
-import { VRMultiviewToSingleviewPostProcess } from '../../PostProcesses/vrMultiviewToSingleviewPostProcess';
-import { VRCameraMetrics } from "../VR/vrCameraMetrics";
-import { Logger } from '../../Misc/logger';
-import { Viewport } from '../../Maths/math.viewport';
+import { Camera } from "../camera.js";
+import { Matrix } from "../../Maths/math.vector.js";
+import { VRDistortionCorrectionPostProcess } from "../../PostProcesses/vrDistortionCorrectionPostProcess.js";
+import { VRMultiviewToSingleviewPostProcess } from "../../PostProcesses/vrMultiviewToSingleviewPostProcess.js";
+import { VRCameraMetrics } from "../VR/vrCameraMetrics.js";
+import { Logger } from "../../Misc/logger.js";
+import { Viewport } from "../../Maths/math.viewport.js";
 
 Camera._setVRRigMode = function(camera: Camera, rigParams: any) {
     var metrics = <VRCameraMetrics>rigParams.vrCameraMetrics || VRCameraMetrics.GetDefault();

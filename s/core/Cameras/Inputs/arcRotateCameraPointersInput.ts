@@ -1,10 +1,10 @@
-import { Nullable } from "../../types";
-import { serialize } from "../../Misc/decorators";
-import { ArcRotateCamera } from "../../Cameras/arcRotateCamera";
-import { CameraInputTypes } from "../../Cameras/cameraInputsManager";
-import { BaseCameraPointersInput } from "../../Cameras/Inputs/BaseCameraPointersInput";
-import { PointerTouch } from "../../Events/pointerEvents";
-import { IPointerEvent } from "../../Events/deviceInputEvents";
+import { Nullable } from "../../types.js";
+import { serialize } from "../../Misc/decorators.js";
+import { ArcRotateCamera } from "../../Cameras/arcRotateCamera.js";
+import { CameraInputTypes } from "../../Cameras/cameraInputsManager.js";
+import { BaseCameraPointersInput } from "../../Cameras/Inputs/BaseCameraPointersInput.js";
+import { PointerTouch } from "../../Events/pointerEvents.js";
+import { IPointerEvent } from "../../Events/deviceInputEvents.js";
 
 /**
  * Manage the pointers inputs to control an arc rotate camera.

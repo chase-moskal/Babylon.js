@@ -1,11 +1,11 @@
-import { Vector3 } from "../../Maths/math.vector";
-import { Color4 } from '../../Maths/math.color';
-import { _CreationDataStorage, Mesh } from "../mesh";
-import { VertexData } from "../mesh.vertexData";
-import { FloatArray, Nullable } from "../../types";
-import { LinesMesh } from "../../Meshes/linesMesh";
-import { Scene } from "../../scene";
-import { VertexBuffer } from "../../Meshes/buffer";
+import { Vector3 } from "../../Maths/math.vector.js";
+import { Color4 } from "../../Maths/math.color.js";
+import { _CreationDataStorage, Mesh } from "../mesh.js";
+import { VertexData } from "../mesh.vertexData.js";
+import { FloatArray, Nullable } from "../../types.js";
+import { LinesMesh } from "../../Meshes/linesMesh.js";
+import { Scene } from "../../scene.js";
+import { VertexBuffer } from "../../Meshes/buffer.js";
 
 VertexData.CreateLineSystem = function(options: { lines: Vector3[][], colors?: Nullable<Color4[][]> }): VertexData {
     var indices = [];

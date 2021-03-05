@@ -1,7 +1,7 @@
-import { BaseTexture } from "../Materials/Textures/baseTexture";
-import { Texture } from "../Materials/Textures/texture";
-import { Scene } from "../scene";
-import { RGBDTextureTools } from "./rgbdTextureTools";
+import { BaseTexture } from "../Materials/Textures/baseTexture.js";
+import { Texture } from "../Materials/Textures/texture.js";
+import { Scene } from "../scene.js";
+import { RGBDTextureTools } from "./rgbdTextureTools.js";
 
 /**
  * Class used to host texture specific utilities

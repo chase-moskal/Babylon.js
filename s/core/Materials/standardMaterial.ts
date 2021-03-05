@@ -1,39 +1,39 @@
-import { serialize, SerializationHelper, serializeAsColor3, expandToProperty, serializeAsFresnelParameters, serializeAsTexture } from "../Misc/decorators";
-import { Observer } from "../Misc/observable";
-import { SmartArray } from "../Misc/smartArray";
-import { IAnimatable } from '../Animations/animatable.interface';
+import { serialize, SerializationHelper, serializeAsColor3, expandToProperty, serializeAsFresnelParameters, serializeAsTexture } from "../Misc/decorators.js";
+import { Observer } from "../Misc/observable.js";
+import { SmartArray } from "../Misc/smartArray.js";
+import { IAnimatable } from "../Animations/animatable.interface.js";
 
-import { Nullable } from "../types";
-import { Scene } from "../scene";
-import { Matrix } from "../Maths/math.vector";
-import { Color3 } from '../Maths/math.color';
-import { VertexBuffer } from "../Meshes/buffer";
-import { SubMesh } from "../Meshes/subMesh";
-import { AbstractMesh } from "../Meshes/abstractMesh";
-import { Mesh } from "../Meshes/mesh";
-import { PrePassConfiguration } from "./prePassConfiguration";
+import { Nullable } from "../types.js";
+import { Scene } from "../scene.js";
+import { Matrix } from "../Maths/math.vector.js";
+import { Color3 } from "../Maths/math.color.js";
+import { VertexBuffer } from "../Meshes/buffer.js";
+import { SubMesh } from "../Meshes/subMesh.js";
+import { AbstractMesh } from "../Meshes/abstractMesh.js";
+import { Mesh } from "../Meshes/mesh.js";
+import { PrePassConfiguration } from "./prePassConfiguration.js";
 
-import { ImageProcessingConfiguration, IImageProcessingConfigurationDefines } from "./imageProcessingConfiguration";
-import { ColorCurves } from "./colorCurves";
-import { FresnelParameters } from "./fresnelParameters";
-import { Material, ICustomShaderNameResolveOptions } from "../Materials/material";
-import { MaterialDefines } from "../Materials/materialDefines";
-import { PushMaterial } from "./pushMaterial";
-import { MaterialHelper } from "./materialHelper";
+import { ImageProcessingConfiguration, IImageProcessingConfigurationDefines } from "./imageProcessingConfiguration.js";
+import { ColorCurves } from "./colorCurves.js";
+import { FresnelParameters } from "./fresnelParameters.js";
+import { Material, ICustomShaderNameResolveOptions } from "../Materials/material.js";
+import { MaterialDefines } from "../Materials/materialDefines.js";
+import { PushMaterial } from "./pushMaterial.js";
+import { MaterialHelper } from "./materialHelper.js";
 
-import { BaseTexture } from "../Materials/Textures/baseTexture";
-import { Texture } from "../Materials/Textures/texture";
-import { CubeTexture } from "../Materials/Textures/cubeTexture";
-import { RenderTargetTexture } from "../Materials/Textures/renderTargetTexture";
-import { _TypeStore } from "../Misc/typeStore";
-import { MaterialFlags } from "./materialFlags";
+import { BaseTexture } from "../Materials/Textures/baseTexture.js";
+import { Texture } from "../Materials/Textures/texture.js";
+import { CubeTexture } from "../Materials/Textures/cubeTexture.js";
+import { RenderTargetTexture } from "../Materials/Textures/renderTargetTexture.js";
+import { _TypeStore } from "../Misc/typeStore.js";
+import { MaterialFlags } from "./materialFlags.js";
 
-import "../Shaders/default.fragment";
-import "../Shaders/default.vertex";
-import { Constants } from "../Engines/constants";
-import { EffectFallbacks } from './effectFallbacks';
-import { Effect, IEffectCreationOptions } from './effect';
-import { IMaterialDetailMapDefines, DetailMapConfiguration } from './material.detailMapConfiguration';
+import "../Shaders/default.fragment.js";
+import "../Shaders/default.vertex.js";
+import { Constants } from "../Engines/constants.js";
+import { EffectFallbacks } from "./effectFallbacks.js";
+import { Effect, IEffectCreationOptions } from "./effect.js";
+import { IMaterialDetailMapDefines, DetailMapConfiguration } from "./material.detailMapConfiguration.js";
 
 const onCreatedEffectParameters = { effect: null as unknown as Effect, subMesh: null as unknown as Nullable<SubMesh> };
 

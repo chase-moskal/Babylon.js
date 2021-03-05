@@ -1,7 +1,7 @@
-import { DataBuffer } from '../../Meshes/dataBuffer';
-import { WebGPUDataBuffer } from '../../Meshes/WebGPU/webgpuDataBuffer';
-import { Nullable } from '../../types';
-import * as WebGPUConstants from './webgpuConstants';
+import { DataBuffer } from "../../Meshes/dataBuffer.js";
+import { WebGPUDataBuffer } from "../../Meshes/WebGPU/webgpuDataBuffer.js";
+import { Nullable } from "../../types.js";
+import * as WebGPUConstants from "./webgpuConstants.js";
 
 /** @hidden */
 export class WebGPUBufferManager {

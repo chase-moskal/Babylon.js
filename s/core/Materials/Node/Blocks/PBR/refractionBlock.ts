@@ -1,24 +1,24 @@
-import { NodeMaterialBlockConnectionPointTypes } from '../../Enums/nodeMaterialBlockConnectionPointTypes';
-import { NodeMaterialBuildState } from '../../nodeMaterialBuildState';
-import { NodeMaterialConnectionPoint, NodeMaterialConnectionPointDirection } from '../../nodeMaterialBlockConnectionPoint';
-import { NodeMaterialBlockTargets } from '../../Enums/nodeMaterialBlockTargets';
-import { NodeMaterial, NodeMaterialDefines } from '../../nodeMaterial';
-import { _TypeStore } from '../../../../Misc/typeStore';
-import { InputBlock } from '../Input/inputBlock';
-import { NodeMaterialConnectionPointCustomObject } from "../../nodeMaterialConnectionPointCustomObject";
-import { AbstractMesh } from '../../../../Meshes/abstractMesh';
-import { Nullable } from '../../../../types';
-import { BaseTexture } from '../../../Textures/baseTexture';
-import { Mesh } from '../../../../Meshes/mesh';
-import { SubMesh } from '../../../../Meshes/subMesh';
-import { Effect } from '../../../effect';
-import { editableInPropertyPage, PropertyTypeForEdition } from "../../nodeMaterialDecorator";
-import { Scene } from '../../../../scene';
-import { NodeMaterialBlock } from '../../nodeMaterialBlock';
-import { CubeTexture } from '../../../Textures/cubeTexture';
-import { Texture } from '../../../Textures/texture';
-import { NodeMaterialSystemValues } from '../../Enums/nodeMaterialSystemValues';
-import { Scalar } from '../../../../Maths/math.scalar';
+import { NodeMaterialBlockConnectionPointTypes } from "../../Enums/nodeMaterialBlockConnectionPointTypes.js";
+import { NodeMaterialBuildState } from "../../nodeMaterialBuildState.js";
+import { NodeMaterialConnectionPoint, NodeMaterialConnectionPointDirection } from "../../nodeMaterialBlockConnectionPoint.js";
+import { NodeMaterialBlockTargets } from "../../Enums/nodeMaterialBlockTargets.js";
+import { NodeMaterial, NodeMaterialDefines } from "../../nodeMaterial.js";
+import { _TypeStore } from "../../../../Misc/typeStore.js";
+import { InputBlock } from "../Input/inputBlock.js";
+import { NodeMaterialConnectionPointCustomObject } from "../../nodeMaterialConnectionPointCustomObject.js";
+import { AbstractMesh } from "../../../../Meshes/abstractMesh.js";
+import { Nullable } from "../../../../types.js";
+import { BaseTexture } from "../../../Textures/baseTexture.js";
+import { Mesh } from "../../../../Meshes/mesh.js";
+import { SubMesh } from "../../../../Meshes/subMesh.js";
+import { Effect } from "../../../effect.js";
+import { editableInPropertyPage, PropertyTypeForEdition } from "../../nodeMaterialDecorator.js";
+import { Scene } from "../../../../scene.js";
+import { NodeMaterialBlock } from "../../nodeMaterialBlock.js";
+import { CubeTexture } from "../../../Textures/cubeTexture.js";
+import { Texture } from "../../../Textures/texture.js";
+import { NodeMaterialSystemValues } from "../../Enums/nodeMaterialSystemValues.js";
+import { Scalar } from "../../../../Maths/math.scalar.js";
 
 /**
  * Block used to implement the refraction part of the sub surface module of the PBR material

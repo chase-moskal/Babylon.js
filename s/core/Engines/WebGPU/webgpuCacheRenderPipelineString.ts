@@ -1,5 +1,5 @@
-import { Nullable } from "../../types";
-import { WebGPUCacheRenderPipeline } from "./webgpuCacheRenderPipeline";
+import { Nullable } from "../../types.js";
+import { WebGPUCacheRenderPipeline } from "./webgpuCacheRenderPipeline.js";
 
 /** @hidden */
 export class WebGPUCacheRenderPipelineString extends WebGPUCacheRenderPipeline {

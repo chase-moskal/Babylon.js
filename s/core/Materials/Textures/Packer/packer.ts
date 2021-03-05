@@ -1,16 +1,16 @@
-import { Engine } from "../../../Engines/engine";
-import { AbstractMesh } from "../../../Meshes/abstractMesh";
-import { VertexBuffer } from "../../../Meshes/buffer";
-import { Scene } from "../../../scene";
-import { Material } from "../../material";
-import { Texture } from "../texture";
-import { DynamicTexture } from "../dynamicTexture";
-import { Nullable } from "../../../types";
-import { Vector2 } from "../../../Maths/math.vector";
-import { Color3, Color4 } from "../../../Maths/math.color";
-import { TexturePackerFrame } from "./frame";
-import { Logger } from "../../../Misc/logger";
-import { Tools } from '../../../Misc/tools';
+import { Engine } from "../../../Engines/engine.js";
+import { AbstractMesh } from "../../../Meshes/abstractMesh.js";
+import { VertexBuffer } from "../../../Meshes/buffer.js";
+import { Scene } from "../../../scene.js";
+import { Material } from "../../material.js";
+import { Texture } from "../texture.js";
+import { DynamicTexture } from "../dynamicTexture.js";
+import { Nullable } from "../../../types.js";
+import { Vector2 } from "../../../Maths/math.vector.js";
+import { Color3, Color4 } from "../../../Maths/math.color.js";
+import { TexturePackerFrame } from "./frame.js";
+import { Logger } from "../../../Misc/logger.js";
+import { Tools } from "../../../Misc/tools.js";
 
 /**
 * Defines the basic options interface of a TexturePacker

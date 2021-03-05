@@ -1,10 +1,10 @@
-import { Logger } from "../../../Misc/logger";
-import { Scene } from "../../../scene";
-import { Vector3, Vector2 } from "../../../Maths/math.vector";
-import { Color4, Color3 } from '../../../Maths/math.color';
-import { Texture } from "../../../Materials/Textures/texture";
-import { ProceduralTexture } from "./proceduralTexture";
-import { WebRequest } from '../../../Misc/webRequest';
+import { Logger } from "../../../Misc/logger.js";
+import { Scene } from "../../../scene.js";
+import { Vector3, Vector2 } from "../../../Maths/math.vector.js";
+import { Color4, Color3 } from "../../../Maths/math.color.js";
+import { Texture } from "../../../Materials/Textures/texture.js";
+import { ProceduralTexture } from "./proceduralTexture.js";
+import { WebRequest } from "../../../Misc/webRequest.js";
 /**
  * Procedural texturing is a way to programmatically create a texture. There are 2 types of procedural textures: code-only, and code that references some classic 2D images, sometimes called 'refMaps' or 'sampler' images.
  * Custom Procedural textures are the easiest way to create your own procedural in your application.

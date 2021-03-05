@@ -1,15 +1,15 @@
-import { Nullable } from "../types";
-import { Logger } from "../Misc/logger";
-import { Vector3 } from "../Maths/math.vector";
-import { AbstractMesh } from "../Meshes/abstractMesh";
-import { Mesh } from "../Meshes/mesh";
-import { SphereBuilder } from "../Meshes/Builders/sphereBuilder";
-import { CylinderBuilder } from "../Meshes/Builders/cylinderBuilder";
-import { Ray } from "../Culling/ray";
-import { Scene } from "../scene";
-import { IPhysicsEngine } from "./IPhysicsEngine";
-import { PhysicsEngine } from "./physicsEngine";
-import { PhysicsImpostor } from "./physicsImpostor";
+import { Nullable } from "../types.js";
+import { Logger } from "../Misc/logger.js";
+import { Vector3 } from "../Maths/math.vector.js";
+import { AbstractMesh } from "../Meshes/abstractMesh.js";
+import { Mesh } from "../Meshes/mesh.js";
+import { SphereBuilder } from "../Meshes/Builders/sphereBuilder.js";
+import { CylinderBuilder } from "../Meshes/Builders/cylinderBuilder.js";
+import { Ray } from "../Culling/ray.js";
+import { Scene } from "../scene.js";
+import { IPhysicsEngine } from "./IPhysicsEngine.js";
+import { PhysicsEngine } from "./physicsEngine.js";
+import { PhysicsImpostor } from "./physicsImpostor.js";
 
 /**
  * A helper for physics simulations

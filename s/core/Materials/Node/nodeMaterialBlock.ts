@@ -1,18 +1,18 @@
-import { NodeMaterialBlockConnectionPointTypes } from './Enums/nodeMaterialBlockConnectionPointTypes';
-import { NodeMaterialBuildState } from './nodeMaterialBuildState';
-import { Nullable } from '../../types';
-import { NodeMaterialConnectionPoint, NodeMaterialConnectionPointDirection } from './nodeMaterialBlockConnectionPoint';
-import { NodeMaterialBlockTargets } from './Enums/nodeMaterialBlockTargets';
-import { Effect } from '../effect';
-import { AbstractMesh } from '../../Meshes/abstractMesh';
-import { Mesh } from '../../Meshes/mesh';
-import { SubMesh } from '../../Meshes/subMesh';
-import { NodeMaterial, NodeMaterialDefines } from './nodeMaterial';
-import { InputBlock } from './Blocks/Input/inputBlock';
-import { UniqueIdGenerator } from '../../Misc/uniqueIdGenerator';
-import { Scene } from '../../scene';
-import { _TypeStore } from '../../Misc/typeStore';
-import { EffectFallbacks } from '../effectFallbacks';
+import { NodeMaterialBlockConnectionPointTypes } from "./Enums/nodeMaterialBlockConnectionPointTypes.js";
+import { NodeMaterialBuildState } from "./nodeMaterialBuildState.js";
+import { Nullable } from "../../types.js";
+import { NodeMaterialConnectionPoint, NodeMaterialConnectionPointDirection } from "./nodeMaterialBlockConnectionPoint.js";
+import { NodeMaterialBlockTargets } from "./Enums/nodeMaterialBlockTargets.js";
+import { Effect } from "../effect.js";
+import { AbstractMesh } from "../../Meshes/abstractMesh.js";
+import { Mesh } from "../../Meshes/mesh.js";
+import { SubMesh } from "../../Meshes/subMesh.js";
+import { NodeMaterial, NodeMaterialDefines } from "./nodeMaterial.js";
+import { InputBlock } from "./Blocks/Input/inputBlock.js";
+import { UniqueIdGenerator } from "../../Misc/uniqueIdGenerator.js";
+import { Scene } from "../../scene.js";
+import { _TypeStore } from "../../Misc/typeStore.js";
+import { EffectFallbacks } from "../effectFallbacks.js";
 
 /**
  * Defines a block that can be used inside a node based material

@@ -1,16 +1,16 @@
-import { NodeMaterialBlock } from '../../nodeMaterialBlock';
-import { NodeMaterialBlockConnectionPointTypes } from '../../Enums/nodeMaterialBlockConnectionPointTypes';
-import { NodeMaterialBuildState } from '../../nodeMaterialBuildState';
-import { NodeMaterialConnectionPoint, NodeMaterialConnectionPointDirection } from '../../nodeMaterialBlockConnectionPoint';
-import { NodeMaterialBlockTargets } from '../../Enums/nodeMaterialBlockTargets';
-import { _TypeStore } from '../../../../Misc/typeStore';
-import { editableInPropertyPage, PropertyTypeForEdition } from "../../nodeMaterialDecorator";
-import { NodeMaterialConnectionPointCustomObject } from "../../nodeMaterialConnectionPointCustomObject";
-import { NodeMaterial, NodeMaterialDefines } from '../../nodeMaterial';
-import { AbstractMesh } from '../../../../Meshes/abstractMesh';
-import { ReflectionBlock } from './reflectionBlock';
-import { Scene } from '../../../../scene';
-import { Nullable } from '../../../../types';
+import { NodeMaterialBlock } from "../../nodeMaterialBlock.js";
+import { NodeMaterialBlockConnectionPointTypes } from "../../Enums/nodeMaterialBlockConnectionPointTypes.js";
+import { NodeMaterialBuildState } from "../../nodeMaterialBuildState.js";
+import { NodeMaterialConnectionPoint, NodeMaterialConnectionPointDirection } from "../../nodeMaterialBlockConnectionPoint.js";
+import { NodeMaterialBlockTargets } from "../../Enums/nodeMaterialBlockTargets.js";
+import { _TypeStore } from "../../../../Misc/typeStore.js";
+import { editableInPropertyPage, PropertyTypeForEdition } from "../../nodeMaterialDecorator.js";
+import { NodeMaterialConnectionPointCustomObject } from "../../nodeMaterialConnectionPointCustomObject.js";
+import { NodeMaterial, NodeMaterialDefines } from "../../nodeMaterial.js";
+import { AbstractMesh } from "../../../../Meshes/abstractMesh.js";
+import { ReflectionBlock } from "./reflectionBlock.js";
+import { Scene } from "../../../../scene.js";
+import { Nullable } from "../../../../types.js";
 
 /**
  * Block used to implement the sheen module of the PBR material

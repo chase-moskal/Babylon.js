@@ -1,5 +1,5 @@
-import { SerializationHelper, serialize, expandToProperty } from "../../Misc/decorators";
-import { Scene } from '../../scene';
+import { SerializationHelper, serialize, expandToProperty } from "../../Misc/decorators.js";
+import { Scene } from "../../scene.js";
 
 /**
  * @hidden

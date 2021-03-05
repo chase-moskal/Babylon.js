@@ -1,11 +1,11 @@
-import { IPipelineContext } from '../IPipelineContext';
-import { Nullable } from '../../types';
-import { WebGPUEngine } from '../webgpuEngine';
-import { InternalTexture } from '../../Materials/Textures/internalTexture';
-import { Effect } from '../../Materials/effect';
-import { WebGPUShaderProcessingContext } from './webgpuShaderProcessingContext';
-import { UniformBuffer } from "../../Materials/uniformBuffer";
-import { IMatrixLike, IVector2Like, IVector3Like, IVector4Like, IColor3Like, IColor4Like } from '../../Maths/math.like';
+import { IPipelineContext } from "../IPipelineContext.js";
+import { Nullable } from "../../types.js";
+import { WebGPUEngine } from "../webgpuEngine.js";
+import { InternalTexture } from "../../Materials/Textures/internalTexture.js";
+import { Effect } from "../../Materials/effect.js";
+import { WebGPUShaderProcessingContext } from "./webgpuShaderProcessingContext.js";
+import { UniformBuffer } from "../../Materials/uniformBuffer.js";
+import { IMatrixLike, IVector2Like, IVector3Like, IVector4Like, IColor3Like, IColor4Like } from "../../Maths/math.like.js";
 
 const _uniformSizes: { [type: string]: number } = {
     "bool": 1,

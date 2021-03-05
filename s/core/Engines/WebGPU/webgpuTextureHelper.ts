@@ -17,17 +17,17 @@
 // LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
-import * as WebGPUConstants from './webgpuConstants';
-import { Scalar } from '../../Maths/math.scalar';
-import { WebGPUBufferManager } from './webgpuBufferManager';
-import { Constants } from '../constants';
-import { Nullable } from '../../types';
-import { InternalTexture, InternalTextureSource } from '../../Materials/Textures/internalTexture';
-import { HardwareTextureWrapper } from '../../Materials/Textures/hardwareTextureWrapper';
-import { BaseTexture } from '../../Materials/Textures/baseTexture';
-import { WebGPUHardwareTexture } from './webgpuHardwareTexture';
-import { IColor4Like } from '../../Maths/math.like';
-import { EngineStore } from '../engineStore';
+import * as WebGPUConstants from "./webgpuConstants.js";
+import { Scalar } from "../../Maths/math.scalar.js";
+import { WebGPUBufferManager } from "./webgpuBufferManager.js";
+import { Constants } from "../constants.js";
+import { Nullable } from "../../types.js";
+import { InternalTexture, InternalTextureSource } from "../../Materials/Textures/internalTexture.js";
+import { HardwareTextureWrapper } from "../../Materials/Textures/hardwareTextureWrapper.js";
+import { BaseTexture } from "../../Materials/Textures/baseTexture.js";
+import { WebGPUHardwareTexture } from "./webgpuHardwareTexture.js";
+import { IColor4Like } from "../../Maths/math.like.js";
+import { EngineStore } from "../engineStore.js";
 
 // TODO WEBGPU improve mipmap generation by not using the OutputAttachment flag
 // see https://github.com/toji/web-texture-tool/tree/main/src

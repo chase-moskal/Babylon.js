@@ -1,11 +1,11 @@
-import { NodeMaterialBlock } from '../nodeMaterialBlock';
-import { NodeMaterialBlockConnectionPointTypes } from '../Enums/nodeMaterialBlockConnectionPointTypes';
-import { NodeMaterialBuildState } from '../nodeMaterialBuildState';
-import { NodeMaterialConnectionPoint } from '../nodeMaterialBlockConnectionPoint';
-import { NodeMaterialBlockTargets } from '../Enums/nodeMaterialBlockTargets';
-import { _TypeStore } from '../../../Misc/typeStore';
-import { Scene } from '../../../scene';
-import { editableInPropertyPage, PropertyTypeForEdition } from "../nodeMaterialDecorator";
+import { NodeMaterialBlock } from "../nodeMaterialBlock.js";
+import { NodeMaterialBlockConnectionPointTypes } from "../Enums/nodeMaterialBlockConnectionPointTypes.js";
+import { NodeMaterialBuildState } from "../nodeMaterialBuildState.js";
+import { NodeMaterialConnectionPoint } from "../nodeMaterialBlockConnectionPoint.js";
+import { NodeMaterialBlockTargets } from "../Enums/nodeMaterialBlockTargets.js";
+import { _TypeStore } from "../../../Misc/typeStore.js";
+import { Scene } from "../../../scene.js";
+import { editableInPropertyPage, PropertyTypeForEdition } from "../nodeMaterialDecorator.js";
 
 /**
  * block used to Generate a Worley Noise 3D Noise Pattern

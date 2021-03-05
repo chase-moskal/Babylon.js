@@ -1,14 +1,14 @@
-import { DeepImmutable, Nullable } from "../types";
-import { Quaternion, Vector3, Vector2, Matrix } from "../Maths/math.vector";
-import { Color3 } from '../Maths/math.color';
-import { Animation, _IAnimationState } from "./animation";
-import { AnimationEvent } from "./animationEvent";
+import { DeepImmutable, Nullable } from "../types.js";
+import { Quaternion, Vector3, Vector2, Matrix } from "../Maths/math.vector.js";
+import { Color3 } from "../Maths/math.color.js";
+import { Animation, _IAnimationState } from "./animation.js";
+import { AnimationEvent } from "./animationEvent.js";
 
 declare type Animatable = import("./animatable").Animatable;
 
-import { Scene } from "../scene";
-import { IAnimationKey } from './animationKey';
-import { Size } from '../Maths/math.size';
+import { Scene } from "../scene.js";
+import { IAnimationKey } from "./animationKey.js";
+import { Size } from "../Maths/math.size.js";
 
 // Static values to help the garbage collector
 

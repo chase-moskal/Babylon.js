@@ -1,15 +1,15 @@
-import { SmartArray, SmartArrayNoDuplicate } from "../Misc/smartArray";
-import { SubMesh } from "../Meshes/subMesh";
-import { AbstractMesh } from "../Meshes/abstractMesh";
-import { Nullable, DeepImmutable } from "../types";
-import { Vector3 } from "../Maths/math.vector";
-import { IParticleSystem } from "../Particles/IParticleSystem";
-import { IEdgesRenderer } from "./edgesRenderer";
-import { ISpriteManager } from "../Sprites/spriteManager";
-import { Constants } from "../Engines/constants";
-import { Material } from "../Materials/material";
-import { Scene } from "../scene";
-import { Camera } from "../Cameras/camera";
+import { SmartArray, SmartArrayNoDuplicate } from "../Misc/smartArray.js";
+import { SubMesh } from "../Meshes/subMesh.js";
+import { AbstractMesh } from "../Meshes/abstractMesh.js";
+import { Nullable, DeepImmutable } from "../types.js";
+import { Vector3 } from "../Maths/math.vector.js";
+import { IParticleSystem } from "../Particles/IParticleSystem.js";
+import { IEdgesRenderer } from "./edgesRenderer.js";
+import { ISpriteManager } from "../Sprites/spriteManager.js";
+import { Constants } from "../Engines/constants.js";
+import { Material } from "../Materials/material.js";
+import { Scene } from "../scene.js";
+import { Camera } from "../Cameras/camera.js";
 
 /**
  * This represents the object necessary to create a rendering group.

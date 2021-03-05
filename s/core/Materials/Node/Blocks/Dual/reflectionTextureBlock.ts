@@ -1,12 +1,12 @@
-import { NodeMaterialBlockConnectionPointTypes } from '../../Enums/nodeMaterialBlockConnectionPointTypes';
-import { NodeMaterialBuildState } from '../../nodeMaterialBuildState';
-import { NodeMaterialBlockTargets } from '../../Enums/nodeMaterialBlockTargets';
-import { NodeMaterialConnectionPoint } from '../../nodeMaterialBlockConnectionPoint';
-import { NodeMaterial } from '../../nodeMaterial';
-import { _TypeStore } from '../../../../Misc/typeStore';
-import { InputBlock } from '../Input/inputBlock';
-import { NodeMaterialSystemValues } from '../../Enums/nodeMaterialSystemValues';
-import { ReflectionTextureBaseBlock } from './reflectionTextureBaseBlock';
+import { NodeMaterialBlockConnectionPointTypes } from "../../Enums/nodeMaterialBlockConnectionPointTypes.js";
+import { NodeMaterialBuildState } from "../../nodeMaterialBuildState.js";
+import { NodeMaterialBlockTargets } from "../../Enums/nodeMaterialBlockTargets.js";
+import { NodeMaterialConnectionPoint } from "../../nodeMaterialBlockConnectionPoint.js";
+import { NodeMaterial } from "../../nodeMaterial.js";
+import { _TypeStore } from "../../../../Misc/typeStore.js";
+import { InputBlock } from "../Input/inputBlock.js";
+import { NodeMaterialSystemValues } from "../../Enums/nodeMaterialSystemValues.js";
+import { ReflectionTextureBaseBlock } from "./reflectionTextureBaseBlock.js";
 
 /**
  * Block used to read a reflection texture from a sampler

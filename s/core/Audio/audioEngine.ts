@@ -1,11 +1,11 @@
-import { Analyser } from "./analyser";
+import { Analyser } from "./analyser.js";
 
-import { Nullable } from "../types";
-import { Observable } from "../Misc/observable";
-import { Logger } from "../Misc/logger";
-import { Engine } from "../Engines/engine";
-import { IAudioEngine } from './Interfaces/IAudioEngine';
-import { DomManagement } from "../Misc/domManagement";
+import { Nullable } from "../types.js";
+import { Observable } from "../Misc/observable.js";
+import { Logger } from "../Misc/logger.js";
+import { Engine } from "../Engines/engine.js";
+import { IAudioEngine } from "./Interfaces/IAudioEngine.js";
+import { DomManagement } from "../Misc/domManagement.js";
 
 // Sets the default audio engine to Babylon.js
 Engine.AudioEngineFactory = (hostElement: Nullable<HTMLElement>) => { return new AudioEngine(hostElement); };

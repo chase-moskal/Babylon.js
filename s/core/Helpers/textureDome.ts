@@ -1,14 +1,14 @@
-import { Scene } from "../scene";
-import { TransformNode } from "../Meshes/transformNode";
-import { Mesh } from "../Meshes/mesh";
-import { Texture } from "../Materials/Textures/texture";
-import { BackgroundMaterial } from "../Materials/Background/backgroundMaterial";
-import "../Meshes/Builders/sphereBuilder";
-import { Nullable } from "../types";
-import { Observer, Observable } from "../Misc/observable";
-import { Vector3 } from "../Maths/math.vector";
-import { Axis } from "../Maths/math";
-import { SphereBuilder } from "../Meshes/Builders/sphereBuilder";
+import { Scene } from "../scene.js";
+import { TransformNode } from "../Meshes/transformNode.js";
+import { Mesh } from "../Meshes/mesh.js";
+import { Texture } from "../Materials/Textures/texture.js";
+import { BackgroundMaterial } from "../Materials/Background/backgroundMaterial.js";
+import "../Meshes/Builders/sphereBuilder.js";
+import { Nullable } from "../types.js";
+import { Observer, Observable } from "../Misc/observable.js";
+import { Vector3 } from "../Maths/math.vector.js";
+import { Axis } from "../Maths/math.js";
+import { SphereBuilder } from "../Meshes/Builders/sphereBuilder.js";
 
 declare type Camera = import("../Cameras/camera").Camera;
 

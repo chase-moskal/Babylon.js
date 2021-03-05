@@ -1,6 +1,6 @@
-import { SerializationHelper, serialize } from "../Misc/decorators";
-import { Color4 } from '../Maths/math.color';
-import { Effect } from "../Materials/effect";
+import { SerializationHelper, serialize } from "../Misc/decorators.js";
+import { Color4 } from "../Maths/math.color.js";
+import { Effect } from "../Materials/effect.js";
 
 /**
  * The color grading curves provide additional color adjustment that is applied after any color grading transform (3D LUT).

@@ -1,5 +1,5 @@
-import { Nullable } from "../types";
-import { PrecisionDate } from "./precisionDate";
+import { Nullable } from "../types.js";
+import { PrecisionDate } from "./precisionDate.js";
 
 /**
  * Performance monitor tracks rolling average frame-time and frame-time variance over a user defined sliding-window

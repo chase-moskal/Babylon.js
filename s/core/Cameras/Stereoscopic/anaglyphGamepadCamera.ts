@@ -1,11 +1,11 @@
-import { Camera } from "../../Cameras/camera";
-import { GamepadCamera } from "../../Cameras/gamepadCamera";
-import { Scene } from "../../scene";
-import { Vector3 } from "../../Maths/math.vector";
-import { Node } from "../../node";
+import { Camera } from "../../Cameras/camera.js";
+import { GamepadCamera } from "../../Cameras/gamepadCamera.js";
+import { Scene } from "../../scene.js";
+import { Vector3 } from "../../Maths/math.vector.js";
+import { Node } from "../../node.js";
 
 // Side effect import to define the stereoscopic mode.
-import "../RigModes/stereoscopicAnaglyphRigMode";
+import "../RigModes/stereoscopicAnaglyphRigMode.js";
 
 Node.AddNodeConstructor("AnaglyphGamepadCamera", (name, scene, options) => {
     return () => new AnaglyphGamepadCamera(name, Vector3.Zero(), options.interaxial_distance, scene);

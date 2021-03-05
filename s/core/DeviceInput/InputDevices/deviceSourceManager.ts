@@ -1,10 +1,10 @@
-import { DeviceInputSystem } from '../deviceInputSystem';
-import { Engine } from '../../Engines/engine';
-import { IDisposable } from '../../scene';
-import { DeviceType } from './deviceEnums';
-import { Nullable } from '../../types';
-import { Observable } from '../../Misc/observable';
-import { DeviceInput } from './deviceTypes';
+import { DeviceInputSystem } from "../deviceInputSystem.js";
+import { Engine } from "../../Engines/engine.js";
+import { IDisposable } from "../../scene.js";
+import { DeviceType } from "./deviceEnums.js";
+import { Nullable } from "../../types.js";
+import { Observable } from "../../Misc/observable.js";
+import { DeviceInput } from "./deviceTypes.js";
 
 /**
  * Class that handles all input for a specific device

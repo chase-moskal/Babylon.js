@@ -1,7 +1,7 @@
-import { IWebXRFeature } from "../webXRFeaturesManager";
-import { Observer, Observable, EventState } from "../../Misc/observable";
-import { Nullable } from "../../types";
-import { WebXRSessionManager } from "../webXRSessionManager";
+import { IWebXRFeature } from "../webXRFeaturesManager.js";
+import { Observer, Observable, EventState } from "../../Misc/observable.js";
+import { Nullable } from "../../types.js";
+import { WebXRSessionManager } from "../webXRSessionManager.js";
 
 /**
  * This is the base class for all WebXR features.

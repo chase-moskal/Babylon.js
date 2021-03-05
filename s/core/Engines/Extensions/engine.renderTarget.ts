@@ -1,9 +1,9 @@
-import { InternalTexture, InternalTextureSource } from '../../Materials/Textures/internalTexture';
-import { Logger } from '../../Misc/logger';
-import { RenderTargetCreationOptions } from '../../Materials/Textures/renderTargetCreationOptions';
-import { Constants } from '../constants';
-import { ThinEngine } from '../thinEngine';
-import { DepthTextureCreationOptions } from '../depthTextureCreationOptions';
+import { InternalTexture, InternalTextureSource } from "../../Materials/Textures/internalTexture.js";
+import { Logger } from "../../Misc/logger.js";
+import { RenderTargetCreationOptions } from "../../Materials/Textures/renderTargetCreationOptions.js";
+import { Constants } from "../constants.js";
+import { ThinEngine } from "../thinEngine.js";
+import { DepthTextureCreationOptions } from "../depthTextureCreationOptions.js";
 
 /**
  * Type used to define a render target texture size (either with a number or with a rect width and height)

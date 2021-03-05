@@ -1,11 +1,11 @@
-import { Logger } from "../../Misc/logger";
-import { Scene } from "../../scene";
-import { AbstractMesh } from "../../Meshes/abstractMesh";
-import { SceneLoader } from "../../Loading/sceneLoader";
+import { Logger } from "../../Misc/logger.js";
+import { Scene } from "../../scene.js";
+import { AbstractMesh } from "../../Meshes/abstractMesh.js";
+import { SceneLoader } from "../../Loading/sceneLoader.js";
 
-import { GamepadButtonChanges } from "../../Gamepads/gamepad";
-import { WebVRController } from "./webVRController";
-import { PoseEnabledControllerType, ExtendedGamepadButton, PoseEnabledControllerHelper } from "./poseEnabledController";
+import { GamepadButtonChanges } from "../../Gamepads/gamepad.js";
+import { WebVRController } from "./webVRController.js";
+import { PoseEnabledControllerType, ExtendedGamepadButton, PoseEnabledControllerHelper } from "./poseEnabledController.js";
 
 /**
  * Google Daydream controller

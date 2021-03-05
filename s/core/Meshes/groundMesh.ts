@@ -1,7 +1,7 @@
-import { Scene } from "../scene";
-import { Vector3, Vector2, TmpVectors, Vector4 } from "../Maths/math.vector";
-import { VertexBuffer } from "../Meshes/buffer";
-import { Mesh } from "../Meshes/mesh";
+import { Scene } from "../scene.js";
+import { Vector3, Vector2, TmpVectors, Vector4 } from "../Maths/math.vector.js";
+import { VertexBuffer } from "../Meshes/buffer.js";
+import { Mesh } from "../Meshes/mesh.js";
 
 Mesh._GroundMeshParser = (parsedMesh: any, scene: Scene): Mesh => {
     return GroundMesh.Parse(parsedMesh, scene);

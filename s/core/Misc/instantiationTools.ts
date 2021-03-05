@@ -1,5 +1,5 @@
-import { Logger } from './logger';
-import { _TypeStore } from './typeStore';
+import { Logger } from "./logger.js";
+import { _TypeStore } from "./typeStore.js";
 
 /**
  * Class used to enable instantiation of objects by class name

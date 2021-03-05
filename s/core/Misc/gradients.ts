@@ -1,4 +1,4 @@
-import { Color3, Color4 } from '../Maths/math.color';
+import { Color3, Color4 } from "../Maths/math.color.js";
 
 /** Interface used by value gradients (color, factor, ...) */
 export interface IValueGradient {

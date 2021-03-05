@@ -1,5 +1,5 @@
-import { Effect } from './effect';
-import { IClipPlanesHolder } from '../Misc/interfaces/iClipPlanesHolder';
+import { Effect } from "./effect.js";
+import { IClipPlanesHolder } from "../Misc/interfaces/iClipPlanesHolder.js";
 
 /**
  * "Static Class" containing a few commonly used helper while dealing with material for rendering purpose.

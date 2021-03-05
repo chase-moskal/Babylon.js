@@ -1,15 +1,15 @@
-import { Nullable } from "../types";
-import { Vector2, Vector3 } from "../Maths/math.vector";
-import { AbstractMesh } from "../Meshes/abstractMesh";
-import { ImageProcessingConfiguration, ImageProcessingConfigurationDefines } from "../Materials/imageProcessingConfiguration";
-import { ColorGradient, FactorGradient, Color3Gradient, IValueGradient } from "../Misc/gradients";
-import { BoxParticleEmitter, IParticleEmitterType, PointParticleEmitter, HemisphericParticleEmitter, SphereParticleEmitter, SphereDirectedParticleEmitter, CylinderParticleEmitter, CylinderDirectedParticleEmitter, ConeParticleEmitter } from "../Particles/EmitterTypes/index";
-import { Constants } from "../Engines/constants";
-import { BaseTexture } from '../Materials/Textures/baseTexture';
-import { Color4 } from '../Maths/math.color';
-import { ThinEngine } from '../Engines/thinEngine';
+import { Nullable } from "../types.js";
+import { Vector2, Vector3 } from "../Maths/math.vector.js";
+import { AbstractMesh } from "../Meshes/abstractMesh.js";
+import { ImageProcessingConfiguration, ImageProcessingConfigurationDefines } from "../Materials/imageProcessingConfiguration.js";
+import { ColorGradient, FactorGradient, Color3Gradient, IValueGradient } from "../Misc/gradients.js";
+import { BoxParticleEmitter, IParticleEmitterType, PointParticleEmitter, HemisphericParticleEmitter, SphereParticleEmitter, SphereDirectedParticleEmitter, CylinderParticleEmitter, CylinderDirectedParticleEmitter, ConeParticleEmitter } from "../Particles/EmitterTypes/index.js";
+import { Constants } from "../Engines/constants.js";
+import { BaseTexture } from "../Materials/Textures/baseTexture.js";
+import { Color4 } from "../Maths/math.color.js";
+import { ThinEngine } from "../Engines/thinEngine.js";
 
-import "../Engines/Extensions/engine.dynamicBuffer";
+import "../Engines/Extensions/engine.dynamicBuffer.js";
 
 declare type Animation = import("../Animations/animation").Animation;
 declare type Scene = import("../scene").Scene;

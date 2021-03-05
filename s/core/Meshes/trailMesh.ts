@@ -1,12 +1,12 @@
-import { AbstractMesh } from "../Meshes/abstractMesh";
-import { Mesh } from "../Meshes/mesh";
-import { Nullable } from "../types";
-import { Observer } from "../Misc/observable";
-import { Scene } from "../scene";
-import { Vector3 } from "../Maths/math.vector";
-import { VertexBuffer } from "../Meshes/buffer";
-import { VertexData } from "../Meshes/mesh.vertexData";
-import { TransformNode } from "../Meshes/transformNode";
+import { AbstractMesh } from "../Meshes/abstractMesh.js";
+import { Mesh } from "../Meshes/mesh.js";
+import { Nullable } from "../types.js";
+import { Observer } from "../Misc/observable.js";
+import { Scene } from "../scene.js";
+import { Vector3 } from "../Maths/math.vector.js";
+import { VertexBuffer } from "../Meshes/buffer.js";
+import { VertexData } from "../Meshes/mesh.vertexData.js";
+import { TransformNode } from "../Meshes/transformNode.js";
 
 /**
  * Class used to create a trail following a mesh

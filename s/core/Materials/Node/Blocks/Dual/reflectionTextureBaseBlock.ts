@@ -1,23 +1,23 @@
-import { NodeMaterialBlock } from '../../nodeMaterialBlock';
-import { NodeMaterialBuildState } from '../../nodeMaterialBuildState';
-import { NodeMaterialBlockTargets } from '../../Enums/nodeMaterialBlockTargets';
-import { NodeMaterialConnectionPoint } from '../../nodeMaterialBlockConnectionPoint';
-import { BaseTexture } from '../../../Textures/baseTexture';
-import { AbstractMesh } from '../../../../Meshes/abstractMesh';
-import { NodeMaterial, NodeMaterialDefines } from '../../nodeMaterial';
-import { Effect } from '../../../effect';
-import { Mesh } from '../../../../Meshes/mesh';
-import { Nullable } from '../../../../types';
-import { _TypeStore } from '../../../../Misc/typeStore';
-import { Scene } from '../../../../scene';
-import { InputBlock } from '../Input/inputBlock';
-import { NodeMaterialSystemValues } from '../../Enums/nodeMaterialSystemValues';
-import { Constants } from '../../../../Engines/constants';
+import { NodeMaterialBlock } from "../../nodeMaterialBlock.js";
+import { NodeMaterialBuildState } from "../../nodeMaterialBuildState.js";
+import { NodeMaterialBlockTargets } from "../../Enums/nodeMaterialBlockTargets.js";
+import { NodeMaterialConnectionPoint } from "../../nodeMaterialBlockConnectionPoint.js";
+import { BaseTexture } from "../../../Textures/baseTexture.js";
+import { AbstractMesh } from "../../../../Meshes/abstractMesh.js";
+import { NodeMaterial, NodeMaterialDefines } from "../../nodeMaterial.js";
+import { Effect } from "../../../effect.js";
+import { Mesh } from "../../../../Meshes/mesh.js";
+import { Nullable } from "../../../../types.js";
+import { _TypeStore } from "../../../../Misc/typeStore.js";
+import { Scene } from "../../../../scene.js";
+import { InputBlock } from "../Input/inputBlock.js";
+import { NodeMaterialSystemValues } from "../../Enums/nodeMaterialSystemValues.js";
+import { Constants } from "../../../../Engines/constants.js";
 
-import "../../../../Shaders/ShadersInclude/reflectionFunction";
-import { CubeTexture } from '../../../Textures/cubeTexture';
-import { Texture } from '../../../Textures/texture';
-import { Engine } from "../../../../Engines/engine";
+import "../../../../Shaders/ShadersInclude/reflectionFunction.js";
+import { CubeTexture } from "../../../Textures/cubeTexture.js";
+import { Texture } from "../../../Textures/texture.js";
+import { Engine } from "../../../../Engines/engine.js";
 
 /**
  * Base block used to read a reflection texture from a sampler

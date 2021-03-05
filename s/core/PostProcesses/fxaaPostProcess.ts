@@ -1,15 +1,15 @@
-import { Nullable } from "../types";
-import { Camera } from "../Cameras/camera";
-import { Effect } from "../Materials/effect";
-import { Texture } from "../Materials/Textures/texture";
-import { PostProcess, PostProcessOptions } from "./postProcess";
-import { Engine } from "../Engines/engine";
-import { Constants } from "../Engines/constants";
+import { Nullable } from "../types.js";
+import { Camera } from "../Cameras/camera.js";
+import { Effect } from "../Materials/effect.js";
+import { Texture } from "../Materials/Textures/texture.js";
+import { PostProcess, PostProcessOptions } from "./postProcess.js";
+import { Engine } from "../Engines/engine.js";
+import { Constants } from "../Engines/constants.js";
 
-import "../Shaders/fxaa.fragment";
-import "../Shaders/fxaa.vertex";
-import { _TypeStore } from '../Misc/typeStore';
-import { SerializationHelper } from '../Misc/decorators';
+import "../Shaders/fxaa.fragment.js";
+import "../Shaders/fxaa.vertex.js";
+import { _TypeStore } from "../Misc/typeStore.js";
+import { SerializationHelper } from "../Misc/decorators.js";
 
 declare type Scene = import("../scene").Scene;
 /**

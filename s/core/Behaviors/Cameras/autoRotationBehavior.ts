@@ -1,10 +1,10 @@
-import { Behavior } from "../../Behaviors/behavior";
-import { Camera } from "../../Cameras/camera";
-import { ArcRotateCamera } from "../../Cameras/arcRotateCamera";
-import { Nullable } from "../../types";
-import { Observer } from "../../Misc/observable";
-import { PointerInfoPre, PointerEventTypes } from "../../Events/pointerEvents";
-import { PrecisionDate } from "../../Misc/precisionDate";
+import { Behavior } from "../../Behaviors/behavior.js";
+import { Camera } from "../../Cameras/camera.js";
+import { ArcRotateCamera } from "../../Cameras/arcRotateCamera.js";
+import { Nullable } from "../../types.js";
+import { Observer } from "../../Misc/observable.js";
+import { PointerInfoPre, PointerEventTypes } from "../../Events/pointerEvents.js";
+import { PrecisionDate } from "../../Misc/precisionDate.js";
 
 /**
  * The autoRotation behavior (AutoRotationBehavior) is designed to create a smooth rotation of an ArcRotateCamera when there is no user interaction.

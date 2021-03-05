@@ -1,25 +1,25 @@
-import { Logger } from "../../../Misc/logger";
-import { serialize, SerializationHelper } from "../../../Misc/decorators";
-import { Vector3, TmpVectors } from "../../../Maths/math.vector";
-import { Camera } from "../../../Cameras/camera";
-import { Effect } from "../../../Materials/effect";
-import { Texture } from "../../../Materials/Textures/texture";
-import { DynamicTexture } from "../../../Materials/Textures/dynamicTexture";
-import { PostProcess } from "../../../PostProcesses/postProcess";
-import { PostProcessRenderPipeline } from "../../../PostProcesses/RenderPipeline/postProcessRenderPipeline";
-import { PostProcessRenderEffect } from "../../../PostProcesses/RenderPipeline/postProcessRenderEffect";
-import { PassPostProcess } from "../../../PostProcesses/passPostProcess";
-import { Scene } from "../../../scene";
-import { _TypeStore } from '../../../Misc/typeStore';
-import { EngineStore } from '../../../Engines/engineStore';
-import { SSAO2Configuration } from "../../../Rendering/ssao2Configuration";
-import { PrePassRenderer } from "../../../Rendering/prePassRenderer";
-import { Constants } from "../../../Engines/constants";
+import { Logger } from "../../../Misc/logger.js";
+import { serialize, SerializationHelper } from "../../../Misc/decorators.js";
+import { Vector3, TmpVectors } from "../../../Maths/math.vector.js";
+import { Camera } from "../../../Cameras/camera.js";
+import { Effect } from "../../../Materials/effect.js";
+import { Texture } from "../../../Materials/Textures/texture.js";
+import { DynamicTexture } from "../../../Materials/Textures/dynamicTexture.js";
+import { PostProcess } from "../../../PostProcesses/postProcess.js";
+import { PostProcessRenderPipeline } from "../../../PostProcesses/RenderPipeline/postProcessRenderPipeline.js";
+import { PostProcessRenderEffect } from "../../../PostProcesses/RenderPipeline/postProcessRenderEffect.js";
+import { PassPostProcess } from "../../../PostProcesses/passPostProcess.js";
+import { Scene } from "../../../scene.js";
+import { _TypeStore } from "../../../Misc/typeStore.js";
+import { EngineStore } from "../../../Engines/engineStore.js";
+import { SSAO2Configuration } from "../../../Rendering/ssao2Configuration.js";
+import { PrePassRenderer } from "../../../Rendering/prePassRenderer.js";
+import { Constants } from "../../../Engines/constants.js";
 
-import "../../../PostProcesses/RenderPipeline/postProcessRenderPipelineManagerSceneComponent";
+import "../../../PostProcesses/RenderPipeline/postProcessRenderPipelineManagerSceneComponent.js";
 
-import "../../../Shaders/ssao2.fragment";
-import "../../../Shaders/ssaoCombine.fragment";
+import "../../../Shaders/ssao2.fragment.js";
+import "../../../Shaders/ssaoCombine.fragment.js";
 
 /**
  * Render pipeline to produce ssao effect

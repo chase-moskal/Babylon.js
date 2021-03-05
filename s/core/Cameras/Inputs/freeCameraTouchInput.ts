@@ -1,12 +1,12 @@
-import { serialize } from "../../Misc/decorators";
-import { Observer, EventState } from "../../Misc/observable";
-import { Nullable } from "../../types";
-import { ICameraInput, CameraInputTypes } from "../../Cameras/cameraInputsManager";
-import { FreeCamera } from "../../Cameras/freeCamera";
-import { PointerInfo, PointerEventTypes } from "../../Events/pointerEvents";
-import { Matrix, Vector3 } from "../../Maths/math.vector";
-import { Tools } from "../../Misc/tools";
-import { IPointerEvent } from "../../Events/deviceInputEvents";
+import { serialize } from "../../Misc/decorators.js";
+import { Observer, EventState } from "../../Misc/observable.js";
+import { Nullable } from "../../types.js";
+import { ICameraInput, CameraInputTypes } from "../../Cameras/cameraInputsManager.js";
+import { FreeCamera } from "../../Cameras/freeCamera.js";
+import { PointerInfo, PointerEventTypes } from "../../Events/pointerEvents.js";
+import { Matrix, Vector3 } from "../../Maths/math.vector.js";
+import { Tools } from "../../Misc/tools.js";
+import { IPointerEvent } from "../../Events/deviceInputEvents.js";
 /**
  * Manage the touch inputs to control the movement of a free camera.
  * @see https://doc.babylonjs.com/how_to/customizing_camera_inputs

@@ -1,18 +1,18 @@
-import { Engine } from "../Engines/engine";
-import { IDisposable, Scene } from "../scene";
-import { Nullable } from "../types";
-import { Vector2, Vector3 } from "../Maths/math.vector";
-import { Texture } from "../Materials/Textures/texture";
-import { RawTexture } from "../Materials/Textures/rawTexture";
-import { ShaderMaterial } from "../Materials/shaderMaterial";
-import { Mesh } from "../Meshes/mesh";
-import { PickingInfo } from "../Collisions/pickingInfo";
-import { ISpriteJSONSprite, ISpriteJSONAtlas } from "./ISprites";
-import { Effect } from "../Materials/effect";
+import { Engine } from "../Engines/engine.js";
+import { IDisposable, Scene } from "../scene.js";
+import { Nullable } from "../types.js";
+import { Vector2, Vector3 } from "../Maths/math.vector.js";
+import { Texture } from "../Materials/Textures/texture.js";
+import { RawTexture } from "../Materials/Textures/rawTexture.js";
+import { ShaderMaterial } from "../Materials/shaderMaterial.js";
+import { Mesh } from "../Meshes/mesh.js";
+import { PickingInfo } from "../Collisions/pickingInfo.js";
+import { ISpriteJSONSprite, ISpriteJSONAtlas } from "./ISprites.js";
+import { Effect } from "../Materials/effect.js";
 
-import "../Meshes/Builders/planeBuilder";
-import "../Shaders/spriteMap.fragment";
-import "../Shaders/spriteMap.vertex";
+import "../Meshes/Builders/planeBuilder.js";
+import "../Shaders/spriteMap.fragment.js";
+import "../Shaders/spriteMap.vertex.js";
 
 /**
  * Defines the basic options interface of a SpriteMap

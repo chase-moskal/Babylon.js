@@ -1,8 +1,8 @@
-import { VirtualJoystick, JoystickAxis } from "../../Misc/virtualJoystick";
-import { ICameraInput, CameraInputTypes } from "../../Cameras/cameraInputsManager";
-import { FreeCamera } from "../../Cameras/freeCamera";
-import { Matrix, Vector3 } from "../../Maths/math.vector";
-import { FreeCameraInputsManager } from "../../Cameras/freeCameraInputsManager";
+import { VirtualJoystick, JoystickAxis } from "../../Misc/virtualJoystick.js";
+import { ICameraInput, CameraInputTypes } from "../../Cameras/cameraInputsManager.js";
+import { FreeCamera } from "../../Cameras/freeCamera.js";
+import { Matrix, Vector3 } from "../../Maths/math.vector.js";
+import { FreeCameraInputsManager } from "../../Cameras/freeCameraInputsManager.js";
 
 // Module augmentation to abstract virtual joystick from camera.
 declare module "../../Cameras/freeCameraInputsManager" {

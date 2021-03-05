@@ -1,28 +1,28 @@
-import { Matrix } from "../Maths/math.vector";
-import { VertexBuffer } from "../Meshes/buffer";
-import { SubMesh } from "../Meshes/subMesh";
-import { Mesh } from "../Meshes/mesh";
-import { Constants } from "../Engines/constants";
-import { SmartArray } from "../Misc/smartArray";
-import { Texture } from "../Materials/Textures/texture";
-import { InternalTexture } from "../Materials/Textures/internalTexture";
-import { MultiRenderTarget } from "../Materials/Textures/multiRenderTarget";
-import { Effect } from "../Materials/effect";
-import { PrePassRenderer } from "../Rendering/prePassRenderer";
-import { MaterialHelper } from "../Materials/materialHelper";
-import { Scene } from "../scene";
-import { AbstractMesh } from "../Meshes/abstractMesh";
-import { Color4 } from '../Maths/math.color';
-import { StandardMaterial } from '../Materials/standardMaterial';
-import { PBRMaterial } from '../Materials/PBR/pbrMaterial';
-import { _DevTools } from '../Misc/devTools';
-import { Observer } from '../Misc/observable';
-import { Engine } from '../Engines/engine';
-import { Nullable } from '../types';
-import { Material } from '../Materials/material';
+import { Matrix } from "../Maths/math.vector.js";
+import { VertexBuffer } from "../Meshes/buffer.js";
+import { SubMesh } from "../Meshes/subMesh.js";
+import { Mesh } from "../Meshes/mesh.js";
+import { Constants } from "../Engines/constants.js";
+import { SmartArray } from "../Misc/smartArray.js";
+import { Texture } from "../Materials/Textures/texture.js";
+import { InternalTexture } from "../Materials/Textures/internalTexture.js";
+import { MultiRenderTarget } from "../Materials/Textures/multiRenderTarget.js";
+import { Effect } from "../Materials/effect.js";
+import { PrePassRenderer } from "../Rendering/prePassRenderer.js";
+import { MaterialHelper } from "../Materials/materialHelper.js";
+import { Scene } from "../scene.js";
+import { AbstractMesh } from "../Meshes/abstractMesh.js";
+import { Color4 } from "../Maths/math.color.js";
+import { StandardMaterial } from "../Materials/standardMaterial.js";
+import { PBRMaterial } from "../Materials/PBR/pbrMaterial.js";
+import { _DevTools } from "../Misc/devTools.js";
+import { Observer } from "../Misc/observable.js";
+import { Engine } from "../Engines/engine.js";
+import { Nullable } from "../types.js";
+import { Material } from "../Materials/material.js";
 
-import "../Shaders/geometry.fragment";
-import "../Shaders/geometry.vertex";
+import "../Shaders/geometry.fragment.js";
+import "../Shaders/geometry.vertex.js";
 
 /** @hidden */
 interface ISavedTransformationMatrix {

@@ -1,20 +1,20 @@
-import { Nullable } from "../types";
-import { SmartArray } from "../Misc/smartArray";
-import { Observable, Observer } from "../Misc/observable";
-import { Vector2 } from "../Maths/math.vector";
-import { Camera } from "../Cameras/camera";
-import { Effect } from "../Materials/effect";
-import { Constants } from "../Engines/constants";
-import { RenderTargetCreationOptions } from "../Materials/Textures/renderTargetCreationOptions";
-import "../Shaders/postprocess.vertex";
-import { IInspectable } from '../Misc/iInspectable';
-import { Engine } from '../Engines/engine';
-import { Color4 } from '../Maths/math.color';
+import { Nullable } from "../types.js";
+import { SmartArray } from "../Misc/smartArray.js";
+import { Observable, Observer } from "../Misc/observable.js";
+import { Vector2 } from "../Maths/math.vector.js";
+import { Camera } from "../Cameras/camera.js";
+import { Effect } from "../Materials/effect.js";
+import { Constants } from "../Engines/constants.js";
+import { RenderTargetCreationOptions } from "../Materials/Textures/renderTargetCreationOptions.js";
+import "../Shaders/postprocess.vertex.js";
+import { IInspectable } from "../Misc/iInspectable.js";
+import { Engine } from "../Engines/engine.js";
+import { Color4 } from "../Maths/math.color.js";
 
-import "../Engines/Extensions/engine.renderTarget";
-import { NodeMaterial } from '../Materials/Node/nodeMaterial';
-import { serialize, serializeAsColor4, SerializationHelper } from '../Misc/decorators';
-import { _TypeStore } from '../Misc/typeStore';
+import "../Engines/Extensions/engine.renderTarget.js";
+import { NodeMaterial } from "../Materials/Node/nodeMaterial.js";
+import { serialize, serializeAsColor4, SerializationHelper } from "../Misc/decorators.js";
+import { _TypeStore } from "../Misc/typeStore.js";
 
 declare type Scene = import("../scene").Scene;
 declare type InternalTexture = import("../Materials/Textures/internalTexture").InternalTexture;

@@ -1,17 +1,17 @@
-import { serialize, SerializationHelper, serializeAsTexture } from "../../Misc/decorators";
-import { Observer, Observable } from "../../Misc/observable";
-import { Nullable } from "../../types";
-import { Scene } from "../../scene";
-import { Matrix } from "../../Maths/math.vector";
-import { EngineStore } from "../../Engines/engineStore";
-import { InternalTexture } from "../../Materials/Textures/internalTexture";
-import { Constants } from "../../Engines/constants";
-import { IAnimatable } from '../../Animations/animatable.interface';
-import { GUID } from '../../Misc/guid';
+import { serialize, SerializationHelper, serializeAsTexture } from "../../Misc/decorators.js";
+import { Observer, Observable } from "../../Misc/observable.js";
+import { Nullable } from "../../types.js";
+import { Scene } from "../../scene.js";
+import { Matrix } from "../../Maths/math.vector.js";
+import { EngineStore } from "../../Engines/engineStore.js";
+import { InternalTexture } from "../../Materials/Textures/internalTexture.js";
+import { Constants } from "../../Engines/constants.js";
+import { IAnimatable } from "../../Animations/animatable.interface.js";
+import { GUID } from "../../Misc/guid.js";
 
-import "../../Misc/fileTools";
-import { ThinEngine } from '../../Engines/thinEngine';
-import { ThinTexture } from './thinTexture';
+import "../../Misc/fileTools.js";
+import { ThinEngine } from "../../Engines/thinEngine.js";
+import { ThinTexture } from "./thinTexture.js";
 
 declare type Animation = import("../../Animations/animation").Animation;
 

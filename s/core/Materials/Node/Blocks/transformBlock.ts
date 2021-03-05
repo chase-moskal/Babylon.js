@@ -1,14 +1,14 @@
-import { NodeMaterialBlock } from '../nodeMaterialBlock';
-import { NodeMaterialBlockConnectionPointTypes } from '../Enums/nodeMaterialBlockConnectionPointTypes';
-import { NodeMaterialBuildState } from '../nodeMaterialBuildState';
-import { NodeMaterialBlockTargets } from '../Enums/nodeMaterialBlockTargets';
-import { NodeMaterialConnectionPoint } from '../nodeMaterialBlockConnectionPoint';
-import { _TypeStore } from '../../../Misc/typeStore';
-import { Scene } from '../../../scene';
-import { InputBlock } from './Input/inputBlock';
-import { AbstractMesh } from '../../../Meshes/abstractMesh';
-import { NodeMaterial, NodeMaterialDefines } from '../nodeMaterial';
-import { SubMesh } from '../../../Meshes/subMesh';
+import { NodeMaterialBlock } from "../nodeMaterialBlock.js";
+import { NodeMaterialBlockConnectionPointTypes } from "../Enums/nodeMaterialBlockConnectionPointTypes.js";
+import { NodeMaterialBuildState } from "../nodeMaterialBuildState.js";
+import { NodeMaterialBlockTargets } from "../Enums/nodeMaterialBlockTargets.js";
+import { NodeMaterialConnectionPoint } from "../nodeMaterialBlockConnectionPoint.js";
+import { _TypeStore } from "../../../Misc/typeStore.js";
+import { Scene } from "../../../scene.js";
+import { InputBlock } from "./Input/inputBlock.js";
+import { AbstractMesh } from "../../../Meshes/abstractMesh.js";
+import { NodeMaterial, NodeMaterialDefines } from "../nodeMaterial.js";
+import { SubMesh } from "../../../Meshes/subMesh.js";
 
 /**
  * Block used to transform a vector (2, 3 or 4) with a matrix. It will generate a Vector4

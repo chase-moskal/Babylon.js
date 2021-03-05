@@ -1,9 +1,9 @@
-import { Nullable } from "../types";
-import { ArrayTools } from "../Misc/arrayTools";
-import { Vector3, Quaternion, Matrix } from "../Maths/math.vector";
-import { AbstractMesh } from "../Meshes/abstractMesh";
-import { Bone } from "./bone";
-import { Space, Axis } from '../Maths/math.axis';
+import { Nullable } from "../types.js";
+import { ArrayTools } from "../Misc/arrayTools.js";
+import { Vector3, Quaternion, Matrix } from "../Maths/math.vector.js";
+import { AbstractMesh } from "../Meshes/abstractMesh.js";
+import { Bone } from "./bone.js";
+import { Space, Axis } from "../Maths/math.axis.js";
 
 /**
  * Class used to make a bone look toward a point in space

@@ -1,16 +1,16 @@
-import { Nullable } from "../types";
-import { Camera } from "../Cameras/camera";
-import { Effect } from "../Materials/effect";
-import { Texture } from "../Materials/Textures/texture";
-import { PostProcess, PostProcessOptions } from "./postProcess";
-import { Engine } from "../Engines/engine";
-import { Scene } from "../scene";
-import { Constants } from "../Engines/constants";
-import { Logger } from "../Misc/logger";
+import { Nullable } from "../types.js";
+import { Camera } from "../Cameras/camera.js";
+import { Effect } from "../Materials/effect.js";
+import { Texture } from "../Materials/Textures/texture.js";
+import { PostProcess, PostProcessOptions } from "./postProcess.js";
+import { Engine } from "../Engines/engine.js";
+import { Scene } from "../scene.js";
+import { Constants } from "../Engines/constants.js";
+import { Logger } from "../Misc/logger.js";
 
-import "../Shaders/imageProcessing.fragment";
-import "../Shaders/subSurfaceScattering.fragment";
-import "../Shaders/postprocess.vertex";
+import "../Shaders/imageProcessing.fragment.js";
+import "../Shaders/subSurfaceScattering.fragment.js";
+import "../Shaders/postprocess.vertex.js";
 
 /**
  * Sub surface scattering post process

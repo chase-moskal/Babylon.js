@@ -1,9 +1,9 @@
-import { InternalTexture, InternalTextureSource } from '../../Materials/Textures/internalTexture';
-import { IMultiRenderTargetOptions } from '../../Materials/Textures/multiRenderTarget';
-import { Logger } from '../../Misc/logger';
-import { Nullable } from '../../types';
-import { Constants } from '../constants';
-import { ThinEngine } from '../thinEngine';
+import { InternalTexture, InternalTextureSource } from "../../Materials/Textures/internalTexture.js";
+import { IMultiRenderTargetOptions } from "../../Materials/Textures/multiRenderTarget.js";
+import { Logger } from "../../Misc/logger.js";
+import { Nullable } from "../../types.js";
+import { Constants } from "../constants.js";
+import { ThinEngine } from "../thinEngine.js";
 
 declare module "../../Engines/thinEngine" {
     export interface ThinEngine {

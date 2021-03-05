@@ -1,11 +1,11 @@
-import { WebXRFeatureName, WebXRFeaturesManager } from "../webXRFeaturesManager";
-import { WebXRSessionManager } from "../webXRSessionManager";
-import { Observable } from "../../Misc/observable";
-import { Matrix, Vector3, Quaternion } from "../../Maths/math.vector";
-import { TransformNode } from "../../Meshes/transformNode";
-import { WebXRAbstractFeature } from "./WebXRAbstractFeature";
-import { IWebXRHitResult } from "./WebXRHitTest";
-import { Tools } from "../../Misc/tools";
+import { WebXRFeatureName, WebXRFeaturesManager } from "../webXRFeaturesManager.js";
+import { WebXRSessionManager } from "../webXRSessionManager.js";
+import { Observable } from "../../Misc/observable.js";
+import { Matrix, Vector3, Quaternion } from "../../Maths/math.vector.js";
+import { TransformNode } from "../../Meshes/transformNode.js";
+import { WebXRAbstractFeature } from "./WebXRAbstractFeature.js";
+import { IWebXRHitResult } from "./WebXRHitTest.js";
+import { Tools } from "../../Misc/tools.js";
 
 /**
  * Configuration options of the anchor system

@@ -1,9 +1,9 @@
-import { serialize, SerializationHelper, serializeAsColor3, expandToProperty, serializeAsTexture } from "../../Misc/decorators";
-import { Scene } from "../../scene";
-import { Color3 } from "../../Maths/math.color";
-import { BaseTexture } from "../../Materials/Textures/baseTexture";
-import { PBRBaseSimpleMaterial } from "./pbrBaseSimpleMaterial";
-import { _TypeStore } from '../../Misc/typeStore';
+import { serialize, SerializationHelper, serializeAsColor3, expandToProperty, serializeAsTexture } from "../../Misc/decorators.js";
+import { Scene } from "../../scene.js";
+import { Color3 } from "../../Maths/math.color.js";
+import { BaseTexture } from "../../Materials/Textures/baseTexture.js";
+import { PBRBaseSimpleMaterial } from "./pbrBaseSimpleMaterial.js";
+import { _TypeStore } from "../../Misc/typeStore.js";
 
 /**
  * The PBR material of BJS following the metal roughness convention.

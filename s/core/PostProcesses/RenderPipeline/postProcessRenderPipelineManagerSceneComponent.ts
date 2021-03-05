@@ -1,6 +1,6 @@
-import { ISceneComponent, SceneComponentConstants } from "../../sceneComponent";
-import { PostProcessRenderPipelineManager } from "./postProcessRenderPipelineManager";
-import { Scene } from "../../scene";
+import { ISceneComponent, SceneComponentConstants } from "../../sceneComponent.js";
+import { PostProcessRenderPipelineManager } from "./postProcessRenderPipelineManager.js";
+import { Scene } from "../../scene.js";
 
 declare module "../../scene" {
     export interface Scene {

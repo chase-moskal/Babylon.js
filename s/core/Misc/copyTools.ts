@@ -1,5 +1,5 @@
-import { ISize } from "../Maths/math.size";
-import { Nullable } from "../types";
+import { ISize } from "../Maths/math.size.js";
+import { Nullable } from "../types.js";
 
 declare type BaseTexture = import("../Materials/Textures/baseTexture").BaseTexture;
 

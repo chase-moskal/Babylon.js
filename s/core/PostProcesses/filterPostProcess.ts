@@ -1,13 +1,13 @@
-import { Nullable } from "../types";
-import { Matrix } from "../Maths/math.vector";
-import { Camera } from "../Cameras/camera";
-import { Effect } from "../Materials/effect";
-import { PostProcess, PostProcessOptions } from "./postProcess";
-import { Engine } from "../Engines/engine";
+import { Nullable } from "../types.js";
+import { Matrix } from "../Maths/math.vector.js";
+import { Camera } from "../Cameras/camera.js";
+import { Effect } from "../Materials/effect.js";
+import { PostProcess, PostProcessOptions } from "./postProcess.js";
+import { Engine } from "../Engines/engine.js";
 
-import "../Shaders/filter.fragment";
-import { _TypeStore } from '../Misc/typeStore';
-import { serializeAsMatrix, SerializationHelper } from '../Misc/decorators';
+import "../Shaders/filter.fragment.js";
+import { _TypeStore } from "../Misc/typeStore.js";
+import { serializeAsMatrix, SerializationHelper } from "../Misc/decorators.js";
 
 declare type Scene = import("../scene").Scene;
 

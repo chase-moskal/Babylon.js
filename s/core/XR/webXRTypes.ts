@@ -1,5 +1,5 @@
-import { Nullable } from "../types";
-import { IDisposable } from "../scene";
+import { Nullable } from "../types.js";
+import { IDisposable } from "../scene.js";
 
 /**
  * States of the webXR experience

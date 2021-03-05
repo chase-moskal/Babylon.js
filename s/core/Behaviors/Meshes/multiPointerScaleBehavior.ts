@@ -1,10 +1,10 @@
-import { Mesh } from "../../Meshes/mesh";
-import { Behavior } from "../behavior";
-import { PointerDragBehavior } from "./pointerDragBehavior";
-import { Vector3 } from "../../Maths/math.vector";
-import { Nullable } from "../../types";
-import { Observer } from "../../Misc/observable";
-import { Scene } from "../../scene";
+import { Mesh } from "../../Meshes/mesh.js";
+import { Behavior } from "../behavior.js";
+import { PointerDragBehavior } from "./pointerDragBehavior.js";
+import { Vector3 } from "../../Maths/math.vector.js";
+import { Nullable } from "../../types.js";
+import { Observer } from "../../Misc/observable.js";
+import { Scene } from "../../scene.js";
 
 /**
  * A behavior that when attached to a mesh will allow the mesh to be scaled

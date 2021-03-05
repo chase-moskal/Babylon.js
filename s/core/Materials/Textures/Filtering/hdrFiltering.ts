@@ -1,16 +1,16 @@
-import { Vector3 } from "../../../Maths/math";
-import { Scalar } from "../../../Maths/math.scalar";
-import { InternalTexture } from "../internalTexture";
-import { BaseTexture } from "../baseTexture";
-import { ThinEngine } from "../../../Engines/thinEngine";
-import { Effect } from "../../../Materials/effect";
-import { Constants } from "../../../Engines/constants";
-import { EffectWrapper, EffectRenderer } from "../../../Materials/effectRenderer";
-import { Nullable } from '../../../types';
+import { Vector3 } from "../../../Maths/math.js";
+import { Scalar } from "../../../Maths/math.scalar.js";
+import { InternalTexture } from "../internalTexture.js";
+import { BaseTexture } from "../baseTexture.js";
+import { ThinEngine } from "../../../Engines/thinEngine.js";
+import { Effect } from "../../../Materials/effect.js";
+import { Constants } from "../../../Engines/constants.js";
+import { EffectWrapper, EffectRenderer } from "../../../Materials/effectRenderer.js";
+import { Nullable } from "../../../types.js";
 
-import "../../../Shaders/hdrFiltering.vertex";
-import "../../../Shaders/hdrFiltering.fragment";
-import { Logger } from '../../../Misc/logger';
+import "../../../Shaders/hdrFiltering.vertex.js";
+import "../../../Shaders/hdrFiltering.fragment.js";
+import { Logger } from "../../../Misc/logger.js";
 
 /**
  * Options for texture filtering

@@ -1,11 +1,11 @@
-import { Nullable } from "../../types";
-import { serialize } from "../../Misc/decorators";
-import { EventState, Observer } from "../../Misc/observable";
-import { ArcRotateCamera } from "../../Cameras/arcRotateCamera";
-import { ICameraInput, CameraInputTypes } from "../../Cameras/cameraInputsManager";
-import { PointerInfo, PointerEventTypes } from "../../Events/pointerEvents";
-import { Tools } from '../../Misc/tools';
-import { IWheelEvent } from "../../Events/deviceInputEvents";
+import { Nullable } from "../../types.js";
+import { serialize } from "../../Misc/decorators.js";
+import { EventState, Observer } from "../../Misc/observable.js";
+import { ArcRotateCamera } from "../../Cameras/arcRotateCamera.js";
+import { ICameraInput, CameraInputTypes } from "../../Cameras/cameraInputsManager.js";
+import { PointerInfo, PointerEventTypes } from "../../Events/pointerEvents.js";
+import { Tools } from "../../Misc/tools.js";
+import { IWheelEvent } from "../../Events/deviceInputEvents.js";
 
 /**
  * Manage the mouse wheel inputs to control an arc rotate camera.

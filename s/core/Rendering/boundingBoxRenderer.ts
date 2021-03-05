@@ -1,24 +1,24 @@
-import { Scene } from "../scene";
-import { VertexBuffer } from "../Meshes/buffer";
-import { SubMesh } from "../Meshes/subMesh";
-import { AbstractMesh } from "../Meshes/abstractMesh";
-import { VertexData } from "../Meshes/mesh.vertexData";
-import { Matrix } from "../Maths/math.vector";
-import { SmartArray } from "../Misc/smartArray";
-import { Nullable, FloatArray, IndicesArray } from "../types";
-import { ISceneComponent, SceneComponentConstants } from "../sceneComponent";
-import { BoundingBox } from "../Culling/boundingBox";
-import { Effect } from "../Materials/effect";
-import { Material } from "../Materials/material";
-import { ShaderMaterial } from "../Materials/shaderMaterial";
+import { Scene } from "../scene.js";
+import { VertexBuffer } from "../Meshes/buffer.js";
+import { SubMesh } from "../Meshes/subMesh.js";
+import { AbstractMesh } from "../Meshes/abstractMesh.js";
+import { VertexData } from "../Meshes/mesh.vertexData.js";
+import { Matrix } from "../Maths/math.vector.js";
+import { SmartArray } from "../Misc/smartArray.js";
+import { Nullable, FloatArray, IndicesArray } from "../types.js";
+import { ISceneComponent, SceneComponentConstants } from "../sceneComponent.js";
+import { BoundingBox } from "../Culling/boundingBox.js";
+import { Effect } from "../Materials/effect.js";
+import { Material } from "../Materials/material.js";
+import { ShaderMaterial } from "../Materials/shaderMaterial.js";
 
-import "../Meshes/Builders/boxBuilder";
+import "../Meshes/Builders/boxBuilder.js";
 
-import "../Shaders/color.fragment";
-import "../Shaders/color.vertex";
-import { DataBuffer } from '../Meshes/dataBuffer';
-import { Color3 } from '../Maths/math.color';
-import { Observable } from '../Misc/observable';
+import "../Shaders/color.fragment.js";
+import "../Shaders/color.vertex.js";
+import { DataBuffer } from "../Meshes/dataBuffer.js";
+import { Color3 } from "../Maths/math.color.js";
+import { Observable } from "../Misc/observable.js";
 
 declare module "../scene" {
     export interface Scene {

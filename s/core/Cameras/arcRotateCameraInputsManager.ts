@@ -1,8 +1,8 @@
-import { ArcRotateCamera } from "./arcRotateCamera";
-import { ArcRotateCameraPointersInput } from "../Cameras/Inputs/arcRotateCameraPointersInput";
-import { ArcRotateCameraKeyboardMoveInput } from "../Cameras/Inputs/arcRotateCameraKeyboardMoveInput";
-import { ArcRotateCameraMouseWheelInput } from "../Cameras/Inputs/arcRotateCameraMouseWheelInput";
-import { CameraInputsManager } from "../Cameras/cameraInputsManager";
+import { ArcRotateCamera } from "./arcRotateCamera.js";
+import { ArcRotateCameraPointersInput } from "../Cameras/Inputs/arcRotateCameraPointersInput.js";
+import { ArcRotateCameraKeyboardMoveInput } from "../Cameras/Inputs/arcRotateCameraKeyboardMoveInput.js";
+import { ArcRotateCameraMouseWheelInput } from "../Cameras/Inputs/arcRotateCameraMouseWheelInput.js";
+import { CameraInputsManager } from "../Cameras/cameraInputsManager.js";
 
 /**
  * Default Inputs manager for the ArcRotateCamera.

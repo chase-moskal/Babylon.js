@@ -1,6 +1,6 @@
-import { Nullable } from "../../types";
-import { Vector3 } from "../../Maths/math.vector";
-import { Constants } from "../../Engines/constants";
+import { Nullable } from "../../types.js";
+import { Vector3 } from "../../Maths/math.vector.js";
+import { Constants } from "../../Engines/constants.js";
 
 /**
  * CubeMap information grouping all the data for each faces as well as the cubemap size.

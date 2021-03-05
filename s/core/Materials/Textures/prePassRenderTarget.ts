@@ -1,10 +1,10 @@
-import { MultiRenderTarget, IMultiRenderTargetOptions } from "./multiRenderTarget";
-import { Engine } from "../../Engines/engine";
-import { RenderTargetTexture } from './renderTargetTexture';
-import { Scene } from "../../scene";
-import { PostProcess } from "../../PostProcesses/postProcess";
-import { ImageProcessingPostProcess } from "../../PostProcesses/imageProcessingPostProcess";
-import { Nullable } from "../../types";
+import { MultiRenderTarget, IMultiRenderTargetOptions } from "./multiRenderTarget.js";
+import { Engine } from "../../Engines/engine.js";
+import { RenderTargetTexture } from "./renderTargetTexture.js";
+import { Scene } from "../../scene.js";
+import { PostProcess } from "../../PostProcesses/postProcess.js";
+import { ImageProcessingPostProcess } from "../../PostProcesses/imageProcessingPostProcess.js";
+import { Nullable } from "../../types.js";
 
 /**
  * A multi render target designed to render the prepass.

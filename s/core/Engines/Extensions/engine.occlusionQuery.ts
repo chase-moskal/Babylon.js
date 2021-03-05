@@ -1,7 +1,7 @@
-import { Nullable, int } from "../../types";
-import { Engine } from "../../Engines/engine";
-import { AbstractMesh } from "../../Meshes/abstractMesh";
-import { _TimeToken } from "../../Instrumentation/timeToken";
+import { Nullable, int } from "../../types.js";
+import { Engine } from "../../Engines/engine.js";
+import { AbstractMesh } from "../../Meshes/abstractMesh.js";
+import { _TimeToken } from "../../Instrumentation/timeToken.js";
 
 /** @hidden */
 export class _OcclusionDataStorage {

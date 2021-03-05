@@ -1,8 +1,8 @@
-import { Nullable } from "../types";
-import { Color3 } from "../Maths/math.color";
-import { Texture } from "../Materials/Textures/texture";
-import { LensFlareSystem } from "./lensFlareSystem";
-import { Constants } from "../Engines/constants";
+import { Nullable } from "../types.js";
+import { Color3 } from "../Maths/math.color.js";
+import { Texture } from "../Materials/Textures/texture.js";
+import { LensFlareSystem } from "./lensFlareSystem.js";
+import { Constants } from "../Engines/constants.js";
 /**
  * This represents one of the lens effect in a `lensFlareSystem`.
  * It controls one of the individual texture used in the effect.

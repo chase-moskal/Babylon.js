@@ -1,11 +1,11 @@
-import { serializeAsMeshReference, serializeAsVector3, SerializationHelper } from "../Misc/decorators";
-import { RenderTargetTexture } from "../Materials/Textures/renderTargetTexture";
-import { Matrix, Vector3 } from "../Maths/math.vector";
-import { AbstractMesh } from "../Meshes/abstractMesh";
-import { Nullable } from "../types";
-import { AbstractScene } from "../abstractScene";
-import { Scene } from "../scene";
-import { Constants } from "../Engines/constants";
+import { serializeAsMeshReference, serializeAsVector3, SerializationHelper } from "../Misc/decorators.js";
+import { RenderTargetTexture } from "../Materials/Textures/renderTargetTexture.js";
+import { Matrix, Vector3 } from "../Maths/math.vector.js";
+import { AbstractMesh } from "../Meshes/abstractMesh.js";
+import { Nullable } from "../types.js";
+import { AbstractScene } from "../abstractScene.js";
+import { Scene } from "../scene.js";
+import { Constants } from "../Engines/constants.js";
 
 declare module "../abstractScene" {
     export interface AbstractScene {

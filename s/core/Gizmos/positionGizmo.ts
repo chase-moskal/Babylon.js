@@ -1,17 +1,17 @@
-import { Logger } from "../Misc/logger";
-import { Observable, Observer } from "../Misc/observable";
-import { Nullable } from "../types";
-import { Vector3 } from "../Maths/math.vector";
-import { Color3 } from '../Maths/math.color';
-import { AbstractMesh } from "../Meshes/abstractMesh";
-import { Node } from "../node";
-import { Mesh } from "../Meshes/mesh";
-import { Gizmo, GizmoAxisCache } from "./gizmo";
-import { AxisDragGizmo } from "./axisDragGizmo";
-import { PlaneDragGizmo } from "./planeDragGizmo";
-import { UtilityLayerRenderer } from "../Rendering/utilityLayerRenderer";
-import { PointerInfo } from "../Events/pointerEvents";
-import { GizmoManager } from './gizmoManager';
+import { Logger } from "../Misc/logger.js";
+import { Observable, Observer } from "../Misc/observable.js";
+import { Nullable } from "../types.js";
+import { Vector3 } from "../Maths/math.vector.js";
+import { Color3 } from "../Maths/math.color.js";
+import { AbstractMesh } from "../Meshes/abstractMesh.js";
+import { Node } from "../node.js";
+import { Mesh } from "../Meshes/mesh.js";
+import { Gizmo, GizmoAxisCache } from "./gizmo.js";
+import { AxisDragGizmo } from "./axisDragGizmo.js";
+import { PlaneDragGizmo } from "./planeDragGizmo.js";
+import { UtilityLayerRenderer } from "../Rendering/utilityLayerRenderer.js";
+import { PointerInfo } from "../Events/pointerEvents.js";
+import { GizmoManager } from "./gizmoManager.js";
 /**
  * Gizmo that enables dragging a mesh along 3 axis
  */

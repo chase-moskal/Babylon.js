@@ -1,9 +1,9 @@
-import { Camera } from "../Cameras/camera";
-import { Effect } from "../Materials/effect";
-import { PostProcess } from "./postProcess";
-import { Constants } from "../Engines/constants";
+import { Camera } from "../Cameras/camera.js";
+import { Effect } from "../Materials/effect.js";
+import { PostProcess } from "./postProcess.js";
+import { Constants } from "../Engines/constants.js";
 
-import "../Shaders/tonemap.fragment";
+import "../Shaders/tonemap.fragment.js";
 
 declare type Engine = import("../Engines/engine").Engine;
 

@@ -1,14 +1,14 @@
-import { Nullable } from "../types";
-import { Vector2 } from "../Maths/math.vector";
-import { Camera } from "../Cameras/camera";
-import { Texture } from "../Materials/Textures/texture";
-import { RenderTargetTexture } from "../Materials/Textures/renderTargetTexture";
-import { PostProcess } from "./postProcess";
-import { PostProcessRenderEffect } from "../PostProcesses/RenderPipeline/postProcessRenderEffect";
-import { CircleOfConfusionPostProcess } from "./circleOfConfusionPostProcess";
-import { DepthOfFieldBlurPostProcess } from "./depthOfFieldBlurPostProcess";
-import { DepthOfFieldMergePostProcess } from "./depthOfFieldMergePostProcess";
-import { Scene } from "../scene";
+import { Nullable } from "../types.js";
+import { Vector2 } from "../Maths/math.vector.js";
+import { Camera } from "../Cameras/camera.js";
+import { Texture } from "../Materials/Textures/texture.js";
+import { RenderTargetTexture } from "../Materials/Textures/renderTargetTexture.js";
+import { PostProcess } from "./postProcess.js";
+import { PostProcessRenderEffect } from "../PostProcesses/RenderPipeline/postProcessRenderEffect.js";
+import { CircleOfConfusionPostProcess } from "./circleOfConfusionPostProcess.js";
+import { DepthOfFieldBlurPostProcess } from "./depthOfFieldBlurPostProcess.js";
+import { DepthOfFieldMergePostProcess } from "./depthOfFieldMergePostProcess.js";
+import { Scene } from "../scene.js";
 
 /**
  * Specifies the level of max blur that should be applied when using the depth of field effect

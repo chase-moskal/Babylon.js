@@ -1,9 +1,9 @@
-import { Scene } from "../../scene";
-import { Vector4 } from "../../Maths/math.vector";
-import { Color4 } from '../../Maths/math.color';
-import { Mesh, _CreationDataStorage } from "../mesh";
-import { VertexData } from "../mesh.vertexData";
-import { Nullable } from '../../types';
+import { Scene } from "../../scene.js";
+import { Vector4 } from "../../Maths/math.vector.js";
+import { Color4 } from "../../Maths/math.color.js";
+import { Mesh, _CreationDataStorage } from "../mesh.js";
+import { VertexData } from "../mesh.vertexData.js";
+import { Nullable } from "../../types.js";
 
 VertexData.CreatePolyhedron = function(options: { type?: number, size?: number, sizeX?: number, sizeY?: number, sizeZ?: number, custom?: any, faceUV?: Vector4[], faceColors?: Color4[], flat?: boolean, sideOrientation?: number, frontUVs?: Vector4, backUVs?: Vector4 }): VertexData {
     // provided polyhedron types :

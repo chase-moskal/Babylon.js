@@ -1,13 +1,13 @@
-import { serialize, SerializationHelper, serializeAsColor3, expandToProperty, serializeAsTexture } from "../../Misc/decorators";
-import { BRDFTextureTools } from "../../Misc/brdfTextureTools";
-import { Nullable } from "../../types";
-import { Scene } from "../../scene";
-import { Color3 } from "../../Maths/math.color";
-import { ImageProcessingConfiguration } from "../../Materials/imageProcessingConfiguration";
-import { ColorCurves } from "../../Materials/colorCurves";
-import { BaseTexture } from "../../Materials/Textures/baseTexture";
-import { PBRBaseMaterial } from "./pbrBaseMaterial";
-import { _TypeStore } from '../../Misc/typeStore';
+import { serialize, SerializationHelper, serializeAsColor3, expandToProperty, serializeAsTexture } from "../../Misc/decorators.js";
+import { BRDFTextureTools } from "../../Misc/brdfTextureTools.js";
+import { Nullable } from "../../types.js";
+import { Scene } from "../../scene.js";
+import { Color3 } from "../../Maths/math.color.js";
+import { ImageProcessingConfiguration } from "../../Materials/imageProcessingConfiguration.js";
+import { ColorCurves } from "../../Materials/colorCurves.js";
+import { BaseTexture } from "../../Materials/Textures/baseTexture.js";
+import { PBRBaseMaterial } from "./pbrBaseMaterial.js";
+import { _TypeStore } from "../../Misc/typeStore.js";
 
 /**
  * The Physically based material of BJS.

@@ -1,33 +1,33 @@
-import { SmartArray } from "../../Misc/smartArray";
-import { Nullable } from "../../types";
-import { Scene } from "../../scene";
-import { Matrix, Vector3, Vector2 } from "../../Maths/math.vector";
-import { Color4 } from "../../Maths/math.color";
-import { VertexBuffer } from "../../Meshes/buffer";
-import { SubMesh } from "../../Meshes/subMesh";
-import { AbstractMesh } from "../../Meshes/abstractMesh";
-import { Mesh } from "../../Meshes/mesh";
+import { SmartArray } from "../../Misc/smartArray.js";
+import { Nullable } from "../../types.js";
+import { Scene } from "../../scene.js";
+import { Matrix, Vector3, Vector2 } from "../../Maths/math.vector.js";
+import { Color4 } from "../../Maths/math.color.js";
+import { VertexBuffer } from "../../Meshes/buffer.js";
+import { SubMesh } from "../../Meshes/subMesh.js";
+import { AbstractMesh } from "../../Meshes/abstractMesh.js";
+import { Mesh } from "../../Meshes/mesh.js";
 
-import { IShadowLight } from "../../Lights/shadowLight";
-import { Light } from "../../Lights/light";
-import { MaterialDefines } from "../../Materials/materialDefines";
-import { MaterialHelper } from "../../Materials/materialHelper";
-import { Effect, IEffectCreationOptions } from "../../Materials/effect";
-import { Texture } from "../../Materials/Textures/texture";
-import { RenderTargetTexture } from "../../Materials/Textures/renderTargetTexture";
+import { IShadowLight } from "../../Lights/shadowLight.js";
+import { Light } from "../../Lights/light.js";
+import { MaterialDefines } from "../../Materials/materialDefines.js";
+import { MaterialHelper } from "../../Materials/materialHelper.js";
+import { Effect, IEffectCreationOptions } from "../../Materials/effect.js";
+import { Texture } from "../../Materials/Textures/texture.js";
+import { RenderTargetTexture } from "../../Materials/Textures/renderTargetTexture.js";
 
-import { PostProcess } from "../../PostProcesses/postProcess";
-import { BlurPostProcess } from "../../PostProcesses/blurPostProcess";
-import { Constants } from "../../Engines/constants";
+import { PostProcess } from "../../PostProcesses/postProcess.js";
+import { BlurPostProcess } from "../../PostProcesses/blurPostProcess.js";
+import { Constants } from "../../Engines/constants.js";
 
-import "../../Shaders/shadowMap.fragment";
-import "../../Shaders/shadowMap.vertex";
-import "../../Shaders/depthBoxBlur.fragment";
-import "../../Shaders/ShadersInclude/shadowMapFragmentSoftTransparentShadow";
-import { Observable } from '../../Misc/observable';
-import { _DevTools } from '../../Misc/devTools';
-import { EffectFallbacks } from '../../Materials/effectFallbacks';
-import { RenderingManager } from '../../Rendering/renderingManager';
+import "../../Shaders/shadowMap.fragment.js";
+import "../../Shaders/shadowMap.vertex.js";
+import "../../Shaders/depthBoxBlur.fragment.js";
+import "../../Shaders/ShadersInclude/shadowMapFragmentSoftTransparentShadow.js";
+import { Observable } from "../../Misc/observable.js";
+import { _DevTools } from "../../Misc/devTools.js";
+import { EffectFallbacks } from "../../Materials/effectFallbacks.js";
+import { RenderingManager } from "../../Rendering/renderingManager.js";
 
 const tmpMatrix = new Matrix(),
       tmpMatrix2 = new Matrix();

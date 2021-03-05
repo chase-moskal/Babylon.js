@@ -1,5 +1,5 @@
-import { Nullable } from "../../types";
-import { ShaderProcessingContext } from "./shaderProcessingOptions";
+import { Nullable } from "../../types.js";
+import { ShaderProcessingContext } from "./shaderProcessingOptions.js";
 
 declare type ThinEngine = import("../thinEngine").ThinEngine;
 

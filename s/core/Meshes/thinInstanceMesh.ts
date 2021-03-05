@@ -1,7 +1,7 @@
-import { Nullable, DeepImmutableObject } from "../types";
-import { Mesh, _InstancesBatch } from "../Meshes/mesh";
-import { VertexBuffer, Buffer } from './buffer';
-import { Matrix, Vector3, TmpVectors } from '../Maths/math.vector';
+import { Nullable, DeepImmutableObject } from "../types.js";
+import { Mesh, _InstancesBatch } from "../Meshes/mesh.js";
+import { VertexBuffer, Buffer } from "./buffer.js";
+import { Matrix, Vector3, TmpVectors } from "../Maths/math.vector.js";
 
 declare module "./mesh" {
     export interface Mesh {

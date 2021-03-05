@@ -1,14 +1,14 @@
-import { ShaderCodeNode } from './shaderCodeNode';
-import { ShaderCodeCursor } from './shaderCodeCursor';
-import { ShaderCodeConditionNode } from './shaderCodeConditionNode';
-import { ShaderCodeTestNode } from './shaderCodeTestNode';
-import { ShaderDefineIsDefinedOperator } from './Expressions/Operators/shaderDefineIsDefinedOperator';
-import { ShaderDefineOrOperator } from './Expressions/Operators/shaderDefineOrOperator';
-import { ShaderDefineAndOperator } from './Expressions/Operators/shaderDefineAndOperator';
-import { ShaderDefineExpression } from './Expressions/shaderDefineExpression';
-import { ShaderDefineArithmeticOperator } from './Expressions/Operators/shaderDefineArithmeticOperator';
-import { ProcessingOptions } from './shaderProcessingOptions';
-import { _DevTools } from '../../Misc/devTools';
+import { ShaderCodeNode } from "./shaderCodeNode.js";
+import { ShaderCodeCursor } from "./shaderCodeCursor.js";
+import { ShaderCodeConditionNode } from "./shaderCodeConditionNode.js";
+import { ShaderCodeTestNode } from "./shaderCodeTestNode.js";
+import { ShaderDefineIsDefinedOperator } from "./Expressions/Operators/shaderDefineIsDefinedOperator.js";
+import { ShaderDefineOrOperator } from "./Expressions/Operators/shaderDefineOrOperator.js";
+import { ShaderDefineAndOperator } from "./Expressions/Operators/shaderDefineAndOperator.js";
+import { ShaderDefineExpression } from "./Expressions/shaderDefineExpression.js";
+import { ShaderDefineArithmeticOperator } from "./Expressions/Operators/shaderDefineArithmeticOperator.js";
+import { ProcessingOptions } from "./shaderProcessingOptions.js";
+import { _DevTools } from "../../Misc/devTools.js";
 
 declare type WebRequest = import("../../Misc/webRequest").WebRequest;
 declare type LoadFileError = import("../../Misc/fileTools").LoadFileError;

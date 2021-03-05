@@ -1,8 +1,8 @@
-import { Tools } from "../../Misc/tools";
-import { WorkerPool } from '../../Misc/workerPool';
-import { Nullable } from "../../types";
-import { IDisposable } from "../../scene";
-import { VertexData } from "../../Meshes/mesh.vertexData";
+import { Tools } from "../../Misc/tools.js";
+import { WorkerPool } from "../../Misc/workerPool.js";
+import { Nullable } from "../../types.js";
+import { IDisposable } from "../../scene.js";
+import { VertexData } from "../../Meshes/mesh.vertexData.js";
 
 declare var DracoDecoderModule: any;
 declare var WebAssembly: any;

@@ -1,10 +1,10 @@
-import { serialize, serializeAsVector3 } from "../Misc/decorators";
-import { Camera } from "../Cameras/camera";
-import { Scene } from "../scene";
-import { Matrix, Vector3 } from "../Maths/math.vector";
-import { AbstractMesh } from "../Meshes/abstractMesh";
-import { Light } from "./light";
-import { Axis } from '../Maths/math.axis';
+import { serialize, serializeAsVector3 } from "../Misc/decorators.js";
+import { Camera } from "../Cameras/camera.js";
+import { Scene } from "../scene.js";
+import { Matrix, Vector3 } from "../Maths/math.vector.js";
+import { AbstractMesh } from "../Meshes/abstractMesh.js";
+import { Light } from "./light.js";
+import { Axis } from "../Maths/math.axis.js";
 /**
  * Interface describing all the common properties and methods a shadow light needs to implement.
  * This helps both the shadow generator and materials to generate the corresponding shadow maps

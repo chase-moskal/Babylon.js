@@ -1,14 +1,14 @@
-import { serialize, SerializationHelper, serializeAsColor3, expandToProperty } from "../Misc/decorators";
-import { Nullable } from "../types";
-import { Scene } from "../scene";
-import { Vector3 } from "../Maths/math.vector";
-import { Color3, TmpColors } from "../Maths/math.color";
-import { Node } from "../node";
-import { AbstractMesh } from "../Meshes/abstractMesh";
-import { Effect } from "../Materials/effect";
-import { UniformBuffer } from "../Materials/uniformBuffer";
-import { IShadowGenerator } from "./Shadows/shadowGenerator";
-import { _TypeStore } from '../Misc/typeStore';
+import { serialize, SerializationHelper, serializeAsColor3, expandToProperty } from "../Misc/decorators.js";
+import { Nullable } from "../types.js";
+import { Scene } from "../scene.js";
+import { Vector3 } from "../Maths/math.vector.js";
+import { Color3, TmpColors } from "../Maths/math.color.js";
+import { Node } from "../node.js";
+import { AbstractMesh } from "../Meshes/abstractMesh.js";
+import { Effect } from "../Materials/effect.js";
+import { UniformBuffer } from "../Materials/uniformBuffer.js";
+import { IShadowGenerator } from "./Shadows/shadowGenerator.js";
+import { _TypeStore } from "../Misc/typeStore.js";
 
 /**
  * Base class of all the lights in Babylon. It groups all the generic information about lights.

@@ -1,14 +1,14 @@
-import { Nullable, IndicesArray, DeepImmutable, FloatArray } from "../types";
-import { Matrix, Vector3 } from "../Maths/math.vector";
-import { Engine } from "../Engines/engine";
-import { VertexBuffer } from "./buffer";
-import { IntersectionInfo } from "../Collisions/intersectionInfo";
-import { ICullable, BoundingInfo } from "../Culling/boundingInfo";
-import { Effect } from "../Materials/effect";
-import { Constants } from "../Engines/constants";
-import { DataBuffer } from './dataBuffer';
-import { extractMinAndMaxIndexed } from '../Maths/math.functions';
-import { Plane } from '../Maths/math.plane';
+import { Nullable, IndicesArray, DeepImmutable, FloatArray } from "../types.js";
+import { Matrix, Vector3 } from "../Maths/math.vector.js";
+import { Engine } from "../Engines/engine.js";
+import { VertexBuffer } from "./buffer.js";
+import { IntersectionInfo } from "../Collisions/intersectionInfo.js";
+import { ICullable, BoundingInfo } from "../Culling/boundingInfo.js";
+import { Effect } from "../Materials/effect.js";
+import { Constants } from "../Engines/constants.js";
+import { DataBuffer } from "./dataBuffer.js";
+import { extractMinAndMaxIndexed } from "../Maths/math.functions.js";
+import { Plane } from "../Maths/math.plane.js";
 
 declare type Collider = import("../Collisions/collider").Collider;
 declare type Material = import("../Materials/material").Material;

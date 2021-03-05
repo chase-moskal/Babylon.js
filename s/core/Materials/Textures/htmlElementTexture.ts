@@ -1,10 +1,10 @@
-import { Nullable } from "../../types";
-import { BaseTexture } from "../../Materials/Textures/baseTexture";
-import { Constants } from "../../Engines/constants";
-import { Matrix } from '../../Maths/math.vector';
+import { Nullable } from "../../types.js";
+import { BaseTexture } from "../../Materials/Textures/baseTexture.js";
+import { Constants } from "../../Engines/constants.js";
+import { Matrix } from "../../Maths/math.vector.js";
 
-import "../../Engines/Extensions/engine.dynamicTexture";
-import "../../Engines/Extensions/engine.videoTexture";
+import "../../Engines/Extensions/engine.dynamicTexture.js";
+import "../../Engines/Extensions/engine.videoTexture.js";
 
 declare type ThinEngine = import("../../Engines/thinEngine").ThinEngine;
 declare type Scene = import("../../scene").Scene;

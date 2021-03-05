@@ -1,19 +1,19 @@
-import { Nullable } from "../types";
-import { AbstractMesh } from "../Meshes/abstractMesh";
-import { Scene } from "../scene";
-import { Vector3, Vector4 } from "../Maths/math.vector";
-import { Color3, Color4 } from "../Maths/math.color";
-import { Condition, ValueCondition } from "./condition";
-import { Action, IAction } from "./action";
-import { DoNothingAction } from "./directActions";
+import { Nullable } from "../types.js";
+import { AbstractMesh } from "../Meshes/abstractMesh.js";
+import { Scene } from "../scene.js";
+import { Vector3, Vector4 } from "../Maths/math.vector.js";
+import { Color3, Color4 } from "../Maths/math.color.js";
+import { Condition, ValueCondition } from "./condition.js";
+import { Action, IAction } from "./action.js";
+import { DoNothingAction } from "./directActions.js";
 
-import { EngineStore } from "../Engines/engineStore";
-import { IActionEvent } from "../Actions/actionEvent";
-import { Logger } from "../Misc/logger";
-import { DeepCopier } from "../Misc/deepCopier";
-import { _TypeStore } from "../Misc/typeStore";
-import { AbstractActionManager } from './abstractActionManager';
-import { Constants } from "../Engines/constants";
+import { EngineStore } from "../Engines/engineStore.js";
+import { IActionEvent } from "../Actions/actionEvent.js";
+import { Logger } from "../Misc/logger.js";
+import { DeepCopier } from "../Misc/deepCopier.js";
+import { _TypeStore } from "../Misc/typeStore.js";
+import { AbstractActionManager } from "./abstractActionManager.js";
+import { Constants } from "../Engines/constants.js";
 
 /**
  * Action Manager manages all events to be triggered on a given mesh or the global scene.

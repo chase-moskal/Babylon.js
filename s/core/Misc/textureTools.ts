@@ -1,11 +1,11 @@
-import { InternalTexture } from "../Materials/Textures/internalTexture";
-import { Texture } from "../Materials/Textures/texture";
-import { RenderTargetTexture } from "../Materials/Textures/renderTargetTexture";
-import { PassPostProcess } from "../PostProcesses/passPostProcess";
-import { Constants } from "../Engines/constants";
-import { Scene } from "../scene";
-import { PostProcess } from '../PostProcesses/postProcess';
-import { Engine } from '../Engines/engine';
+import { InternalTexture } from "../Materials/Textures/internalTexture.js";
+import { Texture } from "../Materials/Textures/texture.js";
+import { RenderTargetTexture } from "../Materials/Textures/renderTargetTexture.js";
+import { PassPostProcess } from "../PostProcesses/passPostProcess.js";
+import { Constants } from "../Engines/constants.js";
+import { Scene } from "../scene.js";
+import { PostProcess } from "../PostProcesses/postProcess.js";
+import { Engine } from "../Engines/engine.js";
 
 /**
  * Class used to host texture specific utilities

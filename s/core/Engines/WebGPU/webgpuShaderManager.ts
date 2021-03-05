@@ -1,5 +1,5 @@
-import { Effect } from "../../Materials/effect";
-import { IWebGPURenderPipelineStageDescriptor } from "./webgpuPipelineContext";
+import { Effect } from "../../Materials/effect.js";
+import { IWebGPURenderPipelineStageDescriptor } from "./webgpuPipelineContext.js";
 
 /** @hidden */
 export class WebGPUShaderManager {

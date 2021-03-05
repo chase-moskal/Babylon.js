@@ -1,12 +1,12 @@
-import { Constants } from "../constants";
-import * as WebGPUConstants from './webgpuConstants';
-import { Effect } from "../../Materials/effect";
-import { InternalTexture } from "../../Materials/Textures/internalTexture";
-import { VertexBuffer } from "../../Meshes/buffer";
-import { DataBuffer } from "../../Meshes/dataBuffer";
-import { Nullable } from "../../types";
-import { WebGPUHardwareTexture } from "./webgpuHardwareTexture";
-import { WebGPUPipelineContext } from "./webgpuPipelineContext";
+import { Constants } from "../constants.js";
+import * as WebGPUConstants from "./webgpuConstants.js";
+import { Effect } from "../../Materials/effect.js";
+import { InternalTexture } from "../../Materials/Textures/internalTexture.js";
+import { VertexBuffer } from "../../Meshes/buffer.js";
+import { DataBuffer } from "../../Meshes/dataBuffer.js";
+import { Nullable } from "../../types.js";
+import { WebGPUHardwareTexture } from "./webgpuHardwareTexture.js";
+import { WebGPUPipelineContext } from "./webgpuPipelineContext.js";
 
 enum StatePosition {
     //DepthBias = 0, // not used, so remove it to improve perf

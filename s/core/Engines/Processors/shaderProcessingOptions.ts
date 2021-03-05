@@ -1,5 +1,5 @@
-import { IShaderProcessor } from './iShaderProcessor';
-import { Nullable } from '../../types';
+import { IShaderProcessor } from "./iShaderProcessor.js";
+import { Nullable } from "../../types.js";
 
 /** @hidden */
 export interface ShaderProcessingContext { }

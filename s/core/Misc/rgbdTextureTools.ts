@@ -1,10 +1,10 @@
-import { Constants } from "../Engines/constants";
-import { PostProcess } from "../PostProcesses/postProcess";
-import "../Shaders/rgbdDecode.fragment";
-import { Engine } from '../Engines/engine';
+import { Constants } from "../Engines/constants.js";
+import { PostProcess } from "../PostProcesses/postProcess.js";
+import "../Shaders/rgbdDecode.fragment.js";
+import { Engine } from "../Engines/engine.js";
 
-import "../Engines/Extensions/engine.renderTarget";
-import { TextureTools } from './textureTools';
+import "../Engines/Extensions/engine.renderTarget.js";
+import { TextureTools } from "./textureTools.js";
 
 declare type Texture = import("../Materials/Textures/texture").Texture;
 declare type InternalTexture = import("../Materials/Textures/internalTexture").InternalTexture;

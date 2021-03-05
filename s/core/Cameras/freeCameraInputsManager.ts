@@ -1,10 +1,10 @@
-import { FreeCamera } from "./freeCamera";
-import { CameraInputsManager } from "./cameraInputsManager";
-import { FreeCameraKeyboardMoveInput } from "../Cameras/Inputs/freeCameraKeyboardMoveInput";
-import { FreeCameraMouseInput } from "../Cameras/Inputs/freeCameraMouseInput";
-import { FreeCameraMouseWheelInput } from "../Cameras/Inputs/freeCameraMouseWheelInput";
-import { FreeCameraTouchInput } from "../Cameras/Inputs/freeCameraTouchInput";
-import { Nullable } from '../types';
+import { FreeCamera } from "./freeCamera.js";
+import { CameraInputsManager } from "./cameraInputsManager.js";
+import { FreeCameraKeyboardMoveInput } from "../Cameras/Inputs/freeCameraKeyboardMoveInput.js";
+import { FreeCameraMouseInput } from "../Cameras/Inputs/freeCameraMouseInput.js";
+import { FreeCameraMouseWheelInput } from "../Cameras/Inputs/freeCameraMouseWheelInput.js";
+import { FreeCameraTouchInput } from "../Cameras/Inputs/freeCameraTouchInput.js";
+import { Nullable } from "../types.js";
 
 /**
  * Default Inputs manager for the FreeCamera.

@@ -1,23 +1,23 @@
-import { Immutable, Nullable } from "../types";
-import { VertexBuffer } from "../Meshes/buffer";
-import { AbstractMesh } from "../Meshes/abstractMesh";
-import { Mesh } from "../Meshes/mesh";
-import { LinesMesh, InstancedLinesMesh } from "../Meshes/linesMesh";
-import { Vector3, TmpVectors, Matrix } from "../Maths/math.vector";
-import { IDisposable, Scene } from "../scene";
-import { Observer } from "../Misc/observable";
-import { Effect } from "../Materials/effect";
-import { Material } from "../Materials/material";
-import { ShaderMaterial } from "../Materials/shaderMaterial";
-import { Camera } from "../Cameras/camera";
-import { Constants } from "../Engines/constants";
-import { Node } from "../node";
+import { Immutable, Nullable } from "../types.js";
+import { VertexBuffer } from "../Meshes/buffer.js";
+import { AbstractMesh } from "../Meshes/abstractMesh.js";
+import { Mesh } from "../Meshes/mesh.js";
+import { LinesMesh, InstancedLinesMesh } from "../Meshes/linesMesh.js";
+import { Vector3, TmpVectors, Matrix } from "../Maths/math.vector.js";
+import { IDisposable, Scene } from "../scene.js";
+import { Observer } from "../Misc/observable.js";
+import { Effect } from "../Materials/effect.js";
+import { Material } from "../Materials/material.js";
+import { ShaderMaterial } from "../Materials/shaderMaterial.js";
+import { Camera } from "../Cameras/camera.js";
+import { Constants } from "../Engines/constants.js";
+import { Node } from "../node.js";
 
-import "../Shaders/line.fragment";
-import "../Shaders/line.vertex";
-import { DataBuffer } from '../Meshes/dataBuffer';
-import { SmartArray } from '../Misc/smartArray';
-import { Tools } from '../Misc/tools';
+import "../Shaders/line.fragment.js";
+import "../Shaders/line.vertex.js";
+import { DataBuffer } from "../Meshes/dataBuffer.js";
+import { SmartArray } from "../Misc/smartArray.js";
+import { Tools } from "../Misc/tools.js";
 
 declare module "../scene" {
     export interface Scene {

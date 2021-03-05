@@ -1,11 +1,11 @@
-import { PanoramaToCubeMapTools } from '../../Misc/HighDynamicRange/panoramaToCubemap';
-import { BaseTexture } from './baseTexture';
-import { Texture } from './texture';
-import { Scene } from "../../scene";
-import { Nullable } from "../../types";
-import { Tools } from '../../Misc/tools';
-import "../../Engines/Extensions/engine.rawTexture";
-import { Constants } from '../../Engines/constants';
+import { PanoramaToCubeMapTools } from "../../Misc/HighDynamicRange/panoramaToCubemap.js";
+import { BaseTexture } from "./baseTexture.js";
+import { Texture } from "./texture.js";
+import { Scene } from "../../scene.js";
+import { Nullable } from "../../types.js";
+import { Tools } from "../../Misc/tools.js";
+import "../../Engines/Extensions/engine.rawTexture.js";
+import { Constants } from "../../Engines/constants.js";
 
 /**
  * This represents a texture coming from an equirectangular image supported by the web browser canvas.

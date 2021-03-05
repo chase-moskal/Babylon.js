@@ -1,13 +1,13 @@
-import { Nullable } from "../../types";
-import { SerializationHelper, serialize, serializeAsTexture, expandToProperty, serializeAsColor3 } from "../../Misc/decorators";
-import { Color3 } from '../../Maths/math.color';
-import { BaseTexture } from "../../Materials/Textures/baseTexture";
-import { MaterialFlags } from "../materialFlags";
-import { UniformBuffer } from "../../Materials/uniformBuffer";
-import { MaterialHelper } from "../../Materials/materialHelper";
-import { IAnimatable } from '../../Animations/animatable.interface';
-import { EffectFallbacks } from '../effectFallbacks';
-import { SubMesh } from '../../Meshes/subMesh';
+import { Nullable } from "../../types.js";
+import { SerializationHelper, serialize, serializeAsTexture, expandToProperty, serializeAsColor3 } from "../../Misc/decorators.js";
+import { Color3 } from "../../Maths/math.color.js";
+import { BaseTexture } from "../../Materials/Textures/baseTexture.js";
+import { MaterialFlags } from "../materialFlags.js";
+import { UniformBuffer } from "../../Materials/uniformBuffer.js";
+import { MaterialHelper } from "../../Materials/materialHelper.js";
+import { IAnimatable } from "../../Animations/animatable.interface.js";
+import { EffectFallbacks } from "../effectFallbacks.js";
+import { SubMesh } from "../../Meshes/subMesh.js";
 
 declare type Engine = import("../../Engines/engine").Engine;
 declare type Scene = import("../../scene").Scene;

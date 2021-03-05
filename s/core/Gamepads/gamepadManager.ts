@@ -1,12 +1,12 @@
-import { Observable } from "../Misc/observable";
-import { DomManagement } from "../Misc/domManagement";
-import { Nullable } from "../types";
-import { Scene } from "../scene";
-import { PoseEnabledControllerHelper } from "../Gamepads/Controllers/poseEnabledController";
-import { Xbox360Pad } from "./xboxGamepad";
-import { Gamepad, GenericPad } from "./gamepad";
-import { Engine } from '../Engines/engine';
-import { DualShockPad } from './dualShockGamepad';
+import { Observable } from "../Misc/observable.js";
+import { DomManagement } from "../Misc/domManagement.js";
+import { Nullable } from "../types.js";
+import { Scene } from "../scene.js";
+import { PoseEnabledControllerHelper } from "../Gamepads/Controllers/poseEnabledController.js";
+import { Xbox360Pad } from "./xboxGamepad.js";
+import { Gamepad, GenericPad } from "./gamepad.js";
+import { Engine } from "../Engines/engine.js";
+import { DualShockPad } from "./dualShockGamepad.js";
 /**
  * Manager for handling gamepads
  */

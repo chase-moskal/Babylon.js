@@ -1,25 +1,25 @@
-import { Logger } from "../Misc/logger";
-import { Nullable } from "../types";
-import { Camera } from "../Cameras/camera";
-import { Scene } from "../scene";
-import { Engine } from "../Engines/engine";
-import { EngineStore } from "../Engines/engineStore";
-import { AbstractMesh } from "../Meshes/abstractMesh";
-import { Mesh } from "../Meshes/mesh";
-import { VertexBuffer } from "../Meshes/buffer";
-import { Light } from "../Lights/light";
-import { Constants } from "../Engines/constants";
-import { PrePassConfiguration } from "../Materials/prePassConfiguration";
+import { Logger } from "../Misc/logger.js";
+import { Nullable } from "../types.js";
+import { Camera } from "../Cameras/camera.js";
+import { Scene } from "../scene.js";
+import { Engine } from "../Engines/engine.js";
+import { EngineStore } from "../Engines/engineStore.js";
+import { AbstractMesh } from "../Meshes/abstractMesh.js";
+import { Mesh } from "../Meshes/mesh.js";
+import { VertexBuffer } from "../Meshes/buffer.js";
+import { Light } from "../Lights/light.js";
+import { Constants } from "../Engines/constants.js";
+import { PrePassConfiguration } from "../Materials/prePassConfiguration.js";
 
-import { UniformBuffer } from "./uniformBuffer";
-import { Effect, IEffectCreationOptions } from "./effect";
-import { BaseTexture } from "../Materials/Textures/baseTexture";
-import { WebVRFreeCamera } from '../Cameras/VR/webVRCamera';
-import { MaterialDefines } from "./materialDefines";
-import { Color3 } from '../Maths/math.color';
-import { EffectFallbacks } from './effectFallbacks';
-import { ThinMaterialHelper } from './thinMaterialHelper';
-import { TmpVectors, Vector4 } from '../Maths/math.vector';
+import { UniformBuffer } from "./uniformBuffer.js";
+import { Effect, IEffectCreationOptions } from "./effect.js";
+import { BaseTexture } from "../Materials/Textures/baseTexture.js";
+import { WebVRFreeCamera } from "../Cameras/VR/webVRCamera.js";
+import { MaterialDefines } from "./materialDefines.js";
+import { Color3 } from "../Maths/math.color.js";
+import { EffectFallbacks } from "./effectFallbacks.js";
+import { ThinMaterialHelper } from "./thinMaterialHelper.js";
+import { TmpVectors, Vector4 } from "../Maths/math.vector.js";
 
 /**
  * "Static Class" containing the most commonly used helper while dealing with material for rendering purpose.

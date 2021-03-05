@@ -1,10 +1,10 @@
-import { Observable } from "../Misc/observable";
-import { Vector2, Vector3 } from "../Maths/math.vector";
-import { Color3, Color4 } from "../Maths/math.color";
-import { Condition } from "./condition";
-import { _TypeStore } from '../Misc/typeStore';
-import { AbstractActionManager } from './abstractActionManager';
-import { Nullable } from "../types";
+import { Observable } from "../Misc/observable.js";
+import { Vector2, Vector3 } from "../Maths/math.vector.js";
+import { Color3, Color4 } from "../Maths/math.color.js";
+import { Condition } from "./condition.js";
+import { _TypeStore } from "../Misc/typeStore.js";
+import { AbstractActionManager } from "./abstractActionManager.js";
+import { Nullable } from "../types.js";
 
 declare type Scene = import("../scene").Scene;
 declare type ActionManager = import("./actionManager").ActionManager;

@@ -1,16 +1,16 @@
-import { Nullable } from "../types";
-import { Logger } from "../Misc/logger";
-import { Camera } from "../Cameras/camera";
-import { Effect } from "../Materials/effect";
-import { PostProcess, PostProcessOptions } from "./postProcess";
-import { Constants } from "../Engines/constants";
-import { GeometryBufferRenderer } from "../Rendering/geometryBufferRenderer";
+import { Nullable } from "../types.js";
+import { Logger } from "../Misc/logger.js";
+import { Camera } from "../Cameras/camera.js";
+import { Effect } from "../Materials/effect.js";
+import { PostProcess, PostProcessOptions } from "./postProcess.js";
+import { Constants } from "../Engines/constants.js";
+import { GeometryBufferRenderer } from "../Rendering/geometryBufferRenderer.js";
 
-import '../Rendering/geometryBufferRendererSceneComponent';
-import "../Shaders/screenSpaceCurvature.fragment";
-import { EngineStore } from '../Engines/engineStore';
-import { _TypeStore } from '../Misc/typeStore';
-import { serialize, SerializationHelper } from '../Misc/decorators';
+import "../Rendering/geometryBufferRendererSceneComponent.js";
+import "../Shaders/screenSpaceCurvature.fragment.js";
+import { EngineStore } from "../Engines/engineStore.js";
+import { _TypeStore } from "../Misc/typeStore.js";
+import { serialize, SerializationHelper } from "../Misc/decorators.js";
 
 declare type Engine = import("../Engines/engine").Engine;
 declare type Scene = import("../scene").Scene;

@@ -1,11 +1,11 @@
-import { Logger } from "../../Misc/logger";
-import { Nullable } from "../../types";
-import { Scene } from "../../scene";
-import { ISize } from "../../Maths/math.size";
-import { Texture } from "../../Materials/Textures/texture";
-import { Constants } from "../../Engines/constants";
-import "../../Engines/Extensions/engine.dynamicTexture";
-import { CanvasGenerator } from '../../Misc/canvasGenerator';
+import { Logger } from "../../Misc/logger.js";
+import { Nullable } from "../../types.js";
+import { Scene } from "../../scene.js";
+import { ISize } from "../../Maths/math.size.js";
+import { Texture } from "../../Materials/Textures/texture.js";
+import { Constants } from "../../Engines/constants.js";
+import "../../Engines/Extensions/engine.dynamicTexture.js";
+import { CanvasGenerator } from "../../Misc/canvasGenerator.js";
 
 /**
  * A class extending Texture allowing drawing on a texture

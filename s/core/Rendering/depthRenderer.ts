@@ -1,20 +1,20 @@
-import { Nullable } from "../types";
-import { Color4 } from "../Maths/math.color";
-import { Mesh } from "../Meshes/mesh";
-import { SubMesh } from "../Meshes/subMesh";
-import { VertexBuffer } from "../Meshes/buffer";
-import { SmartArray } from "../Misc/smartArray";
-import { Scene } from "../scene";
-import { Texture } from "../Materials/Textures/texture";
-import { RenderTargetTexture } from "../Materials/Textures/renderTargetTexture";
-import { Effect } from "../Materials/effect";
-import { MaterialHelper } from "../Materials/materialHelper";
-import { Camera } from "../Cameras/camera";
-import { Constants } from "../Engines/constants";
+import { Nullable } from "../types.js";
+import { Color4 } from "../Maths/math.color.js";
+import { Mesh } from "../Meshes/mesh.js";
+import { SubMesh } from "../Meshes/subMesh.js";
+import { VertexBuffer } from "../Meshes/buffer.js";
+import { SmartArray } from "../Misc/smartArray.js";
+import { Scene } from "../scene.js";
+import { Texture } from "../Materials/Textures/texture.js";
+import { RenderTargetTexture } from "../Materials/Textures/renderTargetTexture.js";
+import { Effect } from "../Materials/effect.js";
+import { MaterialHelper } from "../Materials/materialHelper.js";
+import { Camera } from "../Cameras/camera.js";
+import { Constants } from "../Engines/constants.js";
 
-import "../Shaders/depth.fragment";
-import "../Shaders/depth.vertex";
-import { _DevTools } from '../Misc/devTools';
+import "../Shaders/depth.fragment.js";
+import "../Shaders/depth.vertex.js";
+import { _DevTools } from "../Misc/devTools.js";
 
 /**
  * This represents a depth renderer in Babylon.

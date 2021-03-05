@@ -1,5 +1,5 @@
-import { WebGPUCacheRenderPipeline } from "./webgpuCacheRenderPipeline";
-import { StencilState } from "../../States/stencilState";
+import { WebGPUCacheRenderPipeline } from "./webgpuCacheRenderPipeline.js";
+import { StencilState } from "../../States/stencilState.js";
 
 /**
  * @hidden

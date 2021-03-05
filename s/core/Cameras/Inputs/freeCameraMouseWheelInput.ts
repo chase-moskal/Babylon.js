@@ -1,10 +1,10 @@
-import { Nullable } from "../../types";
-import { serialize } from "../../Misc/decorators";
-import { FreeCamera } from "../../Cameras/freeCamera";
-import { CameraInputTypes } from "../../Cameras/cameraInputsManager";
-import { BaseCameraMouseWheelInput } from "../../Cameras/Inputs/BaseCameraMouseWheelInput";
-import { Matrix, Vector3 } from "../../Maths/math.vector";
-import { Coordinate } from "../../Maths/math.axis";
+import { Nullable } from "../../types.js";
+import { serialize } from "../../Misc/decorators.js";
+import { FreeCamera } from "../../Cameras/freeCamera.js";
+import { CameraInputTypes } from "../../Cameras/cameraInputsManager.js";
+import { BaseCameraMouseWheelInput } from "../../Cameras/Inputs/BaseCameraMouseWheelInput.js";
+import { Matrix, Vector3 } from "../../Maths/math.vector.js";
+import { Coordinate } from "../../Maths/math.axis.js";
 
 enum _CameraProperty {
     MoveRelative,

@@ -1,5 +1,5 @@
-import { Nullable } from "../types";
-import { Engine } from "../Engines/engine";
+import { Nullable } from "../types.js";
+import { Engine } from "../Engines/engine.js";
 /**
  * Interface used to present a loading screen while loading a scene
  * @see https://doc.babylonjs.com/how_to/creating_a_custom_loading_screen

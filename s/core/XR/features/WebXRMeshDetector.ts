@@ -1,9 +1,9 @@
-import { WebXRFeaturesManager, WebXRFeatureName } from '../webXRFeaturesManager';
-import { WebXRAbstractFeature } from './WebXRAbstractFeature';
-import { WebXRSessionManager } from '../webXRSessionManager';
-import { TransformNode } from '../../Meshes/transformNode';
-import { Matrix } from '../../Maths/math';
-import { Observable } from '../../Misc/observable';
+import { WebXRFeaturesManager, WebXRFeatureName } from "../webXRFeaturesManager.js";
+import { WebXRAbstractFeature } from "./WebXRAbstractFeature.js";
+import { WebXRSessionManager } from "../webXRSessionManager.js";
+import { TransformNode } from "../../Meshes/transformNode.js";
+import { Matrix } from "../../Maths/math.js";
+import { Observable } from "../../Misc/observable.js";
 
 /**
  * Options used in the mesh detector module

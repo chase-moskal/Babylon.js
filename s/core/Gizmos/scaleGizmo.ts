@@ -1,18 +1,18 @@
-import { Logger } from "../Misc/logger";
-import { Observable, Observer } from "../Misc/observable";
-import { Nullable } from "../types";
-import { Vector3 } from "../Maths/math.vector";
-import { Color3 } from '../Maths/math.color';
-import { AbstractMesh } from "../Meshes/abstractMesh";
-import { PolyhedronBuilder } from "../Meshes/Builders/polyhedronBuilder";
-import { Gizmo, GizmoAxisCache } from "./gizmo";
-import { AxisScaleGizmo } from "./axisScaleGizmo";
-import { UtilityLayerRenderer } from "../Rendering/utilityLayerRenderer";
-import { Mesh } from "../Meshes/mesh";
-import { Node } from "../node";
-import { PointerInfo } from "../Events/pointerEvents";
-import { StandardMaterial } from "../Materials/standardMaterial";
-import { GizmoManager } from './gizmoManager';
+import { Logger } from "../Misc/logger.js";
+import { Observable, Observer } from "../Misc/observable.js";
+import { Nullable } from "../types.js";
+import { Vector3 } from "../Maths/math.vector.js";
+import { Color3 } from "../Maths/math.color.js";
+import { AbstractMesh } from "../Meshes/abstractMesh.js";
+import { PolyhedronBuilder } from "../Meshes/Builders/polyhedronBuilder.js";
+import { Gizmo, GizmoAxisCache } from "./gizmo.js";
+import { AxisScaleGizmo } from "./axisScaleGizmo.js";
+import { UtilityLayerRenderer } from "../Rendering/utilityLayerRenderer.js";
+import { Mesh } from "../Meshes/mesh.js";
+import { Node } from "../node.js";
+import { PointerInfo } from "../Events/pointerEvents.js";
+import { StandardMaterial } from "../Materials/standardMaterial.js";
+import { GizmoManager } from "./gizmoManager.js";
 /**
  * Gizmo that enables scaling a mesh along 3 axis
  */

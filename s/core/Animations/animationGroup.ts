@@ -1,13 +1,13 @@
-import { Animatable } from "./animatable";
-import { Animation } from "./animation";
-import { IAnimationKey } from "./animationKey";
+import { Animatable } from "./animatable.js";
+import { Animation } from "./animation.js";
+import { IAnimationKey } from "./animationKey.js";
 
-import { Scene, IDisposable } from "../scene";
-import { Observable } from "../Misc/observable";
-import { Nullable } from "../types";
-import { EngineStore } from "../Engines/engineStore";
+import { Scene, IDisposable } from "../scene.js";
+import { Observable } from "../Misc/observable.js";
+import { Nullable } from "../types.js";
+import { EngineStore } from "../Engines/engineStore.js";
 
-import "./animatable";
+import "./animatable.js";
 
 /**
  * This class defines the direct association between an animation and a target

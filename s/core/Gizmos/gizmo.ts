@@ -1,19 +1,19 @@
-import { Observer } from "../Misc/observable";
-import { Nullable } from "../types";
-import { WebVRFreeCamera } from "../Cameras/VR/webVRCamera";
-import { Scene, IDisposable } from "../scene";
-import { Quaternion, Vector3, Matrix } from "../Maths/math.vector";
-import { AbstractMesh } from "../Meshes/abstractMesh";
-import { Mesh } from "../Meshes/mesh";
-import { Camera } from "../Cameras/camera";
-import { TargetCamera } from "../Cameras/targetCamera";
-import { Node } from "../node";
-import { Bone } from "../Bones/bone";
-import { UtilityLayerRenderer } from "../Rendering/utilityLayerRenderer";
-import { TransformNode } from '../Meshes/transformNode';
-import { StandardMaterial } from '../Materials/standardMaterial';
-import { PointerEventTypes, PointerInfo } from '../Events/pointerEvents';
-import { LinesMesh } from '../Meshes/linesMesh';
+import { Observer } from "../Misc/observable.js";
+import { Nullable } from "../types.js";
+import { WebVRFreeCamera } from "../Cameras/VR/webVRCamera.js";
+import { Scene, IDisposable } from "../scene.js";
+import { Quaternion, Vector3, Matrix } from "../Maths/math.vector.js";
+import { AbstractMesh } from "../Meshes/abstractMesh.js";
+import { Mesh } from "../Meshes/mesh.js";
+import { Camera } from "../Cameras/camera.js";
+import { TargetCamera } from "../Cameras/targetCamera.js";
+import { Node } from "../node.js";
+import { Bone } from "../Bones/bone.js";
+import { UtilityLayerRenderer } from "../Rendering/utilityLayerRenderer.js";
+import { TransformNode } from "../Meshes/transformNode.js";
+import { StandardMaterial } from "../Materials/standardMaterial.js";
+import { PointerEventTypes, PointerInfo } from "../Events/pointerEvents.js";
+import { LinesMesh } from "../Meshes/linesMesh.js";
 
 /**
  * Cache built by each axis. Used for managing state between all elements of gizmo for enhanced UI

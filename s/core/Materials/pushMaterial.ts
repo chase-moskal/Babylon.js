@@ -1,11 +1,11 @@
-import { Nullable } from "../types";
-import { Scene } from "../scene";
-import { Matrix } from "../Maths/math.vector";
-import { AbstractMesh } from "../Meshes/abstractMesh";
-import { Mesh } from "../Meshes/mesh";
-import { Material } from "../Materials/material";
-import { Effect } from "../Materials/effect";
-import { SubMesh } from '../Meshes/subMesh';
+import { Nullable } from "../types.js";
+import { Scene } from "../scene.js";
+import { Matrix } from "../Maths/math.vector.js";
+import { AbstractMesh } from "../Meshes/abstractMesh.js";
+import { Mesh } from "../Meshes/mesh.js";
+import { Material } from "../Materials/material.js";
+import { Effect } from "../Materials/effect.js";
+import { SubMesh } from "../Meshes/subMesh.js";
 /**
  * Base class of materials working in push mode in babylon JS
  * @hidden

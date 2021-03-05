@@ -1,5 +1,5 @@
-import { ProcessingOptions } from './shaderProcessingOptions';
-import { StringTools } from '../../Misc/stringTools';
+import { ProcessingOptions } from "./shaderProcessingOptions.js";
+import { StringTools } from "../../Misc/stringTools.js";
 
 /** @hidden */
 export class ShaderCodeNode {

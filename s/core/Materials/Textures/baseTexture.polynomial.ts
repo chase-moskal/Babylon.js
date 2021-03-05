@@ -1,7 +1,7 @@
-import { Nullable } from "../../types";
-import { CubeMapToSphericalPolynomialTools } from "../../Misc/HighDynamicRange/cubemapToSphericalPolynomial";
-import { SphericalPolynomial } from "../../Maths/sphericalPolynomial";
-import { BaseTexture } from "./baseTexture";
+import { Nullable } from "../../types.js";
+import { CubeMapToSphericalPolynomialTools } from "../../Misc/HighDynamicRange/cubemapToSphericalPolynomial.js";
+import { SphericalPolynomial } from "../../Maths/sphericalPolynomial.js";
+import { BaseTexture } from "./baseTexture.js";
 
 declare module "./baseTexture" {
     export interface BaseTexture {

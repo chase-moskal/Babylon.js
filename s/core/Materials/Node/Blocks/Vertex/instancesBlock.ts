@@ -1,14 +1,14 @@
-import { NodeMaterialBlock } from '../../nodeMaterialBlock';
-import { NodeMaterialBlockTargets } from '../../Enums/nodeMaterialBlockTargets';
-import { NodeMaterialBlockConnectionPointTypes } from '../../Enums/nodeMaterialBlockConnectionPointTypes';
-import { NodeMaterialConnectionPoint } from '../../nodeMaterialBlockConnectionPoint';
-import { NodeMaterialBuildState } from '../../nodeMaterialBuildState';
-import { AbstractMesh } from '../../../../Meshes/abstractMesh';
-import { NodeMaterial, NodeMaterialDefines } from '../../nodeMaterial';
-import { NodeMaterialSystemValues } from '../../Enums/nodeMaterialSystemValues';
-import { InputBlock } from '../Input/inputBlock';
-import { _TypeStore } from '../../../../Misc/typeStore';
-import { SubMesh } from '../../../../Meshes/subMesh';
+import { NodeMaterialBlock } from "../../nodeMaterialBlock.js";
+import { NodeMaterialBlockTargets } from "../../Enums/nodeMaterialBlockTargets.js";
+import { NodeMaterialBlockConnectionPointTypes } from "../../Enums/nodeMaterialBlockConnectionPointTypes.js";
+import { NodeMaterialConnectionPoint } from "../../nodeMaterialBlockConnectionPoint.js";
+import { NodeMaterialBuildState } from "../../nodeMaterialBuildState.js";
+import { AbstractMesh } from "../../../../Meshes/abstractMesh.js";
+import { NodeMaterial, NodeMaterialDefines } from "../../nodeMaterial.js";
+import { NodeMaterialSystemValues } from "../../Enums/nodeMaterialSystemValues.js";
+import { InputBlock } from "../Input/inputBlock.js";
+import { _TypeStore } from "../../../../Misc/typeStore.js";
+import { SubMesh } from "../../../../Meshes/subMesh.js";
 
 /**
  * Block used to add support for instances

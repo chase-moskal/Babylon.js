@@ -1,7 +1,7 @@
-import { Observable } from '../../Misc/observable';
-import { IDisposable } from '../../scene';
-import { Nullable } from '../../types';
-import { Analyser } from '../analyser';
+import { Observable } from "../../Misc/observable.js";
+import { IDisposable } from "../../scene.js";
+import { Nullable } from "../../types.js";
+import { Analyser } from "../analyser.js";
 
 /**
  * This represents an audio engine and it is responsible

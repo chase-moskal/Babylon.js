@@ -1,9 +1,9 @@
-import { Logger } from "../Misc/logger";
-import { Vector3 } from "../Maths/math.vector";
-import { Action } from "./action";
-import { Condition } from "./condition";
-import { Constants } from "../Engines/constants";
-import { _TypeStore } from '../Misc/typeStore';
+import { Logger } from "../Misc/logger.js";
+import { Vector3 } from "../Maths/math.vector.js";
+import { Action } from "./action.js";
+import { Condition } from "./condition.js";
+import { Constants } from "../Engines/constants.js";
+import { _TypeStore } from "../Misc/typeStore.js";
 
 declare type ActionEvent = import("./actionEvent").ActionEvent;
 

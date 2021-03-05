@@ -1,18 +1,18 @@
-import { Nullable } from "../types";
-import { Scene } from "../scene";
-import { AbstractMesh } from "../Meshes/abstractMesh";
-import { Mesh } from "../Meshes/mesh";
-import { BoxBuilder } from "../Meshes/Builders/boxBuilder";
-import { SphereBuilder } from "../Meshes/Builders/sphereBuilder";
-import { Quaternion, Vector3 } from "../Maths/math.vector";
-import { Color3 } from '../Maths/math.color';
-import { Material } from "../Materials/material";
-import { EngineStore } from "../Engines/engineStore";
-import { StandardMaterial } from "../Materials/standardMaterial";
-import { IPhysicsEnginePlugin } from "../Physics/IPhysicsEngine";
-import { PhysicsImpostor } from "../Physics/physicsImpostor";
-import { UtilityLayerRenderer } from "../Rendering/utilityLayerRenderer";
-import { CylinderBuilder } from '../Meshes/Builders/cylinderBuilder';
+import { Nullable } from "../types.js";
+import { Scene } from "../scene.js";
+import { AbstractMesh } from "../Meshes/abstractMesh.js";
+import { Mesh } from "../Meshes/mesh.js";
+import { BoxBuilder } from "../Meshes/Builders/boxBuilder.js";
+import { SphereBuilder } from "../Meshes/Builders/sphereBuilder.js";
+import { Quaternion, Vector3 } from "../Maths/math.vector.js";
+import { Color3 } from "../Maths/math.color.js";
+import { Material } from "../Materials/material.js";
+import { EngineStore } from "../Engines/engineStore.js";
+import { StandardMaterial } from "../Materials/standardMaterial.js";
+import { IPhysicsEnginePlugin } from "../Physics/IPhysicsEngine.js";
+import { PhysicsImpostor } from "../Physics/physicsImpostor.js";
+import { UtilityLayerRenderer } from "../Rendering/utilityLayerRenderer.js";
+import { CylinderBuilder } from "../Meshes/Builders/cylinderBuilder.js";
 
 /**
      * Used to show the physics impostor around the specific mesh

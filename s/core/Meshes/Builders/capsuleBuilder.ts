@@ -1,8 +1,8 @@
-import { VertexData } from "../mesh.vertexData";
-import { Vector2, Vector3, Matrix } from "../../Maths/math.vector";
-import { Mesh, _CreationDataStorage } from "../mesh";
-import { Nullable } from "../../types";
-import { Scene } from "../../scene";
+import { VertexData } from "../mesh.vertexData.js";
+import { Vector2, Vector3, Matrix } from "../../Maths/math.vector.js";
+import { Mesh, _CreationDataStorage } from "../mesh.js";
+import { Nullable } from "../../types.js";
+import { Scene } from "../../scene.js";
 /**
  * Scripts based off of https://github.com/maximeq/three-js-capsule-geometry/blob/master/src/CapsuleBufferGeometry.js
  * @param options the constructors options used to shape the mesh.

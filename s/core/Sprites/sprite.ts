@@ -1,11 +1,11 @@
-import { Vector3 } from "../Maths/math.vector";
-import { Nullable } from "../types";
-import { ActionManager } from "../Actions/actionManager";
-import { ISpriteManager, SpriteManager } from "./spriteManager";
-import { Color4 } from '../Maths/math.color';
-import { Observable } from '../Misc/observable';
-import { IAnimatable } from '../Animations/animatable.interface';
-import { ThinSprite } from './thinSprite';
+import { Vector3 } from "../Maths/math.vector.js";
+import { Nullable } from "../types.js";
+import { ActionManager } from "../Actions/actionManager.js";
+import { ISpriteManager, SpriteManager } from "./spriteManager.js";
+import { Color4 } from "../Maths/math.color.js";
+import { Observable } from "../Misc/observable.js";
+import { IAnimatable } from "../Animations/animatable.interface.js";
+import { ThinSprite } from "./thinSprite.js";
 
 declare type Animation = import("../Animations/animation").Animation;
 

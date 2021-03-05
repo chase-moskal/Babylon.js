@@ -1,13 +1,13 @@
-import { PostProcess, PostProcessOptions } from "./postProcess";
-import { Nullable } from "../types";
-import { Engine } from "../Engines/engine";
-import { Effect } from "../Materials/effect";
-import { Camera } from "../Cameras/camera";
-import { Constants } from "../Engines/constants";
+import { PostProcess, PostProcessOptions } from "./postProcess.js";
+import { Nullable } from "../types.js";
+import { Engine } from "../Engines/engine.js";
+import { Effect } from "../Materials/effect.js";
+import { Camera } from "../Cameras/camera.js";
+import { Constants } from "../Engines/constants.js";
 
-import "../Shaders/bloomMerge.fragment";
-import { _TypeStore } from '../Misc/typeStore';
-import { serialize } from '../Misc/decorators';
+import "../Shaders/bloomMerge.fragment.js";
+import { _TypeStore } from "../Misc/typeStore.js";
+import { serialize } from "../Misc/decorators.js";
 
 /**
  * The BloomMergePostProcess merges blurred images with the original based on the values of the circle of confusion.

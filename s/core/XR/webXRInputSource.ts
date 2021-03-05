@@ -1,11 +1,11 @@
-import { Observable } from "../Misc/observable";
-import { AbstractMesh } from "../Meshes/abstractMesh";
-import { Quaternion, Vector3 } from "../Maths/math.vector";
-import { Ray } from "../Culling/ray";
-import { Scene } from "../scene";
-import { WebXRAbstractMotionController } from "./motionController/webXRAbstractMotionController";
-import { WebXRMotionControllerManager } from "./motionController/webXRMotionControllerManager";
-import { Tools } from "../Misc/tools";
+import { Observable } from "../Misc/observable.js";
+import { AbstractMesh } from "../Meshes/abstractMesh.js";
+import { Quaternion, Vector3 } from "../Maths/math.vector.js";
+import { Ray } from "../Culling/ray.js";
+import { Scene } from "../scene.js";
+import { WebXRAbstractMotionController } from "./motionController/webXRAbstractMotionController.js";
+import { WebXRMotionControllerManager } from "./motionController/webXRMotionControllerManager.js";
+import { Tools } from "../Misc/tools.js";
 
 let idCount = 0;
 

@@ -1,20 +1,20 @@
-import { Nullable, FloatArray, DataArray, IndicesArray } from "../types";
-import { Scene } from "../scene";
-import { Vector3, Vector2 } from "../Maths/math.vector";
-import { Color4 } from "../Maths/math.color";
-import { Engine } from "../Engines/engine";
-import { IGetSetVerticesData, VertexData } from "../Meshes/mesh.vertexData";
-import { VertexBuffer } from "../Meshes/buffer";
-import { SubMesh } from "../Meshes/subMesh";
-import { AbstractMesh } from "../Meshes/abstractMesh";
-import { Effect } from "../Materials/effect";
-import { SceneLoaderFlags } from "../Loading/sceneLoaderFlags";
-import { BoundingInfo } from "../Culling/boundingInfo";
-import { Constants } from "../Engines/constants";
-import { Tools } from "../Misc/tools";
-import { Tags } from "../Misc/tags";
-import { DataBuffer } from "./dataBuffer";
-import { extractMinAndMax } from "../Maths/math.functions";
+import { Nullable, FloatArray, DataArray, IndicesArray } from "../types.js";
+import { Scene } from "../scene.js";
+import { Vector3, Vector2 } from "../Maths/math.vector.js";
+import { Color4 } from "../Maths/math.color.js";
+import { Engine } from "../Engines/engine.js";
+import { IGetSetVerticesData, VertexData } from "../Meshes/mesh.vertexData.js";
+import { VertexBuffer } from "../Meshes/buffer.js";
+import { SubMesh } from "../Meshes/subMesh.js";
+import { AbstractMesh } from "../Meshes/abstractMesh.js";
+import { Effect } from "../Materials/effect.js";
+import { SceneLoaderFlags } from "../Loading/sceneLoaderFlags.js";
+import { BoundingInfo } from "../Culling/boundingInfo.js";
+import { Constants } from "../Engines/constants.js";
+import { Tools } from "../Misc/tools.js";
+import { Tags } from "../Misc/tags.js";
+import { DataBuffer } from "./dataBuffer.js";
+import { extractMinAndMax } from "../Maths/math.functions.js";
 
 declare type Mesh = import("../Meshes/mesh").Mesh;
 

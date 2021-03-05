@@ -1,4 +1,4 @@
-import { IKeyboardEvent } from "./deviceInputEvents";
+import { IKeyboardEvent } from "./deviceInputEvents.js";
 
 /**
  * Gather the list of keyboard event types as constants.

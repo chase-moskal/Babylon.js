@@ -1,11 +1,11 @@
-import { Nullable } from "../types";
-import { Scene } from "../scene";
-import { AbstractMesh } from "../Meshes/abstractMesh";
-import { SubMesh } from "../Meshes/subMesh";
-import { BaseTexture } from "../Materials/Textures/baseTexture";
-import { Material } from "../Materials/material";
-import { Tags } from "../Misc/tags";
-import { _TypeStore } from '../Misc/typeStore';
+import { Nullable } from "../types.js";
+import { Scene } from "../scene.js";
+import { AbstractMesh } from "../Meshes/abstractMesh.js";
+import { SubMesh } from "../Meshes/subMesh.js";
+import { BaseTexture } from "../Materials/Textures/baseTexture.js";
+import { Material } from "../Materials/material.js";
+import { Tags } from "../Misc/tags.js";
+import { _TypeStore } from "../Misc/typeStore.js";
 
 /**
  * A multi-material is used to apply different materials to different parts of the same object without the need of

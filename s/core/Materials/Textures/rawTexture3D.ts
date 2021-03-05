@@ -1,7 +1,7 @@
-import { Scene } from "../../scene";
-import { Texture } from "./texture";
-import { Constants } from "../../Engines/constants";
-import "../../Engines/Extensions/engine.rawTexture";
+import { Scene } from "../../scene.js";
+import { Texture } from "./texture.js";
+import { Constants } from "../../Engines/constants.js";
+import "../../Engines/Extensions/engine.rawTexture.js";
 /**
  * Class used to store 3D textures containing user data
  */

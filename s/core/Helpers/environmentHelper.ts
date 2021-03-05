@@ -1,21 +1,21 @@
-import { Observable } from "../Misc/observable";
-import { Nullable } from "../types";
-import { ArcRotateCamera } from "../Cameras/arcRotateCamera";
-import { Scene } from "../scene";
-import { Vector3 } from "../Maths/math.vector";
-import { Color3, Color4 } from '../Maths/math.color';
-import { AbstractMesh } from "../Meshes/abstractMesh";
-import { Mesh } from "../Meshes/mesh";
-import { BaseTexture } from "../Materials/Textures/baseTexture";
-import { Texture } from "../Materials/Textures/texture";
-import { MirrorTexture } from "../Materials/Textures/mirrorTexture";
-import { CubeTexture } from "../Materials/Textures/cubeTexture";
-import { BackgroundMaterial } from "../Materials/Background/backgroundMaterial";
-import { Constants } from "../Engines/constants";
+import { Observable } from "../Misc/observable.js";
+import { Nullable } from "../types.js";
+import { ArcRotateCamera } from "../Cameras/arcRotateCamera.js";
+import { Scene } from "../scene.js";
+import { Vector3 } from "../Maths/math.vector.js";
+import { Color3, Color4 } from "../Maths/math.color.js";
+import { AbstractMesh } from "../Meshes/abstractMesh.js";
+import { Mesh } from "../Meshes/mesh.js";
+import { BaseTexture } from "../Materials/Textures/baseTexture.js";
+import { Texture } from "../Materials/Textures/texture.js";
+import { MirrorTexture } from "../Materials/Textures/mirrorTexture.js";
+import { CubeTexture } from "../Materials/Textures/cubeTexture.js";
+import { BackgroundMaterial } from "../Materials/Background/backgroundMaterial.js";
+import { Constants } from "../Engines/constants.js";
 
-import "../Meshes/Builders/planeBuilder";
-import "../Meshes/Builders/boxBuilder";
-import { Plane } from '../Maths/math.plane';
+import "../Meshes/Builders/planeBuilder.js";
+import "../Meshes/Builders/boxBuilder.js";
+import { Plane } from "../Maths/math.plane.js";
 
 /**
  * Represents the different options available during the creation of

@@ -1,10 +1,10 @@
-import { Nullable } from "../../types";
-import { Engine, IDisplayChangedEventArgs } from "../../Engines/engine";
-import { Size } from '../../Maths/math.size';
-import { Observable } from '../../Misc/observable';
-import { Tools } from '../../Misc/tools';
-import { DomManagement } from '../../Misc/domManagement';
-import { WebVROptions } from '../../Cameras/VR/webVRCamera';
+import { Nullable } from "../../types.js";
+import { Engine, IDisplayChangedEventArgs } from "../../Engines/engine.js";
+import { Size } from "../../Maths/math.size.js";
+import { Observable } from "../../Misc/observable.js";
+import { Tools } from "../../Misc/tools.js";
+import { DomManagement } from "../../Misc/domManagement.js";
+import { WebVROptions } from "../../Cameras/VR/webVRCamera.js";
 
 /**
  * Interface used to define additional presentation attributes

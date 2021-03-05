@@ -1,12 +1,12 @@
-import { Logger } from "../Misc/logger";
-import { Observable } from "../Misc/observable";
-import { Nullable } from "../types";
-import { IDisposable, Scene } from "../scene";
-import { InternalTexture, InternalTextureSource } from "../Materials/Textures/internalTexture";
-import { RenderTargetTexture } from "../Materials/Textures/renderTargetTexture";
-import { WebXRRenderTarget } from "./webXRTypes";
-import { WebXRManagedOutputCanvas, WebXRManagedOutputCanvasOptions } from "./webXRManagedOutputCanvas";
-import { Engine } from "../Engines/engine";
+import { Logger } from "../Misc/logger.js";
+import { Observable } from "../Misc/observable.js";
+import { Nullable } from "../types.js";
+import { IDisposable, Scene } from "../scene.js";
+import { InternalTexture, InternalTextureSource } from "../Materials/Textures/internalTexture.js";
+import { RenderTargetTexture } from "../Materials/Textures/renderTargetTexture.js";
+import { WebXRRenderTarget } from "./webXRTypes.js";
+import { WebXRManagedOutputCanvas, WebXRManagedOutputCanvasOptions } from "./webXRManagedOutputCanvas.js";
+import { Engine } from "../Engines/engine.js";
 
 interface IRenderTargetProvider {
     getRenderTargetForEye(eye: XREye): Nullable<RenderTargetTexture>;

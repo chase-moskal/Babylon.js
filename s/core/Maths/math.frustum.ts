@@ -1,6 +1,6 @@
-import { Matrix } from './math.vector';
-import { DeepImmutable } from '../types';
-import { Plane } from './math.plane';
+import { Matrix } from "./math.vector.js";
+import { DeepImmutable } from "../types.js";
+import { Plane } from "./math.plane.js";
 
 /**
  * Represents a camera frustum

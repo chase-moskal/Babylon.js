@@ -1,10 +1,10 @@
-import { Scene } from "../../scene";
-import { AbstractMesh } from "../../Meshes/abstractMesh";
-import { SceneLoader } from "../../Loading/sceneLoader";
+import { Scene } from "../../scene.js";
+import { AbstractMesh } from "../../Meshes/abstractMesh.js";
+import { SceneLoader } from "../../Loading/sceneLoader.js";
 
-import { WebVRController } from "./webVRController";
-import { ExtendedGamepadButton, PoseEnabledControllerHelper } from "./poseEnabledController";
-import { GamepadButtonChanges } from "../../Gamepads/gamepad";
+import { WebVRController } from "./webVRController.js";
+import { ExtendedGamepadButton, PoseEnabledControllerHelper } from "./poseEnabledController.js";
+import { GamepadButtonChanges } from "../../Gamepads/gamepad.js";
 
 /**
  * Generic Controller

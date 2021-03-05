@@ -1,9 +1,9 @@
-import { Observable } from "../../Misc/observable";
-import { Scene } from "../../scene";
-import { AbstractMesh } from "../../Meshes/abstractMesh";
-import { PoseEnabledController, ExtendedGamepadButton, MutableGamepadButton } from "./poseEnabledController";
-import { StickValues, GamepadButtonChanges } from "../../Gamepads/gamepad";
-import { Nullable } from '../../types';
+import { Observable } from "../../Misc/observable.js";
+import { Scene } from "../../scene.js";
+import { AbstractMesh } from "../../Meshes/abstractMesh.js";
+import { PoseEnabledController, ExtendedGamepadButton, MutableGamepadButton } from "./poseEnabledController.js";
+import { StickValues, GamepadButtonChanges } from "../../Gamepads/gamepad.js";
+import { Nullable } from "../../types.js";
 
 /**
  * Defines the WebVRController object that represents controllers tracked in 3D space

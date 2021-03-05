@@ -1,14 +1,14 @@
-import { Camera } from "../Cameras/camera";
-import { DirectionalLight } from "../Lights/directionalLight";
-import { StandardMaterial } from "../Materials/standardMaterial";
-import { Color3 } from "../Maths/math.color";
-import { Matrix, TmpVectors, Vector3 } from "../Maths/math.vector";
-import { LinesBuilder } from "../Meshes/Builders/linesBuilder";
-import { LinesMesh } from "../Meshes/linesMesh";
-import { Mesh } from "../Meshes/mesh";
-import { VertexData } from "../Meshes/mesh.vertexData";
-import { TransformNode } from "../Meshes/transformNode";
-import { Scene } from "../scene";
+import { Camera } from "../Cameras/camera.js";
+import { DirectionalLight } from "../Lights/directionalLight.js";
+import { StandardMaterial } from "../Materials/standardMaterial.js";
+import { Color3 } from "../Maths/math.color.js";
+import { Matrix, TmpVectors, Vector3 } from "../Maths/math.vector.js";
+import { LinesBuilder } from "../Meshes/Builders/linesBuilder.js";
+import { LinesMesh } from "../Meshes/linesMesh.js";
+import { Mesh } from "../Meshes/mesh.js";
+import { VertexData } from "../Meshes/mesh.vertexData.js";
+import { TransformNode } from "../Meshes/transformNode.js";
+import { Scene } from "../scene.js";
 
 /**
  * Class used to render a debug view of the frustum for a directional light

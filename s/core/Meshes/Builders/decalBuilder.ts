@@ -1,11 +1,11 @@
-import { Nullable, IndicesArray } from "../../types";
-import { Vector3, Matrix, Vector2 } from "../../Maths/math.vector";
-import { Mesh, _CreationDataStorage } from "../mesh";
-import { VertexBuffer } from "../buffer";
-import { VertexData } from "../mesh.vertexData";
-import { AbstractMesh } from "../abstractMesh";
-import { Camera } from "../../Cameras/camera";
-import { PositionNormalTextureVertex } from '../../Maths/math.vertexFormat';
+import { Nullable, IndicesArray } from "../../types.js";
+import { Vector3, Matrix, Vector2 } from "../../Maths/math.vector.js";
+import { Mesh, _CreationDataStorage } from "../mesh.js";
+import { VertexBuffer } from "../buffer.js";
+import { VertexData } from "../mesh.vertexData.js";
+import { AbstractMesh } from "../abstractMesh.js";
+import { Camera } from "../../Cameras/camera.js";
+import { PositionNormalTextureVertex } from "../../Maths/math.vertexFormat.js";
 
 Mesh.CreateDecal = (name: string, sourceMesh: AbstractMesh, position: Vector3, normal: Vector3, size: Vector3, angle: number): Mesh => {
     var options = {

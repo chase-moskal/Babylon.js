@@ -1,22 +1,22 @@
-import { Vector2, Vector3, TmpVectors } from "../../../Maths/math.vector";
-import { Camera } from "../../../Cameras/camera";
-import { Effect } from "../../../Materials/effect";
-import { Texture } from "../../../Materials/Textures/texture";
-import { DynamicTexture } from "../../../Materials/Textures/dynamicTexture";
-import { RenderTargetTexture } from "../../../Materials/Textures/renderTargetTexture";
-import { PostProcess } from "../../../PostProcesses/postProcess";
-import { PostProcessRenderPipeline } from "../../../PostProcesses/RenderPipeline/postProcessRenderPipeline";
-import { PostProcessRenderEffect } from "../../../PostProcesses/RenderPipeline/postProcessRenderEffect";
-import { PassPostProcess } from "../../../PostProcesses/passPostProcess";
-import { BlurPostProcess } from "../../../PostProcesses/blurPostProcess";
-import { Constants } from "../../../Engines/constants";
-import { serialize } from "../../../Misc/decorators";
-import { Scene } from "../../../scene";
+import { Vector2, Vector3, TmpVectors } from "../../../Maths/math.vector.js";
+import { Camera } from "../../../Cameras/camera.js";
+import { Effect } from "../../../Materials/effect.js";
+import { Texture } from "../../../Materials/Textures/texture.js";
+import { DynamicTexture } from "../../../Materials/Textures/dynamicTexture.js";
+import { RenderTargetTexture } from "../../../Materials/Textures/renderTargetTexture.js";
+import { PostProcess } from "../../../PostProcesses/postProcess.js";
+import { PostProcessRenderPipeline } from "../../../PostProcesses/RenderPipeline/postProcessRenderPipeline.js";
+import { PostProcessRenderEffect } from "../../../PostProcesses/RenderPipeline/postProcessRenderEffect.js";
+import { PassPostProcess } from "../../../PostProcesses/passPostProcess.js";
+import { BlurPostProcess } from "../../../PostProcesses/blurPostProcess.js";
+import { Constants } from "../../../Engines/constants.js";
+import { serialize } from "../../../Misc/decorators.js";
+import { Scene } from "../../../scene.js";
 
-import "../../../PostProcesses/RenderPipeline/postProcessRenderPipelineManagerSceneComponent";
+import "../../../PostProcesses/RenderPipeline/postProcessRenderPipelineManagerSceneComponent.js";
 
-import "../../../Shaders/ssao.fragment";
-import "../../../Shaders/ssaoCombine.fragment";
+import "../../../Shaders/ssao.fragment.js";
+import "../../../Shaders/ssaoCombine.fragment.js";
 
 /**
  * Render pipeline to produce ssao effect

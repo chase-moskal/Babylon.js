@@ -1,10 +1,10 @@
-import { Nullable } from "../types";
-import { AxesViewer } from "../Debug/axesViewer";
-import { Vector3 } from "../Maths/math.vector";
-import { Mesh } from "../Meshes/mesh";
-import { Bone } from "../Bones/bone";
-import { Scene } from "../scene";
-import { Axis } from '../Maths/math.axis';
+import { Nullable } from "../types.js";
+import { AxesViewer } from "../Debug/axesViewer.js";
+import { Vector3 } from "../Maths/math.vector.js";
+import { Mesh } from "../Meshes/mesh.js";
+import { Bone } from "../Bones/bone.js";
+import { Scene } from "../scene.js";
+import { Axis } from "../Maths/math.axis.js";
 
 /**
      * The BoneAxesViewer will attach 3 axes to a specific bone of a specific mesh

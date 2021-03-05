@@ -1,8 +1,8 @@
-import { DeepImmutable, FloatArray } from '../types';
-import { Scalar } from './math.scalar';
-import { ToLinearSpace, ToGammaSpace } from './math.constants';
-import { ArrayTools } from '../Misc/arrayTools';
-import { _TypeStore } from '../Misc/typeStore';
+import { DeepImmutable, FloatArray } from "../types.js";
+import { Scalar } from "./math.scalar.js";
+import { ToLinearSpace, ToGammaSpace } from "./math.constants.js";
+import { ArrayTools } from "../Misc/arrayTools.js";
+import { _TypeStore } from "../Misc/typeStore.js";
 
 /**
  * Class used to hold a RGB color

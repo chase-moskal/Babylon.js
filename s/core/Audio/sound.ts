@@ -1,14 +1,14 @@
-import { Tools } from "../Misc/tools";
-import { Observable } from "../Misc/observable";
-import { Vector3 } from "../Maths/math.vector";
-import { Nullable } from "../types";
-import { Scene } from "../scene";
-import { Engine } from "../Engines/engine";
-import { AbstractMesh } from "../Meshes/abstractMesh";
-import { TransformNode } from "../Meshes/transformNode";
-import { Logger } from "../Misc/logger";
-import { _DevTools } from "../Misc/devTools";
-import { ISoundOptions } from './Interfaces/ISoundOptions';
+import { Tools } from "../Misc/tools.js";
+import { Observable } from "../Misc/observable.js";
+import { Vector3 } from "../Maths/math.vector.js";
+import { Nullable } from "../types.js";
+import { Scene } from "../scene.js";
+import { Engine } from "../Engines/engine.js";
+import { AbstractMesh } from "../Meshes/abstractMesh.js";
+import { TransformNode } from "../Meshes/transformNode.js";
+import { Logger } from "../Misc/logger.js";
+import { _DevTools } from "../Misc/devTools.js";
+import { ISoundOptions } from "./Interfaces/ISoundOptions.js";
 
 /**
  * Defines a sound that can be played in the application.

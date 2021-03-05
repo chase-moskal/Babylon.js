@@ -1,14 +1,14 @@
-import { Nullable } from "../types";
-import { Color3 } from '../Maths/math.color';
-import { TransformNode } from "../Meshes/transformNode";
-import { AbstractMesh } from "../Meshes/abstractMesh";
-import { SphereBuilder } from "../Meshes/Builders/sphereBuilder";
-import { IParticleSystem } from "./IParticleSystem";
-import { GPUParticleSystem } from "./gpuParticleSystem";
-import { EngineStore } from "../Engines/engineStore";
-import { ParticleSystem } from "../Particles/particleSystem";
-import { Scene, IDisposable } from "../scene";
-import { StandardMaterial } from "../Materials/standardMaterial";
+import { Nullable } from "../types.js";
+import { Color3 } from "../Maths/math.color.js";
+import { TransformNode } from "../Meshes/transformNode.js";
+import { AbstractMesh } from "../Meshes/abstractMesh.js";
+import { SphereBuilder } from "../Meshes/Builders/sphereBuilder.js";
+import { IParticleSystem } from "./IParticleSystem.js";
+import { GPUParticleSystem } from "./gpuParticleSystem.js";
+import { EngineStore } from "../Engines/engineStore.js";
+import { ParticleSystem } from "../Particles/particleSystem.js";
+import { Scene, IDisposable } from "../scene.js";
+import { StandardMaterial } from "../Materials/standardMaterial.js";
 
 /** Internal class used to store shapes for emitters */
 class ParticleSystemSetEmitterCreationOptions {

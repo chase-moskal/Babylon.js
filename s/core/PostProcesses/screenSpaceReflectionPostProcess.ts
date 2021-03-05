@@ -1,15 +1,15 @@
-import { Nullable } from "../types";
-import { Camera } from "../Cameras/camera";
-import { Effect } from "../Materials/effect";
-import { PostProcess, PostProcessOptions } from "./postProcess";
-import { Constants } from "../Engines/constants";
-import { GeometryBufferRenderer } from '../Rendering/geometryBufferRenderer';
-import { serialize, SerializationHelper } from '../Misc/decorators';
-import { PrePassRenderer } from "../Rendering/prePassRenderer";
-import { ScreenSpaceReflectionsConfiguration } from "../Rendering/screenSpaceReflectionsConfiguration";
+import { Nullable } from "../types.js";
+import { Camera } from "../Cameras/camera.js";
+import { Effect } from "../Materials/effect.js";
+import { PostProcess, PostProcessOptions } from "./postProcess.js";
+import { Constants } from "../Engines/constants.js";
+import { GeometryBufferRenderer } from "../Rendering/geometryBufferRenderer.js";
+import { serialize, SerializationHelper } from "../Misc/decorators.js";
+import { PrePassRenderer } from "../Rendering/prePassRenderer.js";
+import { ScreenSpaceReflectionsConfiguration } from "../Rendering/screenSpaceReflectionsConfiguration.js";
 
-import "../Shaders/screenSpaceReflection.fragment";
-import { _TypeStore } from '../Misc/typeStore';
+import "../Shaders/screenSpaceReflection.fragment.js";
+import { _TypeStore } from "../Misc/typeStore.js";
 
 declare type Engine = import("../Engines/engine").Engine;
 declare type Scene = import("../scene").Scene;

@@ -1,16 +1,16 @@
-import { Logger } from "../Misc/logger";
-import { Nullable, FloatArray, IndicesArray } from "../types";
-import { Engine } from "../Engines/engine";
-import { RenderTargetCreationOptions } from "../Materials/Textures/renderTargetCreationOptions";
-import { VertexBuffer } from "../Meshes/buffer";
-import { InternalTexture, InternalTextureSource } from "../Materials/Textures/internalTexture";
-import { Effect } from "../Materials/effect";
-import { Constants } from "./constants";
-import { IPipelineContext } from './IPipelineContext';
-import { DataBuffer } from '../Meshes/dataBuffer';
-import { IColor4Like, IViewportLike } from '../Maths/math.like';
-import { ISceneLike } from './thinEngine';
-import { PerformanceConfigurator } from './performanceConfigurator';
+import { Logger } from "../Misc/logger.js";
+import { Nullable, FloatArray, IndicesArray } from "../types.js";
+import { Engine } from "../Engines/engine.js";
+import { RenderTargetCreationOptions } from "../Materials/Textures/renderTargetCreationOptions.js";
+import { VertexBuffer } from "../Meshes/buffer.js";
+import { InternalTexture, InternalTextureSource } from "../Materials/Textures/internalTexture.js";
+import { Effect } from "../Materials/effect.js";
+import { Constants } from "./constants.js";
+import { IPipelineContext } from "./IPipelineContext.js";
+import { DataBuffer } from "../Meshes/dataBuffer.js";
+import { IColor4Like, IViewportLike } from "../Maths/math.like.js";
+import { ISceneLike } from "./thinEngine.js";
+import { PerformanceConfigurator } from "./performanceConfigurator.js";
 
 declare const global: any;
 

@@ -1,11 +1,11 @@
-import { Nullable } from "../types";
-import { AbstractMesh } from "../Meshes/abstractMesh";
-import { SubMesh } from "../Meshes/subMesh";
-import { SmartArray } from "../Misc/smartArray";
-import { ISpriteManager } from "../Sprites/spriteManager";
-import { IParticleSystem } from "../Particles/IParticleSystem";
-import { Material } from "../Materials/material";
-import { RenderingGroup } from "./renderingGroup";
+import { Nullable } from "../types.js";
+import { AbstractMesh } from "../Meshes/abstractMesh.js";
+import { SubMesh } from "../Meshes/subMesh.js";
+import { SmartArray } from "../Misc/smartArray.js";
+import { ISpriteManager } from "../Sprites/spriteManager.js";
+import { IParticleSystem } from "../Particles/IParticleSystem.js";
+import { Material } from "../Materials/material.js";
+import { RenderingGroup } from "./renderingGroup.js";
 
 declare type Scene = import("../scene").Scene;
 declare type Camera = import("../Cameras/camera").Camera;

@@ -1,13 +1,13 @@
-import { Animation } from "./animation";
-import { RuntimeAnimation } from "./runtimeAnimation";
+import { Animation } from "./animation.js";
+import { RuntimeAnimation } from "./runtimeAnimation.js";
 
-import { Nullable } from "../types";
-import { Observable } from "../Misc/observable";
-import { Scene } from "../scene";
-import { Matrix, Quaternion, Vector3, TmpVectors } from '../Maths/math.vector';
-import { PrecisionDate } from '../Misc/precisionDate';
-import { Bone } from '../Bones/bone';
-import { Node } from "../node";
+import { Nullable } from "../types.js";
+import { Observable } from "../Misc/observable.js";
+import { Scene } from "../scene.js";
+import { Matrix, Quaternion, Vector3, TmpVectors } from "../Maths/math.vector.js";
+import { PrecisionDate } from "../Misc/precisionDate.js";
+import { Bone } from "../Bones/bone.js";
+import { Node } from "../node.js";
 
 /**
  * Class used to store an actual running animation

@@ -1,15 +1,15 @@
-import { Nullable } from "../types";
-import { Vector2 } from "../Maths/math.vector";
-import { Camera } from "../Cameras/camera";
-import { Effect } from "../Materials/effect";
-import { Texture } from "../Materials/Textures/texture";
-import { PostProcess, PostProcessOptions } from "./postProcess";
-import { BlurPostProcess } from "./blurPostProcess";
-import { Engine } from "../Engines/engine";
-import { Scene } from "../scene";
-import { Constants } from "../Engines/constants";
-import { _TypeStore } from '../Misc/typeStore';
-import { serialize } from '../Misc/decorators';
+import { Nullable } from "../types.js";
+import { Vector2 } from "../Maths/math.vector.js";
+import { Camera } from "../Cameras/camera.js";
+import { Effect } from "../Materials/effect.js";
+import { Texture } from "../Materials/Textures/texture.js";
+import { PostProcess, PostProcessOptions } from "./postProcess.js";
+import { BlurPostProcess } from "./blurPostProcess.js";
+import { Engine } from "../Engines/engine.js";
+import { Scene } from "../scene.js";
+import { Constants } from "../Engines/constants.js";
+import { _TypeStore } from "../Misc/typeStore.js";
+import { serialize } from "../Misc/decorators.js";
 
 /**
  * The DepthOfFieldBlurPostProcess applied a blur in a give direction.

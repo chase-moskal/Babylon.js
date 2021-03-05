@@ -1,15 +1,15 @@
-import { SerializationHelper, serialize, expandToProperty, serializeAsVector2, serializeAsTexture } from "../../Misc/decorators";
-import { UniformBuffer } from "../../Materials/uniformBuffer";
-import { AbstractMesh } from "../../Meshes/abstractMesh";
-import { VertexBuffer } from "../../Meshes/buffer";
-import { Vector2 } from "../../Maths/math.vector";
-import { Scene } from "../../scene";
-import { MaterialFlags } from "../../Materials/materialFlags";
-import { MaterialHelper } from "../../Materials/materialHelper";
-import { BaseTexture } from "../../Materials/Textures/baseTexture";
-import { Nullable } from "../../types";
-import { IAnimatable } from '../../Animations/animatable.interface';
-import { EffectFallbacks } from '../effectFallbacks';
+import { SerializationHelper, serialize, expandToProperty, serializeAsVector2, serializeAsTexture } from "../../Misc/decorators.js";
+import { UniformBuffer } from "../../Materials/uniformBuffer.js";
+import { AbstractMesh } from "../../Meshes/abstractMesh.js";
+import { VertexBuffer } from "../../Meshes/buffer.js";
+import { Vector2 } from "../../Maths/math.vector.js";
+import { Scene } from "../../scene.js";
+import { MaterialFlags } from "../../Materials/materialFlags.js";
+import { MaterialHelper } from "../../Materials/materialHelper.js";
+import { BaseTexture } from "../../Materials/Textures/baseTexture.js";
+import { Nullable } from "../../types.js";
+import { IAnimatable } from "../../Animations/animatable.interface.js";
+import { EffectFallbacks } from "../effectFallbacks.js";
 
 /**
  * @hidden

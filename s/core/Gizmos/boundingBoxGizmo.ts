@@ -1,24 +1,24 @@
-import { Observer, Observable } from "../Misc/observable";
-import { Logger } from "../Misc/logger";
-import { Nullable } from "../types";
-import { PointerInfo } from "../Events/pointerEvents";
-import { Scene } from "../scene";
-import { Quaternion, Matrix, Vector3 } from "../Maths/math.vector";
-import { AbstractMesh } from "../Meshes/abstractMesh";
-import { Mesh } from "../Meshes/mesh";
-import { SphereBuilder } from "../Meshes/Builders/sphereBuilder";
-import { BoxBuilder } from "../Meshes/Builders/boxBuilder";
-import { LinesBuilder } from "../Meshes/Builders/linesBuilder";
-import { PointerDragBehavior } from "../Behaviors/Meshes/pointerDragBehavior";
-import { Gizmo } from "./gizmo";
-import { UtilityLayerRenderer } from "../Rendering/utilityLayerRenderer";
-import { StandardMaterial } from "../Materials/standardMaterial";
-import { PivotTools } from "../Misc/pivotTools";
-import { Color3 } from '../Maths/math.color';
+import { Observer, Observable } from "../Misc/observable.js";
+import { Logger } from "../Misc/logger.js";
+import { Nullable } from "../types.js";
+import { PointerInfo } from "../Events/pointerEvents.js";
+import { Scene } from "../scene.js";
+import { Quaternion, Matrix, Vector3 } from "../Maths/math.vector.js";
+import { AbstractMesh } from "../Meshes/abstractMesh.js";
+import { Mesh } from "../Meshes/mesh.js";
+import { SphereBuilder } from "../Meshes/Builders/sphereBuilder.js";
+import { BoxBuilder } from "../Meshes/Builders/boxBuilder.js";
+import { LinesBuilder } from "../Meshes/Builders/linesBuilder.js";
+import { PointerDragBehavior } from "../Behaviors/Meshes/pointerDragBehavior.js";
+import { Gizmo } from "./gizmo.js";
+import { UtilityLayerRenderer } from "../Rendering/utilityLayerRenderer.js";
+import { StandardMaterial } from "../Materials/standardMaterial.js";
+import { PivotTools } from "../Misc/pivotTools.js";
+import { Color3 } from "../Maths/math.color.js";
 
-import "../Meshes/Builders/boxBuilder";
-import { LinesMesh } from '../Meshes/linesMesh';
-import { Epsilon } from '../Maths/math.constants';
+import "../Meshes/Builders/boxBuilder.js";
+import { LinesMesh } from "../Meshes/linesMesh.js";
+import { Epsilon } from "../Maths/math.constants.js";
 
 /**
  * Bounding box gizmo

@@ -1,12 +1,12 @@
-import { IPhysicsEnginePlugin, PhysicsImpostorJoint } from "../../Physics/IPhysicsEngine";
-import { PhysicsImpostor, IPhysicsEnabledObject } from "../../Physics/physicsImpostor";
-import { PhysicsJoint, IMotorEnabledJoint, DistanceJointData, SpringJointData } from "../../Physics/physicsJoint";
-import { PhysicsEngine } from "../../Physics/physicsEngine";
-import { AbstractMesh } from "../../Meshes/abstractMesh";
-import { Vector3, Quaternion } from "../../Maths/math.vector";
-import { Nullable } from "../../types";
-import { Logger } from "../../Misc/logger";
-import { PhysicsRaycastResult } from "../physicsRaycastResult";
+import { IPhysicsEnginePlugin, PhysicsImpostorJoint } from "../../Physics/IPhysicsEngine.js";
+import { PhysicsImpostor, IPhysicsEnabledObject } from "../../Physics/physicsImpostor.js";
+import { PhysicsJoint, IMotorEnabledJoint, DistanceJointData, SpringJointData } from "../../Physics/physicsJoint.js";
+import { PhysicsEngine } from "../../Physics/physicsEngine.js";
+import { AbstractMesh } from "../../Meshes/abstractMesh.js";
+import { Vector3, Quaternion } from "../../Maths/math.vector.js";
+import { Nullable } from "../../types.js";
+import { Logger } from "../../Misc/logger.js";
+import { PhysicsRaycastResult } from "../physicsRaycastResult.js";
 
 declare var OIMO: any;
 

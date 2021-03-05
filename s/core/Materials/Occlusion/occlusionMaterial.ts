@@ -1,9 +1,9 @@
-import { Color4 } from '../../Maths/math.color';
-import { Scene } from "../../scene";
-import { ShaderMaterial } from '../shaderMaterial';
+import { Color4 } from "../../Maths/math.color.js";
+import { Scene } from "../../scene.js";
+import { ShaderMaterial } from "../shaderMaterial.js";
 
-import "../../Shaders/color.fragment";
-import "../../Shaders/color.vertex";
+import "../../Shaders/color.fragment.js";
+import "../../Shaders/color.vertex.js";
 
 /**
  * A material to use for fast depth-only rendering.

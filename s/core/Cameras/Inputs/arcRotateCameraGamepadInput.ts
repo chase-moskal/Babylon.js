@@ -1,9 +1,9 @@
-import { Nullable } from "../../types";
-import { serialize } from "../../Misc/decorators";
-import { Observer } from "../../Misc/observable";
-import { ArcRotateCamera } from "../../Cameras/arcRotateCamera";
-import { ICameraInput, CameraInputTypes } from "../../Cameras/cameraInputsManager";
-import { Gamepad } from "../../Gamepads/gamepad";
+import { Nullable } from "../../types.js";
+import { serialize } from "../../Misc/decorators.js";
+import { Observer } from "../../Misc/observable.js";
+import { ArcRotateCamera } from "../../Cameras/arcRotateCamera.js";
+import { ICameraInput, CameraInputTypes } from "../../Cameras/cameraInputsManager.js";
+import { Gamepad } from "../../Gamepads/gamepad.js";
 /**
  * Manage the gamepad inputs to control an arc rotate camera.
  * @see https://doc.babylonjs.com/how_to/customizing_camera_inputs

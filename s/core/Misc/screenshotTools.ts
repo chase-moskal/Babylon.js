@@ -1,13 +1,13 @@
-import { Nullable } from "../types";
-import { Camera } from "../Cameras/camera";
-import { Texture } from "../Materials/Textures/texture";
-import { RenderTargetTexture } from "../Materials/Textures/renderTargetTexture";
-import { FxaaPostProcess } from "../PostProcesses/fxaaPostProcess";
-import { Constants } from "../Engines/constants";
-import { Logger } from "./logger";
-import { _TypeStore } from "./typeStore";
-import { Tools } from "./tools";
-import { IScreenshotSize } from './interfaces/screenshotSize';
+import { Nullable } from "../types.js";
+import { Camera } from "../Cameras/camera.js";
+import { Texture } from "../Materials/Textures/texture.js";
+import { RenderTargetTexture } from "../Materials/Textures/renderTargetTexture.js";
+import { FxaaPostProcess } from "../PostProcesses/fxaaPostProcess.js";
+import { Constants } from "../Engines/constants.js";
+import { Logger } from "./logger.js";
+import { _TypeStore } from "./typeStore.js";
+import { Tools } from "./tools.js";
+import { IScreenshotSize } from "./interfaces/screenshotSize.js";
 
 declare type Engine = import("../Engines/engine").Engine;
 

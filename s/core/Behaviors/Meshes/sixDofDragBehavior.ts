@@ -1,13 +1,13 @@
-import { Behavior } from "../../Behaviors/behavior";
-import { Mesh } from "../../Meshes/mesh";
-import { AbstractMesh } from "../../Meshes/abstractMesh";
-import { Scene } from "../../scene";
-import { Nullable } from "../../types";
-import { PointerInfo, PointerEventTypes } from "../../Events/pointerEvents";
-import { Vector3, Quaternion, Matrix } from "../../Maths/math.vector";
-import { Observer, Observable } from "../../Misc/observable";
-import { Camera } from "../../Cameras/camera";
-import { PivotTools } from "../../Misc/pivotTools";
+import { Behavior } from "../../Behaviors/behavior.js";
+import { Mesh } from "../../Meshes/mesh.js";
+import { AbstractMesh } from "../../Meshes/abstractMesh.js";
+import { Scene } from "../../scene.js";
+import { Nullable } from "../../types.js";
+import { PointerInfo, PointerEventTypes } from "../../Events/pointerEvents.js";
+import { Vector3, Quaternion, Matrix } from "../../Maths/math.vector.js";
+import { Observer, Observable } from "../../Misc/observable.js";
+import { Camera } from "../../Cameras/camera.js";
+import { PivotTools } from "../../Misc/pivotTools.js";
 /**
  * A behavior that when attached to a mesh will allow the mesh to be dragged around based on directions and origin of the pointer's ray
  */

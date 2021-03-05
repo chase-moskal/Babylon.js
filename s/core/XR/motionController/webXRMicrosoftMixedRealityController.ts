@@ -1,11 +1,11 @@
-import { WebXRAbstractMotionController, IMinimalMotionControllerObject, MotionControllerHandedness, IMotionControllerLayoutMap } from "./webXRAbstractMotionController";
-import { WebXRMotionControllerManager } from "./webXRMotionControllerManager";
-import { AbstractMesh } from "../../Meshes/abstractMesh";
-import { Scene } from "../../scene";
-import { Mesh } from "../../Meshes/mesh";
-import { Quaternion } from "../../Maths/math.vector";
-import { SceneLoader } from "../../Loading/sceneLoader";
-import { Logger } from "../../Misc/logger";
+import { WebXRAbstractMotionController, IMinimalMotionControllerObject, MotionControllerHandedness, IMotionControllerLayoutMap } from "./webXRAbstractMotionController.js";
+import { WebXRMotionControllerManager } from "./webXRMotionControllerManager.js";
+import { AbstractMesh } from "../../Meshes/abstractMesh.js";
+import { Scene } from "../../scene.js";
+import { Mesh } from "../../Meshes/mesh.js";
+import { Quaternion } from "../../Maths/math.vector.js";
+import { SceneLoader } from "../../Loading/sceneLoader.js";
+import { Logger } from "../../Misc/logger.js";
 
 /**
  * The motion controller class for all microsoft mixed reality controllers

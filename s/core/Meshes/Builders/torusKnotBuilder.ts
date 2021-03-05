@@ -1,7 +1,7 @@
-import { Vector4, Vector3 } from "../../Maths/math.vector";
-import { Mesh, _CreationDataStorage } from "../mesh";
-import { VertexData } from "../mesh.vertexData";
-import { Scene } from "../../scene";
+import { Vector4, Vector3 } from "../../Maths/math.vector.js";
+import { Mesh, _CreationDataStorage } from "../mesh.js";
+import { VertexData } from "../mesh.vertexData.js";
+import { Scene } from "../../scene.js";
 
 VertexData.CreateTorusKnot = function(options: { radius?: number, tube?: number, radialSegments?: number, tubularSegments?: number, p?: number, q?: number, sideOrientation?: number, frontUVs?: Vector4, backUVs?: Vector4 }): VertexData {
     var indices = new Array<number>();

@@ -1,7 +1,7 @@
-import { Vector4, Matrix, Vector3, Vector2 } from "../../Maths/math.vector";
-import { Mesh, _CreationDataStorage } from "../mesh";
-import { VertexData } from "../mesh.vertexData";
-import { Scene } from "../../scene";
+import { Vector4, Matrix, Vector3, Vector2 } from "../../Maths/math.vector.js";
+import { Mesh, _CreationDataStorage } from "../mesh.js";
+import { VertexData } from "../mesh.vertexData.js";
+import { Scene } from "../../scene.js";
 
 VertexData.CreateTorus = function(options: { diameter?: number, thickness?: number, tessellation?: number, sideOrientation?: number, frontUVs?: Vector4, backUVs?: Vector4 }) {
     var indices = [];

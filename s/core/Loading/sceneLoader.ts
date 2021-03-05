@@ -1,25 +1,25 @@
-import { Tools } from "../Misc/tools";
-import { Observable } from "../Misc/observable";
-import { FilesInputStore } from "../Misc/filesInputStore";
-import { Nullable } from "../types";
-import { Scene } from "../scene";
-import { Engine } from "../Engines/engine";
-import { EngineStore } from "../Engines/engineStore";
-import { AbstractMesh } from "../Meshes/abstractMesh";
-import { AnimationGroup } from "../Animations/animationGroup";
-import { AssetContainer } from "../assetContainer";
-import { IParticleSystem } from "../Particles/IParticleSystem";
-import { Skeleton } from "../Bones/skeleton";
-import { Logger } from "../Misc/logger";
-import { Constants } from "../Engines/constants";
-import { SceneLoaderFlags } from "./sceneLoaderFlags";
-import { IFileRequest } from "../Misc/fileRequest";
-import { WebRequest } from "../Misc/webRequest";
-import { RequestFileError, ReadFileError } from '../Misc/fileTools';
-import { TransformNode } from '../Meshes/transformNode';
-import { Geometry } from '../Meshes/geometry';
-import { Light } from '../Lights/light';
-import { StringTools } from '../Misc/stringTools';
+import { Tools } from "../Misc/tools.js";
+import { Observable } from "../Misc/observable.js";
+import { FilesInputStore } from "../Misc/filesInputStore.js";
+import { Nullable } from "../types.js";
+import { Scene } from "../scene.js";
+import { Engine } from "../Engines/engine.js";
+import { EngineStore } from "../Engines/engineStore.js";
+import { AbstractMesh } from "../Meshes/abstractMesh.js";
+import { AnimationGroup } from "../Animations/animationGroup.js";
+import { AssetContainer } from "../assetContainer.js";
+import { IParticleSystem } from "../Particles/IParticleSystem.js";
+import { Skeleton } from "../Bones/skeleton.js";
+import { Logger } from "../Misc/logger.js";
+import { Constants } from "../Engines/constants.js";
+import { SceneLoaderFlags } from "./sceneLoaderFlags.js";
+import { IFileRequest } from "../Misc/fileRequest.js";
+import { WebRequest } from "../Misc/webRequest.js";
+import { RequestFileError, ReadFileError } from "../Misc/fileTools.js";
+import { TransformNode } from "../Meshes/transformNode.js";
+import { Geometry } from "../Meshes/geometry.js";
+import { Light } from "../Lights/light.js";
+import { StringTools } from "../Misc/stringTools.js";
 
 /**
  * Type used for the success callback of ImportMesh

@@ -1,8 +1,8 @@
-import { WebXRFeaturesManager, WebXRFeatureName } from "../webXRFeaturesManager";
-import { WebXRSessionManager } from "../webXRSessionManager";
-import { AbstractMesh } from "../../Meshes/abstractMesh";
-import { Observable } from "../../Misc/observable";
-import { WebXRAbstractFeature } from "./WebXRAbstractFeature";
+import { WebXRFeaturesManager, WebXRFeatureName } from "../webXRFeaturesManager.js";
+import { WebXRSessionManager } from "../webXRSessionManager.js";
+import { AbstractMesh } from "../../Meshes/abstractMesh.js";
+import { Observable } from "../../Misc/observable.js";
+import { WebXRAbstractFeature } from "./WebXRAbstractFeature.js";
 
 /**
  * Options interface for the background remover plugin

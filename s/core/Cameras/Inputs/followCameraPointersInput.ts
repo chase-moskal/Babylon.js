@@ -1,9 +1,9 @@
-import { Nullable } from "../../types";
-import { serialize } from "../../Misc/decorators";
-import { FollowCamera } from "../../Cameras/followCamera";
-import { CameraInputTypes } from "../../Cameras/cameraInputsManager";
-import { BaseCameraPointersInput } from "../../Cameras/Inputs/BaseCameraPointersInput";
-import { PointerTouch } from "../../Events/pointerEvents";
+import { Nullable } from "../../types.js";
+import { serialize } from "../../Misc/decorators.js";
+import { FollowCamera } from "../../Cameras/followCamera.js";
+import { CameraInputTypes } from "../../Cameras/cameraInputsManager.js";
+import { BaseCameraPointersInput } from "../../Cameras/Inputs/BaseCameraPointersInput.js";
+import { PointerTouch } from "../../Events/pointerEvents.js";
 
 /**
  * Manage the pointers inputs to control an follow camera.

@@ -1,11 +1,11 @@
-import { DeepImmutable } from "../types";
-import { ArrayTools } from "../Misc/arrayTools";
-import { Matrix, Vector3 } from "../Maths/math.vector";
-import { BoundingSphere } from "../Culling/boundingSphere";
+import { DeepImmutable } from "../types.js";
+import { ArrayTools } from "../Misc/arrayTools.js";
+import { Matrix, Vector3 } from "../Maths/math.vector.js";
+import { BoundingSphere } from "../Culling/boundingSphere.js";
 
-import { ICullable } from "./boundingInfo";
-import { Epsilon } from '../Maths/math.constants';
-import { Plane } from '../Maths/math.plane';
+import { ICullable } from "./boundingInfo.js";
+import { Epsilon } from "../Maths/math.constants.js";
+import { Plane } from "../Maths/math.plane.js";
 
 /**
  * Class used to store bounding box information

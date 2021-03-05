@@ -1,12 +1,12 @@
-import { Geometry } from "../Meshes/geometry";
-import { Mesh } from "../Meshes/mesh";
-import { Constants } from "../Engines/constants";
-import { MultiMaterial } from "../Materials/multiMaterial";
-import { Material } from "../Materials/material";
-import { Scene } from "../scene";
-import { Light } from "../Lights/light";
-import { SerializationHelper } from "./decorators";
-import { Texture } from "../Materials/Textures/texture";
+import { Geometry } from "../Meshes/geometry.js";
+import { Mesh } from "../Meshes/mesh.js";
+import { Constants } from "../Engines/constants.js";
+import { MultiMaterial } from "../Materials/multiMaterial.js";
+import { Material } from "../Materials/material.js";
+import { Scene } from "../scene.js";
+import { Light } from "../Lights/light.js";
+import { SerializationHelper } from "./decorators.js";
+import { Texture } from "../Materials/Textures/texture.js";
 
 var serializedGeometries: Geometry[] = [];
 var serializeGeometry = (geometry: Geometry, serializationGeometries: any): any => {

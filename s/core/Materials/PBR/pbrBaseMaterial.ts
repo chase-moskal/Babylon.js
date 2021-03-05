@@ -1,46 +1,46 @@
-import { serialize, serializeAsImageProcessingConfiguration, expandToProperty } from "../../Misc/decorators";
-import { Observer } from "../../Misc/observable";
-import { Logger } from "../../Misc/logger";
-import { SmartArray } from "../../Misc/smartArray";
-import { BRDFTextureTools } from "../../Misc/brdfTextureTools";
-import { Nullable } from "../../types";
-import { Scene } from "../../scene";
-import { Matrix, Vector4 } from "../../Maths/math.vector";
-import { VertexBuffer } from "../../Meshes/buffer";
-import { SubMesh } from "../../Meshes/subMesh";
-import { AbstractMesh } from "../../Meshes/abstractMesh";
-import { Mesh } from "../../Meshes/mesh";
-import { IMaterialClearCoatDefines, PBRClearCoatConfiguration } from "./pbrClearCoatConfiguration";
-import { IMaterialAnisotropicDefines, PBRAnisotropicConfiguration } from "./pbrAnisotropicConfiguration";
-import { IMaterialBRDFDefines, PBRBRDFConfiguration } from "./pbrBRDFConfiguration";
-import { IMaterialSheenDefines, PBRSheenConfiguration } from "./pbrSheenConfiguration";
-import { IMaterialSubSurfaceDefines, PBRSubSurfaceConfiguration } from "./pbrSubSurfaceConfiguration";
-import { PrePassConfiguration } from "../prePassConfiguration";
-import { Color3, TmpColors } from '../../Maths/math.color';
-import { Scalar } from "../../Maths/math.scalar";
+import { serialize, serializeAsImageProcessingConfiguration, expandToProperty } from "../../Misc/decorators.js";
+import { Observer } from "../../Misc/observable.js";
+import { Logger } from "../../Misc/logger.js";
+import { SmartArray } from "../../Misc/smartArray.js";
+import { BRDFTextureTools } from "../../Misc/brdfTextureTools.js";
+import { Nullable } from "../../types.js";
+import { Scene } from "../../scene.js";
+import { Matrix, Vector4 } from "../../Maths/math.vector.js";
+import { VertexBuffer } from "../../Meshes/buffer.js";
+import { SubMesh } from "../../Meshes/subMesh.js";
+import { AbstractMesh } from "../../Meshes/abstractMesh.js";
+import { Mesh } from "../../Meshes/mesh.js";
+import { IMaterialClearCoatDefines, PBRClearCoatConfiguration } from "./pbrClearCoatConfiguration.js";
+import { IMaterialAnisotropicDefines, PBRAnisotropicConfiguration } from "./pbrAnisotropicConfiguration.js";
+import { IMaterialBRDFDefines, PBRBRDFConfiguration } from "./pbrBRDFConfiguration.js";
+import { IMaterialSheenDefines, PBRSheenConfiguration } from "./pbrSheenConfiguration.js";
+import { IMaterialSubSurfaceDefines, PBRSubSurfaceConfiguration } from "./pbrSubSurfaceConfiguration.js";
+import { PrePassConfiguration } from "../prePassConfiguration.js";
+import { Color3, TmpColors } from "../../Maths/math.color.js";
+import { Scalar } from "../../Maths/math.scalar.js";
 
-import { ImageProcessingConfiguration, IImageProcessingConfigurationDefines } from "../../Materials/imageProcessingConfiguration";
-import { Effect, IEffectCreationOptions } from "../../Materials/effect";
-import { Material, IMaterialCompilationOptions, ICustomShaderNameResolveOptions } from "../../Materials/material";
-import { MaterialDefines } from "../../Materials/materialDefines";
-import { PushMaterial } from "../../Materials/pushMaterial";
-import { MaterialHelper } from "../../Materials/materialHelper";
+import { ImageProcessingConfiguration, IImageProcessingConfigurationDefines } from "../../Materials/imageProcessingConfiguration.js";
+import { Effect, IEffectCreationOptions } from "../../Materials/effect.js";
+import { Material, IMaterialCompilationOptions, ICustomShaderNameResolveOptions } from "../../Materials/material.js";
+import { MaterialDefines } from "../../Materials/materialDefines.js";
+import { PushMaterial } from "../../Materials/pushMaterial.js";
+import { MaterialHelper } from "../../Materials/materialHelper.js";
 
-import { BaseTexture } from "../../Materials/Textures/baseTexture";
-import { Texture } from "../../Materials/Textures/texture";
-import { RenderTargetTexture } from "../../Materials/Textures/renderTargetTexture";
-import { CubeTexture } from "../../Materials/Textures/cubeTexture";
+import { BaseTexture } from "../../Materials/Textures/baseTexture.js";
+import { Texture } from "../../Materials/Textures/texture.js";
+import { RenderTargetTexture } from "../../Materials/Textures/renderTargetTexture.js";
+import { CubeTexture } from "../../Materials/Textures/cubeTexture.js";
 
-import { MaterialFlags } from "../materialFlags";
-import { Constants } from "../../Engines/constants";
-import { IAnimatable } from '../../Animations/animatable.interface';
+import { MaterialFlags } from "../materialFlags.js";
+import { Constants } from "../../Engines/constants.js";
+import { IAnimatable } from "../../Animations/animatable.interface.js";
 
-import "../../Materials/Textures/baseTexture.polynomial";
-import "../../Shaders/pbr.fragment";
-import "../../Shaders/pbr.vertex";
+import "../../Materials/Textures/baseTexture.polynomial.js";
+import "../../Shaders/pbr.fragment.js";
+import "../../Shaders/pbr.vertex.js";
 
-import { EffectFallbacks } from '../effectFallbacks';
-import { IMaterialDetailMapDefines, DetailMapConfiguration } from '../material.detailMapConfiguration';
+import { EffectFallbacks } from "../effectFallbacks.js";
+import { IMaterialDetailMapDefines, DetailMapConfiguration } from "../material.detailMapConfiguration.js";
 
 declare type PrePassRenderer = import("../../Rendering/prePassRenderer").PrePassRenderer;
 

@@ -1,6 +1,6 @@
-import { Nullable } from "../../types";
-import { Engine } from "../../Engines/engine";
-import { DataBuffer } from '../../Meshes/dataBuffer';
+import { Nullable } from "../../types.js";
+import { Engine } from "../../Engines/engine.js";
+import { DataBuffer } from "../../Meshes/dataBuffer.js";
 
 /** @hidden */
 export var _forceTransformFeedbackToBundle = true;

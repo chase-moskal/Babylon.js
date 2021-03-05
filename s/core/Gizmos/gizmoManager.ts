@@ -1,18 +1,18 @@
-import { Observer, Observable } from "../Misc/observable";
-import { Nullable } from "../types";
-import { PointerInfo, PointerEventTypes } from "../Events/pointerEvents";
-import { Scene, IDisposable } from "../scene";
-import { Node } from "../node";
-import { AbstractMesh } from "../Meshes/abstractMesh";
-import { Mesh } from '../Meshes/mesh';
-import { UtilityLayerRenderer } from "../Rendering/utilityLayerRenderer";
-import { Color3 } from '../Maths/math.color';
-import { SixDofDragBehavior } from "../Behaviors/Meshes/sixDofDragBehavior";
-import { Gizmo, GizmoAxisCache } from "./gizmo";
-import { RotationGizmo } from "./rotationGizmo";
-import { PositionGizmo } from "./positionGizmo";
-import { ScaleGizmo } from "./scaleGizmo";
-import { BoundingBoxGizmo } from "./boundingBoxGizmo";
+import { Observer, Observable } from "../Misc/observable.js";
+import { Nullable } from "../types.js";
+import { PointerInfo, PointerEventTypes } from "../Events/pointerEvents.js";
+import { Scene, IDisposable } from "../scene.js";
+import { Node } from "../node.js";
+import { AbstractMesh } from "../Meshes/abstractMesh.js";
+import { Mesh } from "../Meshes/mesh.js";
+import { UtilityLayerRenderer } from "../Rendering/utilityLayerRenderer.js";
+import { Color3 } from "../Maths/math.color.js";
+import { SixDofDragBehavior } from "../Behaviors/Meshes/sixDofDragBehavior.js";
+import { Gizmo, GizmoAxisCache } from "./gizmo.js";
+import { RotationGizmo } from "./rotationGizmo.js";
+import { PositionGizmo } from "./positionGizmo.js";
+import { ScaleGizmo } from "./scaleGizmo.js";
+import { BoundingBoxGizmo } from "./boundingBoxGizmo.js";
 
 /**
  * Helps setup gizmo's in the scene to rotate/scale/position nodes

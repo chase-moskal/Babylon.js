@@ -1,14 +1,14 @@
-import { Nullable } from "../../types";
-import { serialize } from "../../Misc/decorators";
-import { Observer } from "../../Misc/observable";
-import { ICameraInput, CameraInputTypes } from "../../Cameras/cameraInputsManager";
-import { FlyCamera } from "../../Cameras/flyCamera";
-import { PointerInfo, PointerEventTypes } from "../../Events/pointerEvents";
-import { Scene } from "../../scene";
-import { Quaternion } from "../../Maths/math.vector";
-import { Axis } from '../../Maths/math.axis';
-import { Tools } from '../../Misc/tools';
-import { IPointerEvent } from "../../Events/deviceInputEvents";
+import { Nullable } from "../../types.js";
+import { serialize } from "../../Misc/decorators.js";
+import { Observer } from "../../Misc/observable.js";
+import { ICameraInput, CameraInputTypes } from "../../Cameras/cameraInputsManager.js";
+import { FlyCamera } from "../../Cameras/flyCamera.js";
+import { PointerInfo, PointerEventTypes } from "../../Events/pointerEvents.js";
+import { Scene } from "../../scene.js";
+import { Quaternion } from "../../Maths/math.vector.js";
+import { Axis } from "../../Maths/math.axis.js";
+import { Tools } from "../../Misc/tools.js";
+import { IPointerEvent } from "../../Events/deviceInputEvents.js";
 /**
  * Listen to mouse events to control the camera.
  * @see https://doc.babylonjs.com/how_to/customizing_camera_inputs

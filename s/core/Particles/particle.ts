@@ -1,10 +1,10 @@
-import { Nullable } from "../types";
-import { Vector2, Vector3, TmpVectors, Vector4 } from "../Maths/math.vector";
-import { Color4 } from '../Maths/math.color';
-import { Scalar } from "../Maths/math.scalar";
-import { ParticleSystem } from "./particleSystem";
-import { SubEmitter } from "./subEmitter";
-import { ColorGradient, FactorGradient } from "../Misc/gradients";
+import { Nullable } from "../types.js";
+import { Vector2, Vector3, TmpVectors, Vector4 } from "../Maths/math.vector.js";
+import { Color4 } from "../Maths/math.color.js";
+import { Scalar } from "../Maths/math.scalar.js";
+import { ParticleSystem } from "./particleSystem.js";
+import { SubEmitter } from "./subEmitter.js";
+import { ColorGradient, FactorGradient } from "../Misc/gradients.js";
 
 declare type AbstractMesh = import("../Meshes/abstractMesh").AbstractMesh;
 

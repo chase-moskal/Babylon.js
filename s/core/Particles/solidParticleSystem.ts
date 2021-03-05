@@ -1,22 +1,22 @@
-import { Nullable, IndicesArray, FloatArray } from "../types";
-import { Vector3, Matrix, TmpVectors, Quaternion } from "../Maths/math.vector";
-import { Color4 } from '../Maths/math.color';
-import { VertexBuffer } from "../Meshes/buffer";
-import { VertexData } from "../Meshes/mesh.vertexData";
-import { Mesh } from "../Meshes/mesh";
-import { DiscBuilder } from "../Meshes/Builders/discBuilder";
-import { EngineStore } from "../Engines/engineStore";
-import { Scene, IDisposable } from "../scene";
-import { DepthSortedParticle, SolidParticle, ModelShape, SolidParticleVertex } from "./solidParticle";
-import { TargetCamera } from "../Cameras/targetCamera";
-import { BoundingInfo } from "../Culling/boundingInfo";
-import { Axis } from '../Maths/math.axis';
-import { SubMesh } from '../Meshes/subMesh';
-import { Material } from '../Materials/material';
-import { StandardMaterial } from '../Materials/standardMaterial';
-import { MultiMaterial } from '../Materials/multiMaterial';
-import { PickingInfo } from '../Collisions/pickingInfo';
-import { Tools } from '../Misc/tools';
+import { Nullable, IndicesArray, FloatArray } from "../types.js";
+import { Vector3, Matrix, TmpVectors, Quaternion } from "../Maths/math.vector.js";
+import { Color4 } from "../Maths/math.color.js";
+import { VertexBuffer } from "../Meshes/buffer.js";
+import { VertexData } from "../Meshes/mesh.vertexData.js";
+import { Mesh } from "../Meshes/mesh.js";
+import { DiscBuilder } from "../Meshes/Builders/discBuilder.js";
+import { EngineStore } from "../Engines/engineStore.js";
+import { Scene, IDisposable } from "../scene.js";
+import { DepthSortedParticle, SolidParticle, ModelShape, SolidParticleVertex } from "./solidParticle.js";
+import { TargetCamera } from "../Cameras/targetCamera.js";
+import { BoundingInfo } from "../Culling/boundingInfo.js";
+import { Axis } from "../Maths/math.axis.js";
+import { SubMesh } from "../Meshes/subMesh.js";
+import { Material } from "../Materials/material.js";
+import { StandardMaterial } from "../Materials/standardMaterial.js";
+import { MultiMaterial } from "../Materials/multiMaterial.js";
+import { PickingInfo } from "../Collisions/pickingInfo.js";
+import { Tools } from "../Misc/tools.js";
 
 /**
  * The SPS is a single updatable mesh. The solid particles are simply separate parts or faces fo this big mesh.

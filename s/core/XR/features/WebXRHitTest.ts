@@ -1,11 +1,11 @@
-import { WebXRFeaturesManager, WebXRFeatureName } from "../webXRFeaturesManager";
-import { WebXRSessionManager } from "../webXRSessionManager";
-import { Observable } from "../../Misc/observable";
-import { Vector3, Matrix, Quaternion } from "../../Maths/math.vector";
-import { WebXRAbstractFeature } from "./WebXRAbstractFeature";
-import { IWebXRLegacyHitTestOptions, IWebXRLegacyHitResult, IWebXRHitTestFeature } from "./WebXRHitTestLegacy";
-import { Tools } from "../../Misc/tools";
-import { Nullable } from "../../types";
+import { WebXRFeaturesManager, WebXRFeatureName } from "../webXRFeaturesManager.js";
+import { WebXRSessionManager } from "../webXRSessionManager.js";
+import { Observable } from "../../Misc/observable.js";
+import { Vector3, Matrix, Quaternion } from "../../Maths/math.vector.js";
+import { WebXRAbstractFeature } from "./WebXRAbstractFeature.js";
+import { IWebXRLegacyHitTestOptions, IWebXRLegacyHitResult, IWebXRHitTestFeature } from "./WebXRHitTestLegacy.js";
+import { Tools } from "../../Misc/tools.js";
+import { Nullable } from "../../types.js";
 
 /**
  * Options used for hit testing (version 2)

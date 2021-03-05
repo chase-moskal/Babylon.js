@@ -1,19 +1,19 @@
-import { IEasingFunction, EasingFunction } from "./easing";
-import { Vector3, Quaternion, Vector2, Matrix, TmpVectors } from "../Maths/math.vector";
-import { Color3, Color4 } from '../Maths/math.color';
-import { Scalar } from "../Maths/math.scalar";
+import { IEasingFunction, EasingFunction } from "./easing.js";
+import { Vector3, Quaternion, Vector2, Matrix, TmpVectors } from "../Maths/math.vector.js";
+import { Color3, Color4 } from "../Maths/math.color.js";
+import { Scalar } from "../Maths/math.scalar.js";
 
-import { Nullable } from "../types";
-import { Scene } from "../scene";
-import { SerializationHelper } from "../Misc/decorators";
-import { _TypeStore } from '../Misc/typeStore';
-import { IAnimationKey, AnimationKeyInterpolation } from './animationKey';
-import { AnimationRange } from './animationRange';
-import { AnimationEvent } from './animationEvent';
-import { Node } from "../node";
-import { IAnimatable } from './animatable.interface';
-import { Size } from '../Maths/math.size';
-import { WebRequest } from '../Misc/webRequest';
+import { Nullable } from "../types.js";
+import { Scene } from "../scene.js";
+import { SerializationHelper } from "../Misc/decorators.js";
+import { _TypeStore } from "../Misc/typeStore.js";
+import { IAnimationKey, AnimationKeyInterpolation } from "./animationKey.js";
+import { AnimationRange } from "./animationRange.js";
+import { AnimationEvent } from "./animationEvent.js";
+import { Node } from "../node.js";
+import { IAnimatable } from "./animatable.interface.js";
+import { Size } from "../Maths/math.size.js";
+import { WebRequest } from "../Misc/webRequest.js";
 
 declare type Animatable = import("./animatable").Animatable;
 declare type RuntimeAnimation = import("./runtimeAnimation").RuntimeAnimation;

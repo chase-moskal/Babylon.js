@@ -1,18 +1,18 @@
-import { Scene } from "../scene";
-import { AbstractMesh } from "../Meshes/abstractMesh";
-import { IParticleSystem } from "../Particles/IParticleSystem";
-import { Skeleton } from "../Bones/skeleton";
-import { SceneLoader } from "../Loading/sceneLoader";
-import { Tools } from "./tools";
-import { Observable } from "./observable";
-import { BaseTexture } from "../Materials/Textures/baseTexture";
-import { Texture } from "../Materials/Textures/texture";
-import { CubeTexture } from "../Materials/Textures/cubeTexture";
-import { HDRCubeTexture } from "../Materials/Textures/hdrCubeTexture";
-import { EquiRectangularCubeTexture } from "../Materials/Textures/equiRectangularCubeTexture";
-import { Logger } from "../Misc/logger";
-import { AnimationGroup } from '../Animations/animationGroup';
-import { AssetContainer } from "../assetContainer";
+import { Scene } from "../scene.js";
+import { AbstractMesh } from "../Meshes/abstractMesh.js";
+import { IParticleSystem } from "../Particles/IParticleSystem.js";
+import { Skeleton } from "../Bones/skeleton.js";
+import { SceneLoader } from "../Loading/sceneLoader.js";
+import { Tools } from "./tools.js";
+import { Observable } from "./observable.js";
+import { BaseTexture } from "../Materials/Textures/baseTexture.js";
+import { Texture } from "../Materials/Textures/texture.js";
+import { CubeTexture } from "../Materials/Textures/cubeTexture.js";
+import { HDRCubeTexture } from "../Materials/Textures/hdrCubeTexture.js";
+import { EquiRectangularCubeTexture } from "../Materials/Textures/equiRectangularCubeTexture.js";
+import { Logger } from "../Misc/logger.js";
+import { AnimationGroup } from "../Animations/animationGroup.js";
+import { AssetContainer } from "../assetContainer.js";
 
 /**
  * Defines the list of states available for a task inside a AssetsManager

@@ -1,4 +1,4 @@
-import { Nullable } from "../types";
+import { Nullable } from "../types.js";
 
 declare type Engine = import("./engine").Engine;
 declare type Scene = import("../scene").Scene;

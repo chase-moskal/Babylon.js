@@ -1,7 +1,7 @@
-import { ThinEngine } from "../../Engines/thinEngine";
-import { InternalTexture } from '../../Materials/Textures/internalTexture';
-import { Nullable } from '../../types';
-import { CanvasGenerator } from '../../Misc/canvasGenerator';
+import { ThinEngine } from "../../Engines/thinEngine.js";
+import { InternalTexture } from "../../Materials/Textures/internalTexture.js";
+import { Nullable } from "../../types.js";
+import { CanvasGenerator } from "../../Misc/canvasGenerator.js";
 
 declare module "../../Engines/thinEngine" {
     export interface ThinEngine {

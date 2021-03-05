@@ -1,7 +1,7 @@
-import { Vector3 } from "../Maths/math.vector";
-import { _DevTools } from '../Misc/devTools';
-import { ThinEngine } from '../Engines/thinEngine';
-import { _TypeStore } from '../Misc/typeStore';
+import { Vector3 } from "../Maths/math.vector.js";
+import { _DevTools } from "../Misc/devTools.js";
+import { ThinEngine } from "../Engines/thinEngine.js";
+import { _TypeStore } from "../Misc/typeStore.js";
 
 declare type Scene = import("../scene").Scene;
 declare type AbstractMesh = import("../Meshes/abstractMesh").AbstractMesh;

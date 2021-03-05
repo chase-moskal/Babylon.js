@@ -1,10 +1,10 @@
-import { Nullable } from "../../types";
-import { Tools } from "../../Misc/tools";
-import { serialize } from "../../Misc/decorators";
-import { Camera } from "../../Cameras/camera";
-import { Engine } from "../../Engines/engine";
-import { PostProcessRenderEffect } from "./postProcessRenderEffect";
-import { IInspectable } from '../../Misc/iInspectable';
+import { Nullable } from "../../types.js";
+import { Tools } from "../../Misc/tools.js";
+import { serialize } from "../../Misc/decorators.js";
+import { Camera } from "../../Cameras/camera.js";
+import { Engine } from "../../Engines/engine.js";
+import { PostProcessRenderEffect } from "./postProcessRenderEffect.js";
+import { IInspectable } from "../../Misc/iInspectable.js";
 
 declare type PrePassRenderer = import("../../Rendering/prePassRenderer").PrePassRenderer;
 

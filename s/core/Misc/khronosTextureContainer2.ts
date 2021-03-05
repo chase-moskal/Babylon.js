@@ -1,7 +1,7 @@
-import { InternalTexture } from "../Materials/Textures/internalTexture";
-import { ThinEngine } from "../Engines/thinEngine";
-import { Constants } from '../Engines/constants';
-import { WorkerPool } from './workerPool';
+import { InternalTexture } from "../Materials/Textures/internalTexture.js";
+import { ThinEngine } from "../Engines/thinEngine.js";
+import { Constants } from "../Engines/constants.js";
+import { WorkerPool } from "./workerPool.js";
 
 declare var KTX2DECODER: any;
 

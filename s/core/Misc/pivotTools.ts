@@ -1,5 +1,5 @@
-import { Vector3, Matrix } from '../Maths/math.vector';
-import { AbstractMesh } from '../Meshes/abstractMesh';
+import { Vector3, Matrix } from "../Maths/math.vector.js";
+import { AbstractMesh } from "../Meshes/abstractMesh.js";
 
 /**
  * Class containing a set of static utilities functions for managing Pivots

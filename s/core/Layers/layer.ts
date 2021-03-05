@@ -1,21 +1,21 @@
-import { Observer, Observable } from "../Misc/observable";
-import { Nullable } from "../types";
-import { Scene } from "../scene";
-import { Vector2 } from "../Maths/math.vector";
-import { Color4 } from '../Maths/math.color';
-import { EngineStore } from "../Engines/engineStore";
-import { VertexBuffer } from "../Meshes/buffer";
-import { Effect } from "../Materials/effect";
-import { Material } from "../Materials/material";
-import { Texture } from "../Materials/Textures/texture";
-import { SceneComponentConstants } from "../sceneComponent";
-import { LayerSceneComponent } from "./layerSceneComponent";
-import { Constants } from "../Engines/constants";
-import { RenderTargetTexture } from "../Materials/Textures/renderTargetTexture";
+import { Observer, Observable } from "../Misc/observable.js";
+import { Nullable } from "../types.js";
+import { Scene } from "../scene.js";
+import { Vector2 } from "../Maths/math.vector.js";
+import { Color4 } from "../Maths/math.color.js";
+import { EngineStore } from "../Engines/engineStore.js";
+import { VertexBuffer } from "../Meshes/buffer.js";
+import { Effect } from "../Materials/effect.js";
+import { Material } from "../Materials/material.js";
+import { Texture } from "../Materials/Textures/texture.js";
+import { SceneComponentConstants } from "../sceneComponent.js";
+import { LayerSceneComponent } from "./layerSceneComponent.js";
+import { Constants } from "../Engines/constants.js";
+import { RenderTargetTexture } from "../Materials/Textures/renderTargetTexture.js";
 
-import "../Shaders/layer.fragment";
-import "../Shaders/layer.vertex";
-import { DataBuffer } from '../Meshes/dataBuffer';
+import "../Shaders/layer.fragment.js";
+import "../Shaders/layer.vertex.js";
+import { DataBuffer } from "../Meshes/dataBuffer.js";
 
 /**
  * This represents a full screen 2d layer.

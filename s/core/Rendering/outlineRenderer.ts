@@ -1,15 +1,15 @@
-import { VertexBuffer } from "../Meshes/buffer";
-import { SubMesh } from "../Meshes/subMesh";
-import { _InstancesBatch, Mesh } from "../Meshes/mesh";
-import { Scene } from "../scene";
-import { Engine } from "../Engines/engine";
-import { Constants } from "../Engines/constants";
-import { ISceneComponent, SceneComponentConstants } from "../sceneComponent";
-import { Effect } from "../Materials/effect";
-import { MaterialHelper } from "../Materials/materialHelper";
+import { VertexBuffer } from "../Meshes/buffer.js";
+import { SubMesh } from "../Meshes/subMesh.js";
+import { _InstancesBatch, Mesh } from "../Meshes/mesh.js";
+import { Scene } from "../scene.js";
+import { Engine } from "../Engines/engine.js";
+import { Constants } from "../Engines/constants.js";
+import { ISceneComponent, SceneComponentConstants } from "../sceneComponent.js";
+import { Effect } from "../Materials/effect.js";
+import { MaterialHelper } from "../Materials/materialHelper.js";
 
-import "../Shaders/outline.fragment";
-import "../Shaders/outline.vertex";
+import "../Shaders/outline.fragment.js";
+import "../Shaders/outline.vertex.js";
 
 declare module "../scene" {
     export interface Scene {

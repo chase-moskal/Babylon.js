@@ -1,4 +1,4 @@
-import { ShaderDefineExpression } from '../shaderDefineExpression';
+import { ShaderDefineExpression } from "../shaderDefineExpression.js";
 
 /** @hidden */
 export class ShaderDefineAndOperator extends ShaderDefineExpression {

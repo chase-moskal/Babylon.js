@@ -1,15 +1,15 @@
-import { Nullable } from "../types";
-import { Scene } from "../scene";
-import { ISceneComponent, SceneComponentConstants } from "../sceneComponent";
-import { PrePassRenderer } from "./prePassRenderer";
-import { Logger } from "../Misc/logger";
-import { AbstractMesh } from "../Meshes/abstractMesh";
-import { SubMesh } from "../Meshes/subMesh";
-import { _InstancesBatch } from "../Meshes/mesh";
-import { Effect } from "../Materials/effect";
-import { Camera } from '../Cameras/camera';
-import { RenderTargetTexture } from "../Materials/Textures/renderTargetTexture";
-import { PrePassRenderTarget } from "../Materials/Textures/prePassRenderTarget";
+import { Nullable } from "../types.js";
+import { Scene } from "../scene.js";
+import { ISceneComponent, SceneComponentConstants } from "../sceneComponent.js";
+import { PrePassRenderer } from "./prePassRenderer.js";
+import { Logger } from "../Misc/logger.js";
+import { AbstractMesh } from "../Meshes/abstractMesh.js";
+import { SubMesh } from "../Meshes/subMesh.js";
+import { _InstancesBatch } from "../Meshes/mesh.js";
+import { Effect } from "../Materials/effect.js";
+import { Camera } from "../Cameras/camera.js";
+import { RenderTargetTexture } from "../Materials/Textures/renderTargetTexture.js";
+import { PrePassRenderTarget } from "../Materials/Textures/prePassRenderTarget.js";
 
 declare module "../abstractScene" {
     export interface AbstractScene {

@@ -1,20 +1,20 @@
-import { NodeMaterialBlock } from '../../nodeMaterialBlock';
-import { NodeMaterialBlockConnectionPointTypes } from '../../Enums/nodeMaterialBlockConnectionPointTypes';
-import { NodeMaterialBuildState } from '../../nodeMaterialBuildState';
-import { NodeMaterialBlockTargets } from '../../Enums/nodeMaterialBlockTargets';
-import { NodeMaterialConnectionPoint } from '../../nodeMaterialBlockConnectionPoint';
-import { _TypeStore } from '../../../../Misc/typeStore';
-import { NodeMaterial, NodeMaterialDefines } from '../../nodeMaterial';
-import { AbstractMesh } from '../../../../Meshes/abstractMesh';
-import { InputBlock } from '../Input/inputBlock';
-import { Effect } from '../../../effect';
-import { Mesh } from '../../../../Meshes/mesh';
-import { Scene } from '../../../../scene';
-import { editableInPropertyPage, PropertyTypeForEdition } from "../../nodeMaterialDecorator";
+import { NodeMaterialBlock } from "../../nodeMaterialBlock.js";
+import { NodeMaterialBlockConnectionPointTypes } from "../../Enums/nodeMaterialBlockConnectionPointTypes.js";
+import { NodeMaterialBuildState } from "../../nodeMaterialBuildState.js";
+import { NodeMaterialBlockTargets } from "../../Enums/nodeMaterialBlockTargets.js";
+import { NodeMaterialConnectionPoint } from "../../nodeMaterialBlockConnectionPoint.js";
+import { _TypeStore } from "../../../../Misc/typeStore.js";
+import { NodeMaterial, NodeMaterialDefines } from "../../nodeMaterial.js";
+import { AbstractMesh } from "../../../../Meshes/abstractMesh.js";
+import { InputBlock } from "../Input/inputBlock.js";
+import { Effect } from "../../../effect.js";
+import { Mesh } from "../../../../Meshes/mesh.js";
+import { Scene } from "../../../../scene.js";
+import { editableInPropertyPage, PropertyTypeForEdition } from "../../nodeMaterialDecorator.js";
 
-import "../../../../Shaders/ShadersInclude/bumpFragmentMainFunctions";
-import "../../../../Shaders/ShadersInclude/bumpFragmentFunctions";
-import "../../../../Shaders/ShadersInclude/bumpFragment";
+import "../../../../Shaders/ShadersInclude/bumpFragmentMainFunctions.js";
+import "../../../../Shaders/ShadersInclude/bumpFragmentFunctions.js";
+import "../../../../Shaders/ShadersInclude/bumpFragment.js";
 
 /**
  * Block used to perturb normals based on a normal map

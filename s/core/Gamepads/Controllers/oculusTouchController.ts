@@ -1,11 +1,11 @@
-import { Observable } from "../../Misc/observable";
-import { Scene } from "../../scene";
-import { AbstractMesh } from "../../Meshes/abstractMesh";
-import { SceneLoader } from "../../Loading/sceneLoader";
-import { WebVRController } from "./webVRController";
-import { PoseEnabledControllerType, ExtendedGamepadButton, PoseEnabledControllerHelper } from "./poseEnabledController";
-import { GamepadButtonChanges } from "../../Gamepads/gamepad";
-import { Engine } from '../../Engines/engine';
+import { Observable } from "../../Misc/observable.js";
+import { Scene } from "../../scene.js";
+import { AbstractMesh } from "../../Meshes/abstractMesh.js";
+import { SceneLoader } from "../../Loading/sceneLoader.js";
+import { WebVRController } from "./webVRController.js";
+import { PoseEnabledControllerType, ExtendedGamepadButton, PoseEnabledControllerHelper } from "./poseEnabledController.js";
+import { GamepadButtonChanges } from "../../Gamepads/gamepad.js";
+import { Engine } from "../../Engines/engine.js";
 /**
  * Oculus Touch Controller
  */

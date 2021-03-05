@@ -1,6 +1,6 @@
-import { Mesh, _CreationDataStorage } from "../mesh";
-import { Scene } from "../../scene";
-import { SphereBuilder } from '../Builders/sphereBuilder';
+import { Mesh, _CreationDataStorage } from "../mesh.js";
+import { Scene } from "../../scene.js";
+import { SphereBuilder } from "../Builders/sphereBuilder.js";
 
 /**
  * Creates a hemispheric light

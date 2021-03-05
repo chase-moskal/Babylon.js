@@ -1,12 +1,12 @@
-import { Nullable } from "../../types";
-import { serialize } from "../../Misc/decorators";
-import { Observer } from "../../Misc/observable";
-import { Scene } from "../../scene";
-import { ArcRotateCamera } from "../../Cameras/arcRotateCamera";
-import { ICameraInput, CameraInputTypes } from "../../Cameras/cameraInputsManager";
-import { Engine } from "../../Engines/engine";
-import { KeyboardInfo, KeyboardEventTypes } from "../../Events/keyboardEvents";
-import { Tools } from '../../Misc/tools';
+import { Nullable } from "../../types.js";
+import { serialize } from "../../Misc/decorators.js";
+import { Observer } from "../../Misc/observable.js";
+import { Scene } from "../../scene.js";
+import { ArcRotateCamera } from "../../Cameras/arcRotateCamera.js";
+import { ICameraInput, CameraInputTypes } from "../../Cameras/cameraInputsManager.js";
+import { Engine } from "../../Engines/engine.js";
+import { KeyboardInfo, KeyboardEventTypes } from "../../Events/keyboardEvents.js";
+import { Tools } from "../../Misc/tools.js";
 
 /**
  * Manage the keyboard inputs to control the movement of an arc rotate camera.

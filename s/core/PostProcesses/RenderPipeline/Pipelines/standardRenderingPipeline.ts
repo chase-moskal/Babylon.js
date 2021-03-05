@@ -1,32 +1,32 @@
-import { Nullable } from "../../../types";
-import { serialize, serializeAsTexture, SerializationHelper } from "../../../Misc/decorators";
-import { IAnimatable } from '../../../Animations/animatable.interface';
-import { Logger } from "../../../Misc/logger";
-import { Vector2, Vector3, Matrix, Vector4 } from "../../../Maths/math.vector";
-import { Scalar } from "../../../Maths/math.scalar";
-import { Camera } from "../../../Cameras/camera";
-import { Effect } from "../../../Materials/effect";
-import { Texture } from "../../../Materials/Textures/texture";
-import { PostProcess } from "../../../PostProcesses/postProcess";
-import { PostProcessRenderPipeline } from "../../../PostProcesses/RenderPipeline/postProcessRenderPipeline";
-import { PostProcessRenderEffect } from "../../../PostProcesses/RenderPipeline/postProcessRenderEffect";
-import { BlurPostProcess } from "../../../PostProcesses/blurPostProcess";
-import { FxaaPostProcess } from "../../../PostProcesses/fxaaPostProcess";
-import { IDisposable } from "../../../scene";
-import { SpotLight } from "../../../Lights/spotLight";
-import { DirectionalLight } from "../../../Lights/directionalLight";
-import { GeometryBufferRenderer } from "../../../Rendering/geometryBufferRenderer";
-import { Scene } from "../../../scene";
-import { Constants } from "../../../Engines/constants";
-import { _TypeStore } from '../../../Misc/typeStore';
-import { MotionBlurPostProcess } from "../../motionBlurPostProcess";
-import { ScreenSpaceReflectionPostProcess } from "../../screenSpaceReflectionPostProcess";
+import { Nullable } from "../../../types.js";
+import { serialize, serializeAsTexture, SerializationHelper } from "../../../Misc/decorators.js";
+import { IAnimatable } from "../../../Animations/animatable.interface.js";
+import { Logger } from "../../../Misc/logger.js";
+import { Vector2, Vector3, Matrix, Vector4 } from "../../../Maths/math.vector.js";
+import { Scalar } from "../../../Maths/math.scalar.js";
+import { Camera } from "../../../Cameras/camera.js";
+import { Effect } from "../../../Materials/effect.js";
+import { Texture } from "../../../Materials/Textures/texture.js";
+import { PostProcess } from "../../../PostProcesses/postProcess.js";
+import { PostProcessRenderPipeline } from "../../../PostProcesses/RenderPipeline/postProcessRenderPipeline.js";
+import { PostProcessRenderEffect } from "../../../PostProcesses/RenderPipeline/postProcessRenderEffect.js";
+import { BlurPostProcess } from "../../../PostProcesses/blurPostProcess.js";
+import { FxaaPostProcess } from "../../../PostProcesses/fxaaPostProcess.js";
+import { IDisposable } from "../../../scene.js";
+import { SpotLight } from "../../../Lights/spotLight.js";
+import { DirectionalLight } from "../../../Lights/directionalLight.js";
+import { GeometryBufferRenderer } from "../../../Rendering/geometryBufferRenderer.js";
+import { Scene } from "../../../scene.js";
+import { Constants } from "../../../Engines/constants.js";
+import { _TypeStore } from "../../../Misc/typeStore.js";
+import { MotionBlurPostProcess } from "../../motionBlurPostProcess.js";
+import { ScreenSpaceReflectionPostProcess } from "../../screenSpaceReflectionPostProcess.js";
 
 declare type Animation = import("../../../Animations/animation").Animation;
 
-import "../../../PostProcesses/RenderPipeline/postProcessRenderPipelineManagerSceneComponent";
+import "../../../PostProcesses/RenderPipeline/postProcessRenderPipelineManagerSceneComponent.js";
 
-import "../../../Shaders/standard.fragment";
+import "../../../Shaders/standard.fragment.js";
 /**
  * Standard rendering pipeline
  * Default pipeline should be used going forward but the standard pipeline will be kept for backwards compatibility.

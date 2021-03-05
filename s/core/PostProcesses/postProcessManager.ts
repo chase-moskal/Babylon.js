@@ -1,9 +1,9 @@
-import { Nullable } from "../types";
-import { InternalTexture } from "../Materials/Textures/internalTexture";
-import { PostProcess } from "./postProcess";
-import { VertexBuffer } from "../Meshes/buffer";
-import { Constants } from "../Engines/constants";
-import { DataBuffer } from '../Meshes/dataBuffer';
+import { Nullable } from "../types.js";
+import { InternalTexture } from "../Materials/Textures/internalTexture.js";
+import { PostProcess } from "./postProcess.js";
+import { VertexBuffer } from "../Meshes/buffer.js";
+import { Constants } from "../Engines/constants.js";
+import { DataBuffer } from "../Meshes/dataBuffer.js";
 
 declare type Scene = import("../scene").Scene;
 

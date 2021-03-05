@@ -1,12 +1,12 @@
-import { NodeMaterialConnectionPoint } from './nodeMaterialBlockConnectionPoint';
-import { NodeMaterialBlock } from './nodeMaterialBlock';
-import { InputBlock } from './Blocks/Input/inputBlock';
-import { TextureBlock } from './Blocks/Dual/textureBlock';
-import { ReflectionTextureBaseBlock } from './Blocks/Dual/reflectionTextureBaseBlock';
-import { RefractionBlock } from './Blocks/PBR/refractionBlock';
-import { CurrentScreenBlock } from './Blocks/Dual/currentScreenBlock';
-import { ParticleTextureBlock } from './Blocks/Particle/particleTextureBlock';
-import { Scene } from '../../scene';
+import { NodeMaterialConnectionPoint } from "./nodeMaterialBlockConnectionPoint.js";
+import { NodeMaterialBlock } from "./nodeMaterialBlock.js";
+import { InputBlock } from "./Blocks/Input/inputBlock.js";
+import { TextureBlock } from "./Blocks/Dual/textureBlock.js";
+import { ReflectionTextureBaseBlock } from "./Blocks/Dual/reflectionTextureBaseBlock.js";
+import { RefractionBlock } from "./Blocks/PBR/refractionBlock.js";
+import { CurrentScreenBlock } from "./Blocks/Dual/currentScreenBlock.js";
+import { ParticleTextureBlock } from "./Blocks/Particle/particleTextureBlock.js";
+import { Scene } from "../../scene.js";
 
 /**
  * Class used to store shared data between 2 NodeMaterialBuildState

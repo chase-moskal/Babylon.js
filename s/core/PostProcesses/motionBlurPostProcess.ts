@@ -1,20 +1,20 @@
-import { Nullable } from "../types";
-import { Logger } from "../Misc/logger";
-import { Matrix, Vector2 } from "../Maths/math.vector";
-import { Camera } from "../Cameras/camera";
-import { Effect } from "../Materials/effect";
-import { PostProcess, PostProcessOptions } from "./postProcess";
-import { Constants } from "../Engines/constants";
-import { GeometryBufferRenderer } from "../Rendering/geometryBufferRenderer";
-import { AbstractMesh } from "../Meshes/abstractMesh";
-import { MotionBlurConfiguration } from "../Rendering/motionBlurConfiguration";
-import { PrePassRenderer } from "../Rendering/prePassRenderer";
+import { Nullable } from "../types.js";
+import { Logger } from "../Misc/logger.js";
+import { Matrix, Vector2 } from "../Maths/math.vector.js";
+import { Camera } from "../Cameras/camera.js";
+import { Effect } from "../Materials/effect.js";
+import { PostProcess, PostProcessOptions } from "./postProcess.js";
+import { Constants } from "../Engines/constants.js";
+import { GeometryBufferRenderer } from "../Rendering/geometryBufferRenderer.js";
+import { AbstractMesh } from "../Meshes/abstractMesh.js";
+import { MotionBlurConfiguration } from "../Rendering/motionBlurConfiguration.js";
+import { PrePassRenderer } from "../Rendering/prePassRenderer.js";
 
-import "../Animations/animatable";
-import '../Rendering/geometryBufferRendererSceneComponent';
-import "../Shaders/motionBlur.fragment";
-import { serialize, SerializationHelper } from '../Misc/decorators';
-import { _TypeStore } from '../Misc/typeStore';
+import "../Animations/animatable.js";
+import "../Rendering/geometryBufferRendererSceneComponent.js";
+import "../Shaders/motionBlur.fragment.js";
+import { serialize, SerializationHelper } from "../Misc/decorators.js";
+import { _TypeStore } from "../Misc/typeStore.js";
 
 declare type Engine = import("../Engines/engine").Engine;
 declare type Scene = import("../scene").Scene;

@@ -1,4 +1,4 @@
-import { BezierCurve } from "../Maths/math.path";
+import { BezierCurve } from "../Maths/math.path.js";
 
 /**
  * This represents the main contract an easing function should follow.

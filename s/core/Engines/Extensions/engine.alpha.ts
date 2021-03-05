@@ -1,5 +1,5 @@
-import { ThinEngine } from "../../Engines/thinEngine";
-import { Constants } from '../constants';
+import { ThinEngine } from "../../Engines/thinEngine.js";
+import { Constants } from "../constants.js";
 
 declare module "../../Engines/thinEngine" {
     export interface ThinEngine {

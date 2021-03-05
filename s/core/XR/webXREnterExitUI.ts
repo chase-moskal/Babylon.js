@@ -1,9 +1,9 @@
-import { Nullable } from "../types";
-import { Observable } from "../Misc/observable";
-import { IDisposable, Scene } from "../scene";
-import { WebXRExperienceHelper } from "./webXRExperienceHelper";
-import { WebXRState, WebXRRenderTarget } from "./webXRTypes";
-import { Tools } from "../Misc/tools";
+import { Nullable } from "../types.js";
+import { Observable } from "../Misc/observable.js";
+import { IDisposable, Scene } from "../scene.js";
+import { WebXRExperienceHelper } from "./webXRExperienceHelper.js";
+import { WebXRState, WebXRRenderTarget } from "./webXRTypes.js";
+import { Tools } from "../Misc/tools.js";
 /**
  * Button which can be used to enter a different mode of XR
  */

@@ -1,18 +1,18 @@
-import { Nullable } from "../../types";
-import { Scene } from "../../scene";
-import { Matrix, Vector3 } from "../../Maths/math.vector";
-import { BaseTexture } from "../../Materials/Textures/baseTexture";
-import { Texture } from "../../Materials/Textures/texture";
-import { Constants } from "../../Engines/constants";
-import { HDRTools } from "../../Misc/HighDynamicRange/hdr";
-import { CubeMapToSphericalPolynomialTools } from "../../Misc/HighDynamicRange/cubemapToSphericalPolynomial";
-import { _TypeStore } from '../../Misc/typeStore';
-import { Tools } from '../../Misc/tools';
-import { ToGammaSpace } from '../../Maths/math.constants';
-import { ThinEngine } from '../../Engines/thinEngine';
-import { HDRFiltering } from "../../Materials/Textures/Filtering/hdrFiltering";
-import "../../Engines/Extensions/engine.rawTexture";
-import "../../Materials/Textures/baseTexture.polynomial";
+import { Nullable } from "../../types.js";
+import { Scene } from "../../scene.js";
+import { Matrix, Vector3 } from "../../Maths/math.vector.js";
+import { BaseTexture } from "../../Materials/Textures/baseTexture.js";
+import { Texture } from "../../Materials/Textures/texture.js";
+import { Constants } from "../../Engines/constants.js";
+import { HDRTools } from "../../Misc/HighDynamicRange/hdr.js";
+import { CubeMapToSphericalPolynomialTools } from "../../Misc/HighDynamicRange/cubemapToSphericalPolynomial.js";
+import { _TypeStore } from "../../Misc/typeStore.js";
+import { Tools } from "../../Misc/tools.js";
+import { ToGammaSpace } from "../../Maths/math.constants.js";
+import { ThinEngine } from "../../Engines/thinEngine.js";
+import { HDRFiltering } from "../../Materials/Textures/Filtering/hdrFiltering.js";
+import "../../Engines/Extensions/engine.rawTexture.js";
+import "../../Materials/Textures/baseTexture.polynomial.js";
 
 /**
  * This represents a texture coming from an HDR input.

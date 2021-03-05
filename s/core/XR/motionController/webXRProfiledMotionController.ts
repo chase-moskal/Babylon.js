@@ -1,14 +1,14 @@
-import { AbstractMesh } from "../../Meshes/abstractMesh";
-import { WebXRAbstractMotionController, IMotionControllerProfile, IMotionControllerMeshMap } from "./webXRAbstractMotionController";
-import { Scene } from "../../scene";
-import { SceneLoader } from "../../Loading/sceneLoader";
-import { Mesh } from "../../Meshes/mesh";
-import { Axis, Space } from "../../Maths/math.axis";
-import { Color3 } from "../../Maths/math.color";
-import { WebXRControllerComponent } from "./webXRControllerComponent";
-import { SphereBuilder } from "../../Meshes/Builders/sphereBuilder";
-import { StandardMaterial } from "../../Materials/standardMaterial";
-import { Logger } from "../../Misc/logger";
+import { AbstractMesh } from "../../Meshes/abstractMesh.js";
+import { WebXRAbstractMotionController, IMotionControllerProfile, IMotionControllerMeshMap } from "./webXRAbstractMotionController.js";
+import { Scene } from "../../scene.js";
+import { SceneLoader } from "../../Loading/sceneLoader.js";
+import { Mesh } from "../../Meshes/mesh.js";
+import { Axis, Space } from "../../Maths/math.axis.js";
+import { Color3 } from "../../Maths/math.color.js";
+import { WebXRControllerComponent } from "./webXRControllerComponent.js";
+import { SphereBuilder } from "../../Meshes/Builders/sphereBuilder.js";
+import { StandardMaterial } from "../../Materials/standardMaterial.js";
+import { Logger } from "../../Misc/logger.js";
 
 /**
  * A profiled motion controller has its profile loaded from an online repository.

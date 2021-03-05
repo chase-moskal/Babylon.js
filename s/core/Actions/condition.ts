@@ -1,5 +1,5 @@
-import { Action } from "./action";
-import { _TypeStore } from "../Misc/typeStore";
+import { Action } from "./action.js";
+import { _TypeStore } from "../Misc/typeStore.js";
 
 declare type ActionManager = import("./actionManager").ActionManager;
 

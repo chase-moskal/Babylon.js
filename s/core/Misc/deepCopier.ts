@@ -1,5 +1,5 @@
-import { StringTools } from './stringTools';
-import { Logger } from './logger';
+import { StringTools } from "./stringTools.js";
+import { Logger } from "./logger.js";
 
 var cloneValue = (source: any, destinationObject: any) => {
     if (!source) {

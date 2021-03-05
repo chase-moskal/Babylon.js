@@ -1,17 +1,17 @@
-import { serialize, serializeAsMatrix, SerializationHelper } from "../../Misc/decorators";
-import { Tools } from "../../Misc/tools";
-import { Nullable } from "../../types";
-import { Scene } from "../../scene";
-import { Matrix, Vector3 } from "../../Maths/math.vector";
-import { BaseTexture } from "../../Materials/Textures/baseTexture";
-import { Texture } from "../../Materials/Textures/texture";
-import { Constants } from "../../Engines/constants";
-import { _TypeStore } from '../../Misc/typeStore';
-import { ThinEngine } from '../../Engines/thinEngine';
+import { serialize, serializeAsMatrix, SerializationHelper } from "../../Misc/decorators.js";
+import { Tools } from "../../Misc/tools.js";
+import { Nullable } from "../../types.js";
+import { Scene } from "../../scene.js";
+import { Matrix, Vector3 } from "../../Maths/math.vector.js";
+import { BaseTexture } from "../../Materials/Textures/baseTexture.js";
+import { Texture } from "../../Materials/Textures/texture.js";
+import { Constants } from "../../Engines/constants.js";
+import { _TypeStore } from "../../Misc/typeStore.js";
+import { ThinEngine } from "../../Engines/thinEngine.js";
 
-import "../../Engines/Extensions/engine.cubeTexture";
-import { StringTools } from '../../Misc/stringTools';
-import { Observable } from '../../Misc/observable';
+import "../../Engines/Extensions/engine.cubeTexture.js";
+import { StringTools } from "../../Misc/stringTools.js";
+import { Observable } from "../../Misc/observable.js";
 
 /**
  * Class for creating a cube texture

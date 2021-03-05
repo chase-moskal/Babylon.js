@@ -1,12 +1,12 @@
-import { Skeleton } from "./skeleton";
+import { Skeleton } from "./skeleton.js";
 
-import { Vector3, Quaternion, Matrix } from "../Maths/math.vector";
-import { ArrayTools } from "../Misc/arrayTools";
-import { Nullable } from "../types";
-import { AbstractMesh } from "../Meshes/abstractMesh";
-import { TransformNode } from "../Meshes/transformNode";
-import { Node } from "../node";
-import { Space } from '../Maths/math.axis';
+import { Vector3, Quaternion, Matrix } from "../Maths/math.vector.js";
+import { ArrayTools } from "../Misc/arrayTools.js";
+import { Nullable } from "../types.js";
+import { AbstractMesh } from "../Meshes/abstractMesh.js";
+import { TransformNode } from "../Meshes/transformNode.js";
+import { Node } from "../node.js";
+import { Space } from "../Maths/math.axis.js";
 
 declare type Animation = import("../Animations/animation").Animation;
 declare type AnimationPropertiesOverride = import("../Animations/animationPropertiesOverride").AnimationPropertiesOverride;

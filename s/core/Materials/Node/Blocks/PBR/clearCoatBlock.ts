@@ -1,23 +1,23 @@
-import { NodeMaterialBlock } from '../../nodeMaterialBlock';
-import { NodeMaterialBlockConnectionPointTypes } from '../../Enums/nodeMaterialBlockConnectionPointTypes';
-import { NodeMaterialBuildState } from '../../nodeMaterialBuildState';
-import { NodeMaterialConnectionPoint, NodeMaterialConnectionPointDirection } from '../../nodeMaterialBlockConnectionPoint';
-import { NodeMaterialBlockTargets } from '../../Enums/nodeMaterialBlockTargets';
-import { _TypeStore } from '../../../../Misc/typeStore';
-import { InputBlock } from '../Input/inputBlock';
-import { NodeMaterialConnectionPointCustomObject } from "../../nodeMaterialConnectionPointCustomObject";
-import { NodeMaterial, NodeMaterialDefines } from '../../nodeMaterial';
-import { AbstractMesh } from '../../../../Meshes/abstractMesh';
-import { ReflectionBlock } from './reflectionBlock';
-import { Scene } from '../../../../scene';
-import { Nullable } from '../../../../types';
-import { Mesh } from '../../../../Meshes/mesh';
-import { SubMesh } from '../../../../Meshes/subMesh';
-import { Effect } from '../../../effect';
-import { PBRMetallicRoughnessBlock } from './pbrMetallicRoughnessBlock';
-import { PerturbNormalBlock } from '../Fragment/perturbNormalBlock';
-import { PBRClearCoatConfiguration } from '../../../PBR/pbrClearCoatConfiguration';
-import { editableInPropertyPage, PropertyTypeForEdition } from "../../nodeMaterialDecorator";
+import { NodeMaterialBlock } from "../../nodeMaterialBlock.js";
+import { NodeMaterialBlockConnectionPointTypes } from "../../Enums/nodeMaterialBlockConnectionPointTypes.js";
+import { NodeMaterialBuildState } from "../../nodeMaterialBuildState.js";
+import { NodeMaterialConnectionPoint, NodeMaterialConnectionPointDirection } from "../../nodeMaterialBlockConnectionPoint.js";
+import { NodeMaterialBlockTargets } from "../../Enums/nodeMaterialBlockTargets.js";
+import { _TypeStore } from "../../../../Misc/typeStore.js";
+import { InputBlock } from "../Input/inputBlock.js";
+import { NodeMaterialConnectionPointCustomObject } from "../../nodeMaterialConnectionPointCustomObject.js";
+import { NodeMaterial, NodeMaterialDefines } from "../../nodeMaterial.js";
+import { AbstractMesh } from "../../../../Meshes/abstractMesh.js";
+import { ReflectionBlock } from "./reflectionBlock.js";
+import { Scene } from "../../../../scene.js";
+import { Nullable } from "../../../../types.js";
+import { Mesh } from "../../../../Meshes/mesh.js";
+import { SubMesh } from "../../../../Meshes/subMesh.js";
+import { Effect } from "../../../effect.js";
+import { PBRMetallicRoughnessBlock } from "./pbrMetallicRoughnessBlock.js";
+import { PerturbNormalBlock } from "../Fragment/perturbNormalBlock.js";
+import { PBRClearCoatConfiguration } from "../../../PBR/pbrClearCoatConfiguration.js";
+import { editableInPropertyPage, PropertyTypeForEdition } from "../../nodeMaterialDecorator.js";
 
 /**
  * Block used to implement the clear coat module of the PBR material

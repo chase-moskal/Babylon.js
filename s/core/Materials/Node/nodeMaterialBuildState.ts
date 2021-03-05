@@ -1,8 +1,8 @@
-import { NodeMaterialBlockConnectionPointTypes } from './Enums/nodeMaterialBlockConnectionPointTypes';
-import { NodeMaterialBlockTargets } from './Enums/nodeMaterialBlockTargets';
-import { NodeMaterialBuildStateSharedData } from './nodeMaterialBuildStateSharedData';
-import { Effect } from '../effect';
-import { StringTools } from '../../Misc/stringTools';
+import { NodeMaterialBlockConnectionPointTypes } from "./Enums/nodeMaterialBlockConnectionPointTypes.js";
+import { NodeMaterialBlockTargets } from "./Enums/nodeMaterialBlockTargets.js";
+import { NodeMaterialBuildStateSharedData } from "./nodeMaterialBuildStateSharedData.js";
+import { Effect } from "../effect.js";
+import { StringTools } from "../../Misc/stringTools.js";
 
 /**
  * Class used to store node based material build state

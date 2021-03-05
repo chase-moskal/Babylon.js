@@ -1,12 +1,12 @@
-import { Observable } from "../../Misc/observable";
-import { Tools } from "../../Misc/tools";
-import { Logger } from "../../Misc/logger";
-import { Nullable } from "../../types";
-import { Scene } from "../../scene";
-import { Texture } from "../../Materials/Textures/texture";
+import { Observable } from "../../Misc/observable.js";
+import { Tools } from "../../Misc/tools.js";
+import { Logger } from "../../Misc/logger.js";
+import { Nullable } from "../../types.js";
+import { Scene } from "../../scene.js";
+import { Texture } from "../../Materials/Textures/texture.js";
 
-import "../../Engines/Extensions/engine.videoTexture";
-import "../../Engines/Extensions/engine.dynamicTexture";
+import "../../Engines/Extensions/engine.videoTexture.js";
+import "../../Engines/Extensions/engine.dynamicTexture.js";
 
 /**
  * Settings for finer control over video usage

@@ -1,15 +1,15 @@
-import { Behavior } from "../../Behaviors/behavior";
-import { Mesh } from "../../Meshes/mesh";
-import { AbstractMesh } from "../../Meshes/abstractMesh";
-import { Scene } from "../../scene";
-import { Nullable } from "../../types";
-import { Observer, Observable } from "../../Misc/observable";
-import { Vector3 } from "../../Maths/math.vector";
-import { PointerInfo, PointerEventTypes } from "../../Events/pointerEvents";
-import { Ray } from "../../Culling/ray";
-import { PivotTools } from '../../Misc/pivotTools';
-import { ArcRotateCamera } from '../../Cameras/arcRotateCamera';
-import "../../Meshes/Builders/planeBuilder";
+import { Behavior } from "../../Behaviors/behavior.js";
+import { Mesh } from "../../Meshes/mesh.js";
+import { AbstractMesh } from "../../Meshes/abstractMesh.js";
+import { Scene } from "../../scene.js";
+import { Nullable } from "../../types.js";
+import { Observer, Observable } from "../../Misc/observable.js";
+import { Vector3 } from "../../Maths/math.vector.js";
+import { PointerInfo, PointerEventTypes } from "../../Events/pointerEvents.js";
+import { Ray } from "../../Culling/ray.js";
+import { PivotTools } from "../../Misc/pivotTools.js";
+import { ArcRotateCamera } from "../../Cameras/arcRotateCamera.js";
+import "../../Meshes/Builders/planeBuilder.js";
 
 /**
  * A behavior that when attached to a mesh will allow the mesh to be dragged around the screen based on pointer events

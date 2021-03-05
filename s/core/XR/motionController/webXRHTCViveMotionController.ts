@@ -1,9 +1,9 @@
-import { IMotionControllerLayoutMap, IMinimalMotionControllerObject, MotionControllerHandedness, WebXRAbstractMotionController } from "./webXRAbstractMotionController";
-import { Scene } from "../../scene";
-import { AbstractMesh } from "../../Meshes/abstractMesh";
-import { Mesh } from "../../Meshes/mesh";
-import { Quaternion } from "../../Maths/math.vector";
-import { WebXRMotionControllerManager } from "./webXRMotionControllerManager";
+import { IMotionControllerLayoutMap, IMinimalMotionControllerObject, MotionControllerHandedness, WebXRAbstractMotionController } from "./webXRAbstractMotionController.js";
+import { Scene } from "../../scene.js";
+import { AbstractMesh } from "../../Meshes/abstractMesh.js";
+import { Mesh } from "../../Meshes/mesh.js";
+import { Quaternion } from "../../Maths/math.vector.js";
+import { WebXRMotionControllerManager } from "./webXRMotionControllerManager.js";
 
 /**
  * The motion controller class for the standard HTC-Vive controllers

@@ -1,14 +1,14 @@
-import { Scene } from "./scene";
-import { AbstractMesh } from "./Meshes/abstractMesh";
-import { SubMesh, } from "./Meshes/subMesh";
-import { _InstancesBatch } from "./Meshes/mesh";
-import { SmartArrayNoDuplicate } from "./Misc/smartArray";
-import { Nullable } from "./types";
-import { Camera } from "./Cameras/camera";
-import { RenderTargetTexture } from "./Materials/Textures/renderTargetTexture";
-import { PickingInfo } from "./Collisions/pickingInfo";
-import { AbstractScene } from "./abstractScene";
-import { IPointerEvent } from "./Events/deviceInputEvents";
+import { Scene } from "./scene.js";
+import { AbstractMesh } from "./Meshes/abstractMesh.js";
+import { SubMesh, } from "./Meshes/subMesh.js";
+import { _InstancesBatch } from "./Meshes/mesh.js";
+import { SmartArrayNoDuplicate } from "./Misc/smartArray.js";
+import { Nullable } from "./types.js";
+import { Camera } from "./Cameras/camera.js";
+import { RenderTargetTexture } from "./Materials/Textures/renderTargetTexture.js";
+import { PickingInfo } from "./Collisions/pickingInfo.js";
+import { AbstractScene } from "./abstractScene.js";
+import { IPointerEvent } from "./Events/deviceInputEvents.js";
 
 declare type Mesh = import("./Meshes/mesh").Mesh;
 declare type Effect = import("./Materials/effect").Effect;

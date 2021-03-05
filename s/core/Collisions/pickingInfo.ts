@@ -1,8 +1,8 @@
-import { Nullable, FloatArray } from "../types";
-import { Vector3, Vector2, TmpVectors } from "../Maths/math.vector";
-import { AbstractMesh } from "../Meshes/abstractMesh";
-import { VertexBuffer } from "../Meshes/buffer";
-import { Sprite } from "../Sprites/sprite";
+import { Nullable, FloatArray } from "../types.js";
+import { Vector3, Vector2, TmpVectors } from "../Maths/math.vector.js";
+import { AbstractMesh } from "../Meshes/abstractMesh.js";
+import { VertexBuffer } from "../Meshes/buffer.js";
+import { Sprite } from "../Sprites/sprite.js";
 
 declare type Ray = import("../Culling/ray").Ray;
 

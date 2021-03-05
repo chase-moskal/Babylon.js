@@ -1,8 +1,8 @@
-import { Scene } from "../../scene";
-import { Vector3, Vector4 } from "../../Maths/math.vector";
-import { Mesh, _CreationDataStorage } from "../mesh";
-import { RibbonBuilder } from "./ribbonBuilder";
-import { Nullable } from '../../types';
+import { Scene } from "../../scene.js";
+import { Vector3, Vector4 } from "../../Maths/math.vector.js";
+import { Mesh, _CreationDataStorage } from "../mesh.js";
+import { RibbonBuilder } from "./ribbonBuilder.js";
+import { Nullable } from "../../types.js";
 
 Mesh.CreateLathe = (name: string, shape: Vector3[], radius: number, tessellation: number, scene: Scene, updatable?: boolean, sideOrientation?: number): Mesh => {
     var options = {

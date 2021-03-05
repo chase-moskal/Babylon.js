@@ -1,7 +1,7 @@
-import { Nullable } from "../types";
-import { Scene } from "../scene";
-import { Engine } from "../Engines/engine";
-import { IAudioEngine } from './Interfaces/IAudioEngine';
+import { Nullable } from "../types.js";
+import { Scene } from "../scene.js";
+import { Engine } from "../Engines/engine.js";
+import { IAudioEngine } from "./Interfaces/IAudioEngine.js";
 
 /**
  * Class used to work with sound analyzer using fast fourier transform (FFT)

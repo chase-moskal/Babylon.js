@@ -1,31 +1,31 @@
-import { serializeAsVector3, serialize, serializeAsMeshReference } from "../Misc/decorators";
-import { SmartArray } from "../Misc/smartArray";
-import { Logger } from "../Misc/logger";
-import { Vector2, Vector3, Matrix } from "../Maths/math.vector";
-import { VertexBuffer } from "../Meshes/buffer";
-import { AbstractMesh } from "../Meshes/abstractMesh";
-import { SubMesh } from "../Meshes/subMesh";
-import { Mesh } from "../Meshes/mesh";
-import { Camera } from "../Cameras/camera";
-import { Effect } from "../Materials/effect";
-import { Material } from "../Materials/material";
-import { MaterialHelper } from "../Materials/materialHelper";
-import { StandardMaterial } from "../Materials/standardMaterial";
-import { Texture } from "../Materials/Textures/texture";
-import { RenderTargetTexture } from "../Materials/Textures/renderTargetTexture";
-import { PostProcess } from "./postProcess";
-import { Constants } from "../Engines/constants";
-import { Scene } from "../scene";
+import { serializeAsVector3, serialize, serializeAsMeshReference } from "../Misc/decorators.js";
+import { SmartArray } from "../Misc/smartArray.js";
+import { Logger } from "../Misc/logger.js";
+import { Vector2, Vector3, Matrix } from "../Maths/math.vector.js";
+import { VertexBuffer } from "../Meshes/buffer.js";
+import { AbstractMesh } from "../Meshes/abstractMesh.js";
+import { SubMesh } from "../Meshes/subMesh.js";
+import { Mesh } from "../Meshes/mesh.js";
+import { Camera } from "../Cameras/camera.js";
+import { Effect } from "../Materials/effect.js";
+import { Material } from "../Materials/material.js";
+import { MaterialHelper } from "../Materials/materialHelper.js";
+import { StandardMaterial } from "../Materials/standardMaterial.js";
+import { Texture } from "../Materials/Textures/texture.js";
+import { RenderTargetTexture } from "../Materials/Textures/renderTargetTexture.js";
+import { PostProcess } from "./postProcess.js";
+import { Constants } from "../Engines/constants.js";
+import { Scene } from "../scene.js";
 
-import "../Meshes/Builders/planeBuilder";
+import "../Meshes/Builders/planeBuilder.js";
 
-import "../Shaders/depth.vertex";
-import "../Shaders/volumetricLightScattering.fragment";
-import "../Shaders/volumetricLightScatteringPass.vertex";
-import "../Shaders/volumetricLightScatteringPass.fragment";
-import { Color4, Color3 } from '../Maths/math.color';
-import { Viewport } from '../Maths/math.viewport';
-import { _TypeStore } from '../Misc/typeStore';
+import "../Shaders/depth.vertex.js";
+import "../Shaders/volumetricLightScattering.fragment.js";
+import "../Shaders/volumetricLightScatteringPass.vertex.js";
+import "../Shaders/volumetricLightScatteringPass.fragment.js";
+import { Color4, Color3 } from "../Maths/math.color.js";
+import { Viewport } from "../Maths/math.viewport.js";
+import { _TypeStore } from "../Misc/typeStore.js";
 
 declare type Engine = import("../Engines/engine").Engine;
 

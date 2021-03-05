@@ -1,6 +1,6 @@
-import { NodeMaterialBlock } from './nodeMaterialBlock';
-import { NodeMaterialConnectionPoint, NodeMaterialConnectionPointDirection, NodeMaterialConnectionPointCompatibilityStates } from './nodeMaterialBlockConnectionPoint';
-import { Nullable } from '../../types';
+import { NodeMaterialBlock } from "./nodeMaterialBlock.js";
+import { NodeMaterialConnectionPoint, NodeMaterialConnectionPointDirection, NodeMaterialConnectionPointCompatibilityStates } from "./nodeMaterialBlockConnectionPoint.js";
+import { Nullable } from "../../types.js";
 
 /**
  * Defines a connection point to be used for points with a custom object type

@@ -1,13 +1,13 @@
-import { Nullable } from "../types";
-import { Scene } from "../scene";
-import { Material } from "./material";
-import { _TypeStore } from "../Misc/typeStore";
-import { serialize, expandToProperty, serializeAsTexture, SerializationHelper } from '../Misc/decorators';
-import { MaterialFlags } from './materialFlags';
-import { MaterialHelper } from './materialHelper';
-import { BaseTexture } from './Textures/baseTexture';
-import { UniformBuffer } from './uniformBuffer';
-import { IAnimatable } from '../Animations/animatable.interface';
+import { Nullable } from "../types.js";
+import { Scene } from "../scene.js";
+import { Material } from "./material.js";
+import { _TypeStore } from "../Misc/typeStore.js";
+import { serialize, expandToProperty, serializeAsTexture, SerializationHelper } from "../Misc/decorators.js";
+import { MaterialFlags } from "./materialFlags.js";
+import { MaterialHelper } from "./materialHelper.js";
+import { BaseTexture } from "./Textures/baseTexture.js";
+import { UniformBuffer } from "./uniformBuffer.js";
+import { IAnimatable } from "../Animations/animatable.interface.js";
 
 /**
  * @hidden

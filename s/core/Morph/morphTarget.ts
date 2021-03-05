@@ -1,13 +1,13 @@
-import { IAnimatable } from '../Animations/animatable.interface';
-import { Observable } from "../Misc/observable";
-import { Nullable, FloatArray } from "../types";
-import { Scene } from "../scene";
-import { EngineStore } from "../Engines/engineStore";
-import { AbstractMesh } from "../Meshes/abstractMesh";
-import { VertexBuffer } from "../Meshes/buffer";
-import { AnimationPropertiesOverride } from "../Animations/animationPropertiesOverride";
-import { serialize, SerializationHelper } from "../Misc/decorators";
-import { _TypeStore } from '../Misc/typeStore';
+import { IAnimatable } from "../Animations/animatable.interface.js";
+import { Observable } from "../Misc/observable.js";
+import { Nullable, FloatArray } from "../types.js";
+import { Scene } from "../scene.js";
+import { EngineStore } from "../Engines/engineStore.js";
+import { AbstractMesh } from "../Meshes/abstractMesh.js";
+import { VertexBuffer } from "../Meshes/buffer.js";
+import { AnimationPropertiesOverride } from "../Animations/animationPropertiesOverride.js";
+import { serialize, SerializationHelper } from "../Misc/decorators.js";
+import { _TypeStore } from "../Misc/typeStore.js";
 
 declare type Animation = import("../Animations/animation").Animation;
 

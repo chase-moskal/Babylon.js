@@ -1,15 +1,15 @@
-import { Scalar } from "../Maths/math.scalar";
-import { SphericalPolynomial } from "../Maths/sphericalPolynomial";
-import { Constants } from "../Engines/constants";
-import { InternalTexture, InternalTextureSource } from "../Materials/Textures/internalTexture";
-import { Nullable } from "../types";
-import { Logger } from "../Misc/logger";
-import { CubeMapToSphericalPolynomialTools } from "../Misc/HighDynamicRange/cubemapToSphericalPolynomial";
-import { Scene } from '../scene';
-import { BaseTexture } from '../Materials/Textures/baseTexture';
+import { Scalar } from "../Maths/math.scalar.js";
+import { SphericalPolynomial } from "../Maths/sphericalPolynomial.js";
+import { Constants } from "../Engines/constants.js";
+import { InternalTexture, InternalTextureSource } from "../Materials/Textures/internalTexture.js";
+import { Nullable } from "../types.js";
+import { Logger } from "../Misc/logger.js";
+import { CubeMapToSphericalPolynomialTools } from "../Misc/HighDynamicRange/cubemapToSphericalPolynomial.js";
+import { Scene } from "../scene.js";
+import { BaseTexture } from "../Materials/Textures/baseTexture.js";
 
-import "../Engines/Extensions/engine.cubeTexture";
-import { ThinEngine } from '../Engines/thinEngine';
+import "../Engines/Extensions/engine.cubeTexture.js";
+import { ThinEngine } from "../Engines/thinEngine.js";
 
 // Based on demo done by Brandon Jones - http://media.tojicode.com/webgl-samples/dds.html
 // All values and structures referenced from:

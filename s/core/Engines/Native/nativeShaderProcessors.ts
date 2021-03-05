@@ -1,6 +1,6 @@
-import { Nullable } from '../../types';
-import { WebGL2ShaderProcessor } from '../WebGL/webGL2ShaderProcessors';
-import { ShaderProcessingContext } from '../Processors/shaderProcessingOptions';
+import { Nullable } from "../../types.js";
+import { WebGL2ShaderProcessor } from "../WebGL/webGL2ShaderProcessors.js";
+import { ShaderProcessingContext } from "../Processors/shaderProcessingOptions.js";
 
 declare type ThinEngine = import("../thinEngine").ThinEngine;
 declare type NativeEngine = import("../nativeEngine").NativeEngine;

@@ -1,13 +1,13 @@
-import { Scene } from "../../scene";
-import { Vector3 } from "../../Maths/math.vector";
-import { Color3 } from '../../Maths/math.color';
-import { Mesh, _CreationDataStorage } from "../mesh";
-import { VertexData } from "../mesh.vertexData";
-import { GroundMesh } from "../groundMesh";
-import { Tools } from "../../Misc/tools";
-import { Nullable } from '../../types';
-import { EngineStore } from '../../Engines/engineStore';
-import { Epsilon } from '../../Maths/math.constants';
+import { Scene } from "../../scene.js";
+import { Vector3 } from "../../Maths/math.vector.js";
+import { Color3 } from "../../Maths/math.color.js";
+import { Mesh, _CreationDataStorage } from "../mesh.js";
+import { VertexData } from "../mesh.vertexData.js";
+import { GroundMesh } from "../groundMesh.js";
+import { Tools } from "../../Misc/tools.js";
+import { Nullable } from "../../types.js";
+import { EngineStore } from "../../Engines/engineStore.js";
+import { Epsilon } from "../../Maths/math.constants.js";
 
 VertexData.CreateGround = function(options: { width?: number, height?: number, subdivisions?: number, subdivisionsX?: number, subdivisionsY?: number }): VertexData {
     var indices = [];

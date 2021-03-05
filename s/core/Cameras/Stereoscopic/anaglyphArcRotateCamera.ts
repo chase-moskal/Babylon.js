@@ -1,11 +1,11 @@
-import { Camera } from "../../Cameras/camera";
-import { ArcRotateCamera } from "../../Cameras/arcRotateCamera";
-import { Scene } from "../../scene";
-import { Vector3 } from "../../Maths/math.vector";
-import { Node } from "../../node";
+import { Camera } from "../../Cameras/camera.js";
+import { ArcRotateCamera } from "../../Cameras/arcRotateCamera.js";
+import { Scene } from "../../scene.js";
+import { Vector3 } from "../../Maths/math.vector.js";
+import { Node } from "../../node.js";
 
 // Side effect import to define the stereoscopic mode.
-import "../RigModes/stereoscopicAnaglyphRigMode";
+import "../RigModes/stereoscopicAnaglyphRigMode.js";
 
 Node.AddNodeConstructor("AnaglyphArcRotateCamera", (name, scene, options) => {
     return () => new AnaglyphArcRotateCamera(name, 0, 0, 1.0, Vector3.Zero(), options.interaxial_distance, scene);

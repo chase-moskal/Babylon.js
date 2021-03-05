@@ -1,11 +1,11 @@
-import { Nullable } from "../../types";
-import { InternalTexture, InternalTextureSource } from '../../Materials/Textures/internalTexture';
-import { Logger } from '../../Misc/logger';
-import { Tools } from '../../Misc/tools';
-import { Scene } from '../../scene';
-import { Constants } from '../constants';
-import { ThinEngine } from '../thinEngine';
-import { IWebRequest } from '../../Misc/interfaces/iWebRequest';
+import { Nullable } from "../../types.js";
+import { InternalTexture, InternalTextureSource } from "../../Materials/Textures/internalTexture.js";
+import { Logger } from "../../Misc/logger.js";
+import { Tools } from "../../Misc/tools.js";
+import { Scene } from "../../scene.js";
+import { Constants } from "../constants.js";
+import { ThinEngine } from "../thinEngine.js";
+import { IWebRequest } from "../../Misc/interfaces/iWebRequest.js";
 
 declare module "../../Engines/thinEngine" {
     export interface ThinEngine {

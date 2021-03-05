@@ -1,11 +1,11 @@
-import { Nullable } from "../types";
-import { Vector2 } from "../Maths/math.vector";
-import { Camera } from "../Cameras/camera";
-import { Effect } from "../Materials/effect";
-import { PostProcess } from "./postProcess";
-import { Engine } from "../Engines/engine";
+import { Nullable } from "../types.js";
+import { Vector2 } from "../Maths/math.vector.js";
+import { Camera } from "../Cameras/camera.js";
+import { Effect } from "../Materials/effect.js";
+import { PostProcess } from "./postProcess.js";
+import { Engine } from "../Engines/engine.js";
 
-import "../Shaders/stereoscopicInterlace.fragment";
+import "../Shaders/stereoscopicInterlace.fragment.js";
 
 /**
  * StereoscopicInterlacePostProcessI used to render stereo views from a rigged camera with support for alternate line interlacing

@@ -1,19 +1,19 @@
-import { NodeMaterialBlock } from '../../nodeMaterialBlock';
-import { NodeMaterialBlockConnectionPointTypes } from '../../Enums/nodeMaterialBlockConnectionPointTypes';
-import { NodeMaterialBuildState } from '../../nodeMaterialBuildState';
-import { NodeMaterialBlockTargets } from '../../Enums/nodeMaterialBlockTargets';
-import { NodeMaterialConnectionPoint } from '../../nodeMaterialBlockConnectionPoint';
-import { AbstractMesh } from '../../../../Meshes/abstractMesh';
-import { NodeMaterial, NodeMaterialDefines } from '../../nodeMaterial';
-import { Effect } from '../../../effect';
-import { Mesh } from '../../../../Meshes/mesh';
-import { MaterialHelper } from '../../../materialHelper';
-import { VertexBuffer } from '../../../../Meshes/buffer';
-import { InputBlock } from '../Input/inputBlock';
-import { _TypeStore } from '../../../../Misc/typeStore';
+import { NodeMaterialBlock } from "../../nodeMaterialBlock.js";
+import { NodeMaterialBlockConnectionPointTypes } from "../../Enums/nodeMaterialBlockConnectionPointTypes.js";
+import { NodeMaterialBuildState } from "../../nodeMaterialBuildState.js";
+import { NodeMaterialBlockTargets } from "../../Enums/nodeMaterialBlockTargets.js";
+import { NodeMaterialConnectionPoint } from "../../nodeMaterialBlockConnectionPoint.js";
+import { AbstractMesh } from "../../../../Meshes/abstractMesh.js";
+import { NodeMaterial, NodeMaterialDefines } from "../../nodeMaterial.js";
+import { Effect } from "../../../effect.js";
+import { Mesh } from "../../../../Meshes/mesh.js";
+import { MaterialHelper } from "../../../materialHelper.js";
+import { VertexBuffer } from "../../../../Meshes/buffer.js";
+import { InputBlock } from "../Input/inputBlock.js";
+import { _TypeStore } from "../../../../Misc/typeStore.js";
 
-import "../../../../Shaders/ShadersInclude/morphTargetsVertexDeclaration";
-import "../../../../Shaders/ShadersInclude/morphTargetsVertexGlobalDeclaration";
+import "../../../../Shaders/ShadersInclude/morphTargetsVertexDeclaration.js";
+import "../../../../Shaders/ShadersInclude/morphTargetsVertexGlobalDeclaration.js";
 
 /**
  * Block used to add morph targets support to vertex shader

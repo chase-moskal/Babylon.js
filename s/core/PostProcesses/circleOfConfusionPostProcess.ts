@@ -1,15 +1,15 @@
-import { Nullable } from "../types";
-import { Engine } from "../Engines/engine";
-import { PostProcess, PostProcessOptions } from "./postProcess";
-import { Effect } from "../Materials/effect";
-import { RenderTargetTexture } from "../Materials/Textures/renderTargetTexture";
-import { Camera } from "../Cameras/camera";
-import { Logger } from "../Misc/logger";
-import { Constants } from "../Engines/constants";
+import { Nullable } from "../types.js";
+import { Engine } from "../Engines/engine.js";
+import { PostProcess, PostProcessOptions } from "./postProcess.js";
+import { Effect } from "../Materials/effect.js";
+import { RenderTargetTexture } from "../Materials/Textures/renderTargetTexture.js";
+import { Camera } from "../Cameras/camera.js";
+import { Logger } from "../Misc/logger.js";
+import { Constants } from "../Engines/constants.js";
 
-import "../Shaders/circleOfConfusion.fragment";
-import { _TypeStore } from '../Misc/typeStore';
-import { serialize } from '../Misc/decorators';
+import "../Shaders/circleOfConfusion.fragment.js";
+import { _TypeStore } from "../Misc/typeStore.js";
+import { serialize } from "../Misc/decorators.js";
 
 /**
  * The CircleOfConfusionPostProcess computes the circle of confusion value for each pixel given required lens parameters. See https://en.wikipedia.org/wiki/Circle_of_confusion

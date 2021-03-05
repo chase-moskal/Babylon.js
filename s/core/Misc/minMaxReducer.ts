@@ -1,14 +1,14 @@
-import { Nullable } from "../types";
-import { RenderTargetTexture } from "../Materials/Textures/renderTargetTexture";
-import { Camera } from "../Cameras/camera";
-import { Constants } from "../Engines/constants";
-import { Observer } from "./observable";
-import { Effect } from "../Materials/effect";
-import { PostProcess } from "../PostProcesses/postProcess";
-import { PostProcessManager } from "../PostProcesses/postProcessManager";
-import { Observable } from "./observable";
+import { Nullable } from "../types.js";
+import { RenderTargetTexture } from "../Materials/Textures/renderTargetTexture.js";
+import { Camera } from "../Cameras/camera.js";
+import { Constants } from "../Engines/constants.js";
+import { Observer } from "./observable.js";
+import { Effect } from "../Materials/effect.js";
+import { PostProcess } from "../PostProcesses/postProcess.js";
+import { PostProcessManager } from "../PostProcesses/postProcessManager.js";
+import { Observable } from "./observable.js";
 
-import "../Shaders/minmaxRedux.fragment";
+import "../Shaders/minmaxRedux.fragment.js";
 
 /**
  * This class computes a min/max reduction from a texture: it means it computes the minimum

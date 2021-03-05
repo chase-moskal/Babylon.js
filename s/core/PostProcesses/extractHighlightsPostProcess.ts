@@ -1,14 +1,14 @@
-import { Nullable } from "../types";
-import { Camera } from "../Cameras/camera";
-import { Effect } from "../Materials/effect";
-import { PostProcess, PostProcessOptions } from "./postProcess";
-import { Engine } from "../Engines/engine";
-import { ToGammaSpace } from "../Maths/math.constants";
-import { Constants } from "../Engines/constants";
+import { Nullable } from "../types.js";
+import { Camera } from "../Cameras/camera.js";
+import { Effect } from "../Materials/effect.js";
+import { PostProcess, PostProcessOptions } from "./postProcess.js";
+import { Engine } from "../Engines/engine.js";
+import { ToGammaSpace } from "../Maths/math.constants.js";
+import { Constants } from "../Engines/constants.js";
 
-import "../Shaders/extractHighlights.fragment";
-import { serialize } from '../Misc/decorators';
-import { _TypeStore } from '../Misc/typeStore';
+import "../Shaders/extractHighlights.fragment.js";
+import { serialize } from "../Misc/decorators.js";
+import { _TypeStore } from "../Misc/typeStore.js";
 
 /**
  * The extract highlights post process sets all pixels to black except pixels above the specified luminance threshold. Used as the first step for a bloom effect.

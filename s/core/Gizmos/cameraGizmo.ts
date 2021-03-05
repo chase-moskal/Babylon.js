@@ -1,18 +1,18 @@
-import { Nullable } from "../types";
-import { Vector3 } from "../Maths/math.vector";
-import { Color3 } from '../Maths/math.color';
-import { Mesh } from "../Meshes/mesh";
-import { Gizmo } from "./gizmo";
-import { UtilityLayerRenderer } from "../Rendering/utilityLayerRenderer";
-import { StandardMaterial } from '../Materials/standardMaterial';
-import { Scene } from '../scene';
-import { Camera } from '../Cameras/camera';
-import { BoxBuilder } from "../Meshes/Builders/boxBuilder";
-import { CylinderBuilder } from '../Meshes/Builders/cylinderBuilder';
-import { Matrix } from '../Maths/math';
-import { LinesBuilder } from "../Meshes/Builders/linesBuilder";
-import { PointerEventTypes, PointerInfo } from '../Events/pointerEvents';
-import { Observer, Observable } from "../Misc/observable";
+import { Nullable } from "../types.js";
+import { Vector3 } from "../Maths/math.vector.js";
+import { Color3 } from "../Maths/math.color.js";
+import { Mesh } from "../Meshes/mesh.js";
+import { Gizmo } from "./gizmo.js";
+import { UtilityLayerRenderer } from "../Rendering/utilityLayerRenderer.js";
+import { StandardMaterial } from "../Materials/standardMaterial.js";
+import { Scene } from "../scene.js";
+import { Camera } from "../Cameras/camera.js";
+import { BoxBuilder } from "../Meshes/Builders/boxBuilder.js";
+import { CylinderBuilder } from "../Meshes/Builders/cylinderBuilder.js";
+import { Matrix } from "../Maths/math.js";
+import { LinesBuilder } from "../Meshes/Builders/linesBuilder.js";
+import { PointerEventTypes, PointerInfo } from "../Events/pointerEvents.js";
+import { Observer, Observable } from "../Misc/observable.js";
 
 /**
  * Gizmo that enables viewing a camera

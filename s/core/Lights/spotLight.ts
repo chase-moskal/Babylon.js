@@ -1,15 +1,15 @@
-import { serialize, serializeAsTexture } from "../Misc/decorators";
-import { Nullable } from "../types";
-import { Scene } from "../scene";
-import { Matrix, Vector3 } from "../Maths/math.vector";
-import { Node } from "../node";
-import { AbstractMesh } from "../Meshes/abstractMesh";
-import { Effect } from "../Materials/effect";
-import { BaseTexture } from "../Materials/Textures/baseTexture";
-import { Light } from "./light";
-import { ShadowLight } from "./shadowLight";
-import { Texture } from '../Materials/Textures/texture';
-import { ProceduralTexture } from '../Materials/Textures/Procedurals/proceduralTexture';
+import { serialize, serializeAsTexture } from "../Misc/decorators.js";
+import { Nullable } from "../types.js";
+import { Scene } from "../scene.js";
+import { Matrix, Vector3 } from "../Maths/math.vector.js";
+import { Node } from "../node.js";
+import { AbstractMesh } from "../Meshes/abstractMesh.js";
+import { Effect } from "../Materials/effect.js";
+import { BaseTexture } from "../Materials/Textures/baseTexture.js";
+import { Light } from "./light.js";
+import { ShadowLight } from "./shadowLight.js";
+import { Texture } from "../Materials/Textures/texture.js";
+import { ProceduralTexture } from "../Materials/Textures/Procedurals/proceduralTexture.js";
 
 Node.AddNodeConstructor("Light_Type_2", (name, scene) => {
     return () => new SpotLight(name, Vector3.Zero(), Vector3.Zero(), 0, 0, scene);

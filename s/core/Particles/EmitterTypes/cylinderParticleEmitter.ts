@@ -1,9 +1,9 @@
-import { Vector3, Matrix } from "../../Maths/math.vector";
-import { Scalar } from "../../Maths/math.scalar";
-import { Effect } from "../../Materials/effect";
-import { Particle } from "../../Particles/particle";
-import { IParticleEmitterType } from "./IParticleEmitterType";
-import { DeepCopier } from "../../Misc/deepCopier";
+import { Vector3, Matrix } from "../../Maths/math.vector.js";
+import { Scalar } from "../../Maths/math.scalar.js";
+import { Effect } from "../../Materials/effect.js";
+import { Particle } from "../../Particles/particle.js";
+import { IParticleEmitterType } from "./IParticleEmitterType.js";
+import { DeepCopier } from "../../Misc/deepCopier.js";
 /**
  * Particle emitter emitting particles from the inside of a cylinder.
  * It emits the particles alongside the cylinder radius. The emission direction might be randomized.

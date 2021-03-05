@@ -1,5 +1,5 @@
-import { IWebRequest } from './interfaces/iWebRequest';
-import { Nullable } from '../types';
+import { IWebRequest } from "./interfaces/iWebRequest.js";
+import { Nullable } from "../types.js";
 
 /** @hidden */
 declare const _native: any;

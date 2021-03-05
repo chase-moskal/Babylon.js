@@ -1,21 +1,21 @@
-import { Nullable } from "../types";
-import { Constants } from "../Engines/constants";
-import { IMatrixLike } from '../Maths/math.like';
-import { ThinEngine } from "../Engines/thinEngine";
-import { DataBuffer } from "../Meshes/dataBuffer";
-import { Buffer, VertexBuffer } from "../Meshes/buffer";
-import { Effect } from "../Materials/effect";
-import { ThinSprite } from './thinSprite';
-import { ISize } from '../Maths/math.size';
+import { Nullable } from "../types.js";
+import { Constants } from "../Engines/constants.js";
+import { IMatrixLike } from "../Maths/math.like.js";
+import { ThinEngine } from "../Engines/thinEngine.js";
+import { DataBuffer } from "../Meshes/dataBuffer.js";
+import { Buffer, VertexBuffer } from "../Meshes/buffer.js";
+import { Effect } from "../Materials/effect.js";
+import { ThinSprite } from "./thinSprite.js";
+import { ISize } from "../Maths/math.size.js";
 
 declare type ThinTexture = import("../Materials/Textures/thinTexture").ThinTexture;
 declare type Scene = import("../scene").Scene;
 
-import "../Engines/Extensions/engine.alpha";
-import "../Engines/Extensions/engine.dynamicBuffer";
+import "../Engines/Extensions/engine.alpha.js";
+import "../Engines/Extensions/engine.dynamicBuffer.js";
 
-import "../Shaders/sprites.fragment";
-import "../Shaders/sprites.vertex";
+import "../Shaders/sprites.fragment.js";
+import "../Shaders/sprites.vertex.js";
 
 /**
  * Class used to render sprites.

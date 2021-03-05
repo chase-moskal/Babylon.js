@@ -1,7 +1,7 @@
-import { DeepImmutable, Nullable } from "../types";
-import { Scalar } from "./math.scalar";
-import { Vector2, Vector3, Quaternion, Matrix } from "./math.vector";
-import { Epsilon } from "./math.constants";
+import { DeepImmutable, Nullable } from "../types.js";
+import { Scalar } from "./math.scalar.js";
+import { Vector2, Vector3, Quaternion, Matrix } from "./math.vector.js";
+import { Epsilon } from "./math.constants.js";
 
 /**
  * Defines potential orientation for back face culling

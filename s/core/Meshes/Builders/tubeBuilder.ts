@@ -1,9 +1,9 @@
-import { Nullable } from "../../types";
-import { Scene } from "../../scene";
-import { Vector3, TmpVectors, Vector4, Matrix } from "../../Maths/math.vector";
-import { Mesh, _CreationDataStorage } from "../mesh";
-import { RibbonBuilder } from "./ribbonBuilder";
-import { Path3D } from '../../Maths/math.path';
+import { Nullable } from "../../types.js";
+import { Scene } from "../../scene.js";
+import { Vector3, TmpVectors, Vector4, Matrix } from "../../Maths/math.vector.js";
+import { Mesh, _CreationDataStorage } from "../mesh.js";
+import { RibbonBuilder } from "./ribbonBuilder.js";
+import { Path3D } from "../../Maths/math.path.js";
 
 Mesh.CreateTube = (name: string, path: Vector3[], radius: number, tessellation: number, radiusFunction: { (i: number, distance: number): number; }, cap: number, scene: Scene, updatable?: boolean, sideOrientation?: number, instance?: Mesh): Mesh => {
     var options = {

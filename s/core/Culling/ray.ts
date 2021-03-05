@@ -1,14 +1,14 @@
-import { DeepImmutable, Nullable, float } from "../types";
-import { ArrayTools } from "../Misc/arrayTools";
-import { Matrix, Vector3, TmpVectors } from "../Maths/math.vector";
-import { AbstractMesh } from "../Meshes/abstractMesh";
-import { PickingInfo } from "../Collisions/pickingInfo";
-import { IntersectionInfo } from "../Collisions/intersectionInfo";
-import { BoundingBox } from "./boundingBox";
-import { BoundingSphere } from "./boundingSphere";
-import { Scene } from "../scene";
-import { Camera } from "../Cameras/camera";
-import { Plane } from "../Maths/math.plane";
+import { DeepImmutable, Nullable, float } from "../types.js";
+import { ArrayTools } from "../Misc/arrayTools.js";
+import { Matrix, Vector3, TmpVectors } from "../Maths/math.vector.js";
+import { AbstractMesh } from "../Meshes/abstractMesh.js";
+import { PickingInfo } from "../Collisions/pickingInfo.js";
+import { IntersectionInfo } from "../Collisions/intersectionInfo.js";
+import { BoundingBox } from "./boundingBox.js";
+import { BoundingSphere } from "./boundingSphere.js";
+import { Scene } from "../scene.js";
+import { Camera } from "../Cameras/camera.js";
+import { Plane } from "../Maths/math.plane.js";
 
 declare type Mesh = import("../Meshes/mesh").Mesh;
 

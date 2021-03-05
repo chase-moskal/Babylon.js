@@ -1,14 +1,14 @@
-import { Nullable } from "../../types";
-import { Scene } from "../../scene";
-import { Matrix } from "../../Maths/math.vector";
-import { InternalTexture } from "../../Materials/Textures/internalTexture";
-import { BaseTexture } from "../../Materials/Textures/baseTexture";
-import { Constants } from "../../Engines/constants";
-import { _TypeStore } from "../../Misc/typeStore";
-import { ThinEngine } from "../../Engines/thinEngine";
+import { Nullable } from "../../types.js";
+import { Scene } from "../../scene.js";
+import { Matrix } from "../../Maths/math.vector.js";
+import { InternalTexture } from "../../Materials/Textures/internalTexture.js";
+import { BaseTexture } from "../../Materials/Textures/baseTexture.js";
+import { Constants } from "../../Engines/constants.js";
+import { _TypeStore } from "../../Misc/typeStore.js";
+import { ThinEngine } from "../../Engines/thinEngine.js";
 
 // Ensures Raw texture are included
-import "../../Engines/Extensions/engine.rawTexture";
+import "../../Engines/Extensions/engine.rawTexture.js";
 
 /**
  * This represents a color grading texture. This acts as a lookup table LUT, useful during post process

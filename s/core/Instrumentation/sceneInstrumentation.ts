@@ -1,9 +1,9 @@
-import { Tools } from "../Misc/tools";
-import { Observer } from "../Misc/observable";
-import { Nullable } from "../types";
-import { Camera } from "../Cameras/camera";
-import { Scene, IDisposable } from "../scene";
-import { PerfCounter } from '../Misc/perfCounter';
+import { Tools } from "../Misc/tools.js";
+import { Observer } from "../Misc/observable.js";
+import { Nullable } from "../types.js";
+import { Camera } from "../Cameras/camera.js";
+import { Scene, IDisposable } from "../scene.js";
+import { PerfCounter } from "../Misc/perfCounter.js";
 /**
  * This class can be used to get instrumentation data from a Babylon engine
  * @see https://doc.babylonjs.com/how_to/optimizing_your_scene#sceneinstrumentation

@@ -1,5 +1,5 @@
-import { Mesh } from './mesh';
-import { Nullable } from '../types';
+import { Mesh } from "./mesh.js";
+import { Nullable } from "../types.js";
 
 /**
  * Class used to represent a specific level of detail of a mesh

@@ -1,19 +1,19 @@
-import { Quaternion, Vector3, Matrix } from "../../Maths/math.vector";
-import { IPhysicsEnginePlugin, PhysicsImpostorJoint } from "../../Physics/IPhysicsEngine";
-import { Logger } from "../../Misc/logger";
-import { PhysicsImpostor, IPhysicsEnabledObject } from "../../Physics/physicsImpostor";
-import { PhysicsJoint, IMotorEnabledJoint, DistanceJointData } from "../../Physics/physicsJoint";
-import { VertexBuffer } from "../../Meshes/buffer";
-import { VertexData } from "../../Meshes/mesh.vertexData";
-import { Nullable } from "../../types";
-import { AbstractMesh } from "../../Meshes/abstractMesh";
-import { Mesh } from "../../Meshes/mesh";
-import { ShapeBuilder } from "../../Meshes/Builders/shapeBuilder";
-import { LinesBuilder } from "../../Meshes/Builders/linesBuilder";
-import { LinesMesh } from '../../Meshes/linesMesh';
-import { PhysicsRaycastResult } from "../physicsRaycastResult";
-import { Scalar } from "../../Maths/math.scalar";
-import { Epsilon } from '../../Maths/math.constants';
+import { Quaternion, Vector3, Matrix } from "../../Maths/math.vector.js";
+import { IPhysicsEnginePlugin, PhysicsImpostorJoint } from "../../Physics/IPhysicsEngine.js";
+import { Logger } from "../../Misc/logger.js";
+import { PhysicsImpostor, IPhysicsEnabledObject } from "../../Physics/physicsImpostor.js";
+import { PhysicsJoint, IMotorEnabledJoint, DistanceJointData } from "../../Physics/physicsJoint.js";
+import { VertexBuffer } from "../../Meshes/buffer.js";
+import { VertexData } from "../../Meshes/mesh.vertexData.js";
+import { Nullable } from "../../types.js";
+import { AbstractMesh } from "../../Meshes/abstractMesh.js";
+import { Mesh } from "../../Meshes/mesh.js";
+import { ShapeBuilder } from "../../Meshes/Builders/shapeBuilder.js";
+import { LinesBuilder } from "../../Meshes/Builders/linesBuilder.js";
+import { LinesMesh } from "../../Meshes/linesMesh.js";
+import { PhysicsRaycastResult } from "../physicsRaycastResult.js";
+import { Scalar } from "../../Maths/math.scalar.js";
+import { Epsilon } from "../../Maths/math.constants.js";
 
 declare var Ammo: any;
 

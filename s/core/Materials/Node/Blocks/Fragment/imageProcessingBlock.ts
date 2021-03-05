@@ -1,17 +1,17 @@
-import { NodeMaterialBlock } from '../../nodeMaterialBlock';
-import { NodeMaterialBlockConnectionPointTypes } from '../../Enums/nodeMaterialBlockConnectionPointTypes';
-import { NodeMaterialBuildState } from '../../nodeMaterialBuildState';
-import { NodeMaterialBlockTargets } from '../../Enums/nodeMaterialBlockTargets';
-import { NodeMaterialConnectionPoint } from '../../nodeMaterialBlockConnectionPoint';
-import { AbstractMesh } from '../../../../Meshes/abstractMesh';
-import { NodeMaterial, NodeMaterialDefines } from '../../nodeMaterial';
-import { Effect } from '../../../effect';
-import { Mesh } from '../../../../Meshes/mesh';
-import { _TypeStore } from '../../../../Misc/typeStore';
+import { NodeMaterialBlock } from "../../nodeMaterialBlock.js";
+import { NodeMaterialBlockConnectionPointTypes } from "../../Enums/nodeMaterialBlockConnectionPointTypes.js";
+import { NodeMaterialBuildState } from "../../nodeMaterialBuildState.js";
+import { NodeMaterialBlockTargets } from "../../Enums/nodeMaterialBlockTargets.js";
+import { NodeMaterialConnectionPoint } from "../../nodeMaterialBlockConnectionPoint.js";
+import { AbstractMesh } from "../../../../Meshes/abstractMesh.js";
+import { NodeMaterial, NodeMaterialDefines } from "../../nodeMaterial.js";
+import { Effect } from "../../../effect.js";
+import { Mesh } from "../../../../Meshes/mesh.js";
+import { _TypeStore } from "../../../../Misc/typeStore.js";
 
-import "../../../../Shaders/ShadersInclude/helperFunctions";
-import "../../../../Shaders/ShadersInclude/imageProcessingDeclaration";
-import "../../../../Shaders/ShadersInclude/imageProcessingFunctions";
+import "../../../../Shaders/ShadersInclude/helperFunctions.js";
+import "../../../../Shaders/ShadersInclude/imageProcessingDeclaration.js";
+import "../../../../Shaders/ShadersInclude/imageProcessingFunctions.js";
 
 /**
  * Block used to add image processing support to fragment shader

@@ -1,4 +1,4 @@
-import { DomManagement } from './domManagement';
+import { DomManagement } from "./domManagement.js";
 
 /**
  * Class used to provide helper for timing

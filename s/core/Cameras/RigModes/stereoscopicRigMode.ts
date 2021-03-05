@@ -1,7 +1,7 @@
-import { Camera } from "../camera";
-import { Viewport } from '../../Maths/math.viewport';
-import { PassPostProcess } from '../../PostProcesses/passPostProcess';
-import { StereoscopicInterlacePostProcessI } from '../../PostProcesses/stereoscopicInterlacePostProcess';
+import { Camera } from "../camera.js";
+import { Viewport } from "../../Maths/math.viewport.js";
+import { PassPostProcess } from "../../PostProcesses/passPostProcess.js";
+import { StereoscopicInterlacePostProcessI } from "../../PostProcesses/stereoscopicInterlacePostProcess.js";
 
 Camera._setStereoscopicRigMode = function(camera: Camera) {
     var isStereoscopicHoriz = camera.cameraRigMode === Camera.RIG_MODE_STEREOSCOPIC_SIDEBYSIDE_PARALLEL || camera.cameraRigMode === Camera.RIG_MODE_STEREOSCOPIC_SIDEBYSIDE_CROSSEYED;

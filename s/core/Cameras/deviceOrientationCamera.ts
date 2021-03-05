@@ -1,10 +1,10 @@
-import { FreeCamera } from "./freeCamera";
-import { Scene } from "../scene";
-import { Quaternion, Vector3 } from "../Maths/math.vector";
-import { Node } from "../node";
+import { FreeCamera } from "./freeCamera.js";
+import { Scene } from "../scene.js";
+import { Quaternion, Vector3 } from "../Maths/math.vector.js";
+import { Node } from "../node.js";
 
-import "./Inputs/freeCameraDeviceOrientationInput";
-import { Axis } from '../Maths/math.axis';
+import "./Inputs/freeCameraDeviceOrientationInput.js";
+import { Axis } from "../Maths/math.axis.js";
 
 Node.AddNodeConstructor("DeviceOrientationCamera", (name, scene) => {
     return () => new DeviceOrientationCamera(name, Vector3.Zero(), scene);

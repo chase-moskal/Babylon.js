@@ -1,12 +1,12 @@
-import { Action } from "./action";
-import { Condition } from "./condition";
+import { Action } from "./action.js";
+import { Condition } from "./condition.js";
 
-import { Logger } from "../Misc/logger";
-import { Observable } from "../Misc/observable";
-import { Color3 } from "../Maths/math.color";
-import { Vector3, Matrix, Quaternion } from "../Maths/math.vector";
-import { Animation } from "../Animations/animation";
-import { _TypeStore } from '../Misc/typeStore';
+import { Logger } from "../Misc/logger.js";
+import { Observable } from "../Misc/observable.js";
+import { Color3 } from "../Maths/math.color.js";
+import { Vector3, Matrix, Quaternion } from "../Maths/math.vector.js";
+import { Animation } from "../Animations/animation.js";
+import { _TypeStore } from "../Misc/typeStore.js";
 
 /**
  * This defines an action responsible to change the value of a property

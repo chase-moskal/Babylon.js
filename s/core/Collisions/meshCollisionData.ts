@@ -1,7 +1,7 @@
-import { Collider } from './collider';
-import { Vector3 } from '../Maths/math.vector';
-import { Nullable } from '../types';
-import { Observer } from '../Misc/observable';
+import { Collider } from "./collider.js";
+import { Vector3 } from "../Maths/math.vector.js";
+import { Nullable } from "../types.js";
+import { Observer } from "../Misc/observable.js";
 
 declare type AbstractMesh = import("../Meshes/abstractMesh").AbstractMesh;
 

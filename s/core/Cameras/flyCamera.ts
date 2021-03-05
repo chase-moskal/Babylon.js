@@ -1,14 +1,14 @@
-import { serialize, serializeAsVector3 } from "../Misc/decorators";
-import { Nullable } from "../types";
-import { Scene } from "../scene";
-import { Vector3, Quaternion } from "../Maths/math.vector";
-import { Engine } from "../Engines/engine";
-import { AbstractMesh } from "../Meshes/abstractMesh";
-import { TargetCamera } from "./targetCamera";
-import { FlyCameraInputsManager } from "./flyCameraInputsManager";
-import { FlyCameraMouseInput } from "../Cameras/Inputs/flyCameraMouseInput";
-import { FlyCameraKeyboardInput } from "../Cameras/Inputs/flyCameraKeyboardInput";
-import { Tools } from '../Misc/tools';
+import { serialize, serializeAsVector3 } from "../Misc/decorators.js";
+import { Nullable } from "../types.js";
+import { Scene } from "../scene.js";
+import { Vector3, Quaternion } from "../Maths/math.vector.js";
+import { Engine } from "../Engines/engine.js";
+import { AbstractMesh } from "../Meshes/abstractMesh.js";
+import { TargetCamera } from "./targetCamera.js";
+import { FlyCameraInputsManager } from "./flyCameraInputsManager.js";
+import { FlyCameraMouseInput } from "../Cameras/Inputs/flyCameraMouseInput.js";
+import { FlyCameraKeyboardInput } from "../Cameras/Inputs/flyCameraKeyboardInput.js";
+import { Tools } from "../Misc/tools.js";
 
 declare type Collider = import("../Collisions/collider").Collider;
 

@@ -1,10 +1,10 @@
-import { Vector3 } from "../Maths/math.vector";
-import { Nullable } from "../types";
-import { Scene } from "../scene";
-import { TransformNode } from "../Meshes/transformNode";
-import { StandardMaterial } from "../Materials/standardMaterial";
-import { AxisDragGizmo } from "../Gizmos/axisDragGizmo";
-import { Color3 } from '../Maths/math.color';
+import { Vector3 } from "../Maths/math.vector.js";
+import { Nullable } from "../types.js";
+import { Scene } from "../scene.js";
+import { TransformNode } from "../Meshes/transformNode.js";
+import { StandardMaterial } from "../Materials/standardMaterial.js";
+import { AxisDragGizmo } from "../Gizmos/axisDragGizmo.js";
+import { Color3 } from "../Maths/math.color.js";
 
 /**
      * The Axes viewer will show 3 axes in a specific point in space

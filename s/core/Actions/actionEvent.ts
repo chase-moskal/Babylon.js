@@ -1,9 +1,9 @@
-import { AbstractMesh } from "../Meshes/abstractMesh";
-import { Nullable } from "../types";
-import { Sprite } from "../Sprites/sprite";
-import { Scene } from "../scene";
-import { Vector2 } from "../Maths/math.vector";
-import { IEvent } from "../Events/deviceInputEvents";
+import { AbstractMesh } from "../Meshes/abstractMesh.js";
+import { Nullable } from "../types.js";
+import { Sprite } from "../Sprites/sprite.js";
+import { Scene } from "../scene.js";
+import { Vector2 } from "../Maths/math.vector.js";
+import { IEvent } from "../Events/deviceInputEvents.js";
 
 /**
  * Interface used to define ActionEvent

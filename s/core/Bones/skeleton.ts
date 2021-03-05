@@ -1,21 +1,21 @@
-import { Bone } from "./bone";
+import { Bone } from "./bone.js";
 
-import { Observable } from "../Misc/observable";
-import { Vector3, Matrix, TmpVectors } from "../Maths/math.vector";
-import { Scene } from "../scene";
-import { Nullable } from "../types";
-import { AbstractMesh } from "../Meshes/abstractMesh";
-import { RawTexture } from "../Materials/Textures/rawTexture";
-import { Animatable } from "../Animations/animatable";
-import { AnimationPropertiesOverride } from "../Animations/animationPropertiesOverride";
-import { Animation } from "../Animations/animation";
-import { AnimationRange } from "../Animations/animationRange";
-import { EngineStore } from "../Engines/engineStore";
-import { Constants } from "../Engines/constants";
-import { Logger } from "../Misc/logger";
-import { DeepCopier } from "../Misc/deepCopier";
-import { IInspectable } from '../Misc/iInspectable';
-import { IAnimatable } from '../Animations/animatable.interface';
+import { Observable } from "../Misc/observable.js";
+import { Vector3, Matrix, TmpVectors } from "../Maths/math.vector.js";
+import { Scene } from "../scene.js";
+import { Nullable } from "../types.js";
+import { AbstractMesh } from "../Meshes/abstractMesh.js";
+import { RawTexture } from "../Materials/Textures/rawTexture.js";
+import { Animatable } from "../Animations/animatable.js";
+import { AnimationPropertiesOverride } from "../Animations/animationPropertiesOverride.js";
+import { Animation } from "../Animations/animation.js";
+import { AnimationRange } from "../Animations/animationRange.js";
+import { EngineStore } from "../Engines/engineStore.js";
+import { Constants } from "../Engines/constants.js";
+import { Logger } from "../Misc/logger.js";
+import { DeepCopier } from "../Misc/deepCopier.js";
+import { IInspectable } from "../Misc/iInspectable.js";
+import { IAnimatable } from "../Animations/animatable.interface.js";
 
 /**
  * Class used to handle skinning animations

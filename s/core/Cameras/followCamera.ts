@@ -1,12 +1,12 @@
-import { Nullable } from "../types";
-import { serialize, serializeAsMeshReference } from "../Misc/decorators";
-import { Tools } from "../Misc/tools";
-import { TargetCamera } from "./targetCamera";
-import { Scene } from "../scene";
-import { TmpVectors, Vector3 } from "../Maths/math.vector";
-import { Node } from "../node";
-import { AbstractMesh } from "../Meshes/abstractMesh";
-import { FollowCameraInputsManager } from './followCameraInputsManager';
+import { Nullable } from "../types.js";
+import { serialize, serializeAsMeshReference } from "../Misc/decorators.js";
+import { Tools } from "../Misc/tools.js";
+import { TargetCamera } from "./targetCamera.js";
+import { Scene } from "../scene.js";
+import { TmpVectors, Vector3 } from "../Maths/math.vector.js";
+import { Node } from "../node.js";
+import { AbstractMesh } from "../Meshes/abstractMesh.js";
+import { FollowCameraInputsManager } from "./followCameraInputsManager.js";
 Node.AddNodeConstructor("FollowCamera", (name, scene) => {
     return () => new FollowCamera(name, Vector3.Zero(), scene);
 });

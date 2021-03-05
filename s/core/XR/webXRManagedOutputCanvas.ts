@@ -1,9 +1,9 @@
-import { Nullable } from "../types";
-import { ThinEngine } from "../Engines/thinEngine";
-import { WebXRRenderTarget } from "./webXRTypes";
-import { WebXRSessionManager } from "./webXRSessionManager";
-import { Observable } from "../Misc/observable";
-import { Tools } from "../Misc/tools";
+import { Nullable } from "../types.js";
+import { ThinEngine } from "../Engines/thinEngine.js";
+import { WebXRRenderTarget } from "./webXRTypes.js";
+import { WebXRSessionManager } from "./webXRSessionManager.js";
+import { Observable } from "../Misc/observable.js";
+import { Tools } from "../Misc/tools.js";
 
 /**
  * Configuration object for WebXR output canvas

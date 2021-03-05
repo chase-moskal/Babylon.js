@@ -1,10 +1,10 @@
-import { Camera } from "../Cameras/camera";
-import { Effect } from "../Materials/effect";
-import { Texture } from "../Materials/Textures/texture";
-import { PostProcess } from "./postProcess";
+import { Camera } from "../Cameras/camera.js";
+import { Effect } from "../Materials/effect.js";
+import { Texture } from "../Materials/Textures/texture.js";
+import { PostProcess } from "./postProcess.js";
 
-import "../Shaders/vrMultiviewToSingleview.fragment";
-import "../Engines/Extensions/engine.multiview";
+import "../Shaders/vrMultiviewToSingleview.fragment.js";
+import "../Engines/Extensions/engine.multiview.js";
 
 /**
  * VRMultiviewToSingleview used to convert multiview texture arrays to standard textures for scenarios such as webVR

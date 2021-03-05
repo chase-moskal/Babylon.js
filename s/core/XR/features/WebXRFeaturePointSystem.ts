@@ -1,8 +1,8 @@
-import { WebXRFeaturesManager, WebXRFeatureName } from "../webXRFeaturesManager";
-import { WebXRSessionManager } from "../webXRSessionManager";
-import { Observable } from "../../Misc/observable";
-import { Vector3 } from "../../Maths/math.vector";
-import { WebXRAbstractFeature } from "./WebXRAbstractFeature";
+import { WebXRFeaturesManager, WebXRFeatureName } from "../webXRFeaturesManager.js";
+import { WebXRSessionManager } from "../webXRSessionManager.js";
+import { Observable } from "../../Misc/observable.js";
+import { Vector3 } from "../../Maths/math.vector.js";
+import { WebXRAbstractFeature } from "./WebXRAbstractFeature.js";
 
 /**
  * A babylon interface for a "WebXR" feature point.

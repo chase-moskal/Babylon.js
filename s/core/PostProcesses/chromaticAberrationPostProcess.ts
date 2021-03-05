@@ -1,14 +1,14 @@
-import { Vector2 } from "../Maths/math.vector";
-import { Nullable } from "../types";
-import { PostProcess, PostProcessOptions } from "./postProcess";
-import { Effect } from "../Materials/effect";
-import { Camera } from "../Cameras/camera";
-import { Engine } from "../Engines/engine";
-import { Constants } from "../Engines/constants";
+import { Vector2 } from "../Maths/math.vector.js";
+import { Nullable } from "../types.js";
+import { PostProcess, PostProcessOptions } from "./postProcess.js";
+import { Effect } from "../Materials/effect.js";
+import { Camera } from "../Cameras/camera.js";
+import { Engine } from "../Engines/engine.js";
+import { Constants } from "../Engines/constants.js";
 
-import "../Shaders/chromaticAberration.fragment";
-import { _TypeStore } from '../Misc/typeStore';
-import { serialize, SerializationHelper } from '../Misc/decorators';
+import "../Shaders/chromaticAberration.fragment.js";
+import { _TypeStore } from "../Misc/typeStore.js";
+import { serialize, SerializationHelper } from "../Misc/decorators.js";
 
 declare type Scene = import("../scene").Scene;
 

@@ -1,9 +1,9 @@
-import { Nullable } from "../../types";
-import { Scene } from "../../scene";
-import { Vector4 } from "../../Maths/math.vector";
-import { Color4 } from '../../Maths/math.color';
-import { Mesh, _CreationDataStorage } from "../mesh";
-import { VertexData } from "../mesh.vertexData";
+import { Nullable } from "../../types.js";
+import { Scene } from "../../scene.js";
+import { Vector4 } from "../../Maths/math.vector.js";
+import { Color4 } from "../../Maths/math.color.js";
+import { Mesh, _CreationDataStorage } from "../mesh.js";
+import { VertexData } from "../mesh.vertexData.js";
 
 VertexData.CreateBox = function(options: { size?: number, width?: number, height?: number, depth?: number, faceUV?: Vector4[], faceColors?: Color4[], sideOrientation?: number, frontUVs?: Vector4, backUVs?: Vector4, wrap?: boolean, topBaseAt?: number, bottomBaseAt?: number }): VertexData {
     var nbFaces = 6;

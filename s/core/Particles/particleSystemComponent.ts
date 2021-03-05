@@ -1,16 +1,16 @@
-import { Mesh } from "../Meshes/mesh";
-import { IParticleSystem } from "./IParticleSystem";
-import { GPUParticleSystem } from "./gpuParticleSystem";
-import { AbstractScene } from "../abstractScene";
-import { Effect } from "../Materials/effect";
-import { Engine } from "../Engines/engine";
-import { ParticleSystem } from "./particleSystem";
-import { Scene } from "../scene";
-import { SceneComponentConstants } from "../sceneComponent";
-import { AssetContainer } from "../assetContainer";
+import { Mesh } from "../Meshes/mesh.js";
+import { IParticleSystem } from "./IParticleSystem.js";
+import { GPUParticleSystem } from "./gpuParticleSystem.js";
+import { AbstractScene } from "../abstractScene.js";
+import { Effect } from "../Materials/effect.js";
+import { Engine } from "../Engines/engine.js";
+import { ParticleSystem } from "./particleSystem.js";
+import { Scene } from "../scene.js";
+import { SceneComponentConstants } from "../sceneComponent.js";
+import { AssetContainer } from "../assetContainer.js";
 
-import "../Shaders/particles.vertex";
-import { EffectFallbacks } from '../Materials/effectFallbacks';
+import "../Shaders/particles.vertex.js";
+import { EffectFallbacks } from "../Materials/effectFallbacks.js";
 
 // Adds the parsers to the scene parsers.
 AbstractScene.AddParser(SceneComponentConstants.NAME_PARTICLESYSTEM, (parsedData: any, scene: Scene, container: AssetContainer, rootUrl: string) => {

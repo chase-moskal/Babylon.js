@@ -1,16 +1,16 @@
-import { WebRequest } from './webRequest';
-import { DomManagement } from './domManagement';
-import { Nullable } from '../types';
-import { IOfflineProvider } from '../Offline/IOfflineProvider';
-import { IFileRequest } from './fileRequest';
-import { Observable } from './observable';
-import { FilesInputStore } from './filesInputStore';
-import { RetryStrategy } from './retryStrategy';
-import { BaseError } from './baseError';
-import { StringTools } from './stringTools';
-import { ShaderProcessor } from '../Engines/Processors/shaderProcessor';
-import { ThinEngine } from '../Engines/thinEngine';
-import { EngineStore } from '../Engines/engineStore';
+import { WebRequest } from "./webRequest.js";
+import { DomManagement } from "./domManagement.js";
+import { Nullable } from "../types.js";
+import { IOfflineProvider } from "../Offline/IOfflineProvider.js";
+import { IFileRequest } from "./fileRequest.js";
+import { Observable } from "./observable.js";
+import { FilesInputStore } from "./filesInputStore.js";
+import { RetryStrategy } from "./retryStrategy.js";
+import { BaseError } from "./baseError.js";
+import { StringTools } from "./stringTools.js";
+import { ShaderProcessor } from "../Engines/Processors/shaderProcessor.js";
+import { ThinEngine } from "../Engines/thinEngine.js";
+import { EngineStore } from "../Engines/engineStore.js";
 
 /** @ignore */
 export class LoadFileError extends BaseError {

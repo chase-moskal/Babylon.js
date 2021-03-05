@@ -1,4 +1,4 @@
-import { AndOrNotEvaluator } from "./andOrNotEvaluator";
+import { AndOrNotEvaluator } from "./andOrNotEvaluator.js";
 
 /**
  * Class used to store custom tags

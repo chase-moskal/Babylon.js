@@ -1,6 +1,6 @@
-import { VertexBuffer } from "../../Meshes/buffer";
-import { Nullable } from "../../types";
-import { WebGPUCacheRenderPipeline } from "./webgpuCacheRenderPipeline";
+import { VertexBuffer } from "../../Meshes/buffer.js";
+import { Nullable } from "../../types.js";
+import { WebGPUCacheRenderPipeline } from "./webgpuCacheRenderPipeline.js";
 
 /** @hidden */
 class NodeState {

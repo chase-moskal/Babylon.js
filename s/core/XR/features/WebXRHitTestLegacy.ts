@@ -1,10 +1,10 @@
-import { WebXRFeaturesManager, WebXRFeatureName, IWebXRFeature } from "../webXRFeaturesManager";
-import { WebXRSessionManager } from "../webXRSessionManager";
-import { Observable } from "../../Misc/observable";
-import { Vector3, Matrix } from "../../Maths/math.vector";
-import { TransformNode } from "../../Meshes/transformNode";
-import { WebXRAbstractFeature } from "./WebXRAbstractFeature";
-import { Tools } from "../../Misc/tools";
+import { WebXRFeaturesManager, WebXRFeatureName, IWebXRFeature } from "../webXRFeaturesManager.js";
+import { WebXRSessionManager } from "../webXRSessionManager.js";
+import { Observable } from "../../Misc/observable.js";
+import { Vector3, Matrix } from "../../Maths/math.vector.js";
+import { TransformNode } from "../../Meshes/transformNode.js";
+import { WebXRAbstractFeature } from "./WebXRAbstractFeature.js";
+import { Tools } from "../../Misc/tools.js";
 
 // the plugin is registered at the end of the file
 

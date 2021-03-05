@@ -1,7 +1,7 @@
-import { Action } from "./action";
-import { Condition } from "./condition";
-import { _TypeStore } from '../Misc/typeStore';
-import { Sound } from "../Audio/sound";
+import { Action } from "./action.js";
+import { Condition } from "./condition.js";
+import { _TypeStore } from "../Misc/typeStore.js";
+import { Sound } from "../Audio/sound.js";
 
 /**
  * This defines an action helpful to play a defined sound on a triggered action.

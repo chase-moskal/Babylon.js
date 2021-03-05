@@ -1,18 +1,18 @@
-import { Observer, Observable } from "../Misc/observable";
-import { Nullable } from "../types";
-import { PointerInfo } from "../Events/pointerEvents";
-import { Vector3 } from "../Maths/math.vector";
-import { Color3 } from '../Maths/math.color';
-import { TransformNode } from "../Meshes/transformNode";
-import { Node } from "../node";
-import { Mesh } from "../Meshes/mesh";
-import { PlaneBuilder } from "../Meshes/Builders/planeBuilder";
-import { PointerDragBehavior } from "../Behaviors/Meshes/pointerDragBehavior";
-import { Gizmo, GizmoAxisCache } from "./gizmo";
-import { UtilityLayerRenderer } from "../Rendering/utilityLayerRenderer";
-import { StandardMaterial } from "../Materials/standardMaterial";
-import { Scene } from "../scene";
-import { PositionGizmo } from "./positionGizmo";
+import { Observer, Observable } from "../Misc/observable.js";
+import { Nullable } from "../types.js";
+import { PointerInfo } from "../Events/pointerEvents.js";
+import { Vector3 } from "../Maths/math.vector.js";
+import { Color3 } from "../Maths/math.color.js";
+import { TransformNode } from "../Meshes/transformNode.js";
+import { Node } from "../node.js";
+import { Mesh } from "../Meshes/mesh.js";
+import { PlaneBuilder } from "../Meshes/Builders/planeBuilder.js";
+import { PointerDragBehavior } from "../Behaviors/Meshes/pointerDragBehavior.js";
+import { Gizmo, GizmoAxisCache } from "./gizmo.js";
+import { UtilityLayerRenderer } from "../Rendering/utilityLayerRenderer.js";
+import { StandardMaterial } from "../Materials/standardMaterial.js";
+import { Scene } from "../scene.js";
+import { PositionGizmo } from "./positionGizmo.js";
 /**
  * Single plane drag gizmo
  */

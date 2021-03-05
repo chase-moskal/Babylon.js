@@ -1,5 +1,5 @@
-import { IVector3Like, IColor4Like } from "../Maths/math.like";
-import { Nullable } from "../types";
+import { IVector3Like, IColor4Like } from "../Maths/math.like.js";
+import { Nullable } from "../types.js";
 
 /**
  * ThinSprite Class used to represent a thin sprite

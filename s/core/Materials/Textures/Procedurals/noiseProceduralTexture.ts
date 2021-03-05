@@ -1,11 +1,11 @@
-import { Nullable } from "../../../types";
-import { Scene } from "../../../scene";
-import { EngineStore } from "../../../Engines/engineStore";
-import { Texture } from "../../../Materials/Textures/texture";
-import { ProceduralTexture } from "./proceduralTexture";
-import { _TypeStore } from '../../../Misc/typeStore';
+import { Nullable } from "../../../types.js";
+import { Scene } from "../../../scene.js";
+import { EngineStore } from "../../../Engines/engineStore.js";
+import { Texture } from "../../../Materials/Textures/texture.js";
+import { ProceduralTexture } from "./proceduralTexture.js";
+import { _TypeStore } from "../../../Misc/typeStore.js";
 
-import "../../../Shaders/noise.fragment";
+import "../../../Shaders/noise.fragment.js";
 
 /**
  * Class used to generate noise procedural textures

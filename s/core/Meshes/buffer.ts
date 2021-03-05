@@ -1,7 +1,7 @@
-import { Nullable, DataArray, FloatArray } from "../types";
-import { ThinEngine } from "../Engines/thinEngine";
-import { DataBuffer } from "./dataBuffer";
-import { SliceTools } from "../Misc/sliceTools";
+import { Nullable, DataArray, FloatArray } from "../types.js";
+import { ThinEngine } from "../Engines/thinEngine.js";
+import { DataBuffer } from "./dataBuffer.js";
+import { SliceTools } from "../Misc/sliceTools.js";
 
 /**
  * Class used to store data that will be store in GPU memory

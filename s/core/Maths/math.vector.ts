@@ -1,12 +1,12 @@
-import { Scalar } from "./math.scalar";
-import { Epsilon } from './math.constants';
-import { Viewport } from './math.viewport';
-import { DeepImmutable, Nullable, FloatArray, float } from "../types";
-import { ArrayTools } from '../Misc/arrayTools';
-import { IPlaneLike } from './math.like';
-import { _TypeStore } from '../Misc/typeStore';
-import { Plane } from './math.plane';
-import { PerformanceConfigurator } from '../Engines/performanceConfigurator';
+import { Scalar } from "./math.scalar.js";
+import { Epsilon } from "./math.constants.js";
+import { Viewport } from "./math.viewport.js";
+import { DeepImmutable, Nullable, FloatArray, float } from "../types.js";
+import { ArrayTools } from "../Misc/arrayTools.js";
+import { IPlaneLike } from "./math.like.js";
+import { _TypeStore } from "../Misc/typeStore.js";
+import { Plane } from "./math.plane.js";
+import { PerformanceConfigurator } from "../Engines/performanceConfigurator.js";
 
 /**
  * Class representing a vector containing 2 coordinates

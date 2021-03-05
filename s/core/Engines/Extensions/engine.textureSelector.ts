@@ -1,5 +1,5 @@
-import { Nullable } from '../../types';
-import { Engine } from '../engine';
+import { Nullable } from "../../types.js";
+import { Engine } from "../engine.js";
 
 declare module "../../Engines/engine" {
     export interface Engine {

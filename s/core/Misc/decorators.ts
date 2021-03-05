@@ -1,9 +1,9 @@
-import { Tags } from "../Misc/tags";
-import { Nullable } from "../types";
-import { Quaternion, Vector2, Vector3, Matrix } from "../Maths/math.vector";
-import { _DevTools } from './devTools';
-import { IAnimatable } from '../Animations/animatable.interface';
-import { Color4, Color3 } from '../Maths/math.color';
+import { Tags } from "../Misc/tags.js";
+import { Nullable } from "../types.js";
+import { Quaternion, Vector2, Vector3, Matrix } from "../Maths/math.vector.js";
+import { _DevTools } from "./devTools.js";
+import { IAnimatable } from "../Animations/animatable.interface.js";
+import { Color4, Color3 } from "../Maths/math.color.js";
 
 declare type Scene = import("../scene").Scene;
 declare type Camera = import("../Cameras/camera").Camera;

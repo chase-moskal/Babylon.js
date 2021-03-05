@@ -1,20 +1,20 @@
-import { Observer, Observable } from "../Misc/observable";
-import { Nullable } from "../types";
-import { PointerInfo } from "../Events/pointerEvents";
-import { Quaternion, Matrix, Vector3 } from "../Maths/math.vector";
-import { Color3 } from '../Maths/math.color';
-import "../Meshes/Builders/linesBuilder";
-import { AbstractMesh } from "../Meshes/abstractMesh";
-import { LinesMesh } from '../Meshes/linesMesh';
-import { Mesh } from "../Meshes/mesh";
-import { Node } from "../node";
-import { PointerDragBehavior } from "../Behaviors/Meshes/pointerDragBehavior";
-import { Gizmo, GizmoAxisCache } from "./gizmo";
-import { UtilityLayerRenderer } from "../Rendering/utilityLayerRenderer";
-import { StandardMaterial } from "../Materials/standardMaterial";
-import { RotationGizmo } from "./rotationGizmo";
-import { ShaderMaterial } from "../Materials/shaderMaterial";
-import { Effect } from "../Materials/effect";
+import { Observer, Observable } from "../Misc/observable.js";
+import { Nullable } from "../types.js";
+import { PointerInfo } from "../Events/pointerEvents.js";
+import { Quaternion, Matrix, Vector3 } from "../Maths/math.vector.js";
+import { Color3 } from "../Maths/math.color.js";
+import "../Meshes/Builders/linesBuilder.js";
+import { AbstractMesh } from "../Meshes/abstractMesh.js";
+import { LinesMesh } from "../Meshes/linesMesh.js";
+import { Mesh } from "../Meshes/mesh.js";
+import { Node } from "../node.js";
+import { PointerDragBehavior } from "../Behaviors/Meshes/pointerDragBehavior.js";
+import { Gizmo, GizmoAxisCache } from "./gizmo.js";
+import { UtilityLayerRenderer } from "../Rendering/utilityLayerRenderer.js";
+import { StandardMaterial } from "../Materials/standardMaterial.js";
+import { RotationGizmo } from "./rotationGizmo.js";
+import { ShaderMaterial } from "../Materials/shaderMaterial.js";
+import { Effect } from "../Materials/effect.js";
 
 /**
  * Single plane rotation gizmo

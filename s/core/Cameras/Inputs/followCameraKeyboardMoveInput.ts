@@ -1,12 +1,12 @@
-import { ICameraInput, CameraInputTypes } from "../../Cameras/cameraInputsManager";
-import { FollowCamera } from "../../Cameras/followCamera";
-import { serialize } from "../../Misc/decorators";
-import { Nullable } from "../../types";
-import { Observer } from "../../Misc/observable";
-import { Engine } from "../../Engines/engine";
-import { KeyboardInfo, KeyboardEventTypes } from "../../Events/keyboardEvents";
-import { Scene } from "../../scene";
-import { Tools } from '../../Misc/tools';
+import { ICameraInput, CameraInputTypes } from "../../Cameras/cameraInputsManager.js";
+import { FollowCamera } from "../../Cameras/followCamera.js";
+import { serialize } from "../../Misc/decorators.js";
+import { Nullable } from "../../types.js";
+import { Observer } from "../../Misc/observable.js";
+import { Engine } from "../../Engines/engine.js";
+import { KeyboardInfo, KeyboardEventTypes } from "../../Events/keyboardEvents.js";
+import { Scene } from "../../scene.js";
+import { Tools } from "../../Misc/tools.js";
 
 /**
  * Manage the keyboard inputs to control the movement of a follow camera.

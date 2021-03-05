@@ -1,12 +1,12 @@
-import { Camera } from "../Cameras/camera";
-import { Scene } from "../scene";
-import { Engine } from "../Engines/engine";
-import { AbstractMesh } from "../Meshes/abstractMesh";
-import { RenderTargetTexture } from "../Materials/Textures/renderTargetTexture";
-import { SceneComponentConstants, ISceneSerializableComponent } from "../sceneComponent";
-import { EffectLayer } from "./effectLayer";
-import { AbstractScene } from "../abstractScene";
-import { AssetContainer } from "../assetContainer";
+import { Camera } from "../Cameras/camera.js";
+import { Scene } from "../scene.js";
+import { Engine } from "../Engines/engine.js";
+import { AbstractMesh } from "../Meshes/abstractMesh.js";
+import { RenderTargetTexture } from "../Materials/Textures/renderTargetTexture.js";
+import { SceneComponentConstants, ISceneSerializableComponent } from "../sceneComponent.js";
+import { EffectLayer } from "./effectLayer.js";
+import { AbstractScene } from "../abstractScene.js";
+import { AssetContainer } from "../assetContainer.js";
 // Adds the parser to the scene parsers.
 AbstractScene.AddParser(SceneComponentConstants.NAME_EFFECTLAYER, (parsedData: any, scene: Scene, container: AssetContainer, rootUrl: string) => {
     if (parsedData.effectLayers) {

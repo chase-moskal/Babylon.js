@@ -1,11 +1,11 @@
-import { Nullable } from "../../types";
-import { serialize } from "../../Misc/decorators";
-import { EventState, Observer } from "../../Misc/observable";
-import { Tools } from "../../Misc/tools";
-import { Camera } from "../../Cameras/camera";
-import { ICameraInput } from "../../Cameras/cameraInputsManager";
-import { PointerInfo, PointerEventTypes, PointerTouch } from "../../Events/pointerEvents";
-import { IPointerEvent } from "../../Events/deviceInputEvents";
+import { Nullable } from "../../types.js";
+import { serialize } from "../../Misc/decorators.js";
+import { EventState, Observer } from "../../Misc/observable.js";
+import { Tools } from "../../Misc/tools.js";
+import { Camera } from "../../Cameras/camera.js";
+import { ICameraInput } from "../../Cameras/cameraInputsManager.js";
+import { PointerInfo, PointerEventTypes, PointerTouch } from "../../Events/pointerEvents.js";
+import { IPointerEvent } from "../../Events/deviceInputEvents.js";
 
 /**
  * Base class for Camera Pointer Inputs.

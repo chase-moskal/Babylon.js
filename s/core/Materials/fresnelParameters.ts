@@ -1,9 +1,9 @@
-import { DeepCopier } from "../Misc/deepCopier";
-import { DeepImmutable } from '../types';
-import { Color3 } from "../Maths/math.color";
-import { Engine } from "../Engines/engine";
-import { SerializationHelper } from "../Misc/decorators";
-import { Constants } from "../Engines/constants";
+import { DeepCopier } from "../Misc/deepCopier.js";
+import { DeepImmutable } from "../types.js";
+import { Color3 } from "../Maths/math.color.js";
+import { Engine } from "../Engines/engine.js";
+import { SerializationHelper } from "../Misc/decorators.js";
+import { Constants } from "../Engines/constants.js";
 
 /**
  * Options to be used when creating a FresnelParameters.

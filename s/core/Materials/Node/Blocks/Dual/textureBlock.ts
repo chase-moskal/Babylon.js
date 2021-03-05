@@ -1,22 +1,22 @@
-import { NodeMaterialBlock } from '../../nodeMaterialBlock';
-import { NodeMaterialBlockConnectionPointTypes } from '../../Enums/nodeMaterialBlockConnectionPointTypes';
-import { NodeMaterialBuildState } from '../../nodeMaterialBuildState';
-import { NodeMaterialBlockTargets } from '../../Enums/nodeMaterialBlockTargets';
-import { NodeMaterialConnectionPoint } from '../../nodeMaterialBlockConnectionPoint';
-import { AbstractMesh } from '../../../../Meshes/abstractMesh';
-import { NodeMaterial, NodeMaterialDefines } from '../../nodeMaterial';
-import { InputBlock } from '../Input/inputBlock';
-import { Effect } from '../../../effect';
-import { Mesh } from '../../../../Meshes/mesh';
-import { Nullable } from '../../../../types';
-import { _TypeStore } from '../../../../Misc/typeStore';
-import { Texture } from '../../../Textures/texture';
-import { Scene } from '../../../../scene';
-import { NodeMaterialModes } from '../../Enums/nodeMaterialModes';
-import { Engine } from "../../../../Engines/engine";
-import { Constants } from '../../../../Engines/constants';
+import { NodeMaterialBlock } from "../../nodeMaterialBlock.js";
+import { NodeMaterialBlockConnectionPointTypes } from "../../Enums/nodeMaterialBlockConnectionPointTypes.js";
+import { NodeMaterialBuildState } from "../../nodeMaterialBuildState.js";
+import { NodeMaterialBlockTargets } from "../../Enums/nodeMaterialBlockTargets.js";
+import { NodeMaterialConnectionPoint } from "../../nodeMaterialBlockConnectionPoint.js";
+import { AbstractMesh } from "../../../../Meshes/abstractMesh.js";
+import { NodeMaterial, NodeMaterialDefines } from "../../nodeMaterial.js";
+import { InputBlock } from "../Input/inputBlock.js";
+import { Effect } from "../../../effect.js";
+import { Mesh } from "../../../../Meshes/mesh.js";
+import { Nullable } from "../../../../types.js";
+import { _TypeStore } from "../../../../Misc/typeStore.js";
+import { Texture } from "../../../Textures/texture.js";
+import { Scene } from "../../../../scene.js";
+import { NodeMaterialModes } from "../../Enums/nodeMaterialModes.js";
+import { Engine } from "../../../../Engines/engine.js";
+import { Constants } from "../../../../Engines/constants.js";
 
-import "../../../../Shaders/ShadersInclude/helperFunctions";
+import "../../../../Shaders/ShadersInclude/helperFunctions.js";
 
 /**
  * Block used to read a texture from a sampler

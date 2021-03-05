@@ -1,4 +1,4 @@
-import { PrecisionDate } from './precisionDate';
+import { PrecisionDate } from "./precisionDate.js";
 
 /**
  * This class is used to track a performance counter which is number based.

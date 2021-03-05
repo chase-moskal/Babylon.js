@@ -1,8 +1,8 @@
-import { HardwareTextureWrapper } from '../../Materials/Textures/hardwareTextureWrapper';
-import { InternalTextureSource } from '../../Materials/Textures/internalTexture';
-import { Scalar } from '../../Maths/math.scalar';
-import { Nullable } from '../../types';
-import * as WebGPUConstants from './webgpuConstants';
+import { HardwareTextureWrapper } from "../../Materials/Textures/hardwareTextureWrapper.js";
+import { InternalTextureSource } from "../../Materials/Textures/internalTexture.js";
+import { Scalar } from "../../Maths/math.scalar.js";
+import { Nullable } from "../../types.js";
+import * as WebGPUConstants from "./webgpuConstants.js";
 
 /** @hidden */
 export class WebGPUHardwareTexture implements HardwareTextureWrapper {

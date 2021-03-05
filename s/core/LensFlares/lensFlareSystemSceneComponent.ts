@@ -1,11 +1,11 @@
-import { Tools } from "../Misc/tools";
-import { Nullable } from "../types";
-import { Camera } from "../Cameras/camera";
-import { Scene } from "../scene";
-import { SceneComponentConstants, ISceneSerializableComponent } from "../sceneComponent";
-import { AbstractScene } from "../abstractScene";
-import { AssetContainer } from "../assetContainer";
-import { LensFlareSystem } from "./lensFlareSystem";
+import { Tools } from "../Misc/tools.js";
+import { Nullable } from "../types.js";
+import { Camera } from "../Cameras/camera.js";
+import { Scene } from "../scene.js";
+import { SceneComponentConstants, ISceneSerializableComponent } from "../sceneComponent.js";
+import { AbstractScene } from "../abstractScene.js";
+import { AssetContainer } from "../assetContainer.js";
+import { LensFlareSystem } from "./lensFlareSystem.js";
 // Adds the parser to the scene parsers.
 AbstractScene.AddParser(SceneComponentConstants.NAME_LENSFLARESYSTEM, (parsedData: any, scene: Scene, container: AssetContainer, rootUrl: string) => {
     // Lens flares

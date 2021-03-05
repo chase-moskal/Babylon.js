@@ -1,14 +1,14 @@
-import { NodeMaterialBlock } from '../nodeMaterialBlock';
-import { NodeMaterialBlockTargets } from '../Enums/nodeMaterialBlockTargets';
-import { NodeMaterialBlockConnectionPointTypes } from '../Enums/nodeMaterialBlockConnectionPointTypes';
-import { NodeMaterialBuildState } from '../nodeMaterialBuildState';
-import { NodeMaterialConnectionPoint } from '../nodeMaterialBlockConnectionPoint';
-import { _TypeStore } from '../../../Misc/typeStore';
-import { InputBlock } from './Input/inputBlock';
-import { NodeMaterial } from '../nodeMaterial';
+import { NodeMaterialBlock } from "../nodeMaterialBlock.js";
+import { NodeMaterialBlockTargets } from "../Enums/nodeMaterialBlockTargets.js";
+import { NodeMaterialBlockConnectionPointTypes } from "../Enums/nodeMaterialBlockConnectionPointTypes.js";
+import { NodeMaterialBuildState } from "../nodeMaterialBuildState.js";
+import { NodeMaterialConnectionPoint } from "../nodeMaterialBlockConnectionPoint.js";
+import { _TypeStore } from "../../../Misc/typeStore.js";
+import { InputBlock } from "./Input/inputBlock.js";
+import { NodeMaterial } from "../nodeMaterial.js";
 
-import "../../../Shaders/ShadersInclude/fresnelFunction";
-import { ViewDirectionBlock } from './viewDirectionBlock';
+import "../../../Shaders/ShadersInclude/fresnelFunction.js";
+import { ViewDirectionBlock } from "./viewDirectionBlock.js";
 
 /**
  * Block used to compute fresnel value

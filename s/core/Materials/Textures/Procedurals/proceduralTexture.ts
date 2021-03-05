@@ -1,28 +1,28 @@
-import { serialize } from "../../../Misc/decorators";
-import { Observable } from "../../../Misc/observable";
-import { Nullable } from "../../../types";
-import { Scene } from "../../../scene";
-import { Matrix, Vector3, Vector2 } from "../../../Maths/math.vector";
-import { Color4, Color3 } from '../../../Maths/math.color';
-import { Engine } from "../../../Engines/engine";
-import { VertexBuffer } from "../../../Meshes/buffer";
-import { SceneComponentConstants } from "../../../sceneComponent";
+import { serialize } from "../../../Misc/decorators.js";
+import { Observable } from "../../../Misc/observable.js";
+import { Nullable } from "../../../types.js";
+import { Scene } from "../../../scene.js";
+import { Matrix, Vector3, Vector2 } from "../../../Maths/math.vector.js";
+import { Color4, Color3 } from "../../../Maths/math.color.js";
+import { Engine } from "../../../Engines/engine.js";
+import { VertexBuffer } from "../../../Meshes/buffer.js";
+import { SceneComponentConstants } from "../../../sceneComponent.js";
 
-import { Material } from "../../../Materials/material";
-import { Effect } from "../../../Materials/effect";
-import { Texture } from "../../../Materials/Textures/texture";
-import { RenderTargetTexture } from "../../../Materials/Textures/renderTargetTexture";
-import { ProceduralTextureSceneComponent } from "./proceduralTextureSceneComponent";
+import { Material } from "../../../Materials/material.js";
+import { Effect } from "../../../Materials/effect.js";
+import { Texture } from "../../../Materials/Textures/texture.js";
+import { RenderTargetTexture } from "../../../Materials/Textures/renderTargetTexture.js";
+import { ProceduralTextureSceneComponent } from "./proceduralTextureSceneComponent.js";
 
-import "../../../Engines/Extensions/engine.renderTarget";
-import "../../../Engines/Extensions/engine.renderTargetCube";
-import "../../../Shaders/procedural.vertex";
-import { DataBuffer } from '../../../Meshes/dataBuffer';
-import { _TypeStore } from '../../../Misc/typeStore';
-import { NodeMaterial } from '../../Node/nodeMaterial';
-import { RenderTargetTextureSize } from '../../../Engines/Extensions/engine.renderTarget';
-import { EngineStore } from '../../../Engines/engineStore';
-import { Constants } from '../../../Engines/constants';
+import "../../../Engines/Extensions/engine.renderTarget.js";
+import "../../../Engines/Extensions/engine.renderTargetCube.js";
+import "../../../Shaders/procedural.vertex.js";
+import { DataBuffer } from "../../../Meshes/dataBuffer.js";
+import { _TypeStore } from "../../../Misc/typeStore.js";
+import { NodeMaterial } from "../../Node/nodeMaterial.js";
+import { RenderTargetTextureSize } from "../../../Engines/Extensions/engine.renderTarget.js";
+import { EngineStore } from "../../../Engines/engineStore.js";
+import { Constants } from "../../../Engines/constants.js";
 
 /**
  * Procedural texturing is a way to programmatically create a texture. There are 2 types of procedural textures: code-only, and code that references some classic 2D images, sometimes calmpler' images.

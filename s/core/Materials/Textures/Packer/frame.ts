@@ -1,4 +1,4 @@
-import { Vector2 } from "../../../Maths/math.vector";
+import { Vector2 } from "../../../Maths/math.vector.js";
 
 /**
  * Defines the basic options interface of a TexturePacker Frame

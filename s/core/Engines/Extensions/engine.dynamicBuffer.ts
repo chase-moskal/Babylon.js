@@ -1,6 +1,6 @@
-import { ThinEngine } from "../../Engines/thinEngine";
-import { DataBuffer } from '../../Meshes/dataBuffer';
-import { IndicesArray, DataArray } from "../../types";
+import { ThinEngine } from "../../Engines/thinEngine.js";
+import { DataBuffer } from "../../Meshes/dataBuffer.js";
+import { IndicesArray, DataArray } from "../../types.js";
 
 declare module "../../Engines/thinEngine" {
     export interface ThinEngine {

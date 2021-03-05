@@ -1,18 +1,18 @@
-import { Nullable } from "../types";
-import { Scene } from "../scene";
-import { Color3, Color4 } from "../Maths/math.color";
-import { Node } from "../node";
-import { VertexBuffer } from "../Meshes/buffer";
-import { SubMesh } from "../Meshes/subMesh";
-import { Mesh } from "../Meshes/mesh";
-import { InstancedMesh } from "../Meshes/instancedMesh";
-import { Effect } from "../Materials/effect";
-import { Material } from "../Materials/material";
-import { ShaderMaterial } from "../Materials/shaderMaterial";
-import { MaterialHelper } from '../Materials/materialHelper';
+import { Nullable } from "../types.js";
+import { Scene } from "../scene.js";
+import { Color3, Color4 } from "../Maths/math.color.js";
+import { Node } from "../node.js";
+import { VertexBuffer } from "../Meshes/buffer.js";
+import { SubMesh } from "../Meshes/subMesh.js";
+import { Mesh } from "../Meshes/mesh.js";
+import { InstancedMesh } from "../Meshes/instancedMesh.js";
+import { Effect } from "../Materials/effect.js";
+import { Material } from "../Materials/material.js";
+import { ShaderMaterial } from "../Materials/shaderMaterial.js";
+import { MaterialHelper } from "../Materials/materialHelper.js";
 
-import "../Shaders/color.fragment";
-import "../Shaders/color.vertex";
+import "../Shaders/color.fragment.js";
+import "../Shaders/color.vertex.js";
 
 Mesh._LinesMeshParser = (parsedMesh: any, scene: Scene): Mesh => {
     return LinesMesh.Parse(parsedMesh, scene);

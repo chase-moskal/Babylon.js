@@ -1,13 +1,13 @@
-import { INavigationEnginePlugin, ICrowd, IAgentParameters, INavMeshParameters, IObstacle } from "../../Navigation/INavigationEngine";
-import { Logger } from "../../Misc/logger";
-import { VertexData } from "../../Meshes/mesh.vertexData";
-import { Mesh } from "../../Meshes/mesh";
-import { Scene } from "../../scene";
-import { Epsilon, Vector3, Matrix } from '../../Maths/math';
-import { TransformNode } from "../../Meshes/transformNode";
-import { Observer } from "../../Misc/observable";
-import { Nullable } from "../../types";
-import { VertexBuffer } from "../../Meshes/buffer";
+import { INavigationEnginePlugin, ICrowd, IAgentParameters, INavMeshParameters, IObstacle } from "../../Navigation/INavigationEngine.js";
+import { Logger } from "../../Misc/logger.js";
+import { VertexData } from "../../Meshes/mesh.vertexData.js";
+import { Mesh } from "../../Meshes/mesh.js";
+import { Scene } from "../../scene.js";
+import { Epsilon, Vector3, Matrix } from "../../Maths/math.js";
+import { TransformNode } from "../../Meshes/transformNode.js";
+import { Observer } from "../../Misc/observable.js";
+import { Nullable } from "../../types.js";
+import { VertexBuffer } from "../../Meshes/buffer.js";
 
 declare var Recast: any;
 

@@ -1,16 +1,16 @@
-import { Nullable, IndicesArray } from "../types";
-import { Logger } from "../Misc/logger";
-import { ArrayTools } from "../Misc/arrayTools";
-import { Vector3, Matrix, Quaternion } from "../Maths/math.vector";
-import { TransformNode } from "../Meshes/transformNode";
-import { AbstractMesh } from "../Meshes/abstractMesh";
-import { Mesh } from "../Meshes/mesh";
-import { Scene } from "../scene";
-import { Bone } from "../Bones/bone";
-import { BoundingInfo } from "../Culling/boundingInfo";
-import { IPhysicsEngine } from "./IPhysicsEngine";
-import { PhysicsJoint, PhysicsJointData } from "./physicsJoint";
-import { Space } from "../Maths/math.axis";
+import { Nullable, IndicesArray } from "../types.js";
+import { Logger } from "../Misc/logger.js";
+import { ArrayTools } from "../Misc/arrayTools.js";
+import { Vector3, Matrix, Quaternion } from "../Maths/math.vector.js";
+import { TransformNode } from "../Meshes/transformNode.js";
+import { AbstractMesh } from "../Meshes/abstractMesh.js";
+import { Mesh } from "../Meshes/mesh.js";
+import { Scene } from "../scene.js";
+import { Bone } from "../Bones/bone.js";
+import { BoundingInfo } from "../Culling/boundingInfo.js";
+import { IPhysicsEngine } from "./IPhysicsEngine.js";
+import { PhysicsJoint, PhysicsJointData } from "./physicsJoint.js";
+import { Space } from "../Maths/math.axis.js";
 
 /**
  * The interface for the physics imposter parameters

@@ -1,12 +1,12 @@
-import { NodeMaterialBlock } from '../nodeMaterialBlock';
-import { NodeMaterialBlockConnectionPointTypes } from '../Enums/nodeMaterialBlockConnectionPointTypes';
-import { NodeMaterialBuildState } from '../nodeMaterialBuildState';
-import { NodeMaterialBlockTargets } from '../Enums/nodeMaterialBlockTargets';
-import { NodeMaterialConnectionPoint } from '../nodeMaterialBlockConnectionPoint';
-import { _TypeStore } from '../../../Misc/typeStore';
-import { NodeMaterial } from '../nodeMaterial';
-import { InputBlock } from './Input/inputBlock';
-import { Vector4 } from '../../../Maths/math.vector';
+import { NodeMaterialBlock } from "../nodeMaterialBlock.js";
+import { NodeMaterialBlockConnectionPointTypes } from "../Enums/nodeMaterialBlockConnectionPointTypes.js";
+import { NodeMaterialBuildState } from "../nodeMaterialBuildState.js";
+import { NodeMaterialBlockTargets } from "../Enums/nodeMaterialBlockTargets.js";
+import { NodeMaterialConnectionPoint } from "../nodeMaterialBlockConnectionPoint.js";
+import { _TypeStore } from "../../../Misc/typeStore.js";
+import { NodeMaterial } from "../nodeMaterial.js";
+import { InputBlock } from "./Input/inputBlock.js";
+import { Vector4 } from "../../../Maths/math.vector.js";
 
 /**
  * Block used to build a matrix from 4 Vector4

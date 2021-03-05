@@ -1,7 +1,7 @@
-import * as WebGPUConstants from './webgpuConstants';
-import { Constants } from '../constants';
-import { InternalTexture } from '../../Materials/Textures/internalTexture';
-import { WebGPUTextureHelper } from "./webgpuTextureHelper";
+import * as WebGPUConstants from "./webgpuConstants.js";
+import { Constants } from "../constants.js";
+import { InternalTexture } from "../../Materials/Textures/internalTexture.js";
+import { WebGPUTextureHelper } from "./webgpuTextureHelper.js";
 
 const filterToBits = [
     0 | 0 << 1 | 0 << 2, // not used

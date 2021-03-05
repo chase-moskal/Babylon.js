@@ -1,6 +1,6 @@
-import { WebXRSessionManager } from "./webXRSessionManager";
-import { IDisposable } from "../scene";
-import { Tools } from "../Misc/tools";
+import { WebXRSessionManager } from "./webXRSessionManager.js";
+import { IDisposable } from "../scene.js";
+import { Tools } from "../Misc/tools.js";
 
 /**
  * Defining the interface required for a (webxr) feature

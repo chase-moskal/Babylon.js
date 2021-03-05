@@ -1,13 +1,13 @@
-import { WebXRExperienceHelper } from "./webXRExperienceHelper";
-import { Scene } from "../scene";
-import { WebXRInput, IWebXRInputOptions } from "./webXRInput";
-import { WebXRControllerPointerSelection, IWebXRControllerPointerSelectionOptions } from "./features/WebXRControllerPointerSelection";
-import { WebXRRenderTarget } from "./webXRTypes";
-import { WebXREnterExitUI, WebXREnterExitUIOptions } from "./webXREnterExitUI";
-import { AbstractMesh } from "../Meshes/abstractMesh";
-import { WebXRManagedOutputCanvasOptions } from "./webXRManagedOutputCanvas";
-import { WebXRMotionControllerTeleportation, IWebXRTeleportationOptions } from "./features/WebXRControllerTeleportation";
-import { Logger } from "../Misc/logger";
+import { WebXRExperienceHelper } from "./webXRExperienceHelper.js";
+import { Scene } from "../scene.js";
+import { WebXRInput, IWebXRInputOptions } from "./webXRInput.js";
+import { WebXRControllerPointerSelection, IWebXRControllerPointerSelectionOptions } from "./features/WebXRControllerPointerSelection.js";
+import { WebXRRenderTarget } from "./webXRTypes.js";
+import { WebXREnterExitUI, WebXREnterExitUIOptions } from "./webXREnterExitUI.js";
+import { AbstractMesh } from "../Meshes/abstractMesh.js";
+import { WebXRManagedOutputCanvasOptions } from "./webXRManagedOutputCanvas.js";
+import { WebXRMotionControllerTeleportation, IWebXRTeleportationOptions } from "./features/WebXRControllerTeleportation.js";
+import { Logger } from "../Misc/logger.js";
 
 /**
  * Options for the default xr helper

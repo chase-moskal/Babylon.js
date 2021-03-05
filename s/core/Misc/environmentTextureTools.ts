@@ -1,23 +1,23 @@
-import { Nullable } from "../types";
-import { Tools } from "./tools";
-import { Vector3 } from "../Maths/math.vector";
-import { Scalar } from "../Maths/math.scalar";
-import { SphericalPolynomial } from "../Maths/sphericalPolynomial";
-import { InternalTexture, InternalTextureSource } from "../Materials/Textures/internalTexture";
-import { BaseTexture } from "../Materials/Textures/baseTexture";
-import { Constants } from "../Engines/constants";
-import { Scene } from "../scene";
-import { PostProcess } from "../PostProcesses/postProcess";
-import { Logger } from "../Misc/logger";
+import { Nullable } from "../types.js";
+import { Tools } from "./tools.js";
+import { Vector3 } from "../Maths/math.vector.js";
+import { Scalar } from "../Maths/math.scalar.js";
+import { SphericalPolynomial } from "../Maths/sphericalPolynomial.js";
+import { InternalTexture, InternalTextureSource } from "../Materials/Textures/internalTexture.js";
+import { BaseTexture } from "../Materials/Textures/baseTexture.js";
+import { Constants } from "../Engines/constants.js";
+import { Scene } from "../scene.js";
+import { PostProcess } from "../PostProcesses/postProcess.js";
+import { Logger } from "../Misc/logger.js";
 
-import "../Engines/Extensions/engine.renderTargetCube";
-import "../Engines/Extensions/engine.readTexture";
-import "../Materials/Textures/baseTexture.polynomial";
+import "../Engines/Extensions/engine.renderTargetCube.js";
+import "../Engines/Extensions/engine.readTexture.js";
+import "../Materials/Textures/baseTexture.polynomial.js";
 
-import "../Shaders/rgbdEncode.fragment";
-import "../Shaders/rgbdDecode.fragment";
-import { Engine } from '../Engines/engine';
-import { RGBDTextureTools } from './rgbdTextureTools';
+import "../Shaders/rgbdEncode.fragment.js";
+import "../Shaders/rgbdDecode.fragment.js";
+import { Engine } from "../Engines/engine.js";
+import { RGBDTextureTools } from "./rgbdTextureTools.js";
 
 /**
  * Raw texture data and descriptor sufficient for WebGL texture upload

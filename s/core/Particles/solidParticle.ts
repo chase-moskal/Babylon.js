@@ -1,13 +1,13 @@
-import { Nullable } from "../types";
-import { Vector3, Matrix, TmpVectors, Quaternion, Vector4, Vector2 } from "../Maths/math.vector";
-import { Color4 } from '../Maths/math.color';
-import { Mesh } from "../Meshes/mesh";
-import { BoundingInfo } from "../Culling/boundingInfo";
-import { BoundingSphere } from "../Culling/boundingSphere";
-import { SolidParticleSystem } from "./solidParticleSystem";
-import { AbstractMesh } from '../Meshes/abstractMesh';
-import { Plane } from '../Maths/math.plane';
-import { Material } from '../Materials/material';
+import { Nullable } from "../types.js";
+import { Vector3, Matrix, TmpVectors, Quaternion, Vector4, Vector2 } from "../Maths/math.vector.js";
+import { Color4 } from "../Maths/math.color.js";
+import { Mesh } from "../Meshes/mesh.js";
+import { BoundingInfo } from "../Culling/boundingInfo.js";
+import { BoundingSphere } from "../Culling/boundingSphere.js";
+import { SolidParticleSystem } from "./solidParticleSystem.js";
+import { AbstractMesh } from "../Meshes/abstractMesh.js";
+import { Plane } from "../Maths/math.plane.js";
+import { Material } from "../Materials/material.js";
 /**
  * Represents one particle of a solid particle system.
  */

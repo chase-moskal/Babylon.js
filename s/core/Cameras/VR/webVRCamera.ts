@@ -1,27 +1,27 @@
-import { Nullable } from "../../types";
-import { Observer, Observable } from "../../Misc/observable";
-import { FreeCamera } from "../../Cameras/freeCamera";
-import { TargetCamera } from "../../Cameras/targetCamera";
-import { Camera } from "../../Cameras/camera";
-import { Scene } from "../../scene";
-import { Quaternion, Matrix, Vector3 } from "../../Maths/math.vector";
-import { Gamepad } from "../../Gamepads/gamepad";
-import { PoseEnabledControllerType } from "../../Gamepads/Controllers/poseEnabledController";
-import { WebVRController } from "../../Gamepads/Controllers/webVRController";
-import { IDisplayChangedEventArgs } from "../../Engines/engine";
-import { Node } from "../../node";
-import { AbstractMesh } from "../../Meshes/abstractMesh";
-import { Ray } from "../../Culling/ray";
-import { HemisphericLight } from "../../Lights/hemisphericLight";
-import { Logger } from '../../Misc/logger';
-import { VRMultiviewToSingleviewPostProcess } from '../../PostProcesses/vrMultiviewToSingleviewPostProcess';
+import { Nullable } from "../../types.js";
+import { Observer, Observable } from "../../Misc/observable.js";
+import { FreeCamera } from "../../Cameras/freeCamera.js";
+import { TargetCamera } from "../../Cameras/targetCamera.js";
+import { Camera } from "../../Cameras/camera.js";
+import { Scene } from "../../scene.js";
+import { Quaternion, Matrix, Vector3 } from "../../Maths/math.vector.js";
+import { Gamepad } from "../../Gamepads/gamepad.js";
+import { PoseEnabledControllerType } from "../../Gamepads/Controllers/poseEnabledController.js";
+import { WebVRController } from "../../Gamepads/Controllers/webVRController.js";
+import { IDisplayChangedEventArgs } from "../../Engines/engine.js";
+import { Node } from "../../node.js";
+import { AbstractMesh } from "../../Meshes/abstractMesh.js";
+import { Ray } from "../../Culling/ray.js";
+import { HemisphericLight } from "../../Lights/hemisphericLight.js";
+import { Logger } from "../../Misc/logger.js";
+import { VRMultiviewToSingleviewPostProcess } from "../../PostProcesses/vrMultiviewToSingleviewPostProcess.js";
 
 // Side effect import to define the stereoscopic mode.
-import "../RigModes/webVRRigMode";
+import "../RigModes/webVRRigMode.js";
 
 // Side effect import to add webvr support to engine
-import "../../Engines/Extensions/engine.webVR";
-import { Tools } from '../../Misc/tools';
+import "../../Engines/Extensions/engine.webVR.js";
+import { Tools } from "../../Misc/tools.js";
 
 Node.AddNodeConstructor("WebVRFreeCamera", (name, scene) => {
     return () => new WebVRFreeCamera(name, Vector3.Zero(), scene);

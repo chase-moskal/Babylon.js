@@ -1,10 +1,10 @@
-import { Nullable } from "../types";
-import { Camera } from "../Cameras/camera";
-import { PostProcess, PostProcessOptions } from "./postProcess";
-import { Engine } from "../Engines/engine";
-import { Constants } from "../Engines/constants";
+import { Nullable } from "../types.js";
+import { Camera } from "../Cameras/camera.js";
+import { PostProcess, PostProcessOptions } from "./postProcess.js";
+import { Engine } from "../Engines/engine.js";
+import { Constants } from "../Engines/constants.js";
 
-import "../Shaders/highlights.fragment";
+import "../Shaders/highlights.fragment.js";
 
 /**
  * Extracts highlights from the image

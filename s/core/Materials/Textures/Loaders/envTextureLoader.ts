@@ -1,9 +1,9 @@
-import { EnvironmentTextureTools } from "../../../Misc/environmentTextureTools";
-import { Nullable } from "../../../types";
-import { Engine } from "../../../Engines/engine";
-import { InternalTexture } from "../../../Materials/Textures/internalTexture";
-import { IInternalTextureLoader } from "../../../Materials/Textures/internalTextureLoader";
-import { StringTools } from '../../../Misc/stringTools';
+import { EnvironmentTextureTools } from "../../../Misc/environmentTextureTools.js";
+import { Nullable } from "../../../types.js";
+import { Engine } from "../../../Engines/engine.js";
+import { InternalTexture } from "../../../Materials/Textures/internalTexture.js";
+import { IInternalTextureLoader } from "../../../Materials/Textures/internalTextureLoader.js";
+import { StringTools } from "../../../Misc/stringTools.js";
 
 /**
  * Implementation of the ENV Texture Loader.

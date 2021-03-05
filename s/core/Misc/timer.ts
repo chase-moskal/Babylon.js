@@ -1,6 +1,6 @@
-import { Observable, Observer } from '../Misc/observable';
-import { Nullable } from '../types';
-import { IDisposable } from '../scene';
+import { Observable, Observer } from "../Misc/observable.js";
+import { Nullable } from "../types.js";
+import { IDisposable } from "../scene.js";
 
 /**
  * Construction options for a timer

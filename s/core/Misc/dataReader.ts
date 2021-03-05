@@ -1,4 +1,4 @@
-import { StringTools } from './stringTools';
+import { StringTools } from "./stringTools.js";
 
 /**
  * Interface for a data buffer

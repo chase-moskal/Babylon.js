@@ -1,9 +1,9 @@
-import { Scene, IDisposable } from "../scene";
-import { EngineStore } from "../Engines/engineStore";
-import { AbstractMesh } from "../Meshes/abstractMesh";
-import { Mesh } from "../Meshes/mesh";
-import { Nullable } from "../types";
-import { Observer, Observable } from "./observable";
+import { Scene, IDisposable } from "../scene.js";
+import { EngineStore } from "../Engines/engineStore.js";
+import { AbstractMesh } from "../Meshes/abstractMesh.js";
+import { Mesh } from "../Meshes/mesh.js";
+import { Nullable } from "../types.js";
+import { Observer, Observable } from "./observable.js";
 
 /**
  * Defines the root class used to create scene optimization to use with SceneOptimizer
