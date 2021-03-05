@@ -99,7 +99,7 @@ export class AudioEngine implements IAudioEngine {
             return;
         }
         if (typeof window.AudioContext !== 'undefined' || typeof window.webkitAudioContext !== 'undefined') {
-            window.AudioContext = window.AudioContext || window.webkitAudioContext;
+            (<any>window).AudioContext = window.AudioContext || window.webkitAudioContext;
             this.canUseWebAudio = true;
         }
 
