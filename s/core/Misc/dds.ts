@@ -356,7 +356,7 @@ export class DDSTools {
             }
         }
 
-        return destArray;
+        return <any>destArray;
     }
 
     private static _GetHalfFloatAsUIntRGBAArrayBuffer(width: number, height: number, dataOffset: number, dataLength: number, arrayBuffer: ArrayBuffer, lod: number): Float32Array {
@@ -378,7 +378,7 @@ export class DDSTools {
             }
         }
 
-        return destArray;
+        return <any>destArray;
     }
 
     private static _GetRGBAArrayBuffer(width: number, height: number, dataOffset: number, dataLength: number, arrayBuffer: ArrayBuffer, rOffset: number, gOffset: number, bOffset: number, aOffset: number): Uint8Array {

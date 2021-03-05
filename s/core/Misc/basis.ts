@@ -397,9 +397,9 @@ function workerFunc(): void {
         if (convertToRgb565) {
             var alignedWidth = (loadedFile.getImageWidth(imageIndex, levelIndex) + 3) & ~3;
             var alignedHeight = (loadedFile.getImageHeight(imageIndex, levelIndex) + 3) & ~3;
-            dst = ConvertDxtToRgb565(dst, 0, alignedWidth, alignedHeight);
+            dst = <any>ConvertDxtToRgb565(dst, 0, alignedWidth, alignedHeight);
         }
-        return dst;
+        return <any>dst;
     }
 
     /**

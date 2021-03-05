@@ -98,7 +98,7 @@ VertexData.CreatePolygon = function(polygon: Mesh, sideOrientation: number, fUV?
     }
 
     // sides
-    VertexData._ComputeSides(sideOrientation, positions, indices, normals, uvs, frontUVs, backUVs);
+    VertexData._ComputeSides(sideOrientation, positions, <any>indices, normals, uvs, frontUVs, backUVs);
 
     // Result
     var vertexData = new VertexData();

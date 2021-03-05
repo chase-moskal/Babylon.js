@@ -634,7 +634,7 @@ export class PointsCloudSystem implements IDisposable {
         this._groups.push(this._groupCounter);
         var pointsGroup = new PointsGroup(this._groupCounter, null);
 
-        pointsGroup._groupDensity = this._calculateDensity(nb, meshPos, meshInd);
+        pointsGroup._groupDensity = this._calculateDensity(nb, meshPos, <any>meshInd);
         if (colored === PointColor.Color) {
             pointsGroup._textureNb = <number>color ? <number>color : 0;
         }
@@ -681,7 +681,7 @@ export class PointsCloudSystem implements IDisposable {
         this._groups.push(this._groupCounter);
         var pointsGroup = new PointsGroup(this._groupCounter, null);
 
-        pointsGroup._groupDensity = this._calculateDensity(nb, meshPos, meshInd);
+        pointsGroup._groupDensity = this._calculateDensity(nb, meshPos, <any>meshInd);
         if (colored === PointColor.Color) {
             pointsGroup._textureNb = <number>color ? <number>color : 0;
         }
