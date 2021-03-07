@@ -1,4 +1,4 @@
-import { _TypeStore } from 'babylonjs/Misc/typeStore';
+import { _TypeStore } from "../../core/Misc/typeStore";
 
 /**
 * Class used to load GUI via XML.

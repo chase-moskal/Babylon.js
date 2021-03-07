@@ -1,9 +1,9 @@
-import { AbstractMesh } from "babylonjs/Meshes/abstractMesh";
-import { Mesh } from "babylonjs/Meshes/mesh";
-import { Observable } from "babylonjs/Misc/observable";
-import { Scene } from "babylonjs/scene";
-import { TransformNode } from "babylonjs/Meshes/transformNode";
-import { Vector3 } from "babylonjs/Maths/math.vector";
+import { AbstractMesh } from "../../../core/Meshes/abstractMesh";
+import { Mesh } from "../../../core/Meshes/mesh";
+import { Observable } from "../../../core/Misc/observable";
+import { Scene } from "../../../core/scene";
+import { TransformNode } from "../../../core/Meshes/transformNode";
+import { Vector3 } from "../../../core/Maths/math.vector";
 
 import { TouchButton3D } from "./touchButton3D";
 

@@ -1,10 +1,10 @@
-import { Observable } from "babylonjs/Misc/observable";
+import { Observable } from "../../../core/Misc/observable";
 import { Measure } from "../measure";
 import { ValueAndUnit } from "../valueAndUnit";
 import { Control } from "./control";
-import { _TypeStore } from "babylonjs/Misc/typeStore";
-import { Nullable } from "babylonjs/types";
-import { serialize } from 'babylonjs/Misc/decorators';
+import { _TypeStore } from "../../../core/Misc/typeStore";
+import { Nullable } from "../../../core/types";
+import { serialize } from "../../../core/Misc/decorators";
 
 /**
  * Enum that determines the text-wrapping mode to use.

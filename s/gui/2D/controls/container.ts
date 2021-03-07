@@ -1,12 +1,12 @@
-import { Nullable } from "babylonjs/types";
-import { Logger } from "babylonjs/Misc/logger";
+import { Nullable } from "../../../core/types";
+import { Logger } from "../../../core/Misc/logger";
 
 import { Control } from "./control";
 import { Measure } from "../measure";
 import { AdvancedDynamicTexture } from "../advancedDynamicTexture";
-import { _TypeStore } from 'babylonjs/Misc/typeStore';
-import { PointerInfoBase } from 'babylonjs/Events/pointerEvents';
-import { serialize } from 'babylonjs/Misc/decorators';
+import { _TypeStore } from "../../../core/Misc/typeStore";
+import { PointerInfoBase } from "../../../core/Events/pointerEvents";
+import { serialize } from "../../../core/Misc/decorators";
 
 /**
  * Root class for 2D containers

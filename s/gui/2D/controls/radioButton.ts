@@ -1,12 +1,12 @@
-import { Observable } from "babylonjs/Misc/observable";
-import { Vector2 } from "babylonjs/Maths/math.vector";
+import { Observable } from "../../../core/Misc/observable";
+import { Vector2 } from "../../../core/Maths/math.vector";
 
 import { Control } from "./control";
 import { StackPanel } from "./stackPanel";
 import { TextBlock } from "./textBlock";
-import { _TypeStore } from 'babylonjs/Misc/typeStore';
-import { PointerInfoBase } from 'babylonjs/Events/pointerEvents';
-import { serialize } from 'babylonjs/Misc/decorators';
+import { _TypeStore } from "../../../core/Misc/typeStore";
+import { PointerInfoBase } from "../../../core/Events/pointerEvents";
+import { serialize } from "../../../core/Misc/decorators";
 
 /**
  * Class used to create radio button controls

@@ -1,12 +1,12 @@
 // Assumptions: absolute position of button mesh is inside the mesh
 
-import { DeepImmutableObject } from "babylonjs/types";
-import { Vector3, Quaternion } from "babylonjs/Maths/math.vector";
-import { Mesh } from "babylonjs/Meshes/mesh";
-import { AbstractMesh } from "babylonjs/Meshes/abstractMesh";
-import { TransformNode } from "babylonjs/Meshes/transformNode";
-import { Scene } from "babylonjs/scene";
-import { Ray } from "babylonjs/Culling/ray";
+import { DeepImmutableObject } from "../../../core/types";
+import { Vector3, Quaternion } from "../../../core/Maths/math.vector";
+import { Mesh } from "../../../core/Meshes/mesh";
+import { AbstractMesh } from "../../../core/Meshes/abstractMesh";
+import { TransformNode } from "../../../core/Meshes/transformNode";
+import { Scene } from "../../../core/scene";
+import { Ray } from "../../../core/Culling/ray";
 
 import { Button3D } from "./button3D";
 

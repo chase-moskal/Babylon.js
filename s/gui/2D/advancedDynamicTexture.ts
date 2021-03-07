@@ -1,29 +1,29 @@
-import { Nullable } from "babylonjs/types";
-import { Observable, Observer } from "babylonjs/Misc/observable";
-import { Vector2, Vector3, Matrix } from "babylonjs/Maths/math.vector";
-import { Tools } from "babylonjs/Misc/tools";
-import { PointerInfoPre, PointerInfo, PointerEventTypes, PointerInfoBase } from 'babylonjs/Events/pointerEvents';
-import { ClipboardEventTypes, ClipboardInfo } from "babylonjs/Events/clipboardEvents";
-import { KeyboardInfoPre, KeyboardEventTypes } from "babylonjs/Events/keyboardEvents";
-import { Camera } from "babylonjs/Cameras/camera";
-import { StandardMaterial } from "babylonjs/Materials/standardMaterial";
-import { Texture } from "babylonjs/Materials/Textures/texture";
-import { DynamicTexture } from "babylonjs/Materials/Textures/dynamicTexture";
-import { AbstractMesh } from "babylonjs/Meshes/abstractMesh";
-import { Layer } from "babylonjs/Layers/layer";
-import { Engine } from "babylonjs/Engines/engine";
-import { Scene } from "babylonjs/scene";
+import { Nullable } from "../../core/types";
+import { Observable, Observer } from "../../core/Misc/observable";
+import { Vector2, Vector3, Matrix } from "../../core/Maths/math.vector";
+import { Tools } from "../../core/Misc/tools";
+import { PointerInfoPre, PointerInfo, PointerEventTypes, PointerInfoBase } from "../../core/Events/pointerEvents";
+import { ClipboardEventTypes, ClipboardInfo } from "../../core/Events/clipboardEvents";
+import { KeyboardInfoPre, KeyboardEventTypes } from "../../core/Events/keyboardEvents";
+import { Camera } from "../../core/Cameras/camera";
+import { StandardMaterial } from "../../core/Materials/standardMaterial";
+import { Texture } from "../../core/Materials/Textures/texture";
+import { DynamicTexture } from "../../core/Materials/Textures/dynamicTexture";
+import { AbstractMesh } from "../../core/Meshes/abstractMesh";
+import { Layer } from "../../core/Layers/layer";
+import { Engine } from "../../core/Engines/engine";
+import { Scene } from "../../core/scene";
 
 import { Container } from "./controls/container";
 import { Control } from "./controls/control";
-import { IFocusableControl } from './controls/focusableControl';
+import { IFocusableControl } from "./controls/focusableControl";
 import { Style } from "./style";
 import { Measure } from "./measure";
-import { Constants } from 'babylonjs/Engines/constants';
-import { Viewport } from 'babylonjs/Maths/math.viewport';
-import { Color3 } from 'babylonjs/Maths/math.color';
-import { WebRequest } from "babylonjs/Misc/webRequest";
-import { IPointerEvent, IWheelEvent } from 'babylonjs/Events/deviceInputEvents';
+import { Constants } from "../../core/Engines/constants";
+import { Viewport } from "../../core/Maths/math.viewport";
+import { Color3 } from "../../core/Maths/math.color";
+import { WebRequest } from "../../core/Misc/webRequest";
+import { IPointerEvent, IWheelEvent } from "../../core/Events/deviceInputEvents";
 
 /**
 * Class used to create texture to support 2D GUI elements

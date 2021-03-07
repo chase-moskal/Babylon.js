@@ -1,6 +1,6 @@
-import { Nullable } from "babylonjs/types";
-import { TransformNode } from "babylonjs/Meshes/transformNode";
-import { Scene } from "babylonjs/scene";
+import { Nullable } from "../../../core/types";
+import { TransformNode } from "../../../core/Meshes/transformNode";
+import { Scene } from "../../../core/scene";
 
 import { Control3D } from "./control3D";
 

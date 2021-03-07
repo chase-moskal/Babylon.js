@@ -1,6 +1,6 @@
-import { Nullable } from "babylonjs/types";
-import { Observer } from "babylonjs/Misc/observable";
-import { Vector2 } from "babylonjs/Maths/math";
+import { Nullable } from "../../../../core/types";
+import { Observer } from "../../../../core/Misc/observable";
+import { Vector2 } from "../../../../core/Maths/math";
 import { Rectangle } from "../rectangle";
 import { Grid } from "../grid";
 import { Image } from "../image";
@@ -11,7 +11,7 @@ import { AdvancedDynamicTexture } from "../../advancedDynamicTexture";
 import { _ScrollViewerWindow } from "./scrollViewerWindow";
 import { ScrollBar } from "../sliders/scrollBar";
 import { ImageScrollBar } from "../sliders/imageScrollBar";
-import { _TypeStore } from 'babylonjs/Misc/typeStore';
+import { _TypeStore } from "../../../../core/Misc/typeStore";
 
 /**
  * Class used to hold a viewer window and sliders in a grid

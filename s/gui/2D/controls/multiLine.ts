@@ -1,12 +1,12 @@
-import { Nullable } from "babylonjs/types";
-import { AbstractMesh } from "babylonjs/Meshes/abstractMesh";
+import { Nullable } from "../../../core/types";
+import { AbstractMesh } from "../../../core/Meshes/abstractMesh";
 
 import { Control } from "./control";
 import { MultiLinePoint } from "../multiLinePoint";
 import { Measure } from "../measure";
-import { _TypeStore } from 'babylonjs/Misc/typeStore';
-import { Vector3 } from "babylonjs/Maths/math.vector";
-import { serialize } from 'babylonjs/Misc/decorators';
+import { _TypeStore } from "../../../core/Misc/typeStore";
+import { Vector3 } from "../../../core/Maths/math.vector";
+import { serialize } from "../../../core/Misc/decorators";
 
 /**
  * Class used to create multi line control

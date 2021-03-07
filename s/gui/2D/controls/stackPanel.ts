@@ -1,10 +1,10 @@
-import { Tools } from "babylonjs/Misc/tools";
+import { Tools } from "../../../core/Misc/tools";
 
 import { Container } from "./container";
 import { Measure } from "../measure";
 import { Control } from "./control";
-import { _TypeStore } from 'babylonjs/Misc/typeStore';
-import { serialize } from 'babylonjs/Misc/decorators';
+import { _TypeStore } from "../../../core/Misc/typeStore";
+import { serialize } from "../../../core/Misc/decorators";
 import { AdvancedDynamicTexture } from "../advancedDynamicTexture";
 
 /**

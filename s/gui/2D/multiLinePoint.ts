@@ -1,9 +1,9 @@
-import { Nullable } from "babylonjs/types";
-import { Observer } from "babylonjs/Misc/observable";
-import { Vector3 } from "babylonjs/Maths/math.vector";
-import { Epsilon } from 'babylonjs/Maths/math.constants';
-import { Camera } from "babylonjs/Cameras/camera";
-import { AbstractMesh } from "babylonjs/Meshes/abstractMesh";
+import { Nullable } from "../../core/types";
+import { Observer } from "../../core/Misc/observable";
+import { Vector3 } from "../../core/Maths/math.vector";
+import { Epsilon } from "../../core/Maths/math.constants";
+import { Camera } from "../../core/Cameras/camera";
+import { AbstractMesh } from "../../core/Meshes/abstractMesh";
 
 import { MultiLine } from "./controls/multiLine";
 import { ValueAndUnit } from "./valueAndUnit";

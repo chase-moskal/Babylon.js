@@ -1,23 +1,23 @@
-import { Nullable } from "babylonjs/types";
-import { Observer } from "babylonjs/Misc/observable";
-import { Vector3 } from "babylonjs/Maths/math.vector";
-import { StandardMaterial } from "babylonjs/Materials/standardMaterial";
-import { TransformNode } from "babylonjs/Meshes/transformNode";
-import { Mesh } from "babylonjs/Meshes/mesh";
-import { PlaneBuilder } from "babylonjs/Meshes/Builders/planeBuilder";
-import { BoxBuilder } from "babylonjs/Meshes/Builders/boxBuilder";
-import { FadeInOutBehavior } from "babylonjs/Behaviors/Meshes/fadeInOutBehavior";
-import { Scene } from "babylonjs/scene";
+import { Nullable } from "../../../core/types";
+import { Observer } from "../../../core/Misc/observable";
+import { Vector3 } from "../../../core/Maths/math.vector";
+import { StandardMaterial } from "../../../core/Materials/standardMaterial";
+import { TransformNode } from "../../../core/Meshes/transformNode";
+import { Mesh } from "../../../core/Meshes/mesh";
+import { PlaneBuilder } from "../../../core/Meshes/Builders/planeBuilder";
+import { BoxBuilder } from "../../../core/Meshes/Builders/boxBuilder";
+import { FadeInOutBehavior } from "../../../core/Behaviors/Meshes/fadeInOutBehavior";
+import { Scene } from "../../../core/scene";
 import { FluentButtonMaterial } from "../materials/fluentButton/fluentButtonMaterial";
 import { StackPanel } from "../../2D/controls/stackPanel";
 import { Image } from "../../2D/controls/image";
 import { TextBlock } from "../../2D/controls/textBlock";
 import { AdvancedDynamicTexture } from "../../2D/advancedDynamicTexture";
 import { Control3D } from "./control3D";
-import { Color3 } from "babylonjs/Maths/math.color";
+import { Color3 } from "../../../core/Maths/math.color";
 import { TouchButton3D } from "./touchButton3D";
-import { AbstractMesh } from "babylonjs/Meshes/abstractMesh";
-import { SceneLoader } from "babylonjs/Loading/sceneLoader";
+import { AbstractMesh } from "../../../core/Meshes/abstractMesh";
+import { SceneLoader } from "../../../core/Loading/sceneLoader";
 
 /**
  * Class used to create a holographic button in 3D

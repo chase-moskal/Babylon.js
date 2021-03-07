@@ -1,13 +1,13 @@
-import { Nullable } from "babylonjs/types";
-import { Observable } from "babylonjs/Misc/observable";
-import { Vector2 } from "babylonjs/Maths/math.vector";
+import { Nullable } from "../../../core/types";
+import { Observable } from "../../../core/Misc/observable";
+import { Vector2 } from "../../../core/Maths/math.vector";
 
 import { Rectangle } from "./rectangle";
 import { Control } from "./control";
 import { TextBlock } from "./textBlock";
 import { Image } from "./image";
-import { _TypeStore } from "babylonjs/Misc/typeStore";
-import { PointerInfoBase } from "babylonjs/Events/pointerEvents";
+import { _TypeStore } from "../../../core/Misc/typeStore";
+import { PointerInfoBase } from "../../../core/Events/pointerEvents";
 
 /**
  * Class used to create toggle buttons

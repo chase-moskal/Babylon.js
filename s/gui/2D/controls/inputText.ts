@@ -1,18 +1,18 @@
-import { Nullable } from "babylonjs/types";
-import { Observable, Observer } from "babylonjs/Misc/observable";
-import { Vector2 } from "babylonjs/Maths/math.vector";
-import { ClipboardEventTypes, ClipboardInfo } from "babylonjs/Events/clipboardEvents";
-import { PointerInfo, PointerEventTypes, PointerInfoBase } from 'babylonjs/Events/pointerEvents';
+import { Nullable } from "../../../core/types";
+import { Observable, Observer } from "../../../core/Misc/observable";
+import { Vector2 } from "../../../core/Maths/math.vector";
+import { ClipboardEventTypes, ClipboardInfo } from "../../../core/Events/clipboardEvents";
+import { PointerInfo, PointerEventTypes, PointerInfoBase } from "../../../core/Events/pointerEvents";
 
 import { Control } from "./control";
 import { IFocusableControl } from "./focusableControl";
 import { ValueAndUnit } from "../valueAndUnit";
 import { VirtualKeyboard } from "./virtualKeyboard";
-import { _TypeStore } from 'babylonjs/Misc/typeStore';
-import { Measure } from '../measure';
-import { TextWrapper } from './textWrapper';
-import { serialize } from 'babylonjs/Misc/decorators';
-import { IKeyboardEvent } from 'babylonjs/Events/deviceInputEvents';
+import { _TypeStore } from "../../../core/Misc/typeStore";
+import { Measure } from "../measure";
+import { TextWrapper } from "./textWrapper";
+import { serialize } from "../../../core/Misc/decorators";
+import { IKeyboardEvent } from "../../../core/Events/deviceInputEvents";
 
 /**
  * Class used to create input text control

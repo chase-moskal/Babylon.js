@@ -1,5 +1,5 @@
-import { Observable } from "babylonjs/Misc/observable";
-import { Vector2 } from "babylonjs/Maths/math.vector";
+import { Observable } from "../../../core/Misc/observable";
+import { Vector2 } from "../../../core/Maths/math.vector";
 
 import { Control } from "./control";
 import { Measure } from "../measure";
@@ -9,10 +9,10 @@ import { Button } from "./button";
 import { Grid } from "./grid";
 import { AdvancedDynamicTexture } from "../advancedDynamicTexture";
 import { TextBlock } from "../controls/textBlock";
-import { _TypeStore } from 'babylonjs/Misc/typeStore';
-import { Color3 } from 'babylonjs/Maths/math.color';
-import { PointerInfoBase } from 'babylonjs/Events/pointerEvents';
-import { serialize } from 'babylonjs/Misc/decorators';
+import { _TypeStore } from "../../../core/Misc/typeStore";
+import { Color3 } from "../../../core/Maths/math.color";
+import { PointerInfoBase } from "../../../core/Events/pointerEvents";
+import { serialize } from "../../../core/Misc/decorators";
 
 /** Class used to create color pickers */
 export class ColorPicker extends Control {

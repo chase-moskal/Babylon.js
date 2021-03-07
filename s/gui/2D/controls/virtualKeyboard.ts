@@ -1,12 +1,12 @@
-import { Nullable } from "babylonjs/types";
-import { Observable, Observer } from "babylonjs/Misc/observable";
+import { Nullable } from "../../../core/types";
+import { Observable, Observer } from "../../../core/Misc/observable";
 
 import { StackPanel } from "./stackPanel";
 import { Button } from "./button";
 import { Container } from "./container";
 import { TextBlock } from "./textBlock";
 import { InputText } from "./inputText";
-import { _TypeStore } from 'babylonjs/Misc/typeStore';
+import { _TypeStore } from "../../../core/Misc/typeStore";
 
 /**
  * Class used to store key control properties

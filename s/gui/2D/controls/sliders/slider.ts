@@ -1,8 +1,8 @@
 import { BaseSlider } from "./baseSlider";
-import { _TypeStore } from 'babylonjs/Misc/typeStore';
-import { Nullable } from 'babylonjs/types';
-import { Measure } from '../../measure';
-import { serialize } from "babylonjs/Misc/decorators";
+import { _TypeStore } from "../../../../core/Misc/typeStore";
+import { Nullable } from "../../../../core/types";
+import { Measure } from "../../measure";
+import { serialize } from "../../../../core/Misc/decorators";
 
 /**
  * Class used to create slider controls

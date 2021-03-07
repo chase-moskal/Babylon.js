@@ -1,10 +1,10 @@
-import { Vector2 } from "babylonjs/Maths/math.vector";
+import { Vector2 } from "../../../../core/Maths/math.vector";
 import { BaseSlider } from "./baseSlider";
 import { Control } from "../control";
 import { Image } from "../image";
 import { Measure } from "../../measure";
-import { PointerInfoBase } from 'babylonjs/Events/pointerEvents';
-import { serialize } from "babylonjs/Misc/decorators";
+import { PointerInfoBase } from "../../../../core/Events/pointerEvents";
+import { serialize } from "../../../../core/Misc/decorators";
 
 /**
  * Class used to create slider controls

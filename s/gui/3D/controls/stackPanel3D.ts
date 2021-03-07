@@ -1,5 +1,5 @@
-import { Tools } from "babylonjs/Misc/tools";
-import { Matrix, TmpVectors, Vector3 } from "babylonjs/Maths/math.vector";
+import { Tools } from "../../../core/Misc/tools";
+import { Matrix, TmpVectors, Vector3 } from "../../../core/Maths/math.vector";
 
 import { Container3D } from "./container3D";
 

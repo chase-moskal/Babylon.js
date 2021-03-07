@@ -1,11 +1,11 @@
-import { Nullable } from "babylonjs/types";
-import { Observable } from "babylonjs/Misc/observable";
-import { Tools } from "babylonjs/Misc/tools";
+import { Nullable } from "../../../core/types";
+import { Observable } from "../../../core/Misc/observable";
+import { Tools } from "../../../core/Misc/tools";
 
 import { Control } from "./control";
 import { Measure } from "../measure";
-import { _TypeStore } from "babylonjs/Misc/typeStore";
-import { serialize } from "babylonjs/Misc/decorators";
+import { _TypeStore } from "../../../core/Misc/typeStore";
+import { serialize } from "../../../core/Misc/decorators";
 
 /**
  * Class used to create 2D images

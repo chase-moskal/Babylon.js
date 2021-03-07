@@ -1,11 +1,11 @@
-import { Nullable } from "babylonjs/types";
-import { Observable, Observer } from "babylonjs/Misc/observable";
-import { Vector2, Vector3, Matrix } from "babylonjs/Maths/math.vector";
-import { PointerEventTypes, PointerInfoBase } from 'babylonjs/Events/pointerEvents';
-import { Logger } from "babylonjs/Misc/logger";
-import { Tools } from "babylonjs/Misc/tools";
-import { TransformNode } from "babylonjs/Meshes/transformNode";
-import { Scene } from "babylonjs/scene";
+import { Nullable } from "../../../core/types";
+import { Observable, Observer } from "../../../core/Misc/observable";
+import { Vector2, Vector3, Matrix } from "../../../core/Maths/math.vector";
+import { PointerEventTypes, PointerInfoBase } from "../../../core/Events/pointerEvents";
+import { Logger } from "../../../core/Misc/logger";
+import { Tools } from "../../../core/Misc/tools";
+import { TransformNode } from "../../../core/Meshes/transformNode";
+import { Scene } from "../../../core/scene";
 
 import { Container } from "./container";
 import { AdvancedDynamicTexture } from "../advancedDynamicTexture";
@@ -13,8 +13,8 @@ import { ValueAndUnit } from "../valueAndUnit";
 import { Measure } from "../measure";
 import { Style } from "../style";
 import { Matrix2D, Vector2WithInfo } from "../math2D";
-import { _TypeStore } from 'babylonjs/Misc/typeStore';
-import { SerializationHelper, serialize } from 'babylonjs/Misc/decorators';
+import { _TypeStore } from "../../../core/Misc/typeStore";
+import { SerializationHelper, serialize } from "../../../core/Misc/decorators";
 
 /**
  * Root class used for all 2D controls

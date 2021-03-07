@@ -1,5 +1,5 @@
-import { IKeyboardEvent } from "babylonjs/Events/deviceInputEvents";
-import { Nullable } from "babylonjs/types";
+import { IKeyboardEvent } from "../../../core/Events/deviceInputEvents";
+import { Nullable } from "../../../core/types";
 import { Control } from "./control";
 
 /**

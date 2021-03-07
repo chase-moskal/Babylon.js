@@ -1,14 +1,14 @@
-import { Nullable } from "babylonjs/types";
-import { Observer } from "babylonjs/Misc/observable";
-import { Vector3, Matrix } from "babylonjs/Maths/math.vector";
-import { Tools } from "babylonjs/Misc/tools";
-import { Scene } from "babylonjs/scene";
+import { Nullable } from "../../../core/types";
+import { Observer } from "../../../core/Misc/observable";
+import { Vector3, Matrix } from "../../../core/Maths/math.vector";
+import { Tools } from "../../../core/Misc/tools";
+import { Scene } from "../../../core/scene";
 
 import { Control } from "./control";
 import { ValueAndUnit } from "../valueAndUnit";
 import { Measure } from "../measure";
-import { _TypeStore } from 'babylonjs/Misc/typeStore';
-import { serialize } from 'babylonjs/Misc/decorators';
+import { _TypeStore } from "../../../core/Misc/typeStore";
+import { serialize } from "../../../core/Misc/decorators";
 
 /** Class used to render 2D lines */
 export class Line extends Control {
