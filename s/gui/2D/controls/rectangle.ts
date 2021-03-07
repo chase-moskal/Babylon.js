@@ -1,7 +1,7 @@
-import { Container } from "./container";
-import { Measure } from "../measure";
-import { _TypeStore } from "../../../core/Misc/typeStore";
-import { serialize } from "../../../core/Misc/decorators";
+import { Container } from "./container.js";
+import { Measure } from "../measure.js";
+import { _TypeStore } from "../../../core/Misc/typeStore.js";
+import { serialize } from "../../../core/Misc/decorators.js";
 
 /** Class used to create rectangle container */
 export class Rectangle extends Container {

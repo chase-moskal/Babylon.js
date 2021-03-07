@@ -1,8 +1,8 @@
-import { TmpVectors, Vector3 } from "../../../core/Maths/math.vector";
+import { TmpVectors, Vector3 } from "../../../core/Maths/math.vector.js";
 
-import { Container3D } from "./container3D";
-import { Control3D } from "./control3D";
-import { VolumeBasedPanel } from "./volumeBasedPanel";
+import { Container3D } from "./container3D.js";
+import { Control3D } from "./control3D.js";
+import { VolumeBasedPanel } from "./volumeBasedPanel.js";
 
 /**
  * Class used to create a container panel deployed on the surface of a plane

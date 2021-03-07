@@ -1,4 +1,4 @@
-import { AdvancedDynamicTexture } from "./advancedDynamicTexture";
+import { AdvancedDynamicTexture } from "./advancedDynamicTexture.js";
 
 /**
  * Class used to specific a value and its associated unit

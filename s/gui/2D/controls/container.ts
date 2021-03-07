@@ -1,12 +1,12 @@
-import { Nullable } from "../../../core/types";
-import { Logger } from "../../../core/Misc/logger";
+import { Nullable } from "../../../core/types.js";
+import { Logger } from "../../../core/Misc/logger.js";
 
-import { Control } from "./control";
-import { Measure } from "../measure";
-import { AdvancedDynamicTexture } from "../advancedDynamicTexture";
-import { _TypeStore } from "../../../core/Misc/typeStore";
-import { PointerInfoBase } from "../../../core/Events/pointerEvents";
-import { serialize } from "../../../core/Misc/decorators";
+import { Control } from "./control.js";
+import { Measure } from "../measure.js";
+import { AdvancedDynamicTexture } from "../advancedDynamicTexture.js";
+import { _TypeStore } from "../../../core/Misc/typeStore.js";
+import { PointerInfoBase } from "../../../core/Events/pointerEvents.js";
+import { serialize } from "../../../core/Misc/decorators.js";
 
 /**
  * Root class for 2D containers

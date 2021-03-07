@@ -1,11 +1,11 @@
-import { AbstractMesh } from "../../../core/Meshes/abstractMesh";
-import { Mesh } from "../../../core/Meshes/mesh";
-import { Observable } from "../../../core/Misc/observable";
-import { Scene } from "../../../core/scene";
-import { TransformNode } from "../../../core/Meshes/transformNode";
-import { Vector3 } from "../../../core/Maths/math.vector";
+import { AbstractMesh } from "../../../core/Meshes/abstractMesh.js";
+import { Mesh } from "../../../core/Meshes/mesh.js";
+import { Observable } from "../../../core/Misc/observable.js";
+import { Scene } from "../../../core/scene.js";
+import { TransformNode } from "../../../core/Meshes/transformNode.js";
+import { Vector3 } from "../../../core/Maths/math.vector.js";
 
-import { TouchButton3D } from "./touchButton3D";
+import { TouchButton3D } from "./touchButton3D.js";
 
 /**
  * Class used as base class for touch-enabled toggleable buttons

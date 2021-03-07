@@ -1,9 +1,9 @@
-import { Tools } from "../../../core/Misc/tools";
-import { Matrix, Vector3, TmpVectors } from "../../../core/Maths/math.vector";
-import { int } from "../../../core/types";
+import { Tools } from "../../../core/Misc/tools.js";
+import { Matrix, Vector3, TmpVectors } from "../../../core/Maths/math.vector.js";
+import { int } from "../../../core/types.js";
 
-import { Container3D } from "./container3D";
-import { Control3D } from "./control3D";
+import { Container3D } from "./container3D.js";
+import { Control3D } from "./control3D.js";
 
 /**
  * Abstract class used to create a container panel deployed on the surface of a volume

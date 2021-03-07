@@ -1,18 +1,18 @@
-import { Observable } from "../../../core/Misc/observable";
-import { Vector2 } from "../../../core/Maths/math.vector";
+import { Observable } from "../../../core/Misc/observable.js";
+import { Vector2 } from "../../../core/Maths/math.vector.js";
 
-import { Control } from "./control";
-import { Measure } from "../measure";
-import { InputText } from "./inputText";
-import { Rectangle } from "./rectangle";
-import { Button } from "./button";
-import { Grid } from "./grid";
-import { AdvancedDynamicTexture } from "../advancedDynamicTexture";
-import { TextBlock } from "../controls/textBlock";
-import { _TypeStore } from "../../../core/Misc/typeStore";
-import { Color3 } from "../../../core/Maths/math.color";
-import { PointerInfoBase } from "../../../core/Events/pointerEvents";
-import { serialize } from "../../../core/Misc/decorators";
+import { Control } from "./control.js";
+import { Measure } from "../measure.js";
+import { InputText } from "./inputText.js";
+import { Rectangle } from "./rectangle.js";
+import { Button } from "./button.js";
+import { Grid } from "./grid.js";
+import { AdvancedDynamicTexture } from "../advancedDynamicTexture.js";
+import { TextBlock } from "../controls/textBlock.js";
+import { _TypeStore } from "../../../core/Misc/typeStore.js";
+import { Color3 } from "../../../core/Maths/math.color.js";
+import { PointerInfoBase } from "../../../core/Events/pointerEvents.js";
+import { serialize } from "../../../core/Misc/decorators.js";
 
 /** Class used to create color pickers */
 export class ColorPicker extends Control {

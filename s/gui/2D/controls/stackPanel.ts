@@ -1,11 +1,11 @@
-import { Tools } from "../../../core/Misc/tools";
+import { Tools } from "../../../core/Misc/tools.js";
 
-import { Container } from "./container";
-import { Measure } from "../measure";
-import { Control } from "./control";
-import { _TypeStore } from "../../../core/Misc/typeStore";
-import { serialize } from "../../../core/Misc/decorators";
-import { AdvancedDynamicTexture } from "../advancedDynamicTexture";
+import { Container } from "./container.js";
+import { Measure } from "../measure.js";
+import { Control } from "./control.js";
+import { _TypeStore } from "../../../core/Misc/typeStore.js";
+import { serialize } from "../../../core/Misc/decorators.js";
+import { AdvancedDynamicTexture } from "../advancedDynamicTexture.js";
 
 /**
  * Class used to create a 2D stack panel container

@@ -1,12 +1,12 @@
-import { Nullable } from "../../../core/types";
-import { AbstractMesh } from "../../../core/Meshes/abstractMesh";
+import { Nullable } from "../../../core/types.js";
+import { AbstractMesh } from "../../../core/Meshes/abstractMesh.js";
 
-import { Control } from "./control";
-import { MultiLinePoint } from "../multiLinePoint";
-import { Measure } from "../measure";
-import { _TypeStore } from "../../../core/Misc/typeStore";
-import { Vector3 } from "../../../core/Maths/math.vector";
-import { serialize } from "../../../core/Misc/decorators";
+import { Control } from "./control.js";
+import { MultiLinePoint } from "../multiLinePoint.js";
+import { Measure } from "../measure.js";
+import { _TypeStore } from "../../../core/Misc/typeStore.js";
+import { Vector3 } from "../../../core/Maths/math.vector.js";
+import { serialize } from "../../../core/Misc/decorators.js";
 
 /**
  * Class used to create multi line control

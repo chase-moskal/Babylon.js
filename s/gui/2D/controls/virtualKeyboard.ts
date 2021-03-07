@@ -1,12 +1,12 @@
-import { Nullable } from "../../../core/types";
-import { Observable, Observer } from "../../../core/Misc/observable";
+import { Nullable } from "../../../core/types.js";
+import { Observable, Observer } from "../../../core/Misc/observable.js";
 
-import { StackPanel } from "./stackPanel";
-import { Button } from "./button";
-import { Container } from "./container";
-import { TextBlock } from "./textBlock";
-import { InputText } from "./inputText";
-import { _TypeStore } from "../../../core/Misc/typeStore";
+import { StackPanel } from "./stackPanel.js";
+import { Button } from "./button.js";
+import { Container } from "./container.js";
+import { TextBlock } from "./textBlock.js";
+import { InputText } from "./inputText.js";
+import { _TypeStore } from "../../../core/Misc/typeStore.js";
 
 /**
  * Class used to store key control properties

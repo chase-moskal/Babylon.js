@@ -1,9 +1,9 @@
-import { Vector2 } from "../../../../core/Maths/math.vector";
-import { BaseSlider } from "./baseSlider";
-import { Control } from "../control";
-import { Measure } from "../../measure";
-import { PointerInfoBase } from "../../../../core/Events/pointerEvents";
-import { serialize } from "../../../../core/Misc/decorators";
+import { Vector2 } from "../../../../core/Maths/math.vector.js";
+import { BaseSlider } from "./baseSlider.js";
+import { Control } from "../control.js";
+import { Measure } from "../../measure.js";
+import { PointerInfoBase } from "../../../../core/Events/pointerEvents.js";
+import { serialize } from "../../../../core/Misc/decorators.js";
 
 /**
  * Class used to create slider controls

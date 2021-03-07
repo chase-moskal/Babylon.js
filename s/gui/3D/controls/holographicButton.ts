@@ -1,23 +1,23 @@
-import { Button3D } from "./button3D";
+import { Button3D } from "./button3D.js";
 
-import { Nullable } from "../../../core/types";
-import { Observer } from "../../../core/Misc/observable";
-import { Vector3 } from "../../../core/Maths/math.vector";
-import { StandardMaterial } from "../../../core/Materials/standardMaterial";
-import { TransformNode } from "../../../core/Meshes/transformNode";
-import { Mesh } from "../../../core/Meshes/mesh";
-import { PlaneBuilder } from "../../../core/Meshes/Builders/planeBuilder";
-import { BoxBuilder } from "../../../core/Meshes/Builders/boxBuilder";
-import { FadeInOutBehavior } from "../../../core/Behaviors/Meshes/fadeInOutBehavior";
-import { Scene } from "../../../core/scene";
+import { Nullable } from "../../../core/types.js";
+import { Observer } from "../../../core/Misc/observable.js";
+import { Vector3 } from "../../../core/Maths/math.vector.js";
+import { StandardMaterial } from "../../../core/Materials/standardMaterial.js";
+import { TransformNode } from "../../../core/Meshes/transformNode.js";
+import { Mesh } from "../../../core/Meshes/mesh.js";
+import { PlaneBuilder } from "../../../core/Meshes/Builders/planeBuilder.js";
+import { BoxBuilder } from "../../../core/Meshes/Builders/boxBuilder.js";
+import { FadeInOutBehavior } from "../../../core/Behaviors/Meshes/fadeInOutBehavior.js";
+import { Scene } from "../../../core/scene.js";
 
-import { FluentMaterial } from "../materials/fluent/fluentMaterial";
-import { StackPanel } from "../../2D/controls/stackPanel";
-import { Image } from "../../2D/controls/image";
-import { TextBlock } from "../../2D/controls/textBlock";
-import { AdvancedDynamicTexture } from "../../2D/advancedDynamicTexture";
-import { Control3D } from "./control3D";
-import { Color3 } from "../../../core/Maths/math.color";
+import { FluentMaterial } from "../materials/fluent/fluentMaterial.js";
+import { StackPanel } from "../../2D/controls/stackPanel.js";
+import { Image } from "../../2D/controls/image.js";
+import { TextBlock } from "../../2D/controls/textBlock.js";
+import { AdvancedDynamicTexture } from "../../2D/advancedDynamicTexture.js";
+import { Control3D } from "./control3D.js";
+import { Color3 } from "../../../core/Maths/math.color.js";
 
 /**
  * Class used to create a holographic button in 3D

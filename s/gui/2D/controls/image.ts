@@ -1,11 +1,11 @@
-import { Nullable } from "../../../core/types";
-import { Observable } from "../../../core/Misc/observable";
-import { Tools } from "../../../core/Misc/tools";
+import { Nullable } from "../../../core/types.js";
+import { Observable } from "../../../core/Misc/observable.js";
+import { Tools } from "../../../core/Misc/tools.js";
 
-import { Control } from "./control";
-import { Measure } from "../measure";
-import { _TypeStore } from "../../../core/Misc/typeStore";
-import { serialize } from "../../../core/Misc/decorators";
+import { Control } from "./control.js";
+import { Measure } from "../measure.js";
+import { _TypeStore } from "../../../core/Misc/typeStore.js";
+import { serialize } from "../../../core/Misc/decorators.js";
 
 /**
  * Class used to create 2D images

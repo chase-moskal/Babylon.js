@@ -1,14 +1,14 @@
-import { Nullable } from "../../../core/types";
-import { Observer } from "../../../core/Misc/observable";
-import { Vector3, Matrix } from "../../../core/Maths/math.vector";
-import { Tools } from "../../../core/Misc/tools";
-import { Scene } from "../../../core/scene";
+import { Nullable } from "../../../core/types.js";
+import { Observer } from "../../../core/Misc/observable.js";
+import { Vector3, Matrix } from "../../../core/Maths/math.vector.js";
+import { Tools } from "../../../core/Misc/tools.js";
+import { Scene } from "../../../core/scene.js";
 
-import { Control } from "./control";
-import { ValueAndUnit } from "../valueAndUnit";
-import { Measure } from "../measure";
-import { _TypeStore } from "../../../core/Misc/typeStore";
-import { serialize } from "../../../core/Misc/decorators";
+import { Control } from "./control.js";
+import { ValueAndUnit } from "../valueAndUnit.js";
+import { Measure } from "../measure.js";
+import { _TypeStore } from "../../../core/Misc/typeStore.js";
+import { serialize } from "../../../core/Misc/decorators.js";
 
 /** Class used to render 2D lines */
 export class Line extends Control {

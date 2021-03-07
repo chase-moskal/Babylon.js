@@ -1,8 +1,8 @@
-import { Control } from "./control";
-import { _TypeStore } from "../../../core/Misc/typeStore";
-import { Nullable } from "../../../core/types";
-import { Measure } from "../measure";
-import { serialize } from "../../../core/Misc/decorators";
+import { Control } from "./control.js";
+import { _TypeStore } from "../../../core/Misc/typeStore.js";
+import { Nullable } from "../../../core/types.js";
+import { Measure } from "../measure.js";
+import { serialize } from "../../../core/Misc/decorators.js";
 
 /** Class used to render a grid  */
 export class DisplayGrid extends Control {

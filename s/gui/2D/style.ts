@@ -1,7 +1,7 @@
-import { Observable } from "../../core/Misc/observable";
-import { IDisposable } from "../../core/scene";
-import { AdvancedDynamicTexture } from "./advancedDynamicTexture";
-import { ValueAndUnit } from "./valueAndUnit";
+import { Observable } from "../../core/Misc/observable.js";
+import { IDisposable } from "../../core/scene.js";
+import { AdvancedDynamicTexture } from "./advancedDynamicTexture.js";
+import { ValueAndUnit } from "./valueAndUnit.js";
 
 /**
  * Define a style used by control to automatically setup properties based on a template.

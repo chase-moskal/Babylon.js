@@ -1,17 +1,17 @@
-import { Nullable } from "../../../../core/types";
-import { Observer } from "../../../../core/Misc/observable";
-import { Vector2 } from "../../../../core/Maths/math";
-import { Rectangle } from "../rectangle";
-import { Grid } from "../grid";
-import { Image } from "../image";
-import { Control } from "../control";
-import { Container } from "../container";
-import { Measure } from "../../measure";
-import { AdvancedDynamicTexture } from "../../advancedDynamicTexture";
-import { _ScrollViewerWindow } from "./scrollViewerWindow";
-import { ScrollBar } from "../sliders/scrollBar";
-import { ImageScrollBar } from "../sliders/imageScrollBar";
-import { _TypeStore } from "../../../../core/Misc/typeStore";
+import { Nullable } from "../../../../core/types.js";
+import { Observer } from "../../../../core/Misc/observable.js";
+import { Vector2 } from "../../../../core/Maths/math.js";
+import { Rectangle } from "../rectangle.js";
+import { Grid } from "../grid.js";
+import { Image } from "../image.js";
+import { Control } from "../control.js";
+import { Container } from "../container.js";
+import { Measure } from "../../measure.js";
+import { AdvancedDynamicTexture } from "../../advancedDynamicTexture.js";
+import { _ScrollViewerWindow } from "./scrollViewerWindow.js";
+import { ScrollBar } from "../sliders/scrollBar.js";
+import { ImageScrollBar } from "../sliders/imageScrollBar.js";
+import { _TypeStore } from "../../../../core/Misc/typeStore.js";
 
 /**
  * Class used to hold a viewer window and sliders in a grid

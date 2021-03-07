@@ -1,13 +1,13 @@
-import { Nullable } from "../../../core/types";
-import { Vector2 } from "../../../core/Maths/math.vector";
+import { Nullable } from "../../../core/types.js";
+import { Vector2 } from "../../../core/Maths/math.vector.js";
 
-import { Button } from "./button";
-import { Control } from "./control";
-import { _TypeStore } from "../../../core/Misc/typeStore";
-import { PointerInfoBase } from "../../../core/Events/pointerEvents";
-import { IFocusableControl } from "./focusableControl";
-import { Observable } from "../../../core/Misc/observable";
-import { IKeyboardEvent } from "../../../core/Events/deviceInputEvents";
+import { Button } from "./button.js";
+import { Control } from "./control.js";
+import { _TypeStore } from "../../../core/Misc/typeStore.js";
+import { PointerInfoBase } from "../../../core/Events/pointerEvents.js";
+import { IFocusableControl } from "./focusableControl.js";
+import { Observable } from "../../../core/Misc/observable.js";
+import { IKeyboardEvent } from "../../../core/Events/deviceInputEvents.js";
 
 /**
  * Class used to create a focusable button that can easily handle keyboard events

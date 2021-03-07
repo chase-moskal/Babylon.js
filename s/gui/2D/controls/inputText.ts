@@ -1,18 +1,18 @@
-import { Nullable } from "../../../core/types";
-import { Observable, Observer } from "../../../core/Misc/observable";
-import { Vector2 } from "../../../core/Maths/math.vector";
-import { ClipboardEventTypes, ClipboardInfo } from "../../../core/Events/clipboardEvents";
-import { PointerInfo, PointerEventTypes, PointerInfoBase } from "../../../core/Events/pointerEvents";
+import { Nullable } from "../../../core/types.js";
+import { Observable, Observer } from "../../../core/Misc/observable.js";
+import { Vector2 } from "../../../core/Maths/math.vector.js";
+import { ClipboardEventTypes, ClipboardInfo } from "../../../core/Events/clipboardEvents.js";
+import { PointerInfo, PointerEventTypes, PointerInfoBase } from "../../../core/Events/pointerEvents.js";
 
-import { Control } from "./control";
-import { IFocusableControl } from "./focusableControl";
-import { ValueAndUnit } from "../valueAndUnit";
-import { VirtualKeyboard } from "./virtualKeyboard";
-import { _TypeStore } from "../../../core/Misc/typeStore";
-import { Measure } from "../measure";
-import { TextWrapper } from "./textWrapper";
-import { serialize } from "../../../core/Misc/decorators";
-import { IKeyboardEvent } from "../../../core/Events/deviceInputEvents";
+import { Control } from "./control.js";
+import { IFocusableControl } from "./focusableControl.js";
+import { ValueAndUnit } from "../valueAndUnit.js";
+import { VirtualKeyboard } from "./virtualKeyboard.js";
+import { _TypeStore } from "../../../core/Misc/typeStore.js";
+import { Measure } from "../measure.js";
+import { TextWrapper } from "./textWrapper.js";
+import { serialize } from "../../../core/Misc/decorators.js";
+import { IKeyboardEvent } from "../../../core/Events/deviceInputEvents.js";
 
 /**
  * Class used to create input text control

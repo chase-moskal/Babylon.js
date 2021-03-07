@@ -1,6 +1,6 @@
-import { Nullable } from "../../core/types";
-import { Vector2 } from "../../core/Maths/math.vector";
-import { Epsilon } from "../../core/Maths/math.constants";
+import { Nullable } from "../../core/types.js";
+import { Vector2 } from "../../core/Maths/math.vector.js";
+import { Epsilon } from "../../core/Maths/math.constants.js";
 
 /**
  * Class used to transport Vector2 information for pointer events

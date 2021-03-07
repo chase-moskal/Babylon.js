@@ -1,10 +1,10 @@
-import { Observable } from "../../../core/Misc/observable";
-import { Measure } from "../measure";
-import { ValueAndUnit } from "../valueAndUnit";
-import { Control } from "./control";
-import { _TypeStore } from "../../../core/Misc/typeStore";
-import { Nullable } from "../../../core/types";
-import { serialize } from "../../../core/Misc/decorators";
+import { Observable } from "../../../core/Misc/observable.js";
+import { Measure } from "../measure.js";
+import { ValueAndUnit } from "../valueAndUnit.js";
+import { Control } from "./control.js";
+import { _TypeStore } from "../../../core/Misc/typeStore.js";
+import { Nullable } from "../../../core/types.js";
+import { serialize } from "../../../core/Misc/decorators.js";
 
 /**
  * Enum that determines the text-wrapping mode to use.

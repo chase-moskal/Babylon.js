@@ -1,11 +1,11 @@
-import { Nullable } from "../../../core/types";
+import { Nullable } from "../../../core/types.js";
 
-import { Container } from "./container";
-import { ValueAndUnit } from "../valueAndUnit";
-import { Control } from "./control";
-import { Measure } from "../measure";
-import { Tools } from "../../../core/Misc/tools";
-import { _TypeStore } from "../../../core/Misc/typeStore";
+import { Container } from "./container.js";
+import { ValueAndUnit } from "../valueAndUnit.js";
+import { Control } from "./control.js";
+import { Measure } from "../measure.js";
+import { Tools } from "../../../core/Misc/tools.js";
+import { _TypeStore } from "../../../core/Misc/typeStore.js";
 
 /**
  * Class used to create a 2D grid container

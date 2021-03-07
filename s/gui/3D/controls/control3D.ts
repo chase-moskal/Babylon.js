@@ -1,15 +1,15 @@
-import { Nullable } from "../../../core/types";
-import { Observable } from "../../../core/Misc/observable";
-import { Vector3 } from "../../../core/Maths/math.vector";
-import { PointerEventTypes } from "../../../core/Events/pointerEvents";
-import { TransformNode } from "../../../core/Meshes/transformNode";
-import { AbstractMesh } from "../../../core/Meshes/abstractMesh";
-import { IBehaviorAware, Behavior } from "../../../core/Behaviors/behavior";
-import { IDisposable, Scene } from "../../../core/scene";
+import { Nullable } from "../../../core/types.js";
+import { Observable } from "../../../core/Misc/observable.js";
+import { Vector3 } from "../../../core/Maths/math.vector.js";
+import { PointerEventTypes } from "../../../core/Events/pointerEvents.js";
+import { TransformNode } from "../../../core/Meshes/transformNode.js";
+import { AbstractMesh } from "../../../core/Meshes/abstractMesh.js";
+import { IBehaviorAware, Behavior } from "../../../core/Behaviors/behavior.js";
+import { IDisposable, Scene } from "../../../core/scene.js";
 
-import { GUI3DManager } from "../gui3DManager";
-import { Vector3WithInfo } from "../vector3WithInfo";
-import { Container3D } from "./container3D";
+import { GUI3DManager } from "../gui3DManager.js";
+import { Vector3WithInfo } from "../vector3WithInfo.js";
+import { Container3D } from "./container3D.js";
 
 /**
  * Class used as base class for controls

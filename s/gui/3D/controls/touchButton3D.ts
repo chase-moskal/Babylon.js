@@ -1,14 +1,14 @@
 // Assumptions: absolute position of button mesh is inside the mesh
 
-import { DeepImmutableObject } from "../../../core/types";
-import { Vector3, Quaternion } from "../../../core/Maths/math.vector";
-import { Mesh } from "../../../core/Meshes/mesh";
-import { AbstractMesh } from "../../../core/Meshes/abstractMesh";
-import { TransformNode } from "../../../core/Meshes/transformNode";
-import { Scene } from "../../../core/scene";
-import { Ray } from "../../../core/Culling/ray";
+import { DeepImmutableObject } from "../../../core/types.js";
+import { Vector3, Quaternion } from "../../../core/Maths/math.vector.js";
+import { Mesh } from "../../../core/Meshes/mesh.js";
+import { AbstractMesh } from "../../../core/Meshes/abstractMesh.js";
+import { TransformNode } from "../../../core/Meshes/transformNode.js";
+import { Scene } from "../../../core/scene.js";
+import { Ray } from "../../../core/Culling/ray.js";
 
-import { Button3D } from "./button3D";
+import { Button3D } from "./button3D.js";
 
 /**
  * Enum for Button States

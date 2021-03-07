@@ -1,6 +1,6 @@
-import { IKeyboardEvent } from "../../../core/Events/deviceInputEvents";
-import { Nullable } from "../../../core/types";
-import { Control } from "./control";
+import { IKeyboardEvent } from "../../../core/Events/deviceInputEvents.js";
+import { Nullable } from "../../../core/types.js";
+import { Control } from "./control.js";
 
 /**
 * Interface used to define a control that can receive focus

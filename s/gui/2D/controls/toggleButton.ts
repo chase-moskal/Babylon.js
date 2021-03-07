@@ -1,13 +1,13 @@
-import { Nullable } from "../../../core/types";
-import { Observable } from "../../../core/Misc/observable";
-import { Vector2 } from "../../../core/Maths/math.vector";
+import { Nullable } from "../../../core/types.js";
+import { Observable } from "../../../core/Misc/observable.js";
+import { Vector2 } from "../../../core/Maths/math.vector.js";
 
-import { Rectangle } from "./rectangle";
-import { Control } from "./control";
-import { TextBlock } from "./textBlock";
-import { Image } from "./image";
-import { _TypeStore } from "../../../core/Misc/typeStore";
-import { PointerInfoBase } from "../../../core/Events/pointerEvents";
+import { Rectangle } from "./rectangle.js";
+import { Control } from "./control.js";
+import { TextBlock } from "./textBlock.js";
+import { Image } from "./image.js";
+import { _TypeStore } from "../../../core/Misc/typeStore.js";
+import { PointerInfoBase } from "../../../core/Events/pointerEvents.js";
 
 /**
  * Class used to create toggle buttons

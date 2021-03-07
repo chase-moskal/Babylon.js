@@ -1,7 +1,7 @@
-import { Measure } from "../../measure";
-import { Container } from "../container";
-import { ValueAndUnit } from "../../valueAndUnit";
-import { Control } from "../control";
+import { Measure } from "../../measure.js";
+import { Container } from "../container.js";
+import { ValueAndUnit } from "../../valueAndUnit.js";
+import { Control } from "../control.js";
 
 /**
  * Class used to hold a the container for ScrollViewer

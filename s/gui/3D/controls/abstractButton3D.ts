@@ -1,7 +1,7 @@
-import { TransformNode } from "../../../core/Meshes/transformNode";
-import { Scene } from "../../../core/scene";
+import { TransformNode } from "../../../core/Meshes/transformNode.js";
+import { Scene } from "../../../core/scene.js";
 
-import { Control3D } from "./control3D";
+import { Control3D } from "./control3D.js";
 
 /**
  * Class used as a root to all buttons

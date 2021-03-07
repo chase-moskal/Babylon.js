@@ -1,10 +1,10 @@
-import { Tools } from "../../../core/Misc/tools";
-import { TmpVectors, Vector3 } from "../../../core/Maths/math.vector";
-import { float } from "../../../core/types";
+import { Tools } from "../../../core/Misc/tools.js";
+import { TmpVectors, Vector3 } from "../../../core/Maths/math.vector.js";
+import { float } from "../../../core/types.js";
 
-import { VolumeBasedPanel } from "./volumeBasedPanel";
-import { Control3D } from "./control3D";
-import { Container3D } from "./container3D";
+import { VolumeBasedPanel } from "./volumeBasedPanel.js";
+import { Control3D } from "./control3D.js";
+import { Container3D } from "./container3D.js";
 
 /**
  * Class used to create a container panel where items get randomized planar mapping

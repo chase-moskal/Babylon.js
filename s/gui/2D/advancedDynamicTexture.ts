@@ -1,29 +1,29 @@
-import { Nullable } from "../../core/types";
-import { Observable, Observer } from "../../core/Misc/observable";
-import { Vector2, Vector3, Matrix } from "../../core/Maths/math.vector";
-import { Tools } from "../../core/Misc/tools";
-import { PointerInfoPre, PointerInfo, PointerEventTypes, PointerInfoBase } from "../../core/Events/pointerEvents";
-import { ClipboardEventTypes, ClipboardInfo } from "../../core/Events/clipboardEvents";
-import { KeyboardInfoPre, KeyboardEventTypes } from "../../core/Events/keyboardEvents";
-import { Camera } from "../../core/Cameras/camera";
-import { StandardMaterial } from "../../core/Materials/standardMaterial";
-import { Texture } from "../../core/Materials/Textures/texture";
-import { DynamicTexture } from "../../core/Materials/Textures/dynamicTexture";
-import { AbstractMesh } from "../../core/Meshes/abstractMesh";
-import { Layer } from "../../core/Layers/layer";
-import { Engine } from "../../core/Engines/engine";
-import { Scene } from "../../core/scene";
+import { Nullable } from "../../core/types.js";
+import { Observable, Observer } from "../../core/Misc/observable.js";
+import { Vector2, Vector3, Matrix } from "../../core/Maths/math.vector.js";
+import { Tools } from "../../core/Misc/tools.js";
+import { PointerInfoPre, PointerInfo, PointerEventTypes, PointerInfoBase } from "../../core/Events/pointerEvents.js";
+import { ClipboardEventTypes, ClipboardInfo } from "../../core/Events/clipboardEvents.js";
+import { KeyboardInfoPre, KeyboardEventTypes } from "../../core/Events/keyboardEvents.js";
+import { Camera } from "../../core/Cameras/camera.js";
+import { StandardMaterial } from "../../core/Materials/standardMaterial.js";
+import { Texture } from "../../core/Materials/Textures/texture.js";
+import { DynamicTexture } from "../../core/Materials/Textures/dynamicTexture.js";
+import { AbstractMesh } from "../../core/Meshes/abstractMesh.js";
+import { Layer } from "../../core/Layers/layer.js";
+import { Engine } from "../../core/Engines/engine.js";
+import { Scene } from "../../core/scene.js";
 
-import { Container } from "./controls/container";
-import { Control } from "./controls/control";
-import { IFocusableControl } from "./controls/focusableControl";
-import { Style } from "./style";
-import { Measure } from "./measure";
-import { Constants } from "../../core/Engines/constants";
-import { Viewport } from "../../core/Maths/math.viewport";
-import { Color3 } from "../../core/Maths/math.color";
-import { WebRequest } from "../../core/Misc/webRequest";
-import { IPointerEvent, IWheelEvent } from "../../core/Events/deviceInputEvents";
+import { Container } from "./controls/container.js";
+import { Control } from "./controls/control.js";
+import { IFocusableControl } from "./controls/focusableControl.js";
+import { Style } from "./style.js";
+import { Measure } from "./measure.js";
+import { Constants } from "../../core/Engines/constants.js";
+import { Viewport } from "../../core/Maths/math.viewport.js";
+import { Color3 } from "../../core/Maths/math.color.js";
+import { WebRequest } from "../../core/Misc/webRequest.js";
+import { IPointerEvent, IWheelEvent } from "../../core/Events/deviceInputEvents.js";
 
 /**
 * Class used to create texture to support 2D GUI elements

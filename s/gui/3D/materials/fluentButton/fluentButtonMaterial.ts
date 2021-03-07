@@ -1,25 +1,25 @@
-import { Nullable } from "../../../../core/types";
-import { serializeAsColor4, serializeAsVector3, serialize, SerializationHelper } from "../../../../core/Misc/decorators";
-import { Matrix, Vector3, Vector4 } from "../../../../core/Maths/math.vector";
-import { IAnimatable } from "../../../../core/Animations/animatable.interface";
-import { BaseTexture } from "../../../../core/Materials/Textures/baseTexture";
-import { Texture } from "../../../../core/Materials/Textures/texture";
-import { MaterialDefines } from "../../../../core/Materials/materialDefines";
-import { MaterialHelper } from "../../../../core/Materials/materialHelper";
-import { IEffectCreationOptions } from "../../../../core/Materials/effect";
-import { PushMaterial } from "../../../../core/Materials/pushMaterial";
-import { VertexBuffer } from "../../../../core/Meshes/buffer";
-import { AbstractMesh } from "../../../../core/Meshes/abstractMesh";
-import { SubMesh } from "../../../../core/Meshes/subMesh";
-import { Mesh } from "../../../../core/Meshes/mesh";
-import { Scene } from "../../../../core/scene";
-import { _TypeStore } from "../../../../core/Misc/typeStore";
-import { Color3, Color4 } from "../../../../core/Maths/math.color";
-import { EffectFallbacks } from "../../../../core/Materials/effectFallbacks";
-import { Constants } from "../../../../core/Engines/constants";
+import { Nullable } from "../../../../core/types.js";
+import { serializeAsColor4, serializeAsVector3, serialize, SerializationHelper } from "../../../../core/Misc/decorators.js";
+import { Matrix, Vector3, Vector4 } from "../../../../core/Maths/math.vector.js";
+import { IAnimatable } from "../../../../core/Animations/animatable.interface.js";
+import { BaseTexture } from "../../../../core/Materials/Textures/baseTexture.js";
+import { Texture } from "../../../../core/Materials/Textures/texture.js";
+import { MaterialDefines } from "../../../../core/Materials/materialDefines.js";
+import { MaterialHelper } from "../../../../core/Materials/materialHelper.js";
+import { IEffectCreationOptions } from "../../../../core/Materials/effect.js";
+import { PushMaterial } from "../../../../core/Materials/pushMaterial.js";
+import { VertexBuffer } from "../../../../core/Meshes/buffer.js";
+import { AbstractMesh } from "../../../../core/Meshes/abstractMesh.js";
+import { SubMesh } from "../../../../core/Meshes/subMesh.js";
+import { Mesh } from "../../../../core/Meshes/mesh.js";
+import { Scene } from "../../../../core/scene.js";
+import { _TypeStore } from "../../../../core/Misc/typeStore.js";
+import { Color3, Color4 } from "../../../../core/Maths/math.color.js";
+import { EffectFallbacks } from "../../../../core/Materials/effectFallbacks.js";
+import { Constants } from "../../../../core/Engines/constants.js";
 
-import "./shaders/fluentButton.fragment";
-import "./shaders/fluentButton.vertex";
+import "./shaders/fluentButton.fragment.js";
+import "./shaders/fluentButton.vertex.js";
 
 /** @hidden */
 class FluentButtonMaterialDefines extends MaterialDefines {

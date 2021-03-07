@@ -1,4 +1,4 @@
-import { _TypeStore } from "../../core/Misc/typeStore";
+import { _TypeStore } from "../../core/Misc/typeStore.js";
 
 /**
 * Class used to load GUI via XML.

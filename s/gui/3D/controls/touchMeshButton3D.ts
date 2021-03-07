@@ -1,9 +1,9 @@
-import { TransformNode } from "../../../core/Meshes/transformNode";
-import { AbstractMesh } from "../../../core/Meshes/abstractMesh";
-import { Mesh } from "../../../core/Meshes/mesh";
-import { Scene } from "../../../core/scene";
+import { TransformNode } from "../../../core/Meshes/transformNode.js";
+import { AbstractMesh } from "../../../core/Meshes/abstractMesh.js";
+import { Mesh } from "../../../core/Meshes/mesh.js";
+import { Scene } from "../../../core/scene.js";
 
-import { TouchButton3D } from "./touchButton3D";
+import { TouchButton3D } from "./touchButton3D.js";
 
 /**
  * Class used to create an interactable object. It's a touchable 3D button using a mesh coming from the current scene

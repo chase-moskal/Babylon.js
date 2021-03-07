@@ -1,6 +1,6 @@
-import { Control } from "./control";
-import { StackPanel } from "./stackPanel";
-import { TextBlock } from "./textBlock";
+import { Control } from "./control.js";
+import { StackPanel } from "./stackPanel.js";
+import { TextBlock } from "./textBlock.js";
 
 /**
  * Forcing an export so that this code will execute

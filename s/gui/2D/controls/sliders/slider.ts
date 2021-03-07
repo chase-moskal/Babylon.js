@@ -1,8 +1,8 @@
-import { BaseSlider } from "./baseSlider";
-import { _TypeStore } from "../../../../core/Misc/typeStore";
-import { Nullable } from "../../../../core/types";
-import { Measure } from "../../measure";
-import { serialize } from "../../../../core/Misc/decorators";
+import { BaseSlider } from "./baseSlider.js";
+import { _TypeStore } from "../../../../core/Misc/typeStore.js";
+import { Nullable } from "../../../../core/types.js";
+import { Measure } from "../../measure.js";
+import { serialize } from "../../../../core/Misc/decorators.js";
 
 /**
  * Class used to create slider controls

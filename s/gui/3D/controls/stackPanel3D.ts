@@ -1,7 +1,7 @@
-import { Tools } from "../../../core/Misc/tools";
-import { Matrix, TmpVectors, Vector3 } from "../../../core/Maths/math.vector";
+import { Tools } from "../../../core/Misc/tools.js";
+import { Matrix, TmpVectors, Vector3 } from "../../../core/Maths/math.vector.js";
 
-import { Container3D } from "./container3D";
+import { Container3D } from "./container3D.js";
 
 /**
  * Class used to create a stack panel in 3D on XY plane

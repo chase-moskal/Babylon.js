@@ -1,10 +1,10 @@
-import { Observable } from "../../../../core/Misc/observable";
-import { Vector2 } from "../../../../core/Maths/math.vector";
+import { Observable } from "../../../../core/Misc/observable.js";
+import { Vector2 } from "../../../../core/Maths/math.vector.js";
 
-import { Control } from "../control";
-import { ValueAndUnit } from "../../valueAndUnit";
-import { PointerInfoBase } from "../../../../core/Events/pointerEvents";
-import { serialize } from "../../../../core/Misc/decorators";
+import { Control } from "../control.js";
+import { ValueAndUnit } from "../../valueAndUnit.js";
+import { PointerInfoBase } from "../../../../core/Events/pointerEvents.js";
+import { serialize } from "../../../../core/Misc/decorators.js";
 
 /**
  * Class used to create slider controls

@@ -1,12 +1,12 @@
-import { Observable } from "../../../core/Misc/observable";
-import { Vector2 } from "../../../core/Maths/math.vector";
+import { Observable } from "../../../core/Misc/observable.js";
+import { Vector2 } from "../../../core/Maths/math.vector.js";
 
-import { Control } from "./control";
-import { StackPanel } from "./stackPanel";
-import { TextBlock } from "./textBlock";
-import { _TypeStore } from "../../../core/Misc/typeStore";
-import { PointerInfoBase } from "../../../core/Events/pointerEvents";
-import { serialize } from "../../../core/Misc/decorators";
+import { Control } from "./control.js";
+import { StackPanel } from "./stackPanel.js";
+import { TextBlock } from "./textBlock.js";
+import { _TypeStore } from "../../../core/Misc/typeStore.js";
+import { PointerInfoBase } from "../../../core/Events/pointerEvents.js";
+import { serialize } from "../../../core/Misc/decorators.js";
 
 /**
  * Class used to create radio button controls

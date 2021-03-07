@@ -1,5 +1,5 @@
-import { Matrix2D } from "./math2D";
-import { Vector2 } from "../../core/Maths/math.vector";
+import { Matrix2D } from "./math2D.js";
+import { Vector2 } from "../../core/Maths/math.vector.js";
 
 let tmpRect = [
     new Vector2(0, 0),

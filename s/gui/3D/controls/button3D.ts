@@ -1,17 +1,17 @@
-import { int, Nullable } from "../../../core/types";
-import { Vector4 } from "../../../core/Maths/math.vector";
-import { TransformNode } from "../../../core/Meshes/transformNode";
-import { AbstractMesh } from "../../../core/Meshes/abstractMesh";
-import { BoxBuilder } from "../../../core/Meshes/Builders/boxBuilder";
-import { Material } from "../../../core/Materials/material";
-import { StandardMaterial } from "../../../core/Materials/standardMaterial";
-import { Texture } from "../../../core/Materials/Textures/texture";
-import { Scene } from "../../../core/scene";
+import { int, Nullable } from "../../../core/types.js";
+import { Vector4 } from "../../../core/Maths/math.vector.js";
+import { TransformNode } from "../../../core/Meshes/transformNode.js";
+import { AbstractMesh } from "../../../core/Meshes/abstractMesh.js";
+import { BoxBuilder } from "../../../core/Meshes/Builders/boxBuilder.js";
+import { Material } from "../../../core/Materials/material.js";
+import { StandardMaterial } from "../../../core/Materials/standardMaterial.js";
+import { Texture } from "../../../core/Materials/Textures/texture.js";
+import { Scene } from "../../../core/scene.js";
 
-import { AbstractButton3D } from "./abstractButton3D";
-import { AdvancedDynamicTexture } from "../../2D/advancedDynamicTexture";
-import { Control } from "../../2D/controls/control";
-import { Color3 } from "../../../core/Maths/math.color";
+import { AbstractButton3D } from "./abstractButton3D.js";
+import { AdvancedDynamicTexture } from "../../2D/advancedDynamicTexture.js";
+import { Control } from "../../2D/controls/control.js";
+import { Color3 } from "../../../core/Maths/math.color.js";
 
 /**
  * Class used to create a button in 3D

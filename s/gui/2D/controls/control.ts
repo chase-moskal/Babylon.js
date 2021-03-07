@@ -1,20 +1,20 @@
-import { Nullable } from "../../../core/types";
-import { Observable, Observer } from "../../../core/Misc/observable";
-import { Vector2, Vector3, Matrix } from "../../../core/Maths/math.vector";
-import { PointerEventTypes, PointerInfoBase } from "../../../core/Events/pointerEvents";
-import { Logger } from "../../../core/Misc/logger";
-import { Tools } from "../../../core/Misc/tools";
-import { TransformNode } from "../../../core/Meshes/transformNode";
-import { Scene } from "../../../core/scene";
+import { Nullable } from "../../../core/types.js";
+import { Observable, Observer } from "../../../core/Misc/observable.js";
+import { Vector2, Vector3, Matrix } from "../../../core/Maths/math.vector.js";
+import { PointerEventTypes, PointerInfoBase } from "../../../core/Events/pointerEvents.js";
+import { Logger } from "../../../core/Misc/logger.js";
+import { Tools } from "../../../core/Misc/tools.js";
+import { TransformNode } from "../../../core/Meshes/transformNode.js";
+import { Scene } from "../../../core/scene.js";
 
-import { Container } from "./container";
-import { AdvancedDynamicTexture } from "../advancedDynamicTexture";
-import { ValueAndUnit } from "../valueAndUnit";
-import { Measure } from "../measure";
-import { Style } from "../style";
-import { Matrix2D, Vector2WithInfo } from "../math2D";
-import { _TypeStore } from "../../../core/Misc/typeStore";
-import { SerializationHelper, serialize } from "../../../core/Misc/decorators";
+import { Container } from "./container.js";
+import { AdvancedDynamicTexture } from "../advancedDynamicTexture.js";
+import { ValueAndUnit } from "../valueAndUnit.js";
+import { Measure } from "../measure.js";
+import { Style } from "../style.js";
+import { Matrix2D, Vector2WithInfo } from "../math2D.js";
+import { _TypeStore } from "../../../core/Misc/typeStore.js";
+import { SerializationHelper, serialize } from "../../../core/Misc/decorators.js";
 
 /**
  * Root class used for all 2D controls

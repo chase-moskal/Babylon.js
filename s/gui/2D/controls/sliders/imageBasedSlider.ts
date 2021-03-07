@@ -1,9 +1,9 @@
-import { BaseSlider } from "./baseSlider";
-import { Measure } from "../../measure";
-import { Image } from "../image";
-import { _TypeStore } from "../../../../core/Misc/typeStore";
-import { Nullable } from "../../../../core/types";
-import { serialize } from "../../../../core/Misc/decorators";
+import { BaseSlider } from "./baseSlider.js";
+import { Measure } from "../../measure.js";
+import { Image } from "../image.js";
+import { _TypeStore } from "../../../../core/Misc/typeStore.js";
+import { Nullable } from "../../../../core/types.js";
+import { serialize } from "../../../../core/Misc/decorators.js";
 
 /**
  * Class used to create slider controls based on images

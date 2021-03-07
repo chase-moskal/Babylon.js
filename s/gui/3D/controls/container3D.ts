@@ -1,8 +1,8 @@
-import { Nullable } from "../../../core/types";
-import { TransformNode } from "../../../core/Meshes/transformNode";
-import { Scene } from "../../../core/scene";
+import { Nullable } from "../../../core/types.js";
+import { TransformNode } from "../../../core/Meshes/transformNode.js";
+import { Scene } from "../../../core/scene.js";
 
-import { Control3D } from "./control3D";
+import { Control3D } from "./control3D.js";
 
 /**
  * Class used to create containers for controls

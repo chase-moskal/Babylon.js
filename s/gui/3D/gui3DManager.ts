@@ -1,17 +1,17 @@
-import { Nullable } from "../../core/types";
-import { Observable, Observer } from "../../core/Misc/observable";
-import { Vector3 } from "../../core/Maths/math.vector";
-import { PointerInfo, PointerEventTypes } from "../../core/Events/pointerEvents";
-import { Material } from "../../core/Materials/material";
-import { HemisphericLight } from "../../core/Lights/hemisphericLight";
-import { AbstractMesh } from "../../core/Meshes/abstractMesh";
-import { UtilityLayerRenderer } from "../../core/Rendering/utilityLayerRenderer";
-import { EngineStore } from "../../core/Engines/engineStore";
-import { IDisposable, Scene } from "../../core/scene";
+import { Nullable } from "../../core/types.js";
+import { Observable, Observer } from "../../core/Misc/observable.js";
+import { Vector3 } from "../../core/Maths/math.vector.js";
+import { PointerInfo, PointerEventTypes } from "../../core/Events/pointerEvents.js";
+import { Material } from "../../core/Materials/material.js";
+import { HemisphericLight } from "../../core/Lights/hemisphericLight.js";
+import { AbstractMesh } from "../../core/Meshes/abstractMesh.js";
+import { UtilityLayerRenderer } from "../../core/Rendering/utilityLayerRenderer.js";
+import { EngineStore } from "../../core/Engines/engineStore.js";
+import { IDisposable, Scene } from "../../core/scene.js";
 
-import { Container3D } from "./controls/container3D";
-import { Control3D } from "./controls/control3D";
-import { TouchButton3D } from "./controls/touchButton3D";
+import { Container3D } from "./controls/container3D.js";
+import { Control3D } from "./controls/control3D.js";
+import { TouchButton3D } from "./controls/touchButton3D.js";
 
 /**
  * Class used to manage 3D user interface

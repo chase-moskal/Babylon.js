@@ -1,13 +1,13 @@
-import { Nullable } from "../../core/types";
-import { Observer } from "../../core/Misc/observable";
-import { Vector3 } from "../../core/Maths/math.vector";
-import { Epsilon } from "../../core/Maths/math.constants";
-import { Camera } from "../../core/Cameras/camera";
-import { AbstractMesh } from "../../core/Meshes/abstractMesh";
+import { Nullable } from "../../core/types.js";
+import { Observer } from "../../core/Misc/observable.js";
+import { Vector3 } from "../../core/Maths/math.vector.js";
+import { Epsilon } from "../../core/Maths/math.constants.js";
+import { Camera } from "../../core/Cameras/camera.js";
+import { AbstractMesh } from "../../core/Meshes/abstractMesh.js";
 
-import { MultiLine } from "./controls/multiLine";
-import { ValueAndUnit } from "./valueAndUnit";
-import { Control } from "./controls/control";
+import { MultiLine } from "./controls/multiLine.js";
+import { ValueAndUnit } from "./valueAndUnit.js";
+import { Control } from "./controls/control.js";
 
 /**
  * Class used to store a point for a MultiLine object.

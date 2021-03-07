@@ -1,6 +1,6 @@
-import { InputText } from "./inputText";
-import { _TypeStore } from "../../../core/Misc/typeStore";
-import { TextWrapper } from "./textWrapper";
+import { InputText } from "./inputText.js";
+import { _TypeStore } from "../../../core/Misc/typeStore.js";
+import { TextWrapper } from "./textWrapper.js";
 
 /**
  * Class used to create a password control

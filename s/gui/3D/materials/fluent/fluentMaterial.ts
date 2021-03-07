@@ -1,21 +1,21 @@
-import { Nullable } from "../../../../core/types";
-import { serializeAsColor4, serializeAsVector3, serializeAsTexture, serialize, expandToProperty, serializeAsColor3, SerializationHelper } from "../../../../core/Misc/decorators";
-import { Vector3, Matrix, TmpVectors } from "../../../../core/Maths/math.vector";
-import { BaseTexture } from "../../../../core/Materials/Textures/baseTexture";
-import { MaterialDefines } from "../../../../core/Materials/materialDefines";
-import { IEffectCreationOptions } from "../../../../core/Materials/effect";
-import { MaterialHelper } from "../../../../core/Materials/materialHelper";
-import { PushMaterial } from "../../../../core/Materials/pushMaterial";
-import { VertexBuffer } from "../../../../core/Meshes/buffer";
-import { AbstractMesh } from "../../../../core/Meshes/abstractMesh";
-import { SubMesh } from "../../../../core/Meshes/subMesh";
-import { Mesh } from "../../../../core/Meshes/mesh";
-import { Scene } from "../../../../core/scene";
-import { _TypeStore } from "../../../../core/Misc/typeStore";
-import { Color3, Color4 } from "../../../../core/Maths/math.color";
+import { Nullable } from "../../../../core/types.js";
+import { serializeAsColor4, serializeAsVector3, serializeAsTexture, serialize, expandToProperty, serializeAsColor3, SerializationHelper } from "../../../../core/Misc/decorators.js";
+import { Vector3, Matrix, TmpVectors } from "../../../../core/Maths/math.vector.js";
+import { BaseTexture } from "../../../../core/Materials/Textures/baseTexture.js";
+import { MaterialDefines } from "../../../../core/Materials/materialDefines.js";
+import { IEffectCreationOptions } from "../../../../core/Materials/effect.js";
+import { MaterialHelper } from "../../../../core/Materials/materialHelper.js";
+import { PushMaterial } from "../../../../core/Materials/pushMaterial.js";
+import { VertexBuffer } from "../../../../core/Meshes/buffer.js";
+import { AbstractMesh } from "../../../../core/Meshes/abstractMesh.js";
+import { SubMesh } from "../../../../core/Meshes/subMesh.js";
+import { Mesh } from "../../../../core/Meshes/mesh.js";
+import { Scene } from "../../../../core/scene.js";
+import { _TypeStore } from "../../../../core/Misc/typeStore.js";
+import { Color3, Color4 } from "../../../../core/Maths/math.color.js";
 
-import "./shaders/fluent.vertex";
-import "./shaders/fluent.fragment";
+import "./shaders/fluent.vertex.js";
+import "./shaders/fluent.fragment.js";
 
 /** @hidden */
 export class FluentMaterialDefines extends MaterialDefines {

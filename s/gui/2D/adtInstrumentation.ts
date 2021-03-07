@@ -1,10 +1,10 @@
 
-import { Nullable } from "../../core/types";
-import { Observer } from "../../core/Misc/observable";
-import { PerfCounter } from "../../core/Misc/perfCounter";
-import { IDisposable } from "../../core/scene";
+import { Nullable } from "../../core/types.js";
+import { Observer } from "../../core/Misc/observable.js";
+import { PerfCounter } from "../../core/Misc/perfCounter.js";
+import { IDisposable } from "../../core/scene.js";
 
-import { AdvancedDynamicTexture } from "./advancedDynamicTexture";
+import { AdvancedDynamicTexture } from "./advancedDynamicTexture.js";
 
 /**
  * This class can be used to get instrumentation data from a AdvancedDynamicTexture object

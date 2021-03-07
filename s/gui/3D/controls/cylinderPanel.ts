@@ -1,11 +1,11 @@
-import { Tools } from "../../../core/Misc/tools";
-import { Matrix, TmpVectors, Vector3 } from "../../../core/Maths/math.vector";
-import { float } from "../../../core/types";
+import { Tools } from "../../../core/Misc/tools.js";
+import { Matrix, TmpVectors, Vector3 } from "../../../core/Maths/math.vector.js";
+import { float } from "../../../core/types.js";
 
-import { VolumeBasedPanel } from "./volumeBasedPanel";
-import { Control3D } from "./control3D";
-import { Container3D } from "./container3D";
-import { Axis, Space } from "../../../core/Maths/math.axis";
+import { VolumeBasedPanel } from "./volumeBasedPanel.js";
+import { Control3D } from "./control3D.js";
+import { Container3D } from "./container3D.js";
+import { Axis, Space } from "../../../core/Maths/math.axis.js";
 
 /**
  * Class used to create a container panel deployed on the surface of a cylinder
